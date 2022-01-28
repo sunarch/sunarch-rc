@@ -181,6 +181,9 @@ bar {
         status_command i3status
 }
 
+# user: additional scripts
+exec --no-startup-id ~/.fehbg
+
 # user: additional autostart
 exec --no-startup-id pamac
 
