@@ -185,5 +185,6 @@ bar {
 exec --no-startup-id ~/.fehbg
 
 # user: additional autostart
+exec --no-startup-id dropbox start
 exec --no-startup-id pamac
 
