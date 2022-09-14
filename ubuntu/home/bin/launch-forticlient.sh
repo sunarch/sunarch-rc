@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+cd ~/Documents/programfiles/forticlient/forticlient-ssl-vpn-4-4-2328-64bit
+./forticlientsslvpn
