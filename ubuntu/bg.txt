@@ -1,0 +1,38 @@
+.
+├── Beijling_park_burial_path_by_Mattias_Andersson.jpg
+├── contest
+│   ├── eoan.xml
+│   └── impish.xml
+├── Ermine_lines_by_Gustavo_Brenner.png
+├── Ermine_Wallpaper_Grey_4096x2304.png
+├── Flight_dive_by_Nicolas_Silva.png
+├── Frozen_sunset_on_the_lake_by_Manuel_Arslanyan.jpg
+├── gnome
+│   ├── adwaita-day.png
+│   ├── adwaita-morning.png
+│   ├── adwaita-night.png
+│   ├── adwaita-timed.xml
+│   ├── Blobs.svg
+│   ├── BrushStrokes.jpg
+│   ├── ColdWarm.jpg
+│   ├── DiscoHex.jpg
+│   ├── Disco.jpg
+│   ├── Frosty.jpg
+│   ├── Leaf.jpg
+│   ├── LightBulb.jpg
+│   ├── Loveles.jpg
+│   ├── Symbolics-1.png
+│   ├── VNC.png
+│   └── Wood.jpg
+├── Impish-Indri_WP_4096x2304_Grey.png
+├── Milky_Way_by_Paulo_José_Oliveira_Amaro.jpg
+├── Origin_of_nature_by_Julian_Tomasini.jpg
+├── Sky_Sparkles_by_Joe_Thompson.jpg
+├── Stargazing_by_Marcel_Kächele.jpg
+├── Ubuntu_80s_glitch_by_Abubakar_NK.jpg
+├── ubuntu-default-greyscale-wallpaper.png -> Impish-Indri_WP_4096x2304_Grey.png
+├── Ubuntu_gel_by_Midge_Mantissa_Sinnaeve.jpg
+├── warty-final-ubuntu.png
+└── Way_by_Kacper_Ślusarczyk.jpg
+
+2 directories, 33 files
