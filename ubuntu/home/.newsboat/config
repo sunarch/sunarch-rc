@@ -1,0 +1,4 @@
+max-items        100
+browser          firefox
+show-read-feeds  yes
+error-log        "~/.newsboat/error.log"
