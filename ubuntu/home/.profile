@@ -33,3 +33,9 @@ fi
 
 # PyEnv (see first part above)
 eval "$(pyenv init --path)"
+
+export PATH="$HOME/.poetry/bin:$PATH"
+
+
+# Added by Toolbox App
+export PATH="$PATH:/home/anemeth/.local/share/JetBrains/Toolbox/scripts"
