@@ -93,6 +93,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias commit-count="git log --oneline | wc -l"
+
 # PyEnv (https://github.com/pyenv/pyenv)
 eval "$(pyenv init -)"
 
