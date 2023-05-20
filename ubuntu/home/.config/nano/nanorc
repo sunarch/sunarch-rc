@@ -14,12 +14,12 @@
 
 ## When soft line wrapping is enabled, make it wrap lines at blanks
 ## (tabs and spaces) instead of always at the edge of the screen.
-# set atblanks
+set atblanks
 
 ## Automatically indent a newly created line to the same number of
 ## tabs and/or spaces as the preceding line -- or as the next line
 ## if the preceding line is the beginning of a paragraph.
-# set autoindent
+set autoindent
 
 ## Back up files to the current filename plus a tilde.
 # set backup
@@ -61,18 +61,19 @@
 ## Draw a vertical stripe at the given column, to help judge text width.
 ## (This option does not have a default value.)
 # set guidestripe 75
+set guidestripe 80
 
 ## Remember the used search/replace strings for the next session.
 set historylog
 
 ## Display a "scrollbar" on the righthand side of the edit window.
-# set indicator
+set indicator
 
 ## Scroll the buffer contents per half-screen instead of per line.
 # set jumpyscrolling
 
 ## Display line numbers to the left (and any anchors in the margin).
-# set linenumbers
+set linenumbers
 
 ## Enable vim-style lock-files.  This is just to let a vim user know you
 ## are editing a file [s]he is trying to edit and vice versa.  There are
@@ -89,7 +90,7 @@ set locking
 
 ## Suppress the title bar and show the filename plus a cursor-position
 ## percentage in the space of the status bar.
-# set minibar
+set minibar
 
 ## Enable mouse support, if available for your system.  When enabled,
 ## mouse clicks can be used to place the cursor, set the mark (with a
@@ -161,7 +162,7 @@ set locking
 # set smarthome
 
 ## Spread overlong lines over multiple screen lines.
-# set softwrap
+set softwrap
 
 ## Use this spelling checker instead of the internal one.  This option
 ## does not have a default value.
@@ -253,10 +254,10 @@ include "/usr/share/nano/*.nanorc"
 
 ## If <Tab> should always produce four spaces when editing a Python file,
 ## independent of the settings of 'tabsize' and 'tabstospaces':
-# extendsyntax python tabgives "    "
+extendsyntax python tabgives "    "
 
 ## If <Tab> should always produce an actual TAB when editing a Makefile:
-# extendsyntax makefile tabgives "	"
+extendsyntax makefile tabgives "	"
 
 
 ## === Key bindings ===
