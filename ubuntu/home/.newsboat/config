@@ -2,6 +2,9 @@
 # browser %BROWSER
 browser firefox
 
+# goto-next-feed yes
+goto-next-feed no
+
 # ------------------------------------------------------------------------------
 
 # always-display-description no
@@ -14,7 +17,6 @@ browser firefox
 # download-retries 1
 # download-timeout 30
 # goto-first-unread yes
-# goto-next-feed yes
 # history-limit 100
 # html-renderer internal
 # http-auth-method any
@@ -74,6 +76,8 @@ show-read-feeds yes
 # Sorting
 
 # article-sort-order date-asc
+article-sort-order  date-desc
+
 # feed-sort-order none
 
 # ------------------------------------------------------------------------------
