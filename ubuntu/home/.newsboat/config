@@ -198,32 +198,32 @@ error-log "~/.newsboat/error.log"
 # unbind-key <key> [<dialog>]
 
 # bind-key ENTER open
-# bind-key Q quit
-# bind-key ^Q hard-quit
-# bind-key R reload
-# bind-key ^R reload-all
-# bind-key ^A mark-feed-read
-# bind-key ^C mark-all-feeds-read
+# bind-key q quit
+# bind-key Q hard-quit
+# bind-key r reload
+# bind-key R reload-all
+# bind-key A mark-feed-read
+# bind-key C mark-all-feeds-read
 ## mark-all-above-as-read
-# bind-key S save
+# bind-key s save
 ## save-all
-# bind-key N next-unread
-# bind-key P prev-unread
-# bind-key ^J next
-# bind-key ^K prev
-# bind-key Ctrl+K random-unread
-# bind-key O open-in-browser
+# bind-key n next-unread
+# bind-key p prev-unread
+# bind-key J next
+# bind-key K prev
+# bind-key ^K random-unread
+# bind-key o open-in-browser
 ## open-in-browser-noninteractively
-# bind-key ^O open-in-browser-and-mark-read
+# bind-key O open-in-browser-and-mark-read
 ## open-all-unread-in-browser
 ## open-all-unread-in-browser-and-mark-read
 # bind-key ? help
-# bind-key Ctrl+U toggle-source-view
-# bind-key ^N toggle-article-read
-# bind-key L toggle-show-read-feeds
-# bind-key U show-urls
-# bind-key Ctrl+T clear-tag
-# bind-key T set-tag
+# bind-key ^U toggle-source-view
+# bind-key N toggle-article-read
+# bind-key l toggle-show-read-feeds
+# bind-key u show-urls
+# bind-key ^T clear-tag
+# bind-key t set-tag
 # bind-key / open-search
 # bind-key # goto-url
 # bind-key 1 one
@@ -236,30 +236,30 @@ error-log "~/.newsboat/error.log"
 # bind-key 8 eight
 # bind-key 9 nine
 # bind-key 0 zero
-# bind-key E enqueue
-# bind-key ^E edit-urls
-# bind-key Ctrl+R reload-urls
-# bind-key Ctrl+L redraw
+# bind-key e enqueue
+# bind-key E edit-urls
+# bind-key ^R reload-urls
+# bind-key ^L redraw
 # bind-key : cmdline
-# bind-key ^F set-filter
-# bind-key F select-filter
-# bind-key Ctrl+F clear-filter
-# bind-key Ctrl+B bookmark
-# bind-key Ctrl+E edit-flags
-# bind-key Ctrl+N next-unread-feed
-# bind-key Ctrl+P prev-unread-feed
-# bind-key J next-feed
-# bind-key K prev-feed
-# bind-key ^D delete-article
-# bind-key Ctrl+D delete-all-articles
+# bind-key F set-filter
+# bind-key f select-filter
+# bind-key ^F clear-filter
+# bind-key ^B bookmark
+# bind-key ^E edit-flags
+# bind-key ^N next-unread-feed
+# bind-key ^P prev-unread-feed
+# bind-key j next-feed
+# bind-key k prev-feed
+# bind-key D delete-article
+# bind-key ^D delete-all-articles
 # bind-key $ purge-deleted
-# bind-key V view-dialogs
-# bind-key Ctrl+X close-dialog
-# bind-key Ctrl+V next-dialog
-# bind-key Ctrl+G prev-dialog
+# bind-key v view-dialogs
+# bind-key ^X close-dialog
+# bind-key ^V next-dialog
+# bind-key ^G prev-dialog
 # bind-key | pipe-to
-# bind-key G sort
-# bind-key ^G rev-sort
+# bind-key g sort
+# bind-key G rev-sort
 # bind-key UP up
 # bind-key DOWN down
 # bind-key PPAGE pageup
@@ -271,7 +271,7 @@ error-log "~/.newsboat/error.log"
 # bind-key , macro-prefix
 # bind-key TAB switch-focus
 ## goto-title
-# bind-key Z prevsearchresults
+# bind-key z prevsearchresults
 ## article-feed
 
 ## BACKSPACE (backspace key)
@@ -305,16 +305,16 @@ error-log "~/.newsboat/error.log"
 # player <player command>
 # podlist-format "%4i [%6dMB/%6tMB] [%5p %%] [%12K] %-20S %u → %F"
 
-# bind-key Q quit
-# bind-key ^Q hard-quit
+# bind-key q quit
+# bind-key Q hard-quit
 # bind-key ? help
-# bind-key D pb-download
-# bind-key C pb-cancel
-# bind-key P pb-play
-# bind-key M pb-mark-as-finished
-# bind-key ^D pb-delete
-# bind-key ^P pb-purge
-# bind-key A pb-toggle-download-all
+# bind-key d pb-download
+# bind-key c pb-cancel
+# bind-key p pb-play
+# bind-key m pb-mark-as-finished
+# bind-key D pb-delete
+# bind-key P pb-purge
+# bind-key a pb-toggle-download-all
 # bind-key + pb-increase-max-dls
 # bind-key - pb-decrease-max-dls
 
