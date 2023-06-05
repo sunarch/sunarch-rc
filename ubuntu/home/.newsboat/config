@@ -1,4 +1,413 @@
-max-items        100
-browser          firefox
-show-read-feeds  yes
-error-log        "~/.newsboat/error.log"
+# browser lynx
+# browser %BROWSER
+browser firefox
+
+# ------------------------------------------------------------------------------
+
+# always-display-description no
+# confirm-delete-all-articles yes
+# confirm-exit no
+# confirm-mark-all-feeds-read yes
+# confirm-mark-feed-read yes
+# display-article-progress yes
+# download-full-page no
+# download-retries 1
+# download-timeout 30
+# goto-first-unread yes
+# goto-next-feed yes
+# history-limit 100
+# html-renderer internal
+# http-auth-method any
+# keep-articles-days 0
+# mark-as-read-on-hover no
+# max-browser-tabs 10
+# max-download-speed 0
+# openbrowser-and-mark-jumps-to-next-unread yes
+# pager internal
+# podcast-auto-enqueue no
+# prepopulate-query-feeds no
+# restrict-filename yes
+# scrolloff 0
+# search-highlight-colors black yellow bold
+# toggleitemread-jumps-to-next-unread no
+# urls-source local
+# wrap-scroll no
+
+# always-download <url> [<url>…​]
+# define-filter <name> <filterexpr>
+# external-url-viewer <command>
+# include <path>
+# macro <macro key> <command list> [-- "<macro description>"]
+# opml-url <url> …​
+# reset-unread-on-update <url> [<url>…​]
+# user-agent <string>
+
+# ------------------------------------------------------------------------------
+# Display
+
+# show-keymap-hint yes
+# show-read-articles yes
+# show-title-bar yes
+# swap-title-and-hints no
+# text-width 0
+
+# color background          white   black
+# color listnormal          white   black
+# color listfocus           yellow  blue   bold
+# color listnormal_unread   magenta black
+# color listfocus_unread    magenta blue   bold
+# color title               yellow  blue   bold
+# color info                yellow  blue   bold
+# color hint-key            yellow  blue   bold
+# color hint-keys-delimiter yellow  white
+# color hint-separator      yellow  white  bold
+# color hint-description    yellow  white
+# color article             white   black
+
+# max-items 0
+max-items 100
+
+# show-read-feeds yes
+show-read-feeds yes
+
+# ------------------------------------------------------------------------------
+# Sorting
+
+# article-sort-order date-asc
+# feed-sort-order none
+
+# ------------------------------------------------------------------------------
+# Files
+
+# cache-file "~/.newsboat/cache.db"
+# cache-file "~/.local/share/cache.db"
+
+# cookie-cache <path>
+
+# error-log <path>
+error-log "~/.newsboat/error.log"
+
+# save-path ~/
+
+# ------------------------------------------------------------------------------
+# Bookmarks
+
+# bookmark-autopilot no
+# bookmark-interactive no
+# bookmark-cmd <command>
+
+# ------------------------------------------------------------------------------
+# Highlight
+
+# highlight <target> <regex> <fgcolor> [<bgcolor> [<attribute> …​]]
+# highlight-article <filterexpr> <fgcolor> <bgcolor> [<attribute> …​]
+# highlight-feed <filterexpr> <fgcolor> <bgcolor> [<attribute> …​]
+
+# ------------------------------------------------------------------------------
+# Ignore
+
+# ignore-article <feed> <filterexpr>
+# ignore-mode download
+
+# ------------------------------------------------------------------------------
+# Notify
+
+# notify-always no
+# notify-beep no
+# notify-format "Newsboat: finished reload, %f unread feeds (%n unread articles total)"
+# notify-program <command>
+# notify-screen no
+# notify-xterm no
+
+# ------------------------------------------------------------------------------
+# Reload
+
+# auto-reload no
+# reload-only-visible-feeds no
+# reload-threads 1
+# reload-time 60
+# suppress-first-reload no
+
+# ------------------------------------------------------------------------------
+# Startup
+
+# refresh-on-startup no
+# run-on-startup <list of operations>
+
+# ------------------------------------------------------------------------------
+# Cleanup
+
+# cleanup-on-quit yes
+# delete-read-articles-on-quit no
+
+# ------------------------------------------------------------------------------
+# Formatting
+
+# feedlist-format "%4i %n %11u %t"
+# articlelist-format "%4i %f %D   %?T?|%-17T|  ?%t"
+# selecttag-format "%4i %T (%u)"
+# notify-format "%d new articles (%n unread articles, %f unread feeds)"
+# podlist-format "%4i [%-5p %%] %-12S %F"
+
+# datetime-format %b %d
+
+# ------------------------------------------------------------------------------
+# Dialog Title Formats
+
+# Feed List
+# feedlist-title-format %N %V - %?F?Feeds&Your feeds? (%u unread, %t total)%?F? matching filter `%F'&?%?T? - tag `%T'&?
+
+# Article List
+# articlelist-title-format %N %V - Articles in feed '%T' (%u unread, %t total)%?F? matching filter `%F'&? - %U
+
+# Search Result
+# searchresult-title-format %N %V - Search results for '%s' (%u unread, %t total)%?F? matching filter `%F'&?
+
+# File Browser
+# filebrowser-title-format %N %V - %?O?Open File&Save File? - %f
+
+# Directory Browser
+# dirbrowser-title-format %N %V - %?O?Open Directory&Save File? - %f
+
+# Help
+# help-title-format %N %V - Help
+
+# Select Tag Dialog
+# selecttag-title-format %N %V - Select Tag
+
+# Select Filter Dialog
+# selectfilter-title-format %N %V - Select Filter
+
+# Article View
+# itemview-title-format %N %V - Article '%T' (%u unread, %t total)
+
+# URL View
+# urlview-title-format %N %V - URLs
+
+# Dialog List
+# dialogs-title-format %N %V - Dialogs
+
+# ------------------------------------------------------------------------------
+# Keybindings
+
+# bind-key <key> <operation> [<dialog>]
+# unbind-key <key> [<dialog>]
+
+# bind-key ENTER open
+# bind-key Q quit
+# bind-key ^Q hard-quit
+# bind-key R reload
+# bind-key ^R reload-all
+# bind-key ^A mark-feed-read
+# bind-key ^C mark-all-feeds-read
+## mark-all-above-as-read
+# bind-key S save
+## save-all
+# bind-key N next-unread
+# bind-key P prev-unread
+# bind-key ^J next
+# bind-key ^K prev
+# bind-key Ctrl+K random-unread
+# bind-key O open-in-browser
+## open-in-browser-noninteractively
+# bind-key ^O open-in-browser-and-mark-read
+## open-all-unread-in-browser
+## open-all-unread-in-browser-and-mark-read
+# bind-key ? help
+# bind-key Ctrl+U toggle-source-view
+# bind-key ^N toggle-article-read
+# bind-key L toggle-show-read-feeds
+# bind-key U show-urls
+# bind-key Ctrl+T clear-tag
+# bind-key T set-tag
+# bind-key / open-search
+# bind-key # goto-url
+# bind-key 1 one
+# bind-key 2 two
+# bind-key 3 three
+# bind-key 4 four
+# bind-key 5 five
+# bind-key 6 six
+# bind-key 7 seven
+# bind-key 8 eight
+# bind-key 9 nine
+# bind-key 0 zero
+# bind-key E enqueue
+# bind-key ^E edit-urls
+# bind-key Ctrl+R reload-urls
+# bind-key Ctrl+L redraw
+# bind-key : cmdline
+# bind-key ^F set-filter
+# bind-key F select-filter
+# bind-key Ctrl+F clear-filter
+# bind-key Ctrl+B bookmark
+# bind-key Ctrl+E edit-flags
+# bind-key Ctrl+N next-unread-feed
+# bind-key Ctrl+P prev-unread-feed
+# bind-key J next-feed
+# bind-key K prev-feed
+# bind-key ^D delete-article
+# bind-key Ctrl+D delete-all-articles
+# bind-key $ purge-deleted
+# bind-key V view-dialogs
+# bind-key Ctrl+X close-dialog
+# bind-key Ctrl+V next-dialog
+# bind-key Ctrl+G prev-dialog
+# bind-key | pipe-to
+# bind-key G sort
+# bind-key ^G rev-sort
+# bind-key UP up
+# bind-key DOWN down
+# bind-key PPAGE pageup
+# bind-key NPAGE pagedown
+# bind-key ## halfpageup
+# bind-key ## halfpagedown
+# bind-key HOME home
+# bind-key END end
+# bind-key , macro-prefix
+# bind-key TAB switch-focus
+## goto-title
+# bind-key Z prevsearchresults
+## article-feed
+
+## BACKSPACE (backspace key)
+## LEFT (left cursor)
+## RIGHT (right cursor)
+## ESC 
+## F1 to F12 (F1 key to F12 key)
+
+# ------------------------------------------------------------------------------
+# Proxy
+
+# proxy <server:port>
+# proxy-auth <auth>
+# proxy-auth-method <method>
+# proxy-type <type>
+# use-proxy no
+
+# ------------------------------------------------------------------------------
+# SSL
+
+# ssl-verifyhost yes
+# ssl-verifypeer yes
+
+# ------------------------------------------------------------------------------
+# Podboat Configuration
+
+# delete-played-files no
+# download-path ~/
+# download-filename-format "%?u?%u&%Y-%b-%d-%H%M%S.unknown?"
+# max-downloads 1
+# player <player command>
+# podlist-format "%4i [%6dMB/%6tMB] [%5p %%] [%12K] %-20S %u → %F"
+
+# bind-key Q quit
+# bind-key ^Q hard-quit
+# bind-key ? help
+# bind-key D pb-download
+# bind-key C pb-cancel
+# bind-key P pb-play
+# bind-key M pb-mark-as-finished
+# bind-key ^D pb-delete
+# bind-key ^P pb-purge
+# bind-key A pb-toggle-download-all
+# bind-key + pb-increase-max-dls
+# bind-key - pb-decrease-max-dls
+
+# ------------------------------------------------------------------------------
+# FeedHQ
+
+# feedhq-flag-share <flag>
+# feedhq-flag-star <flag>
+# feedhq-login <login>
+# feedhq-min-items 20
+# feedhq-password <password>
+# feedhq-passwordeval <command>
+# feedhq-passwordfile <path>
+# feedhq-show-special-feeds yes
+# feedhq-url "https://feedhq.org/"
+
+# ------------------------------------------------------------------------------
+# FreshRSS
+
+# freshrss-flag-star <flag>
+# freshrss-login <login>
+# freshrss-min-items 20
+# freshrss-password <password>
+# freshrss-passwordeval <command>
+# freshrss-passwordfile <path>
+# freshrss-show-special-feeds yes
+# freshrss-url <url>
+
+# ------------------------------------------------------------------------------
+# Inoreader
+
+# inoreader-app-id <string>
+# inoreader-app-key <string>
+# inoreader-flag-share <flag>
+# inoreader-flag-star <flag>
+# inoreader-login <login>
+# inoreader-min-items 20
+# inoreader-password <password>
+# inoreader-passwordeval <command>
+# inoreader-passwordfile <path>
+# inoreader-show-special-feeds yes
+
+# ------------------------------------------------------------------------------
+# Miniflux
+
+# miniflux-login <username>
+# miniflux-min-items 100
+# miniflux-password <password>
+# miniflux-passwordeval <command>
+# miniflux-passwordfile <path>
+# miniflux-token <API Token>
+# miniflux-tokeneval <command>
+# miniflux-tokenfile <API Token>
+# miniflux-url <url>
+
+# ------------------------------------------------------------------------------
+# NewsBlur
+
+# newsblur-login <login>
+# newsblur-min-items 20
+# newsblur-password <password>
+# newsblur-passwordeval <command>
+# newsblur-passwordfile <path>
+# newsblur-url "https://newsblur.com"
+
+# ------------------------------------------------------------------------------
+# ownCloud News
+
+# ocnews-flag-star <character>
+# ocnews-login <username>
+# ocnews-password <password>
+# ocnews-passwordeval <command>
+# ocnews-passwordfile <path>
+# ocnews-url <url>
+
+# ------------------------------------------------------------------------------
+# The Old Reader
+
+# oldreader-flag-share <flag>
+# oldreader-flag-star <flag>
+# oldreader-login <login>
+# oldreader-min-items 20
+# oldreader-password <password>
+# oldreader-passwordeval <command>
+# oldreader-passwordfile <path>
+# oldreader-show-special-feeds yes
+
+# ------------------------------------------------------------------------------
+# Tiny Tiny RSS
+
+# ttrss-flag-publish <character>
+# ttrss-flag-star <character>
+# ttrss-login <username>
+# ttrss-mode multi
+# ttrss-password <password>
+# ttrss-passwordeval <command>
+# ttrss-passwordfile <path>
+# ttrss-url <url>
+
+# ------------------------------------------------------------------------------
