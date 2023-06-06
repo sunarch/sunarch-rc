@@ -6,6 +6,7 @@
 #     platforms - mastodon
 #     languages - magyar
 #     tasks     - postable
+#     news & subgroups
 # ---------------------------------------------------------------------------- #
 # HSBP
 https://vsza.hu/hacksense/status.rss "~Hacksense (VSZA)" status
@@ -138,9 +139,9 @@ https://canonical.com/blog/feed "~Canonical Blog" blog org
 https://ubuntu.com/blog/feed "~Ubuntu Blog" blog org
 # ------------------------------------ #
 # EFF
-https://www.eff.org/rss/updates.xml "~EFF Updates" org
-https://act.eff.org/action.atom "~EFF Action Alerts" org
-https://www.eff.org/about/opportunities/jobs/feed "~EFF - Job Openings" !s
+https://www.eff.org/rss/updates.xml "~EFF Updates" news org
+https://act.eff.org/action.atom "~EFF Action Alerts" news org
+https://www.eff.org/about/opportunities/jobs/feed "~EFF - Job Openings" ! news org
 # recommended by EFF
 https://freedom-to-tinker.com/feed/ "~Freedom to Tinker" blog
 http://theshiftedlibrarian.com/feed "~The Shifted Librarian (Jenny)" blog
@@ -356,7 +357,7 @@ https://nyomorszele.hvgblog.hu/feed/ "~A nyomor széle" ! "news - Hungary - elle
 # ------------------------------------ #
 # kormány
 https://index.hu/24ora/rss/ "~Index - 24óra" ! "news - Hungary - kormány"
-https://www.origo.hu/contentpartner/rss/origoall/origo.xml" "~ORIGO ! "news - Hungary - kormány"
+https://www.origo.hu/contentpartner/rss/origoall/origo.xml" "~ORIGO" ! "news - Hungary - kormány"
 https://888.hu/rss "~888 - a három nyolcas" ! "news - Hungary - kormány"
 https://mandiner.hu/rss/ "~Mandiner" ! "news - Hungary - kormány"
 https://www.magyaridok.hu/feed/? "~Magyar Idők" ! "news - Hungary - kormány"
