@@ -76,8 +76,6 @@ show-read-feeds yes
 # Sorting
 
 # article-sort-order date-asc
-article-sort-order  date-desc
-
 # feed-sort-order none
 
 # ------------------------------------------------------------------------------
