@@ -1,41 +1,19 @@
-# browser lynx
-# browser %BROWSER
-browser firefox
+# ---------------------------------------------------------------------------- #
 
-# goto-next-feed yes
-goto-next-feed no
-
-# ------------------------------------------------------------------------------
-
-# always-display-description no
-# confirm-delete-all-articles yes
-# confirm-exit no
-# confirm-mark-all-feeds-read yes
-# confirm-mark-feed-read yes
-# display-article-progress yes
-# download-full-page no
-# download-retries 1
-# download-timeout 30
 # goto-first-unread yes
 # history-limit 100
 # html-renderer internal
 # http-auth-method any
 # keep-articles-days 0
 # mark-as-read-on-hover no
-# max-browser-tabs 10
-# max-download-speed 0
-# openbrowser-and-mark-jumps-to-next-unread yes
 # pager internal
 # podcast-auto-enqueue no
 # prepopulate-query-feeds no
 # restrict-filename yes
 # scrolloff 0
-# search-highlight-colors black yellow bold
 # toggleitemread-jumps-to-next-unread no
 # urls-source local
-# wrap-scroll no
 
-# always-download <url> [<url>…​]
 # define-filter <name> <filterexpr>
 # external-url-viewer <command>
 # include <path>
@@ -44,14 +22,48 @@ goto-next-feed no
 # reset-unread-on-update <url> [<url>…​]
 # user-agent <string>
 
-# ------------------------------------------------------------------------------
+# goto-next-feed yes
+goto-next-feed no
+
+# ---------------------------------------------------------------------------- #
+# Browser
+
+# max-browser-tabs 10
+# openbrowser-and-mark-jumps-to-next-unread yes
+
+# browser lynx
+# browser %BROWSER
+browser firefox
+
+# ---------------------------------------------------------------------------- #
+# Download
+
+# always-download <url> [<url>…​]
+# download-full-page no
+# download-retries 1
+# download-timeout 30
+# max-download-speed 0
+
+# ---------------------------------------------------------------------------- #
+# Confirm
+
+# confirm-delete-all-articles yes
+# confirm-exit no
+# confirm-mark-all-feeds-read yes
+# confirm-mark-feed-read yes
+
+# ---------------------------------------------------------------------------- #
 # Display
 
+# always-display-description no
+# display-article-progress yes
+# search-highlight-colors black yellow bold
 # show-keymap-hint yes
 # show-read-articles yes
 # show-title-bar yes
 # swap-title-and-hints no
 # text-width 0
+# wrap-scroll no
 
 # color background          white   black
 # color listnormal          white   black
@@ -72,13 +84,13 @@ max-items 100
 # show-read-feeds yes
 show-read-feeds yes
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
 # Sorting
 
 # article-sort-order date-asc
 # feed-sort-order none
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
 # Files
 
 # cache-file "~/.newsboat/cache.db"
@@ -91,27 +103,27 @@ error-log "~/.newsboat/error.log"
 
 # save-path ~/
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
 # Bookmarks
 
 # bookmark-autopilot no
 # bookmark-interactive no
 # bookmark-cmd <command>
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
 # Highlight
 
 # highlight <target> <regex> <fgcolor> [<bgcolor> [<attribute> …​]]
 # highlight-article <filterexpr> <fgcolor> <bgcolor> [<attribute> …​]
 # highlight-feed <filterexpr> <fgcolor> <bgcolor> [<attribute> …​]
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
 # Ignore
 
 # ignore-article <feed> <filterexpr>
 # ignore-mode download
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
 # Notify
 
 # notify-always no
@@ -121,7 +133,7 @@ error-log "~/.newsboat/error.log"
 # notify-screen no
 # notify-xterm no
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
 # Reload
 
 # auto-reload no
@@ -130,19 +142,19 @@ error-log "~/.newsboat/error.log"
 # reload-time 60
 # suppress-first-reload no
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
 # Startup
 
 # refresh-on-startup no
 # run-on-startup <list of operations>
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
 # Cleanup
 
 # cleanup-on-quit yes
 # delete-read-articles-on-quit no
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
 # Formatting
 
 # feedlist-format "%4i %n %11u %t"
@@ -153,7 +165,7 @@ error-log "~/.newsboat/error.log"
 
 # datetime-format %b %d
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
 # Dialog Title Formats
 
 # Feed List
@@ -189,7 +201,7 @@ error-log "~/.newsboat/error.log"
 # Dialog List
 # dialogs-title-format %N %V - Dialogs
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
 # Keybindings
 
 # bind-key <key> <operation> [<dialog>]
@@ -278,7 +290,7 @@ error-log "~/.newsboat/error.log"
 ## ESC 
 ## F1 to F12 (F1 key to F12 key)
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
 # Proxy
 
 # proxy <server:port>
@@ -287,13 +299,13 @@ error-log "~/.newsboat/error.log"
 # proxy-type <type>
 # use-proxy no
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
 # SSL
 
 # ssl-verifyhost yes
 # ssl-verifypeer yes
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
 # Podboat Configuration
 
 # delete-played-files no
@@ -316,7 +328,7 @@ error-log "~/.newsboat/error.log"
 # bind-key + pb-increase-max-dls
 # bind-key - pb-decrease-max-dls
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
 # FeedHQ
 
 # feedhq-flag-share <flag>
@@ -329,7 +341,7 @@ error-log "~/.newsboat/error.log"
 # feedhq-show-special-feeds yes
 # feedhq-url "https://feedhq.org/"
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
 # FreshRSS
 
 # freshrss-flag-star <flag>
@@ -341,7 +353,7 @@ error-log "~/.newsboat/error.log"
 # freshrss-show-special-feeds yes
 # freshrss-url <url>
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
 # Inoreader
 
 # inoreader-app-id <string>
@@ -355,7 +367,7 @@ error-log "~/.newsboat/error.log"
 # inoreader-passwordfile <path>
 # inoreader-show-special-feeds yes
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
 # Miniflux
 
 # miniflux-login <username>
@@ -368,7 +380,7 @@ error-log "~/.newsboat/error.log"
 # miniflux-tokenfile <API Token>
 # miniflux-url <url>
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
 # NewsBlur
 
 # newsblur-login <login>
@@ -378,7 +390,7 @@ error-log "~/.newsboat/error.log"
 # newsblur-passwordfile <path>
 # newsblur-url "https://newsblur.com"
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
 # ownCloud News
 
 # ocnews-flag-star <character>
@@ -388,7 +400,7 @@ error-log "~/.newsboat/error.log"
 # ocnews-passwordfile <path>
 # ocnews-url <url>
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
 # The Old Reader
 
 # oldreader-flag-share <flag>
@@ -400,7 +412,7 @@ error-log "~/.newsboat/error.log"
 # oldreader-passwordfile <path>
 # oldreader-show-special-feeds yes
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
 # Tiny Tiny RSS
 
 # ttrss-flag-publish <character>
@@ -412,4 +424,4 @@ error-log "~/.newsboat/error.log"
 # ttrss-passwordfile <path>
 # ttrss-url <url>
 
-# ------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------- #
