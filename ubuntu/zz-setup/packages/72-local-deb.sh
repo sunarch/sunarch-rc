@@ -40,6 +40,17 @@
 # package: python3-pcbasic # A free, cross-platform emulator for the GW-BASIC family of interpreters.
 
 # ------------------------------------ #
+# Steam:
+
+# https://store.steampowered.com/about/
+# https://repo.steampowered.com/steam/
+
+# earlier:
+# - Linux: "steam-installer" package
+#     - first launch initiates install
+#     - installs “steam:i386”
+
+# ------------------------------------ #
 # Tixati:
 
 # https://tixati.com
@@ -63,5 +74,12 @@
 # https://worldographer.com/download/
 
 # package: worldographer # Worldographer
+
+# ------------------------------------ #
+# WorldPainter
+
+# https://www.worldpainter.net/
+
+# package: worldpainter # An interactive map generator for Minecraft.
 
 # ---------------------------------------------------------------------------- #

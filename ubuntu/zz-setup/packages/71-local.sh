@@ -32,6 +32,12 @@
 # https://www.azul.com/downloads/?package=jdk-fx#download-openjdk
 
 # ------------------------------------ #
+# Fantasy Grounds
+
+# https://www.fantasygrounds.com/home/home.php
+# https://www.fantasygrounds.com/home/FantasyGroundsUnity.php
+
+# ------------------------------------ #
 # Flutter:
 
 # https://flutter.dev
@@ -53,6 +59,26 @@
 # JetBrains Toolbox App:
 
 # https://www.jetbrains.com/toolbox-app/
+
+# ------------------------------------ #
+# mods for Minecraft
+
+# Fabric:
+# https://fabricmc.net/
+
+# OptiFine:
+# https://optifine.net/home
+
+# WorldEdit:
+# https://worldedit.enginehub.org/en/latest/
+
+# Xaero's Minimap:
+#    - requires Fabric (or Forge)
+# https://chocolateminecraft.com/minimap2.php
+
+# Xaero's World Map:
+#    - requires Fabric (or Forge)
+# https://chocolateminecraft.com/worldmap.php
 
 # ------------------------------------ #
 # Node.js:

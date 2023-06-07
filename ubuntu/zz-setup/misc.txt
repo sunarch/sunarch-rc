@@ -7,6 +7,8 @@
 - add VPNs
 - add bash, zsh configs
 
+- Minecraft (Java Edition) - settings from photos / notes
+
 - dock:
     - Files (nautilus)
     - System Monitor

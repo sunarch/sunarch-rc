@@ -540,3 +540,21 @@ body:
 - Nokia Suite
 
 ================================================================================
+
+## games - extra
+
+## Go
+
+- [Windows only ?] GoPanda2 -> Pandanet
+
+## Linux only
+
+- `gnudoq` : An open source, graphical Su Doku generator and solver with printer support
+- `slingshot` : simple 2D shooting strategy game set in space, with gravity
+- pyscrabble - multiplayer scrabble implementation written in Python
+
+## reference
+
+- Unity & Microsoft Visual Studio : game development
+
+================================================================================

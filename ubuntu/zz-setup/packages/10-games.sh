@@ -5,13 +5,17 @@ sudo apt-get update
 # ---------------------------------------------------------------------------- #
 # games - proprietary:
 
-# Fantasy Grounds
-# Steam
-# WorldPainter
-
 # GDLauncher -> see AppImage
+# Fantasy Grounds --> see local
+# Steam --> see local DEB
+# Worldographer --> see local DEB
+# WorldPainter --> see local DEB
+
+# ------------------------------------ #
+# games - proprietary - Minecraft:
+
 # Minecraft Launcher --> see local DEB
-# Worldographer -> see local DEB
+# mods for Minecraft --> see local
 
 # ---------------------------------------------------------------------------- #
 # games - free:
