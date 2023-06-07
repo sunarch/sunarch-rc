@@ -6,3 +6,9 @@
         - enable: Extensions > Kstatusnotifieritem/appindicator support
 - add VPNs
 - add bash, zsh configs
+
+- dock:
+    - Files (nautilus)
+    - System Monitor
+    - Obsidian
+    - Meld
