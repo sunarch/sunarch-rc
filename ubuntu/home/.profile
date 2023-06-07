@@ -5,6 +5,7 @@
 # the files are located in the bash-doc package.
 
 # PyEnv (https://github.com/pyenv/pyenv)
+
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 
@@ -32,10 +33,12 @@ fi
 . "$HOME/.cargo/env"
 
 # PyEnv (see first part above)
+
 eval "$(pyenv init --path)"
 
 export PATH="$HOME/.poetry/bin:$PATH"
 
 
-# Added by Toolbox App
+# JetBrains Toolbox App (auto-added by install)
+
 export PATH="$PATH:/home/anemeth/.local/share/JetBrains/Toolbox/scripts"
