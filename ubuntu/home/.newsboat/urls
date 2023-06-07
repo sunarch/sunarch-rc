@@ -2,81 +2,88 @@
 # tags:
 #     types     - status blog project devlog podcast news
 #     creator   - people org
-#     topics    - tech literature TTRPG art comic
-#     platforms - mastodon
+#     topics    - tech literature TTRPG art news
 #     languages - magyar
 #     tasks     - postable
-#     news & subgroups
+# hidden tags:
+#     "platform - mastodon"
+#     "media - *" : comic, podcast
+#     "news - *"  : world, Hungary - {vallási, ellenzék, kormány}, Germany, USA
 # ---------------------------------------------------------------------------- #
 # HSBP
-https://vsza.hu/hacksense/status.rss "~Hacksense (VSZA)" status
-https://hsbp.org/tiki-wiki_rss.php?ver=2 "~HSBP - Wiki"
-https://hsbp.org/tiki-blogs_rss.php?ver=2 "~HSBP - Blogs"
-https://hsbp.org/tiki-file_galleries_rss.php?ver=2 "~HSBP - File Galleries"
-https://hsbp.org/tiki-calendars_rss.php?ver=2 "~HSBP - Calendar Events"
+https://vsza.hu/hacksense/status.rss "~HSBP > Hacksense (VSZA)" status
+https://hsbp.org/tiki-wiki_rss.php?ver=2 "~HSBP > Wiki"
+https://hsbp.org/tiki-blogs_rss.php?ver=2 "~HSBP > Blogs"
+https://hsbp.org/tiki-file_galleries_rss.php?ver=2 "~HSBP > File Galleries"
+https://hsbp.org/tiki-calendars_rss.php?ver=2 "~HSBP > Calendar Events"
 # ------------------------------------ #
 # HSBP - people
-https://meow.social/@scout.rss "~Scout Da Woof (Erdosi-Szucs, Frigyes)" ! mastodon
+https://meow.social/@scout.rss "~Scout Da Woof (Erdosi-Szucs Frigyes, HSBP)" ! "platform - mastodon"
 # ---------------------------------------------------------------------------- #
+------------------------------------
 # go
 https://goszovetseg.hu/?page=news&mode=rss "~Magyar Gószövetség"
 # ---------------------------------------------------------------------------- #
+------------------------------------
 # people - detailed
 # ------------------------------------ #
+# Árpád
+https://arpadblog.hu/feed/ "~Árpád > ÁrpádBlog" blog people magyar
+# ------------------------------------ #
 # Astrelion
-https://mastodon.social/@astrelion.rss "~ASTRELION (mastodon.social)" ! mastodon
+https://mastodon.social/@astrelion.rss "~ASTRELION (mastodon.social)" ! "platform - mastodon"
 https://medium.com/feed/@ASTRELION "~Astrelion > ASTRELION on Medium"
 # Astrelion - Dungeons
-https://mastodon.social/@dungeons.rss "~Astrelion > Dungeons (mastodon.social)" ! mastodon
+https://mastodon.social/@dungeons.rss "~Astrelion > Dungeons (mastodon.social)" ! "platform - mastodon"
 # ------------------------------------ #
 # Brett Chalupa
 http://www.brettchalupa.com/feed.xml "~Brett Chalupa"
 https://code.brettchalupa.com/feed.xml "~Brett Chalupa > Brett Codes"
 # ------------------------------------ #
 # D. Kriesel
-https://www.dkriesel.com/feed.php?linkto=current&content=html&mode=blogtng&blog=blog-de "~D. Kriesel (Deutsch)"
-https://www.dkriesel.com/feed.php?linkto=current&content=html&mode=blogtng&blog=blog-en "~D. Kriesel (English)"
+https://www.dkriesel.com/feed.php?linkto=current&content=html&mode=blogtng&blog=blog-de "~D. Kriesel > (Deutsch)"
+https://www.dkriesel.com/feed.php?linkto=current&content=html&mode=blogtng&blog=blog-en "~D. Kriesel > (English)"
 # ------------------------------------ #
 # Lorenzo Miniero
-https://fosstodon.org/@lminiero.rss "~Lorenzo Miniero (fosstodon.org)" ! mastodon
+https://fosstodon.org/@lminiero.rss "~Lorenzo Miniero (fosstodon.org)" ! "platform - mastodon"
 # Lorenzo Miniero - KIAVC game engine
 https://kiavc.wordpress.com/feed/ "~Lorenzo Miniero > KIAVC" devlog tech
-https://mastodon.gamedev.place/@kiavc.rss "~Lorenzo Miniero > KIAVC (mastodon.gamedev.place)" ! mastodon
+https://mastodon.gamedev.place/@kiavc.rss "~Lorenzo Miniero > KIAVC (mastodon.gamedev.place)" ! "platform - mastodon"
 # ------------------------------------ #
 # Paul Graham
-http://www.aaronsw.com/2002/feeds/pgessays.rss "~Paul Graham: Essays"
-https://mas.to/@paulg.rss "~Paul Graham (mas.to)" ! mastodon
+http://www.aaronsw.com/2002/feeds/pgessays.rss "~Paul Graham > Essays"
+https://mas.to/@paulg.rss "~Paul Graham (mas.to)" ! "platform - mastodon"
 # ------------------------------------ #
 # Rhi
-https://neurodifferent.me/@Rhi.rss "~Rhi (neurodifferent.me)" ! mastodon
-https://toot.wales/@Rhi.rss "~Rhi (toot.wales)" ! mastodon
-https://autistrhi.com/rss "~Rhi - Autism and Expectations" blog people
+https://neurodifferent.me/@Rhi.rss "~Rhi (neurodifferent.me)" ! "platform - mastodon"
+https://toot.wales/@Rhi.rss "~Rhi (toot.wales)" ! "platform - mastodon"
+https://autistrhi.com/rss "~Rhi > Autism and Expectations" blog people
 # ------------------------------------ #
-# Tris (Namtao) (Tristram Oaten)
-https://mastodon.social/@0atman.rss "~Tris (mastodon.social)" ! mastodon
-https://www.0atman.com/feed.xml "~0atman" blog people
+# Tristram Oaten (Tris) (Namtao)
+https://mastodon.social/@0atman.rss "~Tristram Oaten (mastodon.social)" ! "platform - mastodon"
+https://www.0atman.com/feed.xml "~Tristram Oaten > 0atman" blog people
 # Tris - No Boilerplate
-https://tech.lgbt/@noboilerplate.rss "~No Boilerplate"
+https://tech.lgbt/@noboilerplate.rss "~Tristram Oaten > No Boilerplate"
 # Tris - /usr/stories
 # Namtao - 🛰️ Lost Terminal Podcast
-https://fosstodon.org/@lostterminal.rss "~🛰️ Lost Terminal Podcast (fosstodon.org)" ! mastodon
-https://www.spreaker.com/show/4488937/episodes/feed "~Lost Terminal" podcast
+https://fosstodon.org/@lostterminal.rss "~Tristram Oaten > Namtao > 🛰️ Lost Terminal Podcast (fosstodon.org)" ! "platform - mastodon"
+https://www.spreaker.com/show/4488937/episodes/feed "~Tristram Oaten > Namtao > Lost Terminal" podcast
 # Namtao - 🌕 Modem Prometheus Podcast
-https://wandering.shop/@modemprometheus.rss "~🌕 Modem Prometheus Podcast (wandering.shop)" ! mastodon
-https://www.spreaker.com/show/5184621/episodes/feed "~Modem Prometheus" podcast
+https://wandering.shop/@modemprometheus.rss "~Tristram Oaten > Namtao > 🌕 Modem Prometheus Podcast (wandering.shop)" ! "platform - mastodon"
+https://www.spreaker.com/show/5184621/episodes/feed "~Tristram Oaten > Namtao > Modem Prometheus" podcast
 # ------------------------------------ #
 # Benjamin Hollon
-https://fosstodon.org/@benjaminhollon.rss "~Benjamin Hollon (fosstodon.org)" ! mastodon
+https://fosstodon.org/@benjaminhollon.rss "~Benjamin Hollon (fosstodon.org)" ! "platform - mastodon"
 https://seewitheyesclosed.com/feed/ "~Benjamin Hollon > See With Eyes Closed" blog people
 https://blurbs.benjaminhollon.com/feed/ "~Benjamin Hollon > Fake Movie Blurbs" blog people
 https://tty1.blog/feed/ "~Benjamin Hollon > tty1" blog people
 https://benjaminhollon.com/musings/feed/ "~Benjamin Hollon > Musings" blog people
 https://theprodigalsbrother.com/feed/daily/ "~Benjamin Hollon > The Prodigal's Brother" project literature
 # Freedom to Write
-https://fosstodon.org/@freedomtowrite.rss "~Benjamin Hollon > Freedom to Write (fosstodon.org)" ! mastodon
+https://fosstodon.org/@freedomtowrite.rss "~Benjamin Hollon > Freedom to Write (fosstodon.org)" ! "platform - mastodon"
 # ---------------------------------------------------------------------------- #
+------------------------------------
 # people - general
-https://arpadblog.hu/feed/ "~ÁrpádBlog" blog people magyar
 https://brandont.blog/feed.rss "~Brandon - brandont.blog" blog people
 https://ctmiller.net/feed.xml "~Chris Miller" blog people
 https://powazek.com/feed "~Derek Powazek" blog people
@@ -84,6 +91,7 @@ https://baty.net/feed "~Jack Baty" blog people
 https://idlewords.com/index.xml "~Maciej Cegłowski - Idle Words" blog people
 https://medium.com/feed/@quinnnorton "~Quinn Norton on Medium" blog people
 # ---------------------------------------------------------------------------- #
+------------------------------------
 # people - tech
 https://aj-foster.com/feed.xml "~AJ Foster" blog people tech
 https://fasterthanli.me/index.xml "~Amos Wenger (faster than lime)" blog people tech
@@ -129,172 +137,159 @@ https://www.tbray.org/ongoing/ongoing.atom "~Tim Bray - ongoing" blog people tec
 https://mrjefferson.com/feed "~Tim Jefferson - Mr Jefferson Blogs" blog people tech
 https://vkc.sh/feed/ "~Veronica KC - Veronica Explains" blog people tech
 # ---------------------------------------------------------------------------- #
+------------------------------------
+# people - actors
+https://wilwheaton.net/feed/ "~Wil Wheaton" blog people
+# ---------------------------------------------------------------------------- #
+------------------------------------
 # topical
 https://separatedbyacommonlanguage.blogspot.com/feeds/posts/default "~Separated by a Common Language" blog
 # ---------------------------------------------------------------------------- #
+------------------------------------
 # tech - detailed
 # ------------------------------------ #
 # Canonical
-https://canonical.com/blog/feed "~Canonical Blog" blog org
-https://ubuntu.com/blog/feed "~Ubuntu Blog" blog org
+https://canonical.com/blog/feed "~Canonical > Canonical Blog" blog org FOSS
+https://ubuntu.com/blog/feed "~Canonical > Ubuntu Blog" blog org FOSS
 # ------------------------------------ #
 # EFF
-https://www.eff.org/rss/updates.xml "~EFF Updates" news org
-https://act.eff.org/action.atom "~EFF Action Alerts" news org
-https://www.eff.org/about/opportunities/jobs/feed "~EFF - Job Openings" ! news org
+https://www.eff.org/rss/updates.xml "~EFF > Updates" news org
+https://act.eff.org/action.atom "~EFF > Action Alerts" news org
+https://www.eff.org/about/opportunities/jobs/feed "~EFF > Job Openings" ! news org
 # recommended by EFF
-https://freedom-to-tinker.com/feed/ "~Freedom to Tinker" blog
-http://theshiftedlibrarian.com/feed "~The Shifted Librarian (Jenny)" blog
-http://yro.slashdot.org/yro.rss "~Slashdot: Your Rights Online" blog
-http://www.bespacific.com/feed "~beSpacific" blog
-http://hasbrouck.org/blog/index.rdf "~The Practical Nomad (Edward Hasbrouck)" blog
+https://freedom-to-tinker.com/feed/ "~EFF > (recommended) > Freedom to Tinker" blog
+http://theshiftedlibrarian.com/feed "~EFF > (recommended) > The Shifted Librarian (Jenny)" blog
+http://yro.slashdot.org/yro.rss "~EFF > (recommended) > Slashdot: Your Rights Online" blog
+http://www.bespacific.com/feed "~EFF > (recommended) > beSpacific" blog
+http://hasbrouck.org/blog/index.rdf "~EFF > (recommended) > The Practical Nomad (Edward Hasbrouck)" blog
 # ------------------------------------ #
 # FSF
-https://www.fsf.org/static/fsforg/rss/news.xml "~FSF News" news org
-https://www.fsf.org/static/fsforg/rss/blogs.xml "~FSF blogs" blog org
-https://www.fsf.org/static/fsforg/rss/events.xml "~FSF Events" news org
-https://stallman.org/rss/rss.xml "~Richard Stallman's Political Notes" blog
+https://www.fsf.org/static/fsforg/rss/news.xml "~FSF > News" news org FOSS
+https://www.fsf.org/static/fsforg/rss/blogs.xml "~FSF > blogs" blog org FOSS
+https://www.fsf.org/static/fsforg/rss/events.xml "~FSF > Events" news org FOSS
+https://stallman.org/rss/rss.xml "~FSF > Richard Stallman's Political Notes" blog FOSS
 # ------------------------------------ #
 # Google
-https://www.blog.google/rss/ "~The Keyword" blog org
-https://security.googleblog.com/feeds/posts/default "~Google Online Security Blog" blog org
+https://www.blog.google/rss/ "~Google > The Keyword" blog org
+https://security.googleblog.com/feeds/posts/default "~Google > Google Online Security Blog" blog org
 # ------------------------------------ #
 # Microsoft
-https://github.blog/feed/ "~The GitHub Blog" blog org
-https://blogs.microsoft.com/feed/ "~Microsoft Blog" blog org
+https://github.blog/feed/ "~Microsoft > The GitHub Blog" blog org
+https://blogs.microsoft.com/feed/ "~Microsoft > Microsoft Blog" blog org
 # ------------------------------------ #
 # Mozilla
-https://blog.thunderbird.net/feed/ "~The Thunderbird Blog" blog org
-https://blog.mozilla.org/en/feed/ "~The Mozilla Blog" blog org
+https://blog.thunderbird.net/feed/ "~Mozilla > The Thunderbird Blog" blog org FOSS
+https://blog.mozilla.org/en/feed/ "~Mozilla > The Mozilla Blog" blog org FOSS
 # ---------------------------------------------------------------------------- #
+------------------------------------
 # software
 # ------------------------------------ #
 # browser
-https://brave.com/blog/index.xml "~Brave - Browser latest news" blog org
+https://brave.com/blog/index.xml "~Brave - Browser latest news" blog org FOSS
 # ------------------------------------ #
 # cloud
-https://nextcloud.com/blog/rss "~Nextcloud" blog org
+https://nextcloud.com/blog/rss "~Nextcloud" blog org FOSS
 https://blog.cloudflare.com/rss/ "~The Cloudflare Blog" blog org
 # ------------------------------------ #
 # comms
 https://blog.irccloud.com/feed.xml "~IRCCloud Blog" blog org tech
-https://libera.chat/atom.xml "~Libera Chat" blog org tech
-https://signal.org/blog/rss.xml "~Signal Blog" blog org tech
+https://libera.chat/atom.xml "~Libera Chat" blog org tech FOSS
+https://signal.org/blog/rss.xml "~Signal Blog" blog org tech FOSS
 https://getsession.org/feed "~Session Blog" blog org tech
 # ------------------------------------ #
 # editors
-https://neovim.io/news.xml "~Neovim" blog project
+https://neovim.io/news.xml "~Neovim" blog project FOSS
 # ------------------------------------ #
 # games
 https://factorio.com/blog/rss "~Factorio Blog" blog project
 # ------------------------------------ #
 # images
-https://www.gimp.org/feeds/atom.xml "~GIMP" blog project
-https://inkscape.org/news/feed/ "~Inkscape - News" news project
-https://www.darktable.org/blog/index.xml "~darktable - blog" blog project
-https://www.darktable.org/news/index.xml "~darktable - news" news project
+https://www.darktable.org/blog/index.xml "~darktable - blog" blog project FOSS
+https://www.darktable.org/news/index.xml "~darktable - news" news project FOSS
+https://www.gimp.org/feeds/atom.xml "~GIMP" blog project FOSS
+https://inkscape.org/news/feed/ "~Inkscape - News" news project FOSS
 # ------------------------------------ #
 # Linux distros
-https://blog.linuxmint.com/?feed=rss2 "~The Linux Mint Blog" blog project
-https://communityblog.fedoraproject.org/feed/ "~Fedora Community Blog" blog project
-https://gparted.org/news_rss20.php "~GParted News" blog project
-https://www.kali.org/rss.xml "~Kali Linux" blog project
-https://bits.debian.org/feeds/atom.xml "~Debian - Bits (blog)" blog project
-https://micronews.debian.org/feeds/atom.xml "~Debian micronews" news project
+https://blog.linuxmint.com/?feed=rss2 "~The Linux Mint Blog" blog project FOSS
+https://communityblog.fedoraproject.org/feed/ "~Fedora Community Blog" blog project FOSS
+https://gparted.org/news_rss20.php "~GParted News" blog project FOSS
+https://www.kali.org/rss.xml "~Kali Linux" blog project FOSS
+https://bits.debian.org/feeds/atom.xml "~Debian - Bits (blog)" blog project FOSS
+https://micronews.debian.org/feeds/atom.xml "~Debian micronews" news project FOSS
 # ------------------------------------ #
 # Mastodon
-http://blog.joinmastodon.org/index.xml "~Mastodon Blog" blog project
-https://mastodon.social/@Gargron.rss "~Eugen Rochko (mastodon.social)" ! mastodon
+http://blog.joinmastodon.org/index.xml "~Mastodon Blog" blog project FOSS
+https://mastodon.social/@Gargron.rss "~Eugen Rochko (mastodon.social)" ! "platform - mastodon"
 # FOSStodon
 # mstdn.social
-https://mstdn.social/@Mastodon.rss "~Mastodon@mstdn.social" ! mastodon
-https://mstdn.social/@stux.rss "~sтυx (mstdn.social)" ! mastodon
+https://mstdn.social/@Mastodon.rss "~Mastodon@mstdn.social" ! "platform - mastodon"
+https://mstdn.social/@stux.rss "~sтυx (mstdn.social)" ! "platform - mastodon"
 # ------------------------------------ #
 # prog. lang.
-https://planet.haskell.org/atom.xml "~Planet Haskell" blog project
-https://pyfound.blogspot.com/feeds/posts/default "~Python Software Foundation News" news org
-https://blog.rust-lang.org/feed.xml "~Rust Blog" blog project
+https://planet.haskell.org/atom.xml "~Planet Haskell" blog project FOSS
+https://pyfound.blogspot.com/feeds/posts/default "~Python Software Foundation News" news org FOSS
+https://blog.rust-lang.org/feed.xml "~Rust Blog" blog project FOSS
 # ------------------------------------ #
 # RSS reader
-https://newsboat.org/news.atom "~Newsboat" blog project
-https://quiterss.org/en/rss.xml "~QuiteRSS" ! blog project
+https://newsboat.org/news.atom "~Newsboat" blog project FOSS
+https://quiterss.org/en/rss.xml "~QuiteRSS" ! blog project FOSS
 # ------------------------------------ #
 # security
-https://bitwarden.com/blog/feed.xml "~Bitwarden Blog" blog project
-https://blog.keyoxide.org/atom.xml "~Keyoxide blog" blog project
+https://bitwarden.com/blog/feed.xml "~Bitwarden Blog" blog project FOSS
+https://blog.keyoxide.org/atom.xml "~Keyoxide blog" blog project FOSS
 https://nakedsecurity.sophos.com/feed "~Naked Security by Sophos" blog project
 # ------------------------------------ #
 # source control
-https://blog.codeberg.org/feeds/all.atom.xml "~Codeberg News" blog org tech
-https://forgejo.org/rss.xml "~Forgejo News" blog org tech
-https://blog.gitea.io/index.xml "~Gitea - blog" blog org tech
-https://about.gitlab.com/atom.xml "~GitLab" blog org tech
+https://blog.codeberg.org/feeds/all.atom.xml "~Codeberg News" blog org tech FOSS
+https://forgejo.org/rss.xml "~Forgejo News" blog org tech FOSS
+https://blog.gitea.io/index.xml "~Gitea - blog" blog org tech FOSS
+https://about.gitlab.com/atom.xml "~GitLab" blog org tech FOSS
 # ------------------------------------ #
 # misc
-https://www.gnome.org/feed/ "~GNOME" blog project
+https://www.gnome.org/feed/ "~GNOME" blog project FOSS
 https://spritely.institute/feed.xml "~Spritely Networked Communities Institute" blog org
-https://blog.documentfoundation.org/feed/ "~The Document Foundation Blog" blog org
-https://w3c.social/@w3c.rss "~W3C (w3c.social)" ! mastodon
+https://blog.documentfoundation.org/feed/ "~The Document Foundation Blog" blog org FOSS
+https://w3c.social/@w3c.rss "~W3C (w3c.social)" ! "platform - mastodon"
 # ---------------------------------------------------------------------------- #
+------------------------------------
 # hardware
+https://frame.work/blog.rss "~Framework Blog" blog org
 https://www.raspberrypi.com/rss/ "~Raspberry Pi" project
 https://blog.system76.com/rss "~System76 Blog" blog org
-https://frame.work/blog.rss "~Framework Blog" blog org
 # ---------------------------------------------------------------------------- #
-# comic
-https://actualstuffcomic.tumblr.com/rss "~Actual Stuff" ! comic
-https://www.awkwardzombie.com/awkward-zombie/rss "~Awkward Zombie" ! comic
-https://belzebubsofficial.tumblr.com/rss "~belzebubs" ! comic
-https://www.commitstrip.com/en/feed/ "~CommitStrip" ! comic
-http://feed43.com/freefall.xml "~Freefall" ! comic
-https://thepunchlineismachismo.com/feed "~Manly Guys Doing Manly Things" ! comic
-http://feeds.feedburner.com/PoorlyDrawnLines "~Poorly Drawn Lines" ! comic
-https://simpleroutines.tumblr.com/rss "~Simple Routines by JP Coovert" ! comic
-https://swordscomic.com/comic/feed/ "~Swords" ! comic
-https://thatsbelievable.com/rss "~THAT'S BELIEVABLE!" ! comic
-https://mansionofe.the-comic.org/rss/ "~The Mansion of E" ! comic
-https://theoatmeal.com/feed/rss "~The Oatmeal - Comics by Matthew Inman" ! comic
-https://pbfcomics.com/feed/ "~The Perry Bible Fellowship" ! comic
-https://theycantalk.com/rss "~they can talk" ! comic
-https://twittoons.com/feed.xml "~Twittoons" ! comic
-https://xkcd.com/atom.xml "~xkcd.com" ! comic
-# ---------------------------------------------------------------------------- #
+------------------------------------
 # TTRPG
 https://koboldpress.com/feed/ "~Kobold Press" blog TTRPG postable
 https://www.metagames.hu/rss/hirek "~Metagame.hu - Hírek" news TTRPG
 https://paizo.com/community/blog&xml=atom "~Paizo Blog" blog TTRPG
 https://www.runehammer.online/blog-feed.xml "~Runehammer Games" blog TTRPG
 # ---------------------------------------------------------------------------- #
+------------------------------------
 # art journals
-https://mozgovilag.hu/feed/ "~Mozgó Világ" art
 https://apokrifonline.com/feed/ "~Apokrif Online" art
+https://mozgovilag.hu/feed/ "~Mozgó Világ" art
 https://bulletjournal.com/blogs/bulletjournalist.atom "~The Bullet Journalist" art
 # ---------------------------------------------------------------------------- #
-# actors
-https://wilwheaton.net/feed/ "~Wil Wheaton" blog people
-# ---------------------------------------------------------------------------- #
-# podcasts
-https://api.substack.com/feed/podcast/1180773.rss "~Surveillance Report" podcast
-https://fossandcrafts.org/rss-feed-ogg.rss "~FOSS and Crafts" podcast
-https://librelounge.org/atom-feed.atom "~Libre Lounge" podcast
-https://www.gmdiscussions.com/feed/podcast "~Roll For Topic" podcast
-# ---------------------------------------------------------------------------- #
+------------------------------------
 # ELTE
 https://btkhok.elte.hu/feed/ "~ELTE BTK HÖK"
 # ---------------------------------------------------------------------------- #
+------------------------------------
 # news - FOSS
-https://news.itsfoss.com/rss/ "~It's FOSS News" news tech
-https://www.phoronix.com/rss.php "~Phoronix" news tech
-https://linuxiac.com/feed/ "~Linuxiac" news tech
-https://opensource.com/feed "~Opensource.com" news tech
-https://www.omgubuntu.co.uk/feed "~OMG! Ubuntu!" news tech
-https://www.tecmint.com/feed/ "~Tecmint: Linux Howtos, Tutorials & Guides" news tech
-https://www.gamingonlinux.com/article_rss.php "~GamingOnLinux" news tech
+https://www.gamingonlinux.com/article_rss.php "~GamingOnLinux" news tech FOSS
+https://news.itsfoss.com/rss/ "~It's FOSS News" news tech FOSS
+https://linuxiac.com/feed/ "~Linuxiac" news tech FOSS
+https://www.omgubuntu.co.uk/feed "~OMG! Ubuntu!" news tech FOSS
+https://opensource.com/feed "~Opensource.com" news tech FOSS
+https://www.phoronix.com/rss.php "~Phoronix" news tech FOSS
+https://www.tecmint.com/feed/ "~Tecmint: Linux Howtos, Tutorials & Guides" news tech FOSS
 # ---------------------------------------------------------------------------- #
+------------------------------------
 # news - tech forums
-https://rss.slashdot.org/Slashdot/slashdotMain "~Slashdot" news tech
 https://news.ycombinator.com/rss "~Hacker News" news tech
+https://rss.slashdot.org/Slashdot/slashdotMain "~Slashdot" news tech
 # ---------------------------------------------------------------------------- #
+------------------------------------
 # news - tech
 https://gizmodo.com/rss "~Gizmodo" news tech
 https://techcrunch.com/feed/ "~TechCrunch" news tech
@@ -306,6 +301,7 @@ https://restoreprivacy.com/feed/ "~RestorePrivacy" news tech
 https://hackaday.com/feed/ "~Hackaday" news tech
 https://viewsink.com/rss/ "~ViewSink (by Gardiner B. et al.)" news tech
 # ---------------------------------------------------------------------------- #
+------------------------------------
 # news - tech - Ars Technica
 https://feeds.arstechnica.com/arstechnica/index "~Ars Technica" news tech
 https://feeds.arstechnica.com/arstechnica/features "~Ars Technica > Features" news tech
@@ -318,6 +314,31 @@ https://feeds.arstechnica.com/arstechnica/science "~Ars Technica > The Scientifi
 https://feeds.arstechnica.com/arstechnica/cars "~Ars Technica > Cars Technica: All Things Automotive" news tech
 https://feeds.arstechnica.com/arstechnica/staff-blogs "~Ars Technica > Staff Blogs: From the Minds of Ars" blog tech
 https://feeds.arstechnica.com/arstechnica/cardboard "~Ars Technica > Ars Cardboard: Board Games News & Reviews" news tech
+# ---------------------------------------------------------------------------- #
+# ---------------------------------------------------------------------------- #
+# comic
+https://actualstuffcomic.tumblr.com/rss "~Actual Stuff" ! "media - comic"
+https://www.awkwardzombie.com/awkward-zombie/rss "~Awkward Zombie" ! "media - comic"
+https://belzebubsofficial.tumblr.com/rss "~belzebubs" ! "media - comic"
+https://www.commitstrip.com/en/feed/ "~CommitStrip" ! "media - comic"
+http://feed43.com/freefall.xml "~Freefall" ! "media - comic"
+https://thepunchlineismachismo.com/feed "~Manly Guys Doing Manly Things" ! "media - comic"
+http://feeds.feedburner.com/PoorlyDrawnLines "~Poorly Drawn Lines" ! "media - comic"
+https://simpleroutines.tumblr.com/rss "~Simple Routines by JP Coovert" ! "media - comic"
+https://swordscomic.com/comic/feed/ "~Swords" ! "media - comic"
+https://thatsbelievable.com/rss "~THAT'S BELIEVABLE!" ! "media - comic"
+https://mansionofe.the-comic.org/rss/ "~The Mansion of E" ! "media - comic"
+https://theoatmeal.com/feed/rss "~The Oatmeal - Comics by Matthew Inman" ! "media - comic"
+https://pbfcomics.com/feed/ "~The Perry Bible Fellowship" ! "media - comic"
+https://theycantalk.com/rss "~they can talk" ! "media - comic"
+https://twittoons.com/feed.xml "~Twittoons" ! "media - comic"
+https://xkcd.com/atom.xml "~xkcd.com" ! "media - comic"
+# ---------------------------------------------------------------------------- #
+# podcasts
+https://api.substack.com/feed/podcast/1180773.rss "~Surveillance Report" ! "media - podcast"
+https://fossandcrafts.org/rss-feed-ogg.rss "~FOSS and Crafts" ! "media - podcast"
+https://librelounge.org/atom-feed.atom "~Libre Lounge" ! "media - podcast"
+https://www.gmdiscussions.com/feed/podcast "~Roll For Topic" ! "media - podcast"
 # ---------------------------------------------------------------------------- #
 # news - world
 https://www.aljazeera.com/xml/rss/all.xml "~Al Jazeera" ! "news - world"
