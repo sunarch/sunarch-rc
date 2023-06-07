@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 # ---------------------------------------------------------------------------- #
-# Spotify
+# Spotify:
+
 # https://www.spotify.com/us/download/linux/
 
 sudo snap remove spotify
@@ -12,7 +13,7 @@ echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sou
 
 
 sudo apt-get update
-sudo apt-get install spotify-client
+
+sudo apt-get install spotify-client # Spotify streaming music client
 
 # ---------------------------------------------------------------------------- #
-

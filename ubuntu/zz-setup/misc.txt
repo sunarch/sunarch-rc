@@ -1,0 +1,8 @@
+# misc todo
+
+- nautilus settings
+- gnome terminal settings
+    - in Gnome Tweaks:
+        - enable: Extensions > Kstatusnotifieritem/appindicator support
+- add VPNs
+- add bash, zsh configs
