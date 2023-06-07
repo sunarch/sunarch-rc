@@ -1,6 +1,6 @@
 # ---------------------------------------------------------------------------- #
 # tags:
-#     types     - status blog project devlog podcast news
+#     types     - status blog project devlog news
 #     creator   - people org
 #     topics    - tech literature TTRPG art news
 #     languages - magyar
@@ -36,6 +36,16 @@ https://medium.com/feed/@ASTRELION "~Astrelion > ASTRELION on Medium"
 # Astrelion - Dungeons
 https://mastodon.social/@dungeons.rss "~Astrelion > Dungeons (mastodon.social)" ! "platform - mastodon"
 # ------------------------------------ #
+# Benjamin Hollon
+https://fosstodon.org/@benjaminhollon.rss "~Benjamin Hollon (fosstodon.org)" ! "platform - mastodon"
+https://seewitheyesclosed.com/feed/ "~Benjamin Hollon > See With Eyes Closed" blog people
+https://blurbs.benjaminhollon.com/feed/ "~Benjamin Hollon > Fake Movie Blurbs" blog people
+https://tty1.blog/feed/ "~Benjamin Hollon > tty1" blog people
+https://benjaminhollon.com/musings/feed/ "~Benjamin Hollon > Musings" blog people
+https://theprodigalsbrother.com/feed/daily/ "~Benjamin Hollon > The Prodigal's Brother" project literature
+# Freedom to Write
+https://fosstodon.org/@freedomtowrite.rss "~Benjamin Hollon > Freedom to Write (fosstodon.org)" ! "platform - mastodon"
+# ------------------------------------ #
 # Brett Chalupa
 http://www.brettchalupa.com/feed.xml "~Brett Chalupa"
 https://code.brettchalupa.com/feed.xml "~Brett Chalupa > Brett Codes"
@@ -67,27 +77,16 @@ https://tech.lgbt/@noboilerplate.rss "~Tristram Oaten > No Boilerplate"
 # Tris - /usr/stories
 # Namtao - 🛰️ Lost Terminal Podcast
 https://fosstodon.org/@lostterminal.rss "~Tristram Oaten > Namtao > 🛰️ Lost Terminal Podcast (fosstodon.org)" ! "platform - mastodon"
-https://www.spreaker.com/show/4488937/episodes/feed "~Tristram Oaten > Namtao > Lost Terminal" podcast
+https://www.spreaker.com/show/4488937/episodes/feed "~Tristram Oaten > Namtao > Lost Terminal" ! "media - podcast"
 # Namtao - 🌕 Modem Prometheus Podcast
 https://wandering.shop/@modemprometheus.rss "~Tristram Oaten > Namtao > 🌕 Modem Prometheus Podcast (wandering.shop)" ! "platform - mastodon"
-https://www.spreaker.com/show/5184621/episodes/feed "~Tristram Oaten > Namtao > Modem Prometheus" podcast
-# ------------------------------------ #
-# Benjamin Hollon
-https://fosstodon.org/@benjaminhollon.rss "~Benjamin Hollon (fosstodon.org)" ! "platform - mastodon"
-https://seewitheyesclosed.com/feed/ "~Benjamin Hollon > See With Eyes Closed" blog people
-https://blurbs.benjaminhollon.com/feed/ "~Benjamin Hollon > Fake Movie Blurbs" blog people
-https://tty1.blog/feed/ "~Benjamin Hollon > tty1" blog people
-https://benjaminhollon.com/musings/feed/ "~Benjamin Hollon > Musings" blog people
-https://theprodigalsbrother.com/feed/daily/ "~Benjamin Hollon > The Prodigal's Brother" project literature
-# Freedom to Write
-https://fosstodon.org/@freedomtowrite.rss "~Benjamin Hollon > Freedom to Write (fosstodon.org)" ! "platform - mastodon"
+https://www.spreaker.com/show/5184621/episodes/feed "~Tristram Oaten > Namtao > Modem Prometheus" ! "media - podcast"
 # ---------------------------------------------------------------------------- #
 ------------------------------------
 # people - general
-https://brandont.blog/feed.rss "~Brandon - brandont.blog" blog people
 https://ctmiller.net/feed.xml "~Chris Miller" blog people
 https://powazek.com/feed "~Derek Powazek" blog people
-https://baty.net/feed "~Jack Baty" blog people
+https://baty.net/feed/ "~Jack Baty" blog people
 https://idlewords.com/index.xml "~Maciej Cegłowski - Idle Words" blog people
 https://medium.com/feed/@quinnnorton "~Quinn Norton on Medium" blog people
 # ---------------------------------------------------------------------------- #
@@ -96,7 +95,8 @@ https://medium.com/feed/@quinnnorton "~Quinn Norton on Medium" blog people
 https://aj-foster.com/feed.xml "~AJ Foster" blog people tech
 https://fasterthanli.me/index.xml "~Amos Wenger (faster than lime)" blog people tech
 https://lucumr.pocoo.org/feed.atom "~Armin Ronacher" blog people tech
-https://trechnex.com/feed "~Bobby Moss (TrechNex)" blog people tech
+https://trechnex.com/feed.xml "~Bobby Moss (TrechNex)" blog people tech
+https://brandont.dev/atom.xml "~Brandon T. Phillips" blog people
 https://chrismorgan.info/feed.xml "~Chris Morgan" blog people tech
 https://dustycloud.org/blog/index.xml "~Christine Lemmer-Webber - Dustycloud Brainstorms" blog people tech
 https://chreke.com/feeds/all.atom.xml "~Christoffer Ekeroth (chreke)" blog people tech
@@ -321,7 +321,7 @@ https://actualstuffcomic.tumblr.com/rss "~Actual Stuff" ! "media - comic"
 https://www.awkwardzombie.com/awkward-zombie/rss "~Awkward Zombie" ! "media - comic"
 https://belzebubsofficial.tumblr.com/rss "~belzebubs" ! "media - comic"
 https://www.commitstrip.com/en/feed/ "~CommitStrip" ! "media - comic"
-http://feed43.com/freefall.xml "~Freefall" ! "media - comic"
+https://crosstimecafe.com/Webcomics/Feeds/Freefall.xml "~Freefall" ! "media - comic"
 https://thepunchlineismachismo.com/feed "~Manly Guys Doing Manly Things" ! "media - comic"
 http://feeds.feedburner.com/PoorlyDrawnLines "~Poorly Drawn Lines" ! "media - comic"
 https://simpleroutines.tumblr.com/rss "~Simple Routines by JP Coovert" ! "media - comic"
@@ -378,7 +378,7 @@ https://nyomorszele.hvgblog.hu/feed/ "~A nyomor széle" ! "news - Hungary - elle
 # ------------------------------------ #
 # kormány
 https://index.hu/24ora/rss/ "~Index - 24óra" ! "news - Hungary - kormány"
-https://www.origo.hu/contentpartner/rss/origoall/origo.xml" "~ORIGO" ! "news - Hungary - kormány"
+https://www.origo.hu/contentpartner/rss/origoall/origo.xml "~ORIGO" ! "news - Hungary - kormány"
 https://888.hu/rss "~888 - a három nyolcas" ! "news - Hungary - kormány"
 https://mandiner.hu/rss/ "~Mandiner" ! "news - Hungary - kormány"
 https://www.magyaridok.hu/feed/? "~Magyar Idők" ! "news - Hungary - kormány"
