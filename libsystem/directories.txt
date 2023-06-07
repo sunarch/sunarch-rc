@@ -1,0 +1,12 @@
+# system directories
+
+## desktop files
+
+/usr/share/applications
+~/.local/share/applications
+
+# desktop icons
+
+/usr/share/icons
+~/.local/share/icons
+
