@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cd ~/Documents/programfiles/tor-browser/tor-browser-12-0-6-all
+
+./start-tor-browser.desktop &

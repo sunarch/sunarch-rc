@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# Warpinator
+
+flatpak run org.x.Warpinator
