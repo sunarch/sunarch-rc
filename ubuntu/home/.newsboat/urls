@@ -39,11 +39,12 @@ https://mastodon.social/@dungeons.rss "~Astrelion > Dungeons (mastodon.social)" 
 # ------------------------------------ #
 # Benjamin Hollon
 https://fosstodon.org/@benjaminhollon.rss "~Benjamin Hollon (fosstodon.org)" ! "platform - mastodon"
-https://seewitheyesclosed.com/feed/ "~Benjamin Hollon > See With Eyes Closed" blog people
-https://blurbs.benjaminhollon.com/feed/ "~Benjamin Hollon > Fake Movie Blurbs" blog people
-https://tty1.blog/feed/ "~Benjamin Hollon > tty1" blog people
 https://benjaminhollon.com/musings/feed/ "~Benjamin Hollon > Musings" blog people
+https://tty1.blog/feed/ "~Benjamin Hollon > tty1" blog people
+https://blurbs.benjaminhollon.com/feed/ "~Benjamin Hollon > Fake Movie Blurbs" blog people
+https://benjaminhollon.com/writing/feeds/poetry/ "~Benjamin Hollon > Poetry" literature people
 https://theprodigalsbrother.com/feed/daily/ "~Benjamin Hollon > The Prodigal's Brother" project literature
+https://seewitheyesclosed.com/feed/ "~Benjamin Hollon > See With Eyes Closed" blog people
 # Freedom to Write
 https://fosstodon.org/@freedomtowrite.rss "~Benjamin Hollon > Freedom to Write (fosstodon.org)" ! "platform - mastodon"
 # ------------------------------------ #
