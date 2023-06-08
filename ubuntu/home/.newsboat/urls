@@ -228,7 +228,8 @@ https://mstdn.social/@stux.rss "~sтυx (mstdn.social)" ! "platform - mastodon"
 # prog. lang.
 https://planet.haskell.org/atom.xml "~Planet Haskell" blog project FOSS
 https://pyfound.blogspot.com/feeds/posts/default "~Python Software Foundation News" news org FOSS
-https://blog.rust-lang.org/feed.xml "~Rust Blog" blog project FOSS
+https://blog.rust-lang.org/feed.xml "~Rust > Main Blog" blog project FOSS
+https://blog.rust-lang.org/inside-rust/feed.xml "~Rust > "Inside Rust" Blog" blog project FOSS
 # ------------------------------------ #
 # RSS reader
 https://newsboat.org/news.atom "~Newsboat" blog project FOSS
