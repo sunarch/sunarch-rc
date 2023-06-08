@@ -212,10 +212,13 @@ error-log "~/.newsboat/error.log"
 # bind-key ENTER open
 # bind-key q quit
 # bind-key Q hard-quit
+unbind-key Q
 # bind-key r reload
 # bind-key R reload-all
 # bind-key A mark-feed-read
+unbind-key A
 # bind-key C mark-all-feeds-read
+unbind-key C
 ## mark-all-above-as-read
 # bind-key s save
 ## save-all
@@ -224,6 +227,7 @@ error-log "~/.newsboat/error.log"
 # bind-key J next
 # bind-key K prev
 # bind-key ^K random-unread
+unbind-key ^K
 # bind-key o open-in-browser
 ## open-in-browser-noninteractively
 # bind-key O open-in-browser-and-mark-read
