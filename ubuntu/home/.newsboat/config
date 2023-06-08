@@ -48,9 +48,11 @@ browser firefox
 # Confirm
 
 # confirm-delete-all-articles yes
-# confirm-exit no
 # confirm-mark-all-feeds-read yes
 # confirm-mark-feed-read yes
+
+# confirm-exit no
+confirm-exit yes
 
 # ---------------------------------------------------------------------------- #
 # Display
