@@ -1,0 +1,72 @@
+Python
+Git
+
+- [Linux only] PyEnv
+    - https://github.com/pyenv/pyenv
+
+OpenJDK
+
+- Haskell
+    - GHC - Glasgow Haskell Compiler
+    - Linux: `ghc`
+    - cabal - package installer
+        - Linux: `cabal-install`
+- Docker
+
+### references
+
+- Game of Life
+    - Linux: install locally
+- Sound of sorting
+    - Linux: install locally
+
+- Eclipse
+- Thonny  : with bundled Python
+
+- Atom: https://atom.io/
+    - Linux:
+        - repository package no longer available
+        - snap
+        - downloadable deb and rpm on homepage
+- [Linux only] geany
+    - plugins
+        - automark
+        - extrasel
+        - git-changebar
+        - lineoperations
+        - overview
+        - spellcheck
+
+- Zotero
+
+video editor
+- [Linux only] shotcut
+    - installed separately, not from repo
+    
+- [Linux only] `synaptic` - apt frontend
+- install before it: `apt-xapian-index`
+    - `sudo update-apt-xapian-index -vf`
+
+- Todoist
+    - Linux: Snap, AppImage
+
+- OneDrive
+    - Linux:
+        - online interface
+        - onedriver
+            - GitHub - [jstaf / onedriver](https://github.com/jstaf/onedriver)
+            - Launchpad - [jstaf / onedriver](https://launchpad.net/~jstaf/+archive/ubuntu/onedriver)
+                - not used anymore, see GitHub ReadMe
+            - AUR - [onedriver](https://aur.archlinux.org/packages/onedriver/)
+            - OpenSUSE Build Service: [onedriver](https://software.opensuse.org/download.html?project=home%3Ajstaf&package=onedriver)
+    - Windows built-in
+
+- calibre 64bit : E-book management
+- Raspberry Pi Imager
+
+
+- [i3](https://i3wm.org/)
+    - tiling window manager
+- [picom](https://github.com/yshui/picom)
+    - window compositor (used with i3)
+    - a fork of [Compton](https://github.com/chjj/compton/), which is said to have become unmaintained

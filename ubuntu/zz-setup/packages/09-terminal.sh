@@ -11,6 +11,9 @@ sudo apt-get install kitty # fast, featureful, GPU based terminal emulator
 sudo apt-get install xterm # X terminal emulator
     # includes: UXterm
 
+#sudo apt-get install guake # Drop-down terminal for GNOME Desktop Environment
+#sudo apt-get install guake-indicator # Guake terminal app indicator
+
 # ---------------------------------------------------------------------------- #
 # apps
 

@@ -9,6 +9,8 @@ sudo apt-get install brave-browser # The web browser from Brave
 sudo apt-get install epiphany-browser # Intuitive GNOME web browser
 sudo apt-get install qutebrowser # Keyboard-driven, vim-like browser based on PyQt5
 
+sudo snap remove chromium
+
 # Tor Browser --> see local
 # Firefox --> see PPA
 
@@ -37,6 +39,7 @@ sudo apt-get install protonvpn # ProtonVPN metapackage
 # remote desktop:
 
 sudo apt-get install realvnc-vnc-viewer # VNC® Viewer
-sudo apt-get install teamviewer # Remote control and meeting solution.
+
+# TeamViewer --> see local DEB
 
 # ---------------------------------------------------------------------------- #

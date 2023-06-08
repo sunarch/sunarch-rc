@@ -6,6 +6,12 @@ sudo apt-get update
 # misc:
 
 sudo apt-get install gramps # Genealogical research program
+#sudo apt-get install instead # Simple text adventures/visual novels engine
+
+# ------------------------------------ #
+# misc - non-graphical:
+
+sudo apt-get install libdigest-sha3-perl # Perl extension for SHA-3
 
 # ---------------------------------------------------------------------------- #
 # finance:

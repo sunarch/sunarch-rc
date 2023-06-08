@@ -57,6 +57,8 @@ sudo apt-get install mkvtoolnix-gui # Set of tools to work with Matroska files -
 sudo apt-get install mpv # video player based on MPlayer/mplayer2
 sudo apt-get install obs-studio # recorder and streamer for live video content
 sudo apt-get install pitivi # non-linear audio/video editor using GStreamer
+
 sudo apt-get install vlc # multimedia player and streamer
+sudo apt-get install vlc-plugin-fluidsynth # FluidSynth plugin for VLC
 
 # ---------------------------------------------------------------------------- #

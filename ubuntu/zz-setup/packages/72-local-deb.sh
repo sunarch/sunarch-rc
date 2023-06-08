@@ -16,6 +16,10 @@
 # https://www.dropbox.com/desktop
 # https://www.dropbox.com/install
 
+# or:
+#sudo apt-get install nautilus-dropbox # Dropbox integration for Nautilus
+# - installing this package will download the proprietary binary from dropbox.com
+
 # ------------------------------------ #
 # Minecraft Launcher:
 
@@ -49,6 +53,14 @@
 # - Linux: "steam-installer" package
 #     - first launch initiates install
 #     - installs “steam:i386”
+
+# ------------------------------------ #
+# TeamViewer
+
+# https://www.teamviewer.com/en/
+# https://www.teamviewer.com/en/download/linux/
+
+# package: teamviewer # Remote control and meeting solution.
 
 # ------------------------------------ #
 # Tixati:

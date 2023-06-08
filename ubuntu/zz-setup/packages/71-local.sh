@@ -25,13 +25,6 @@
 # https://aws.amazon.com/cli/
 
 # ------------------------------------ #
-# Azul Java:
-# - previously required for the Java version of Worldographer
-# - currently required for: ?
-
-# https://www.azul.com/downloads/?package=jdk-fx#download-openjdk
-
-# ------------------------------------ #
 # Fantasy Grounds
 
 # https://www.fantasygrounds.com/home/home.php
@@ -96,6 +89,14 @@ sudo apt-get install libssl-dev # Secure Sockets Layer toolkit - development fil
 # https://github.com/nushell/nushell/releases
 
 # ------------------------------------ #
+# Oh My Zsh
+
+# https://ohmyz.sh
+# https://ohmyz.sh/#install
+
+# $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# ------------------------------------ #
 # Oracle Java:
 # - previously required for Minecraft
 # - currently required for: ?
@@ -118,6 +119,13 @@ sudo apt-get install libssl-dev # Secure Sockets Layer toolkit - development fil
 
 # ---------------------------------------------------------------------------- #
 # unused:
+
+# ------------------------------------ #
+# Azul Java:
+# - previously required for the Java version of Worldographer
+#   - JDK FX from Azul Zulu builds of OpenJDK
+
+# https://www.azul.com/downloads/?package=jdk-fx#download-openjdk
 
 # ------------------------------------ #
 # Focalboard - Personal Desktop:
