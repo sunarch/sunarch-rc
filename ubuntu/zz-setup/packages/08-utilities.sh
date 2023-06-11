@@ -26,8 +26,10 @@ sudo apt-get install pavumeter # PulseAudio Volume Meter
 sudo apt-get install picom # lightweight compositor for X11
 sudo apt-get install software-properties-gtk # manage the repositories that you install software from (gtk)
     # Software & Updates
-sudo apt-get install synaptic # Graphical package manager
 sudo apt-get install yelp # Help browser for GNOME
+
+sudo apt-get install synaptic # Graphical package manager
+sudo apt-get install apt-xapian-index # maintenance and search tools for a Xapian index of Debian packages
 
 # AppImagaLauncher Settings --> see individual
 # Grub Customizer --> see individual

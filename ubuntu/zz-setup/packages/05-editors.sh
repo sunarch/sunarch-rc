@@ -9,13 +9,15 @@ sudo apt-get install bless # Full featured hexadecimal editor
 sudo apt-get install emacs # GNU Emacs editor (metapackage)
     # emacs (GUI)
     # emacs (terminal)
-sudo apt-get install gedit # popular text editor for the GNOME desktop environment
 sudo apt-get install ghostwriter # Distraction-free, themeable Markdown editor
 sudo apt-get install gnome-text-editor # simple text editor for GNOME
 sudo apt-get install meld # graphical tool to diff and merge files
 sudo apt-get install micro # modern and intuitive terminal-based text editor
 sudo apt-get install neovim # heavily refactored vim fork
 sudo apt-get install vim # Vi IMproved - enhanced vi editor
+
+sudo apt-get install gedit # popular text editor for the GNOME desktop environment
+sudo apt-get install gedit-plugins # set of plugins for gedit
 
 # Obsidian --> see local DEB
 
