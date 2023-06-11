@@ -18,6 +18,12 @@ sudo apt-get install libreoffice-writer # office productivity suite -- word proc
 # LibreOffice Start Center
 
 # ------------------------------------ #
+# non-graphical - remove:
+
+sudo apt-get remove aspell
+sudo apt-get remove aspell-en
+
+# ------------------------------------ #
 # non-graphical:
 
 sudo apt-get install libreoffice-help-en-us # office productivity suite -- English_american help

@@ -29,9 +29,6 @@ sudo apt-get remove gnome-user-share # User level public file sharing via WebDAV
 sudo apt-get remove apache2-bin # Apache HTTP Server (modules and other binary files)
 sudo apt-get remove libapache2-mod-dnssd # Zeroconf support for Apache 2 via avahi
 
-sudo apt-get remove aspell
-sudo apt-get remove aspell-en
-
 sudo apt-get remove bogofilter # fast Bayesian spam filter (meta package)
 sudo apt-get remove bogofilter-common # fast Bayesian spam filter (common files)
 sudo apt-get remove bogofilter-sqlite # fast Bayesian spam filter (sqlite)
