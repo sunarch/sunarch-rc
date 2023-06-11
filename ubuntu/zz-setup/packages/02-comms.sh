@@ -5,9 +5,8 @@ sudo apt-get update
 # ---------------------------------------------------------------------------- #
 # chat:
 
-sudo apt-get install element-desktop # A feature-rich client for Matrix.org
-
 # Discord --> see local DEB
+# Element Desktop --> see individual
 # Signal --> see PPA
 
 # ---------------------------------------------------------------------------- #

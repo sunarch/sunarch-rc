@@ -50,6 +50,8 @@ sudo apt-get install gtkhash # GTK+ utility for computing checksums and more
 sudo apt-get install keepass2 # Password manager
 sudo apt-get install qdirstat # Qt-based directory statistics
 
+# Docker --> see individual
+
 # ---------------------------------------------------------------------------- #
 # emulation:
 
