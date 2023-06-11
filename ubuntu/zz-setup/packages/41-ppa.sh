@@ -3,17 +3,6 @@
 # ---------------------------------------------------------------------------- #
 # PPAs:
 
-# ------------------------------------ #
-# Grub Customizer:
-# - Ubuntu repository version available for certain versions
-
-# https://launchpad.net/grub-customizer
-
-sudo add-apt-repository ppa:danielrichter2007/grub-customizer
-sudo apt-get update
-
-sudo apt-get install grub-customizer # Grub Customizer - A graphical Grub2/BURG configuration application
-
 # ---------------------------------------------------------------------------- #
 # unused
 
@@ -36,9 +25,5 @@ sudo apt-get install grub-customizer # Grub Customizer - A graphical Grub2/BURG 
 # ------------------------------------ #
 # RuneScape
 # - Ubuntu repository version available
-
-# ------------------------------------ #
-# TeamViewer
-# - added automatically when installing from downloaded DEB package
 
 # ---------------------------------------------------------------------------- #

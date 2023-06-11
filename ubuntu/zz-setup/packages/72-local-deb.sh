@@ -55,14 +55,6 @@
 #     - installs “steam:i386”
 
 # ------------------------------------ #
-# TeamViewer
-
-# https://www.teamviewer.com/en/
-# https://www.teamviewer.com/en/download/linux/
-
-# package: teamviewer # Remote control and meeting solution.
-
-# ------------------------------------ #
 # Tixati:
 
 # https://tixati.com
@@ -70,14 +62,6 @@
 # https://support.tixati.com/Release%20Verification
 
 # package: tixati # Tixati P2P Client
-
-# ------------------------------------ #
-# Visual Studio Code:
-
-# https://code.visualstudio.com/
-# https://code.visualstudio.com/#alt-downloads
-
-# package: code # Code editing. Redefined.
 
 # ------------------------------------ #
 # Worldographer:

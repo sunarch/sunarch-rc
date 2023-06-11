@@ -44,7 +44,7 @@ sudo apt-get install geany # fast and lightweight IDE
 sudo apt-get install geany-plugins # set of plugins for Geany
 
 # DrRacket --> see individual
-# Visual Studio Code --> see local DEB
+# Visual Studio Code --> see individual
 
 # ------------------------------------ #
 # IDE - JetBrains:

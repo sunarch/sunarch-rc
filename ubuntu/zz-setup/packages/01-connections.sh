@@ -40,6 +40,6 @@ sudo apt-get install protonvpn # ProtonVPN metapackage
 
 sudo apt-get install realvnc-vnc-viewer # VNC® Viewer
 
-# TeamViewer --> see local DEB
+# TeamViewer --> see individual
 
 # ---------------------------------------------------------------------------- #

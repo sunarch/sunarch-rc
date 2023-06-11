@@ -30,7 +30,7 @@ sudo apt-get install synaptic # Graphical package manager
 sudo apt-get install yelp # Help browser for GNOME
 
 # AppImagaLauncher Settings --> see individual
-# Grub Customizer --> see PPA
+# Grub Customizer --> see individual
 
 # Additional Drivers
 # Advanced Network Configuration
