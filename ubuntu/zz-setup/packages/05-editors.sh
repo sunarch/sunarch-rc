@@ -13,6 +13,7 @@ sudo apt-get install gedit # popular text editor for the GNOME desktop environme
 sudo apt-get install ghostwriter # Distraction-free, themeable Markdown editor
 sudo apt-get install gnome-text-editor # simple text editor for GNOME
 sudo apt-get install meld # graphical tool to diff and merge files
+sudo apt-get install micro # modern and intuitive terminal-based text editor
 sudo apt-get install neovim # heavily refactored vim fork
 sudo apt-get install vim # Vi IMproved - enhanced vi editor
 
@@ -21,7 +22,6 @@ sudo apt-get install vim # Vi IMproved - enhanced vi editor
 # ------------------------------------ #
 # editors - non-graphical:
 
-sudo apt-get install micro # modern and intuitive terminal-based text editor
 sudo apt-get install nano # small, friendly text editor inspired by Pico
 sudo apt-get install sed # GNU stream editor for filtering/transforming text
 

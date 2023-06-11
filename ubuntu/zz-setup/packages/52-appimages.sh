@@ -8,6 +8,9 @@
 
 # https://etcher.balena.io
 
+# dependency: FUSE v2
+sudo apt-get install libfuse2
+
 # ------------------------------------ #
 # GDLauncher:
 

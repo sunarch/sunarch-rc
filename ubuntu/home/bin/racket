@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# Racket
+
+flatpak run org.racket_lang.Racket
