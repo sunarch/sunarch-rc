@@ -7,7 +7,7 @@ sudo apt-get update
 
 # Discord --> see local DEB
 # Element Desktop --> see individual
-# Signal --> see PPA
+# Signal --> see individual
 
 # ---------------------------------------------------------------------------- #
 # video chat:

@@ -21,7 +21,7 @@ sudo apt-get install seq24 # Real time MIDI sequencer
 sudo apt-get install sonic-pi # Live Coding for Everyone
 sudo apt-get install traverso # Multitrack audio recorder and editor
 
-# Spotify --> see PPA
+# Spotify --> see individual
 
 # ---------------------------------------------------------------------------- #
 # media - image:

@@ -14,3 +14,5 @@
     - System Monitor
     - Obsidian
     - Meld
+
+- check extra sources lists: /etc/apt/sources.list.d/

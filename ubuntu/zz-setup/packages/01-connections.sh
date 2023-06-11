@@ -12,7 +12,7 @@ sudo snap remove chromium
 
 # Brave Browser --> see individual
 # Tor Browser --> see local
-# Firefox --> see PPA
+# Firefox --> see individual
 
 # ------------------------------------ #
 # browsers - non-graphical:
