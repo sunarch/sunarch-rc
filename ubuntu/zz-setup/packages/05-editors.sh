@@ -43,8 +43,7 @@ sudo apt-get install codeblocks # Code::Blocks integrated development environmen
 sudo apt-get install geany # fast and lightweight IDE
 sudo apt-get install geany-plugins # set of plugins for Geany
 
-# Racket --> see multi
-    # DrRacket
+# DrRacket --> see individual
 # Visual Studio Code --> see local DEB
 
 # ------------------------------------ #

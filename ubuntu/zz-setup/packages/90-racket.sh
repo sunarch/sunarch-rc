@@ -5,6 +5,8 @@
 
 # https://download.racket-lang.org
 
+# includes: DrRacket (editor)
+
 # ------------------------------------ #
 # Flatpak:
 

@@ -13,7 +13,7 @@ sudo apt-get install element-desktop # A feature-rich client for Matrix.org
 # ---------------------------------------------------------------------------- #
 # video chat:
 
-# Microsoft Teams --> see multi
+# Microsoft Teams --> see individual
 
 # ---------------------------------------------------------------------------- #
 # email:

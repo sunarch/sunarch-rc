@@ -5,12 +5,12 @@ sudo apt-get update
 # ---------------------------------------------------------------------------- #
 # browsers:
 
-sudo apt-get install brave-browser # The web browser from Brave
 sudo apt-get install epiphany-browser # Intuitive GNOME web browser
 sudo apt-get install qutebrowser # Keyboard-driven, vim-like browser based on PyQt5
 
 sudo snap remove chromium
 
+# Brave Browser --> see individual
 # Tor Browser --> see local
 # Firefox --> see PPA
 

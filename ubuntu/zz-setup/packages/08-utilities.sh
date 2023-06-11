@@ -29,7 +29,7 @@ sudo apt-get install software-properties-gtk # manage the repositories that you 
 sudo apt-get install synaptic # Graphical package manager
 sudo apt-get install yelp # Help browser for GNOME
 
-# AppImagaLauncher Settings --> see PPA
+# AppImagaLauncher Settings --> see individual
 # Grub Customizer --> see PPA
 
 # Additional Drivers
