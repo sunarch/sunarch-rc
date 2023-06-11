@@ -50,15 +50,16 @@ sudo apt-get install feh # imlib2 based image viewer
 # ---------------------------------------------------------------------------- #
 # media - video:
 
-# blender
+sudo apt-get install blender # Very fast and versatile 3D modeller/renderer
 sudo apt-get install celluloid # simple GTK+ frontend for mpv
 sudo apt-get install kdenlive # non-linear video editor
 sudo apt-get install mkvtoolnix-gui # Set of tools to work with Matroska files - GUI frontend
 sudo apt-get install mpv # video player based on MPlayer/mplayer2
-sudo apt-get install obs-studio # recorder and streamer for live video content
 sudo apt-get install pitivi # non-linear audio/video editor using GStreamer
 
 sudo apt-get install vlc # multimedia player and streamer
 sudo apt-get install vlc-plugin-fluidsynth # FluidSynth plugin for VLC
+
+# OBS Studio --> see individual
 
 # ---------------------------------------------------------------------------- #

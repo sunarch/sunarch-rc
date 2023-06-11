@@ -15,9 +15,7 @@
 ###       teamviewer repo preview        - additionally, make feature preview packages available
 ###       teamviewer repo development    - additionally, make the latest development packages available
 
+deb [signed-by=/usr/share/keyrings/teamviewer-keyring.gpg] https://linux.teamviewer.com/deb stable main
 
-
-# Modified via 'teamviewer repo' command
-deb https://linux.teamviewer.com/deb stable main #TeamViewer
-### deb https://linux.teamviewer.com/deb preview main
-### deb https://linux.teamviewer.com/deb development main
+# deb https://linux.teamviewer.com/deb preview main
+# deb https://linux.teamviewer.com/deb development main

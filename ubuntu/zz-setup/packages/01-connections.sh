@@ -33,7 +33,7 @@ sudo apt-get install newsboat # text mode rss feed reader with podcast support
 # ---------------------------------------------------------------------------- #
 # VPN:
 
-sudo apt-get install protonvpn # ProtonVPN metapackage
+# Proton VPN --> see individual
 
 # ---------------------------------------------------------------------------- #
 # remote desktop:
