@@ -1,6 +1,6 @@
 # ---------------------------------------------------------------------------- #
 # tags:
-#     types     - status blog project devlog news
+#     types     - status blog project devlog news newsletter
 #     creator   - people org
 #     topics    - tech literature TTRPG art news
 #     languages - magyar
@@ -96,6 +96,7 @@ https://blog.spaceraser.dev/feed/ "~(people) > Sam Drake (spaceraser) > Embassy"
 https://aj-foster.com/feed.xml "~(people) > (tech) > AJ Foster" blog people tech
 https://fasterthanli.me/index.xml "~(people) > (tech) > Amos Wenger (faster than lime)" blog people tech
 https://lucumr.pocoo.org/feed.atom "~(people) > (tech) > Armin Ronacher" blog people tech
+https://www.baldurbjarnason.com/index.xml "~(people) > (tech) > Baldur Bjarnason" blog people tech
 https://trechnex.com/feed.xml "~(people) > (tech) > Bobby Moss (TrechNex)" blog people tech
 https://brandont.dev/atom.xml "~(people) > (tech) > Brandon T. Phillips" blog people
 https://chrismorgan.info/feed.xml "~(people) > (tech) > Chris Morgan" blog people tech
@@ -103,6 +104,7 @@ https://dustycloud.org/blog/index.xml "~(people) > (tech) > Christine Lemmer-Web
 https://chreke.com/feeds/all.atom.xml "~(people) > (tech) > Christoffer Ekeroth (chreke)" blog people tech
 https://linuxgamer.hashnode.dev/rss.xml "~(people) > (tech) > CJ (LinuxGamer)" blog people tech
 https://blog.codinghorror.com/rss/ "~(people) > (tech) > Coding Horror" blog people tech
+https://doriantaylor.com/f07f5044-01bc-472d-9079-9b07771b731c "~(people) > (tech) > Dorian Taylor > Make Things. Make Sense." blog people tech
 https://d.moonfire.us/blog/atom.xml "~(people) > (tech) > Dylan Moonfire" blog people tech
 https://mcfunley.com/feed.xml "~(people) > (tech) > Dan McKinley" blog people tech
 https://dria.org/feed/ "~(people) > (tech) > Deb Richardson (dria)" blog people tech
@@ -143,6 +145,9 @@ https://wilwheaton.net/feed/ "~(people) > (actor) > Wil Wheaton" blog people
 # ---------------------------------------------------------------------------- #
 # topical
 https://separatedbyacommonlanguage.blogspot.com/feeds/posts/default "~(topical) > Separated by a Common Language" blog
+# ---------------------------------------------------------------------------- #
+# tech - newsletters
+https://softwarecrisis.dev/feed.xml "~Out of the Software Crisis (Newsletter)" newsletter
 # ---------------------------------------------------------------------------- #
 # tech - detailed
 # ------------------------------------ #
