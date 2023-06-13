@@ -8,16 +8,21 @@
 # includes: DrRacket (editor)
 
 # ------------------------------------ #
+# Ubuntu repos:
+
+sudo apt-get install racket # extensible programming language in the Scheme family
+
+# ---------------------------------------------------------------------------- #
+# unused:
+
+# ------------------------------------ #
 # Flatpak:
 
 # https://github.com/flathub/org.racket_lang.Racket
 
 # https://flathub.org/apps/org.racket_lang.Racket
-flatpak install flathub org.racket_lang.Racket
+#flatpak install flathub org.racket_lang.Racket
 # $ flatpak run org.racket_lang.Racket
-
-# ---------------------------------------------------------------------------- #
-# unused:
 
 # ------------------------------------ #
 # PPA:
@@ -28,6 +33,5 @@ flatpak install flathub org.racket_lang.Racket
 #sudo apt-get update
 
 #sudo apt-get install racket # extensible programming language in the Scheme family
-    # DrRacket
 
 # ---------------------------------------------------------------------------- #
