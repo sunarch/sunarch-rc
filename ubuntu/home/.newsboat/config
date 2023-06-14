@@ -9,6 +9,7 @@
 # pager internal
 # podcast-auto-enqueue no
 # prepopulate-query-feeds no
+prepopulate-query-feeds yes
 # restrict-filename yes
 # scrolloff 0
 # toggleitemread-jumps-to-next-unread no
