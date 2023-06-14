@@ -26,7 +26,7 @@ https://goszovetseg.hu/?page=news&mode=rss "~Magyar Gószövetség"
 # ELTE
 https://btkhok.elte.hu/feed/ "~ELTE > BTK HÖK"
 # ---------------------------------------------------------------------------- #
-# people - detailed
+# people - main
 # ------------------------------------ #
 # Árpád
 https://arpadblog.hu/feed/ "~Árpád > ÁrpádBlog" blog people magyar
@@ -52,19 +52,11 @@ https://fosstodon.org/@freedomtowrite.rss "~Benjamin Hollon > Freedom to Write (
 http://www.brettchalupa.com/feed.xml "~Brett Chalupa"
 https://code.brettchalupa.com/feed.xml "~Brett Chalupa > Brett Codes"
 # ------------------------------------ #
-# D. Kriesel
-https://www.dkriesel.com/feed.php?linkto=current&content=html&mode=blogtng&blog=blog-de "~D. Kriesel > (Deutsch)"
-https://www.dkriesel.com/feed.php?linkto=current&content=html&mode=blogtng&blog=blog-en "~D. Kriesel > (English)"
-# ------------------------------------ #
 # Lorenzo Miniero
 https://fosstodon.org/@lminiero.rss "~Lorenzo Miniero (fosstodon.org)" ! "platform - mastodon"
 # Lorenzo Miniero - KIAVC game engine
 https://kiavc.wordpress.com/feed/ "~Lorenzo Miniero > KIAVC" devlog tech
 https://mastodon.gamedev.place/@kiavc.rss "~Lorenzo Miniero > KIAVC (mastodon.gamedev.place)" ! "platform - mastodon"
-# ------------------------------------ #
-# Paul Graham
-http://www.aaronsw.com/2002/feeds/pgessays.rss "~Paul Graham > Essays"
-https://mas.to/@paulg.rss "~Paul Graham (mas.to)" ! "platform - mastodon"
 # ------------------------------------ #
 # Rhi
 https://neurodifferent.me/@Rhi.rss "~Rhi (neurodifferent.me)" ! "platform - mastodon"
@@ -85,69 +77,180 @@ https://wandering.shop/@modemprometheus.rss "~Tristram Oaten > Namtao > 🌕 Mod
 https://www.spreaker.com/show/5184621/episodes/feed "~Tristram Oaten > Namtao > Modem Prometheus" ! "media - podcast"
 # ---------------------------------------------------------------------------- #
 # people - general
+# ------------------------------------ #
+# Chris Miller
 https://ctmiller.net/feed.xml "~(people) > Chris Miller" blog people
+# ------------------------------------ #
+# Derek Powazek
 https://powazek.com/feed "~(people) > Derek Powazek" blog people
+# ------------------------------------ #
+# Jack Baty
 https://baty.net/feed/ "~(people) > Jack Baty" blog people
+# ------------------------------------ #
 https://idlewords.com/index.xml "~(people) > Maciej Cegłowski > Idle Words" blog people
+# ------------------------------------ #
+# Quinn Norton
 https://medium.com/feed/@quinnnorton "~(people) > Quinn Norton (on Medium)" blog people
+# ------------------------------------ #
+# Sam Drake (spaceraser)
 https://blog.spaceraser.dev/feed/ "~(people) > Sam Drake (spaceraser) > Embassy" blog people
 # ---------------------------------------------------------------------------- #
 # people - tech
+# ------------------------------------ #
+# AJ Foster
 https://aj-foster.com/feed.xml "~(people) > (tech) > AJ Foster" blog people tech
+# ------------------------------------ #
+# Amos Wenger (faster than lime)
 https://fasterthanli.me/index.xml "~(people) > (tech) > Amos Wenger (faster than lime)" blog people tech
+# ------------------------------------ #
+# Armin Ronacher
 https://lucumr.pocoo.org/feed.atom "~(people) > (tech) > Armin Ronacher" blog people tech
+# ------------------------------------ #
+# Baldur Bjarnason
 https://www.baldurbjarnason.com/index.xml "~(people) > (tech) > Baldur Bjarnason" blog people tech
+https://softwarecrisis.dev/feed.xml "~(people) > (tech) > Baldur Bjarnason > Out of the Software Crisis (Newsletter)" newsletter
+# ------------------------------------ #
+# Bobby Moss (TrechNex)
 https://trechnex.com/feed.xml "~(people) > (tech) > Bobby Moss (TrechNex)" blog people tech
+# ------------------------------------ #
+# Brandon T. Phillips
 https://brandont.dev/atom.xml "~(people) > (tech) > Brandon T. Phillips" blog people
+# ------------------------------------ #
+# Chris Morgan
 https://chrismorgan.info/feed.xml "~(people) > (tech) > Chris Morgan" blog people tech
+# ------------------------------------ #
+# Christine Lemmer-Webber
 https://dustycloud.org/blog/index.xml "~(people) > (tech) > Christine Lemmer-Webber > Dustycloud Brainstorms" blog people tech
+# ------------------------------------ #
+# Christoffer Ekeroth (chreke)
 https://chreke.com/feeds/all.atom.xml "~(people) > (tech) > Christoffer Ekeroth (chreke)" blog people tech
+# ------------------------------------ #
+# CJ (LinuxGamer)
 https://linuxgamer.hashnode.dev/rss.xml "~(people) > (tech) > CJ (LinuxGamer)" blog people tech
+# ------------------------------------ #
+# Coding Horror
 https://blog.codinghorror.com/rss/ "~(people) > (tech) > Coding Horror" blog people tech
+# ------------------------------------ #
+# D. Kriesel
+https://www.dkriesel.com/feed.php?linkto=current&content=html&mode=blogtng&blog=blog-de "~(people) > (tech) > D. Kriesel > (Deutsch)"
+https://www.dkriesel.com/feed.php?linkto=current&content=html&mode=blogtng&blog=blog-en "~(people) > (tech) > D. Kriesel > (English)"
+# ------------------------------------ #
+# Dorian Taylor
 https://doriantaylor.com/f07f5044-01bc-472d-9079-9b07771b731c "~(people) > (tech) > Dorian Taylor > Make Things. Make Sense." blog people tech
+# ------------------------------------ #
+# Dylan Moonfire
 https://d.moonfire.us/blog/atom.xml "~(people) > (tech) > Dylan Moonfire" blog people tech
+# ------------------------------------ #
+# Dan McKinley
 https://mcfunley.com/feed.xml "~(people) > (tech) > Dan McKinley" blog people tech
+# ------------------------------------ #
+# Deb Richardson (dria)
 https://dria.org/feed/ "~(people) > (tech) > Deb Richardson (dria)" blog people tech
+# ------------------------------------ #
+# Don Melton
 https://donmelton.com/rss.xml "~(people) > (tech) > Don Melton" blog people tech
+# ------------------------------------ #
+# Eric S. Raymond
 http://esr.ibiblio.org/?feed=rss2 "~(people) > (tech) > Eric S. Raymond > Armed and Dangerous" blog people tech
+# ------------------------------------ #
+# Garrit Franke
 https://garrit.xyz/rss.xml "~(people) > (tech) > Garrit Franke > Garrit's Notes" blog people tech
+# ------------------------------------ #
+# Gunther
 https://gunther.link/index.xml "~(people) > (tech) > Gunther > Guides by Gunther" blog people tech
+# ------------------------------------ #
+# Hari Rana
 https://theevilskeleton.gitlab.io/feed.xml "~(people) > (tech) > Hari Rana > TheEvilSkeleton" blog people tech
+# ------------------------------------ #
+# Henrique Dias
 https://hacdias.com/.atom "~(people) > (tech) > Henrique Dias" blog people tech
+# ------------------------------------ #
+# Jamie Zawinski (jwz)
 https://cdn.jwz.org/blog/feed/ "~(people) > (tech) > Jamie Zawinski (jwz)" blog people tech
+# ------------------------------------ #
+# Jan-Lukas Else
 https://jlelse.blog/.rss "~(people) > (tech) > Jan-Lukas Else" blog people tech
+# ------------------------------------ #
+# JeanHeyd Meneide
 https://thephd.dev/feed.xml "~(people) > (tech) > JeanHeyd Meneide (ThePhD - The Phantom Derpstorm) > The Pasture" blog people tech
+# ------------------------------------ #
+# Joel (Joelchrono12)
 https://joelchrono12.xyz/feed.xml "~(people) > (tech) > Joel (Joelchrono12)" blog people tech
+# ------------------------------------ #
+# JT
 https://www.jntrnr.com/atom.xml "~(people) > (tech) > JT's blog" blog people tech
+# ------------------------------------ #
+# Kellan Elliott-McCrea
 https://laughingmeme.org//feed.xml "~(people) > (tech) > Kellan Elliott-McCrea" blog people tech
+# ------------------------------------ #
+# Kev Quirk (FOSStodon admin)
 https://kevquirk.com/feed.xml "~(people) > (tech) > Kev Quirk (FOSStodon admin)" blog people tech
+# ------------------------------------ #
+# Lennart Poettering
 https://0pointer.net/blog/index.atom "~(people) > (tech) > Lennart Poettering > Pid Eins" blog people tech
+# ------------------------------------ #
+# Mark Damon Hughes
 https://mdhughes.tech/feed/ "~(people) > (tech) > Mark Damon Hughes > Mark writes" blog people tech
+# ------------------------------------ #
+# Martin Fowler
 https://martinfowler.com/feed.atom "~(people) > (tech) > Martin Fowler" blog people tech
+# ------------------------------------ #
+# Matt Rickard
 https://matt-rickard.com/rss/ "~(people) > (tech) > Matt Rickard" blog people tech
+# ------------------------------------ #
+# Mike Stone (FOSStodon admin)
 https://mikestone.me/feed "~(people) > (tech) > Mike Stone (FOSStodon admin)" blog people tech
+# ------------------------------------ #
+# Nick (The Linux Experiment)
 https://thelinuxexp.com/feed.xml "~(people) > (tech) > Nick > The Linux Experiment" blog people tech
+# ------------------------------------ #
+# Nolan Lawson
 https://nolanlawson.com/feed/ "~(people) > (tech) > Nolan Lawson > Read the Tea Leaves" blog people tech
+# ------------------------------------ #
+# Paul Graham
+http://www.aaronsw.com/2002/feeds/pgessays.rss "~(people) > (tech) > Paul Graham > Essays"
+https://mas.to/@paulg.rss "~(people) > (tech) > Paul Graham (mas.to)" ! "platform - mastodon"
+# ------------------------------------ #
+# Rami Ismail
 https://ltpf.ramiismail.com/blog/rss/ "~(people) > (tech) > Rami Ismail > Levelling the Playing Field" blog people tech
+# ------------------------------------ #
+# Rob Braxman
 https://medium.com/feed/@Brax_Me "~(people) > (tech) > Rob Braxman (on Medium)" blog people tech
+# ------------------------------------ #
+# Roberto Zoia
 https://zoia.org/index.xml "~(people) > (tech) > Roberto Zoia" blog people tech
+# ------------------------------------ #
+# Sarah Jamie Lewis
 https://fieldnotes.resistant.tech/index.xml "~(people) > (tech) > Sarah Jamie Lewis > Field Notes" blog people tech
+# ------------------------------------ #
+# Seb
 https://blog.zedas.fr/index.xml "~(people) > (tech) > Seb > Garbage Collector" blog people tech
+# ------------------------------------ #
+# "Standalone-SysAdmin"
 https://standalone-sysadmin.com/feed "~(people) > (tech) > Standalone-SysAdmin (on Medium)" blog people tech
+# ------------------------------------ #
+# Thomas Gideon
 https://thecommandline.net/rss.xml "~(people) > (tech) > Thomas Gideon > The Command Line" blog people tech
+# ------------------------------------ #
+# Thomas O’Rourke
 https://tomjoro.github.io/feed.xml "~(people) > (tech) > Thomas O’Rourke" blog people tech
+# ------------------------------------ #
+# Tim Bray
 https://www.tbray.org/ongoing/ongoing.atom "~(people) > (tech) > Tim Bray > ongoing" blog people tech
+# ------------------------------------ #
+# Tim Jefferson
 https://mrjefferson.com/feed "~(people) > (tech) > Tim Jefferson > Mr Jefferson Blogs" blog people tech
+# ------------------------------------ #
+# Veronica KC
 https://vkc.sh/feed/ "~(people) > (tech) > Veronica KC > Veronica Explains" blog people tech
 # ---------------------------------------------------------------------------- #
 # people - actors
+# # ------------------------------------ #
+# Wil Wheaton
 https://wilwheaton.net/feed/ "~(people) > (actor) > Wil Wheaton" blog people
 # ---------------------------------------------------------------------------- #
 # topical
 https://separatedbyacommonlanguage.blogspot.com/feeds/posts/default "~(topical) > Separated by a Common Language" blog
-# ---------------------------------------------------------------------------- #
-# tech - newsletters
-https://softwarecrisis.dev/feed.xml "~Out of the Software Crisis (Newsletter)" newsletter
 # ---------------------------------------------------------------------------- #
 # tech - detailed
 # ------------------------------------ #
