@@ -94,8 +94,8 @@ https://fosstodon.org/@grueproof.rss "~(people) > Chris Miller > [fosstodon.org]
 https://powazek.com/feed "~(people) > Derek Powazek" blog people
 # ------------------------------------ #
 # Jack Baty
-https://baty.net/feed/ "~(people) > Jack Baty" blog people
-https://social.lol/@jbaty "~(people) > Jack Baty > [social.lol]" "platform - Mastodon"
+https://baty.net/index.xml "~(people) > Jack Baty" blog people
+https://social.lol/@jbaty.rss "~(people) > Jack Baty > [social.lol]" "platform - Mastodon"
 # ------------------------------------ #
 https://idlewords.com/index.xml "~(people) > Maciej Cegłowski > Idle Words" blog people
 # ------------------------------------ #
@@ -258,7 +258,7 @@ https://www.jntrnr.com/atom.xml "~(people) > (tech) > JT's blog" blog people tec
 https://laughingmeme.org//feed.xml "~(people) > (tech) > Kellan Elliott-McCrea" blog people tech
 # ------------------------------------ #
 # Kev Quirk (FOSStodon admin)
-https://kevquirk.com/feed.xml "~(people) > (tech) > Kev Quirk (FOSStodon admin)" blog people tech
+https://kevquirk.com/feed.rss "~(people) > (tech) > Kev Quirk (FOSStodon admin)" blog people tech
 https://fosstodon.org/@kev.rss "~(people) > (tech) > Kev Quirk > [fosstodon.org]" "platform - Mastodon"
 # ------------------------------------ #
 # Lennart Poettering
@@ -294,7 +294,7 @@ https://fosstodon.org/@kytta.rss "~(people) > (tech) > Nikita Karamov > [fosstod
 # ------------------------------------ #
 # Nolan Lawson
 https://nolanlawson.com/feed/ "~(people) > (tech) > Nolan Lawson > Read the Tea Leaves" blog people tech
-https://toot.cafe/@nolan "~(people) > (tech) > Nolan Lawson > [toot.cafe]" "platform - Mastodon"
+https://toot.cafe/@nolan.rss "~(people) > (tech) > Nolan Lawson > [toot.cafe]" "platform - Mastodon"
 # ------------------------------------ #
 # Paul Graham
 http://www.aaronsw.com/2002/feeds/pgessays.rss "~(people) > (tech) > Paul Graham > Essays"
@@ -357,7 +357,7 @@ https://fosstodon.org/@thewk.rss "~(people) > (tech) > Wolfgang Kratky > [fossto
 # people - actors
 # ------------------------------------ #
 # Stephen Fry
-https://mastodonapp.uk/@stephenfry "~(people) > (actor) > Stephen Fry" "platform - Mastodon"
+https://mastodonapp.uk/@stephenfry.rss "~(people) > (actor) > Stephen Fry" "platform - Mastodon"
 # ------------------------------------ #
 # Wil Wheaton
 https://wilwheaton.net/feed/ "~(people) > (actor) > Wil Wheaton" blog people
@@ -385,7 +385,7 @@ https://freedom-to-tinker.com/feed/ "~EFF > (recommended) > Freedom to Tinker" b
 http://theshiftedlibrarian.com/feed "~EFF > (recommended) > The Shifted Librarian (by Jenny)" blog
 http://yro.slashdot.org/yro.rss "~EFF > (recommended) > Slashdot: Your Rights Online" blog
 http://www.bespacific.com/feed "~EFF > (recommended) > beSpacific" blog
-http://hasbrouck.org/blog/index.rdf "~EFF > (recommended) > The Practical Nomad (by Edward Hasbrouck)" blog
+https://hasbrouck.org/blog/index.xml "~EFF > (recommended) > The Practical Nomad (by Edward Hasbrouck)" blog
 # ------------------------------------ #
 # FSF
 https://www.fsf.org/static/fsforg/rss/news.xml "~FSF > News" news org FOSS
