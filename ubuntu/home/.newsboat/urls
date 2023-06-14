@@ -6,9 +6,9 @@
 #     languages - magyar
 #     tasks     - postable
 # hidden tags:
-#     "platform - mastodon"
-#     "media - *" : comic, podcast
-#     "news - *"  : world, Hungary - {vallási, ellenzék, kormány}, Germany, USA
+#     "platform - * : codeberg, mastodon
+#     "media - *"   : comic, podcast
+#     "news - *"    : world, Hungary - {vallási, ellenzék, kormány}, Germany, USA
 # ---------------------------------------------------------------------------- #
 # HSBP
 https://vsza.hu/hacksense/status.rss "~HSBP > Hacksense (VSZA)" status
@@ -18,7 +18,9 @@ https://hsbp.org/tiki-file_galleries_rss.php?ver=2 "~HSBP > File Galleries"
 https://hsbp.org/tiki-calendars_rss.php?ver=2 "~HSBP > Calendar Events"
 # ------------------------------------ #
 # HSBP - people
-https://meow.social/@scout.rss "~Scout Da Woof (Erdosi-Szucs Frigyes, HSBP)" ! "platform - mastodon"
+# ------------------------------------ #
+# Erdosi-Szucs Frigyes
+https://meow.social/@scout.rss "~HSBP > (people) > Scout Da Woof (Frigyes) (meow.social)" ! "platform - mastodon"
 # ---------------------------------------------------------------------------- #
 # go
 https://goszovetseg.hu/?page=news&mode=rss "~Magyar Gószövetség"
@@ -30,6 +32,7 @@ https://btkhok.elte.hu/feed/ "~ELTE > BTK HÖK"
 # ------------------------------------ #
 # Árpád
 https://arpadblog.hu/feed/ "~Árpád > ÁrpádBlog" blog people magyar
+https://mastodon.online/@RPD0911.rss "~Árpád (mastodon.online)" ! "platform - mastodon"
 # ------------------------------------ #
 # Astrelion
 https://mastodon.social/@astrelion.rss "~ASTRELION (mastodon.social)" ! "platform - mastodon"
@@ -38,14 +41,16 @@ https://medium.com/feed/@ASTRELION "~Astrelion > ASTRELION on Medium"
 https://mastodon.social/@dungeons.rss "~Astrelion > Dungeons (mastodon.social)" ! "platform - mastodon"
 # ------------------------------------ #
 # Benjamin Hollon
-https://fosstodon.org/@benjaminhollon.rss "~Benjamin Hollon (fosstodon.org)" ! "platform - mastodon"
 https://benjaminhollon.com/musings/feed/ "~Benjamin Hollon > Musings" blog people
 https://tty1.blog/feed/ "~Benjamin Hollon > tty1" blog people
 https://blurbs.benjaminhollon.com/feed/ "~Benjamin Hollon > Fake Movie Blurbs" blog people
 https://benjaminhollon.com/writing/feeds/poetry/ "~Benjamin Hollon > Poetry" literature people
 https://theprodigalsbrother.com/feed/daily/ "~Benjamin Hollon > The Prodigal's Brother" project literature
 https://seewitheyesclosed.com/feed/ "~Benjamin Hollon > See With Eyes Closed" blog people
+https://codeberg.org/benjaminhollon.rss "~Benjamin Hollon" ! "platform - codeberg"
+https://fosstodon.org/@benjaminhollon.rss "~Benjamin Hollon (fosstodon.org)" ! "platform - mastodon"
 # Freedom to Write
+https://codeberg.org/Freedom-to-Write.rss "~Benjamin Hollon > Freedom to Write" ! "platform - codeberg"
 https://fosstodon.org/@freedomtowrite.rss "~Benjamin Hollon > Freedom to Write (fosstodon.org)" ! "platform - mastodon"
 # ------------------------------------ #
 # Brett Chalupa
@@ -86,6 +91,7 @@ https://powazek.com/feed "~(people) > Derek Powazek" blog people
 # ------------------------------------ #
 # Jack Baty
 https://baty.net/feed/ "~(people) > Jack Baty" blog people
+https://social.lol/@jbaty "~(people) > Jack Baty (social.lol)" ! "platform - mastodon"
 # ------------------------------------ #
 https://idlewords.com/index.xml "~(people) > Maciej Cegłowski > Idle Words" blog people
 # ------------------------------------ #
@@ -109,24 +115,26 @@ https://lucumr.pocoo.org/feed.atom "~(people) > (tech) > Armin Ronacher" blog pe
 # Baldur Bjarnason
 https://www.baldurbjarnason.com/index.xml "~(people) > (tech) > Baldur Bjarnason" blog people tech
 https://softwarecrisis.dev/feed.xml "~(people) > (tech) > Baldur Bjarnason > Out of the Software Crisis (Newsletter)" newsletter
+https://toot.cafe/@baldur.rss "~(people) > (tech) > Baldur Bjarnason (toot.cafe)" ! "platform - mastodon"
 # ------------------------------------ #
 # Bobby Moss (TrechNex)
 https://trechnex.com/feed.xml "~(people) > (tech) > Bobby Moss (TrechNex)" blog people tech
 # ------------------------------------ #
 # Brandon T. Phillips
 https://brandont.dev/atom.xml "~(people) > (tech) > Brandon T. Phillips" blog people
+https://codeberg.org/btp.rss "~(people) > Brandon T. Phillips" ! "platform - codeberg"
 # ------------------------------------ #
 # Chris Morgan
 https://chrismorgan.info/feed.xml "~(people) > (tech) > Chris Morgan" blog people tech
-# ------------------------------------ #
-# Christine Lemmer-Webber
-https://dustycloud.org/blog/index.xml "~(people) > (tech) > Christine Lemmer-Webber > Dustycloud Brainstorms" blog people tech
 # ------------------------------------ #
 # Christoffer Ekeroth (chreke)
 https://chreke.com/feeds/all.atom.xml "~(people) > (tech) > Christoffer Ekeroth (chreke)" blog people tech
 # ------------------------------------ #
 # CJ (LinuxGamer)
 https://linuxgamer.hashnode.dev/rss.xml "~(people) > (tech) > CJ (LinuxGamer)" blog people tech
+https://codeberg.org/LinuxGamer.rss "~(people) > CJ (LinuxGamer)" ! "platform - codeberg"
+https://mstdn.starnix.network/@LinuxGamer.rss "~(people) > (tech) > CJ (LinuxGamer) (mstdn.starnix.network)" ! "platform - mastodon"
+https://linuxrocks.online/@LinuxGamer.rss "~(people) > (tech) > CJ (LinuxGamer) (linuxrocks.online)" ! "platform - mastodon"
 # ------------------------------------ #
 # Coding Horror
 https://blog.codinghorror.com/rss/ "~(people) > (tech) > Coding Horror" blog people tech
@@ -134,6 +142,12 @@ https://blog.codinghorror.com/rss/ "~(people) > (tech) > Coding Horror" blog peo
 # D. Kriesel
 https://www.dkriesel.com/feed.php?linkto=current&content=html&mode=blogtng&blog=blog-de "~(people) > (tech) > D. Kriesel > (Deutsch)"
 https://www.dkriesel.com/feed.php?linkto=current&content=html&mode=blogtng&blog=blog-en "~(people) > (tech) > D. Kriesel > (English)"
+# ------------------------------------ #
+# Daniel Supernault
+https://mastodon.social/@dansup.rss "~(people) > (tech) > Daniel Supernault (mastodon.social)" ! "platform - mastodon"
+# ------------------------------------ #
+# Dave Farley
+https://techhub.social/@davefarley77.rss "~(people) > (tech) > Dave Farley (techhub.social)" ! "platform - mastodon"
 # ------------------------------------ #
 # Dorian Taylor
 https://doriantaylor.com/f07f5044-01bc-472d-9079-9b07771b731c "~(people) > (tech) > Dorian Taylor > Make Things. Make Sense." blog people tech
@@ -158,6 +172,8 @@ https://garrit.xyz/rss.xml "~(people) > (tech) > Garrit Franke > Garrit's Notes"
 # ------------------------------------ #
 # Gunther
 https://gunther.link/index.xml "~(people) > (tech) > Gunther > Guides by Gunther" blog people tech
+https://codeberg.org/gunther.rss "~(people) > Gunther" ! "platform - codeberg"
+https://fosstodon.org/@gunther.rss "~(people) > (tech) > Gunther" ! "platform - mastodon"
 # ------------------------------------ #
 # Hari Rana
 https://theevilskeleton.gitlab.io/feed.xml "~(people) > (tech) > Hari Rana > TheEvilSkeleton" blog people tech
@@ -171,8 +187,9 @@ https://cdn.jwz.org/blog/feed/ "~(people) > (tech) > Jamie Zawinski (jwz)" blog 
 # Jan-Lukas Else
 https://jlelse.blog/.rss "~(people) > (tech) > Jan-Lukas Else" blog people tech
 # ------------------------------------ #
-# JeanHeyd Meneide
-https://thephd.dev/feed.xml "~(people) > (tech) > JeanHeyd Meneide (ThePhD - The Phantom Derpstorm) > The Pasture" blog people tech
+# JeanHeyd Meneide (ThePhD - The Phantom Derpstorm)
+https://thephd.dev/feed.xml "~(people) > (tech) > JeanHeyd Meneide (ThePhD) > The Pasture" blog people tech
+https://pony.social/@thephd.rss "~(people) > (tech) > JeanHeyd Meneide (pony.social)" ! "platform - mastodon"
 # ------------------------------------ #
 # Joel (Joelchrono12)
 https://joelchrono12.xyz/feed.xml "~(people) > (tech) > Joel (Joelchrono12)" blog people tech
@@ -243,6 +260,9 @@ https://mrjefferson.com/feed "~(people) > (tech) > Tim Jefferson > Mr Jefferson 
 # ------------------------------------ #
 # Veronica KC
 https://vkc.sh/feed/ "~(people) > (tech) > Veronica KC > Veronica Explains" blog people tech
+# ------------------------------------ #
+# Ward Cunningham
+https://mastodon.radio/@k9ox.rss "~(people) > (tech) > Ward Cunningham" ! "platform - mastodon"
 # ---------------------------------------------------------------------------- #
 # people - actors
 # # ------------------------------------ #
@@ -286,6 +306,13 @@ https://github.blog/feed/ "~Microsoft > The GitHub Blog" blog org
 # Mozilla
 https://blog.mozilla.org/en/feed/ "~Mozilla > dist://ed (Mozilla Blog)" blog org FOSS
 https://blog.thunderbird.net/feed/ "~Mozilla > Thunderbird Blog" blog org FOSS
+# ------------------------------------ #
+# Spritely Networked Communities Institute
+https://spritely.institute/feed.xml "~Spritely Networked Communities Institute" blog org
+https://octodon.social/@spritelyinst.rss "~(org) > Spritely Institute (octodon.social)" ! "platform - mastodon"
+# Christine Lemmer-Webber (CTO @ Splitely)
+https://dustycloud.org/blog/index.xml "~Spritely Institute > Christine Lemmer-Webber > Dustycloud Brainstorms" blog people tech
+https://octodon.social/@cwebber.rss "~(org) > Spritely Institute > Christine Lemmer-Webber (octodon.social)" ! "platform - mastodon"
 # ---------------------------------------------------------------------------- #
 # software
 # ------------------------------------ #
@@ -353,7 +380,6 @@ https://about.gitlab.com/atom.xml "~(sw) > (vcs) > GitLab" blog org tech FOSS
 # ------------------------------------ #
 # misc
 https://www.gnome.org/feed/ "~(sw) > (misc) > GNOME" blog project FOSS
-https://spritely.institute/feed.xml "~(sw) > (misc) > Spritely Networked Communities Institute" blog org
 https://blog.documentfoundation.org/feed/ "~(sw) > (misc) > The Document Foundation > Blog" blog org FOSS
 https://w3c.social/@w3c.rss "~W3C (w3c.social)" ! "platform - mastodon"
 # ---------------------------------------------------------------------------- #
@@ -430,9 +456,14 @@ https://twittoons.com/feed.xml "~Twittoons" ! "media - comic"
 https://xkcd.com/atom.xml "~xkcd.com" ! "media - comic"
 # ---------------------------------------------------------------------------- #
 # podcasts
+# ------------------------------------ #
 https://api.substack.com/feed/podcast/1180773.rss "~Surveillance Report" ! "media - podcast"
+# ------------------------------------ #
 https://fossandcrafts.org/rss-feed-ogg.rss "~FOSS and Crafts" ! "media - podcast"
+https://octodon.social/@fossandcrafts.rss "~(podcast) FOSS and Crafts (octodon.social)" ! "platform - mastodon"
+# ------------------------------------ #
 https://librelounge.org/atom-feed.atom "~Libre Lounge" ! "media - podcast"
+# ------------------------------------ #
 https://www.gmdiscussions.com/feed/podcast "~Roll For Topic" ! "media - podcast"
 # ---------------------------------------------------------------------------- #
 # news - world
