@@ -264,6 +264,11 @@ https://fosstodon.org/@kev.rss "~(people) > (tech) > Kev Quirk > [fosstodon.org]
 # Lennart Poettering
 https://0pointer.net/blog/index.atom "~(people) > (tech) > Lennart Poettering > Pid Eins" blog people tech
 # ------------------------------------ #
+# Manuel Odendahl (wesen / mnmlmnl / mnl)
+https://dev.to/wesen "~(people) > (tech) > Manuel Odendahl > (on dev.to)" blog people tech
+https://write.as/mnmlmnl/feed/ "~(people) > (tech) > Manuel Odendahl > (on write.as)" blog people tech
+https://hachyderm.io/@mnl.rss "~(people) > (tech) > Manuel Odendahl > [hachyderm.io]" "platform - Mastodon"
+# ------------------------------------ #
 # Mark Damon Hughes
 https://mdhughes.tech/feed/ "~(people) > (tech) > Mark Damon Hughes > Mark writes" blog people tech
 https://appdot.net/@mdhughes.rss "~(people) > (tech) > Mark Damon Hughes > [appdot.net]" "platform - Mastodon"
