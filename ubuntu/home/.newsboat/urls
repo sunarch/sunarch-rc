@@ -455,6 +455,7 @@ https://micronews.debian.org/feeds/atom.xml "~(sw) > (Linux) > Debian > micronew
 http://blog.joinmastodon.org/index.xml "~(sw) > Mastodon > Blog" blog project FOSS
 https://mastodon.social/@Gargron.rss "~(sw) > Mastodon > Eugen Rochko > [mastodon.social]" "platform - Mastodon"
 # FOSStodon
+https://hub.fosstodon.org/feed.xml "~FOSStodon Hub" blog org tech
 https://fosstodon.org/@fosstodon.rss "~fosstodon@fosstodon.org" "platform - Mastodon"
 # mstdn.social
 https://mstdn.social/@Mastodon.rss "~Mastodon@mstdn.social" "platform - Mastodon"
