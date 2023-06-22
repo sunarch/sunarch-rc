@@ -1,0 +1,142 @@
+[legacy]
+theme-variant='dark'
+
+[legacy/profiles:]
+default='6d5dea6d-bba3-4b5f-9821-680835e00ee7'
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', '676e8b8b-c4ef-45e0-9996-3495bf06d95c', '6d5dea6d-bba3-4b5f-9821-680835e00ee7', '63fa95b8-77c4-4c47-b35f-dcd3549ea1dc', '34f955ba-2ac8-4fdb-94e8-04de2c9b63c5', 'ec490c0c-eb1f-4768-b3f7-6b3f77fdc196', '9a3feae8-c649-4cc9-ad75-6ed06a1eae66', '5938f5ec-4f47-4196-8acf-15644b4e663e', '44d74b4d-0241-4a5e-8f71-103e70eb83e2', 'df7aefc4-5018-44ba-a151-47777dbf4fa7']
+
+[legacy/profiles:/:34f955ba-2ac8-4fdb-94e8-04de2c9b63c5]
+background-color='rgb(0,43,54)'
+bold-is-bright=false
+default-size-columns=120
+default-size-rows=35
+foreground-color='rgb(131,148,150)'
+palette=['rgb(7,54,66)', 'rgb(220,50,47)', 'rgb(133,153,0)', 'rgb(181,137,0)', 'rgb(38,139,210)', 'rgb(211,54,130)', 'rgb(42,161,152)', 'rgb(238,232,213)', 'rgb(0,43,54)', 'rgb(203,75,22)', 'rgb(88,110,117)', 'rgb(101,123,131)', 'rgb(131,148,150)', 'rgb(108,113,196)', 'rgb(147,161,161)', 'rgb(253,246,227)']
+scrollbar-policy='never'
+use-custom-command=false
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+visible-name='solarized (no-sb)'
+
+[legacy/profiles:/:44d74b4d-0241-4a5e-8f71-103e70eb83e2]
+background-color='rgb(64,64,64)'
+custom-command='raco terminal-phase'
+default-size-columns=120
+default-size-rows=35
+foreground-color='rgb(0,255,0)'
+palette=['rgb(0,0,0)', 'rgb(205,0,0)', 'rgb(0,205,0)', 'rgb(205,205,0)', 'rgb(0,0,238)', 'rgb(205,0,205)', 'rgb(0,205,205)', 'rgb(229,229,229)', 'rgb(127,127,127)', 'rgb(255,0,0)', 'rgb(0,255,0)', 'rgb(255,255,0)', 'rgb(92,92,255)', 'rgb(255,0,255)', 'rgb(0,255,255)', 'rgb(255,255,255)']
+scrollbar-policy='never'
+use-custom-command=true
+use-system-font=false
+use-theme-colors=false
+visible-name='game: terminal-phase'
+
+[legacy/profiles:/:5938f5ec-4f47-4196-8acf-15644b4e663e]
+background-color='rgb(0,43,54)'
+bold-is-bright=false
+custom-command='newsboat'
+default-size-columns=120
+default-size-rows=35
+foreground-color='rgb(131,148,150)'
+palette=['rgb(7,54,66)', 'rgb(220,50,47)', 'rgb(133,153,0)', 'rgb(181,137,0)', 'rgb(38,139,210)', 'rgb(211,54,130)', 'rgb(42,161,152)', 'rgb(238,232,213)', 'rgb(0,43,54)', 'rgb(203,75,22)', 'rgb(88,110,117)', 'rgb(101,123,131)', 'rgb(131,148,150)', 'rgb(108,113,196)', 'rgb(147,161,161)', 'rgb(253,246,227)']
+use-custom-command=true
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+visible-name='app: Newsboat'
+
+[legacy/profiles:/:63fa95b8-77c4-4c47-b35f-dcd3549ea1dc]
+background-color='rgb(64,64,64)'
+default-size-columns=120
+default-size-rows=35
+foreground-color='rgb(0,255,0)'
+palette=['rgb(0,0,0)', 'rgb(205,0,0)', 'rgb(0,205,0)', 'rgb(205,205,0)', 'rgb(0,0,238)', 'rgb(205,0,205)', 'rgb(0,205,205)', 'rgb(229,229,229)', 'rgb(127,127,127)', 'rgb(255,0,0)', 'rgb(0,255,0)', 'rgb(255,255,0)', 'rgb(92,92,255)', 'rgb(255,0,255)', 'rgb(0,255,255)', 'rgb(255,255,255)']
+scrollbar-policy='never'
+use-custom-command=false
+use-system-font=false
+use-theme-colors=false
+visible-name='green/black (no-sb)'
+
+[legacy/profiles:/:676e8b8b-c4ef-45e0-9996-3495bf06d95c]
+audible-bell=false
+background-color='rgb(0,0,0)'
+custom-command='cmatrix'
+default-size-columns=120
+default-size-rows=35
+foreground-color='rgb(0,240,0)'
+palette=['rgb(0,0,0)', 'rgb(205,0,0)', 'rgb(0,205,0)', 'rgb(205,205,0)', 'rgb(0,0,238)', 'rgb(205,0,205)', 'rgb(0,205,205)', 'rgb(229,229,229)', 'rgb(127,127,127)', 'rgb(255,0,0)', 'rgb(0,255,0)', 'rgb(255,255,0)', 'rgb(92,92,255)', 'rgb(255,0,255)', 'rgb(0,255,255)', 'rgb(255,255,255)']
+scroll-on-keystroke=true
+scrollback-lines=100
+scrollback-unlimited=false
+scrollbar-policy='never'
+use-custom-command=true
+use-system-font=false
+use-theme-colors=false
+visible-name='matrix'
+
+[legacy/profiles:/:6d5dea6d-bba3-4b5f-9821-680835e00ee7]
+background-color='rgb(0,43,54)'
+bold-is-bright=false
+default-size-columns=120
+default-size-rows=35
+foreground-color='rgb(131,148,150)'
+palette=['rgb(7,54,66)', 'rgb(220,50,47)', 'rgb(133,153,0)', 'rgb(181,137,0)', 'rgb(38,139,210)', 'rgb(211,54,130)', 'rgb(42,161,152)', 'rgb(238,232,213)', 'rgb(0,43,54)', 'rgb(203,75,22)', 'rgb(88,110,117)', 'rgb(101,123,131)', 'rgb(131,148,150)', 'rgb(108,113,196)', 'rgb(147,161,161)', 'rgb(253,246,227)']
+use-custom-command=false
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+visible-name='solarized'
+
+[legacy/profiles:/:9a3feae8-c649-4cc9-ad75-6ed06a1eae66]
+background-color='rgb(0,43,54)'
+bold-is-bright=false
+custom-command='fish'
+default-size-columns=120
+default-size-rows=35
+foreground-color='rgb(131,148,150)'
+palette=['rgb(7,54,66)', 'rgb(220,50,47)', 'rgb(133,153,0)', 'rgb(181,137,0)', 'rgb(38,139,210)', 'rgb(211,54,130)', 'rgb(42,161,152)', 'rgb(238,232,213)', 'rgb(0,43,54)', 'rgb(203,75,22)', 'rgb(88,110,117)', 'rgb(101,123,131)', 'rgb(131,148,150)', 'rgb(108,113,196)', 'rgb(147,161,161)', 'rgb(253,246,227)']
+use-custom-command=true
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+visible-name='solarized (shell: Fish)'
+
+[legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(64,64,64)'
+default-size-columns=120
+default-size-rows=35
+foreground-color='rgb(0,255,0)'
+palette=['rgb(0,0,0)', 'rgb(205,0,0)', 'rgb(0,205,0)', 'rgb(205,205,0)', 'rgb(0,0,238)', 'rgb(205,0,205)', 'rgb(0,205,205)', 'rgb(229,229,229)', 'rgb(127,127,127)', 'rgb(255,0,0)', 'rgb(0,255,0)', 'rgb(255,255,0)', 'rgb(92,92,255)', 'rgb(255,0,255)', 'rgb(0,255,255)', 'rgb(255,255,255)']
+use-custom-command=false
+use-system-font=false
+use-theme-colors=false
+visible-name='green/black'
+
+[legacy/profiles:/:df7aefc4-5018-44ba-a151-47777dbf4fa7]
+background-color='rgb(0,43,54)'
+bold-is-bright=false
+custom-command='weechat'
+default-size-columns=120
+default-size-rows=35
+foreground-color='rgb(131,148,150)'
+palette=['rgb(7,54,66)', 'rgb(220,50,47)', 'rgb(133,153,0)', 'rgb(181,137,0)', 'rgb(38,139,210)', 'rgb(211,54,130)', 'rgb(42,161,152)', 'rgb(238,232,213)', 'rgb(0,43,54)', 'rgb(203,75,22)', 'rgb(88,110,117)', 'rgb(101,123,131)', 'rgb(131,148,150)', 'rgb(108,113,196)', 'rgb(147,161,161)', 'rgb(253,246,227)']
+use-custom-command=true
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+visible-name='app: WeeChat'
+
+[legacy/profiles:/:ec490c0c-eb1f-4768-b3f7-6b3f77fdc196]
+background-color='rgb(0,43,54)'
+bold-is-bright=false
+custom-command='zsh'
+default-size-columns=120
+default-size-rows=35
+foreground-color='rgb(131,148,150)'
+palette=['rgb(7,54,66)', 'rgb(220,50,47)', 'rgb(133,153,0)', 'rgb(181,137,0)', 'rgb(38,139,210)', 'rgb(211,54,130)', 'rgb(42,161,152)', 'rgb(238,232,213)', 'rgb(0,43,54)', 'rgb(203,75,22)', 'rgb(88,110,117)', 'rgb(101,123,131)', 'rgb(131,148,150)', 'rgb(108,113,196)', 'rgb(147,161,161)', 'rgb(253,246,227)']
+use-custom-command=true
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+visible-name='solarized (shell: Zsh)'

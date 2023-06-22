@@ -32,7 +32,7 @@ sudo apt-get install hexchat-indicator # Hexchat Indicator Plugin
 # ------------------------------------ #
 # IRC - non-graphical:
 
-sudo apt-get install irssi # terminal based IRC client
+#sudo apt-get install irssi # terminal based IRC client
 
 sudo apt-get install weechat-curses # Fast, light and extensible chat client - console client
 sudo apt-get install weechat-doc # Fast, light and extensible chat client - documentation

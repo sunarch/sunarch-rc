@@ -7,6 +7,7 @@ sudo apt-get update
 
 sudo apt-get install clamtk # graphical front-end for ClamAV
 sudo apt-get install deja-dup # Backup utility
+sudo apt-get install dconf-editor # simple configuration storage system - graphical editor
 sudo apt-get install diodon # GTK+ Clipboard manager
 sudo apt-get install flameshot # Powerful yet simple-to-use screenshot software
 sudo apt-get install gnome-characters # character map application
