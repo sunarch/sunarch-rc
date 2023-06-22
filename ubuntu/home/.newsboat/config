@@ -81,7 +81,7 @@ confirm-exit yes
 # color article             white   black
 
 # max-items 0
-max-items 100
+max-items 999
 
 # show-read-feeds yes
 show-read-feeds yes
