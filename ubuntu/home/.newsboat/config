@@ -6,7 +6,6 @@
 # http-auth-method any
 # keep-articles-days 0
 # mark-as-read-on-hover no
-# pager internal
 # podcast-auto-enqueue no
 # prepopulate-query-feeds no
 prepopulate-query-feeds yes
@@ -140,10 +139,12 @@ error-log "~/.newsboat/error.log"
 # Reload
 
 # auto-reload no
+auto-reload yes
 # reload-only-visible-feeds no
 # reload-threads 1
-# reload-time 60
+# reload-time 60 # in minutes
 # suppress-first-reload no
+suppress-first-reload yes
 
 # ---------------------------------------------------------------------------- #
 # Startup
