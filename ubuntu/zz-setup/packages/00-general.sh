@@ -2,17 +2,20 @@
 
 sudo apt-get update
 
-# ------------------------------------ #
-# general first:
-
-sudo apt-get install gnome # Full GNOME Desktop Environment, with extra components
+# ---------------------------------------------------------------------------- #
+# general:
 
 sudo apt-get install exfat-fuse # read and write exFAT driver for FUSE
 # exfat-utils -- not found
 sudo apt-get install ubuntu-wallpapers-eoan # Ubuntu 19.10 Wallpapers
 
+# ---------------------------------------------------------------------------- #
+# GNOME
+
+sudo apt-get install gnome # Full GNOME Desktop Environment, with extra components
+
 # ------------------------------------ #
-# general remove:
+# GNOME - remove:
 
 sudo apt-get remove gnome # Full GNOME Desktop Environment, with extra components
 sudo apt-get remove gnome-core # GNOME Desktop Environment -- essential components
@@ -41,5 +44,15 @@ sudo apt-get remove evolution # groupware suite with mail client and organizer
 sudo apt-get remove libfolks-eds26 # Evolution-data-server backend for libfolks
 sudo apt-get remove libfolks26 # library to aggregates people into metacontacts
 sudo apt-get remove folks-common # library to aggregates people into metacontacts (common files)
+
+# ---------------------------------------------------------------------------- #
+# i3
+
+sudo apt-get install i3 # metapackage (i3 window manager, screen locker, menu, statusbar)
+
+# ---------------------------------------------------------------------------- #
+# Sway
+
+sudo apt-get install sway # i3-compatible Wayland compositor
 
 # ---------------------------------------------------------------------------- #
