@@ -32,6 +32,14 @@ filter join/part/quit messages with smart filter (keep join/part/quit from users
 /set irc.look.buffer_switch_join off
 ```
 
+## scripts
+
+```
+/set script.scripts.download_enabled on
+/script install autosort.py
+/set script.scripts.download_enabled off
+```
+
 ## IRC
 
 ```
