@@ -141,7 +141,7 @@ filter join/part/quit messages with smart filter (keep join/part/quit from users
 ```
 
 ```
-/set irc.server.ircnet.autojoin "#help,#hsbp,#hspbp,#irc,#ircnet,#linux"
+/set irc.server.ircnet.autojoin "#help,#hsbp,#hspbp,#irc,#ircnet,#ircnet.com,#linux"
 ```
 
 ### IRCNet - cloaked
@@ -149,8 +149,8 @@ filter join/part/quit messages with smart filter (keep join/part/quit from users
 - [IRCNet Cloaks](https://www.cloak.ircnet.io/login)
 
 ```
-/server add ircnet_cloak ssl.cloak.ircnet.io/6697 -ssl
-#/set irc.server.ircnet_cloak.addresses "ssl.cloak.ircnet.io/6697"
+/server add ircnet_cloak ssl.cloak.ircnet.io/6679 -ssl
+#/set irc.server.ircnet_cloak.addresses "ssl.cloak.ircnet.io/6679"
 #/set irc.server.ircnet_cloak.ssl on
 ```
 
@@ -158,6 +158,12 @@ filter join/part/quit messages with smart filter (keep join/part/quit from users
 /set irc.server.ircnet_cloak.nicks "sunarch,sunarch_,sunarch__,sunarch_p,sunarchx"
 /set irc.server.ircnet_cloak.username "sunarch"
 /set irc.server.ircnet_cloak.realname "sunarch"
+```
+
+```
+/secure set ircnet_cloak_password <password>
+
+/set irc.server.ircnet_cloak.password "sunarch-${sec.data.ircnet_cloak_password}"
 ```
 
 - `/set irc.server.ircnet_cloak.autojoin` ***see above***
