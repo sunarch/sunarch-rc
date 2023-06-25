@@ -161,9 +161,10 @@ filter join/part/quit messages with smart filter (keep join/part/quit from users
 ```
 
 ```
-/secure set ircnet_cloak_password <password>
+#/secure set ircnet_cloak_password <password>
+#/set irc.server.ircnet_cloak.password "sunarch-${sec.data.ircnet_cloak_password}"
 
-/set irc.server.ircnet_cloak.password "sunarch-${sec.data.ircnet_cloak_password}"
+/set irc.server.ircnet_cloak.password "sunarch-<password>"
 ```
 
 - `/set irc.server.ircnet_cloak.autojoin` ***see above***
