@@ -29,7 +29,7 @@ filter join/part/quit messages with smart filter (keep join/part/quit from users
 
 ```
 /set irc.look.buffer_switch_autojoin off
-/set irc.look.buffer_switch_join off
+#/set irc.look.buffer_switch_join on # default
 ```
 
 ## scripts
