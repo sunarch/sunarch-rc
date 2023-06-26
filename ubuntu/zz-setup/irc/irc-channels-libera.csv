@@ -1,0 +1,205 @@
+#adventofcode,        True,  Advent of Code - unofficial - adventofcode.com
+#ai,                  True,  Artificial Intelligence
+#algorithms,          True,  algorithms
+#appimage,            False, AppImage - appimage.org
+#archlinux,           True,  Arch Linux distribution
+#archlinux-offtopic,  False, Arch Linux distribution (off-topic)
+##astronomy,          False, astronomy
+##audio,              True,  audio
+#awk,                 False, Awk programming language
+#bash,                True,  [B]ourne [A]gain [Sh]ell
+#blender,             True,  Blender
+#c,                   True,  C programming language
+#C++,                 False, C++ programming language
+#calibre,             False, calibre E-book management - calibre-ebook.com - unofficial
+##castellano,         True,  castellano
+#ccc,                 True,  Chaos Computer Club - ccc.de
+##chat,               True,  Chat
+#chromium,            True,  Chromium
+#clojure,             True,  Clojure programming language
+#cmake,               False, CMake - cmake.org
+#codeberg,            True,  Codeberg
+#coffee,              True,  coffee
+#commonlisp,          True,  Common Lisp programming language
+#compilers,           False, compilers
+##cooking,            False, cooking
+#crypto,              True,  Cryptography theory and practice, not cryptocurrency
+#css,                 True,  CSS stylesheet language
+#curl,                False, cURL
+#cybersecurity,       True,  cybersecurity
+#darktable,           False, Darktable -> see OFTC for main
+#debian,              True,  Debian distribution
+#django,              True,  Django framework
+#dns,                 False, DNS related problem help - dns-channel.github.io
+#docker,              True,  Docker
+##electronics,        True,  electronics
+#elixir,              True,  Elixir programming language
+#emacs,               True,  emacs
+##email,              False, email - general disc. and support
+##English,            False, English
+#erlang,              True,  Erlang programming language
+#esolangs,            True,  EsoLangs
+#factorio,            False, Factorio game - unofficial - factorio.com
+#fedora,              True,  Fedora distribution
+#ffmpeg,              False, FFmpeg user support channel
+#firefox,             True,  Firefox browser - unofficial -> see Matrix chat.mozilla.org
+#firm,                True,  https://pp.ipd.kit.edu/firm/ - Optim. and Machine Code Gen.
+#flatpak,             False, Flatpak - semi-official support -> official on Matrix
+##forth,              False, Forth programming language
+#fossandcrafts,       True,  Foss & Crafts podcast - fossandcrafts.org
+#freebsd,             False, FreeBSD
+#fsf,                 True,  FSF organization
+#fsociety,            False, fsociety
+#gamedev,             True,  game development
+#gamingonlinux,       True,  gaming on Linux
+#gcc,                 True,  GNU C Compiler
+#gdb,                 True,  GNU Debugger
+#gimp,                False, GIMP - unofficial -> official on Matrix
+#git,                 True,  Git version control system
+#gitea,               False, Gitea
+##github,             True,  GitHub
+#gitlab,              True,  GitLab
+#gnome,               True,  GNOME
+#gnu,                 True,  GNU Not Unix
+#go,                  True,  Go game
+#go-nuts,             False, Go programming language - golang.org
+#gopher,              True,  Gopher protocol
+#gridrun,             True,  GridRun esolang
+#grub,                True,  GNU GRand Unified Bootloader
+#gtk,                 False, GTK
+#guile,               True,  Guile (Scheme dialect) programming language
+##guitar,             False, guitar
+#hamradio,            True,  HAM Radio
+#hardware,            True,  hardware
+#haskell,             True,  Haskell programming language
+#haskell-beginners,   True,  Haskell programming language (beginners)
+#haskell-offtopic,    True,  Haskell programming language (off-topic)
+#i3,                  False, i3 WM - unofficial -> see OFTC
+#idleRPG,             False, IdleRPG game
+#idlerpg-discuss,     False, IdleRPG game (discussion)
+#inkscape,            False, Inkscape
+#irccloud,            False, IRCCloud - main: ircs://irc.irccloud.com:6697/#feedback
+#irssi,               False, irssi - IRC client
+#jack,                False, The JACK Audio Connection Kit - jackaudio.org
+#java,                False, Java programming language
+#javascript,          True,  JavaScript programming language
+#jenkins,             False, Jenkins - automation server - jenkins.io
+#julia,               False, Julia programming language
+#kali,                False, Kali distribution - kali.org
+#kde,                 False, KDE
+#kdenlive,            False, Kdenlive - kdenlive.org
+#keepassxc,           False, KeePassXC - cross-platform password manager - keepassxc.org
+#kernel,              True,  Linux kernel discussion
+#krita,               False, Krita - devs and users
+#latex,               True,  LaTeX document system
+##law,                False, law
+#libera,              True,  Libera.Chat IRC network
+#libera-overflow,     True,  Libera.Chat IRC network (overflow)
+#libreoffice,         True,  LibreOffice
+#linux,               True,  Linux
+#linux-offtopic,      True,  Linux (off-topic)
+#linux-philosophical, True,  Linux (philosophical)
+#lisp,                True,  Lisp programming language
+#lispcafe,            True,  The Lisp Café
+#lispgames,           True,  Lisp (games)
+#logic,               False, Symbolic and Mathematical Logic
+#lutris,              False, Lutris - official - bridged to Discord
+#manjaro,             False, Manjaro distribution
+#maria,               False, MariaDB database
+#mastodon,            True,  Mastodon project - https://joinmastodon.org
+##math,               False, math
+#matrix,              True,  Matrix.org
+#mediawiki,           False, MediaWiki
+#minecraft,           True,  Minecraft game
+#minetest,            False, Minetest game
+##moshpit,            True,  moshpit
+#music,               True,  music
+##music,              True,  music
+#mysql,               True,  MySql database
+#neovim,              True,  NeoVIM editor
+#netbsd,              False, NetBSD
+#newsboat,            True,  Newsboat - RSS reader - newsboat.org
+#nextcloud,           True,  NextCloud
+#nixos,               False, NixOS distribution
+#ocaml,               False, OCaml programming language
+#openbsd,             False, OpenBSD
+#openssh,             False, OpenSSH
+#openssl,             False, OpenSSL
+#openvpn,             False, OpenVPN
+#openwrt,             False, OpenWRT
+#opsec,               False, Physical & Operational Security Discussion
+#org-mode,            False, Org-mode for GNU Emacs: https://orgmode.org
+#networking,          True,  networking
+#pallets,             False, Flask, Jinja, Click, etc. - palletsprojects.com
+#perl,                False, Perl programming language
+#philosophy,          True,  philosophy
+##philosophy,         True,  philosophy
+#pipewire,            False, PipeWire - unofficial -> see OFTC
+#postgresql,          True,  PostgreSQL database
+#powershell,          False, PowerShell
+#proglangdesign,      True,  prog. lang. design
+##programming,        True,  programming
+##prolog,             True,  Prolog programming language
+#php,                 False, PHP programming language
+##physics,            False, physics
+##posix,              False, POSIX
+#pulseaudio,          Faése, PulseAudio -> see OFTC only
+#pypy,                False, PyPy - pypy.org
+#python,              True,  Python programming language
+##python-offtopic,    True,  Python programming language (off-topic)
+#python-unregistered, True,  Python programming language (unregistered)
+#qubes,               True,  Qubes OS - qubes-os.org
+#R,                   False, R programming language
+#racket,              True,  Racket (Scheme dialect) programming language
+#ranger,              True,  Ranger file manager - official - ranger.github.io
+#raspberrypi,         True,  Raspberry Pi
+#raspberry-pi,        False, not the real version - see #raspberrypi
+#raspbian,            False, Raspbian distribution
+#regex,               True,  RegEx - Regular Expressions
+#rpg,                 True,  Tabletop RPGs
+#ruby,                False, Ruby programming language
+##rust,               True,  Rust programming language (unofficial)
+##rust-offtopic,      True,  Rust programming language (off-topic)
+#scheme,              True,  Scheme programming language
+##science,            False, science
+#screen,              False, GNU Screen - terminal multiplexer
+#sdl,                 False, SDL
+#security,            True,  Computer, Network & Physical Security
+##space,              False, Space - the Final Frontier
+#spritely,            True,  Spritely Institute
+#sql,                 True,  SQL query language
+#sqlalchemy,          False, SQLAlchemy - sqlalchemy.org
+##sqlite,             True,  SQLite database
+#startups,            False, startups - startupschool.org
+#supertux,            False, SuperTux game
+#supertuxkart,        False, SuperTuxKart game - official
+#sway,                True,  Sway WM
+#systemd,             False, SystemD
+#tcl,                 False, Tcl and Tk
+#tmux,                False, tmux - terminal multiplexer
+#typescript,          False, TypeScript programming language
+#ubuntu,              True,  Ubuntu distribution
+#ubuntu-desktop,      True,  Ubuntu distribution (desktop)
+#ubuntu-offtopic,     True,  Ubuntu distribution (off-topic)
+#ubuntu-security,     False, Ubuntu distribution (security)
+#vbox,                False, VirtualBox - unofficial -> see OFTC
+##videogames,         False, video games
+#videolan,            True,  VideoLAN - multimedia open source - VLC
+#vim,                 True,  VIM - Vi IMproved - editor
+#vscode,              False, Visual Studio Code editor
+#wayland,             False, Wayland protocol -> moved to OFTC
+#web,                 True,  web
+#websec,              True,  web security
+#weechat,             True,  WeeChat - IRC client
+#werewolf,            False, Werewolf game channel - werewolf.chat
+#wget,                False, GNU Wget
+#wikimedia,           True,  WikiMedia
+#wikimedia-overflow,  True,  WikiMedia (overflow)
+#wikipedia,           True,  WikiPedia
+#windows,             False, Windows
+#winehq,              False, Wine end user support https://www.winehq.org
+#wireguard,           False, WireGuard - Secure Network Tunnel
+#wireshark,           False, Wireshark
+#xfce,                False, Xfce desltop environment
+#zig,                 False, Zig programming language
+#zsh,                 True,  Z shell

@@ -1,0 +1,19 @@
+#art,        True,  art
+#bsd,        False, BSD
+#ccc,        True,  Chaos Computer Club - ccc.de
+#debian,     True,  Debian distribution
+#english,    False, English
+#europe,     False, Europe
+#facebook,   False, Facebook
+#help,       True,  Help
+#hsbp,       True,  not the real version - see #hspbp
+#hspbp,      True,  Hackerspace Budapest
+#irc,        True,  IRC
+#ircnet,     True,  IRCNet - IRC Network
+#ircnet.com, True,  IRCNet.com - info and cloaking for IRCNet
+#linux,      True,  Linux
+#lobby,      True,  lobby
+#magyar,     True,  magyar
+#szekszard,  False, Szekszárd
+#ubuntu,     True,  Ubuntu distribution
+#worldchat,  False, world chat

@@ -84,12 +84,10 @@ filter join/part/quit messages with smart filter (keep join/part/quit from users
 #/set irc.server.libera.command "/msg NickServ IDENTIFY sunarch ${sec.data.libera_password}"
 ```
 
+- autojoin: see separate file
 ```
-/set irc.server.libera.autojoin "#archlinux,#blender,#c,##chat,#chromium,#clojure,#commonlisp,#css,#django,#docker,#esolangs,#firm,#fossandcrafts,#fsf,#gamedev,#gamingonlinux,#gcc,#git,##github,#gnome,#gnu,#gridrun,#grub,#hardware,#haskell,#haskell-beginners,#haskell-offtopic,#javascript,#latex,#libera,#libera-overflow,#libreoffice,#linux,#linux-offtopic,#linux-philosophical,#lisp,#lispcafe,#minecraft,##moshpit,#music,##music,#mysql,#networking,#philosophy,##philosophy,#proglangdesign,##programming,#python,#python-unregistered,#racket,#raspberrypi,##rust,#ubuntu-desktop,#ubuntu-offtopic,#web,#wikimedia-overflow,#wikipedia"
+/set irc.server.libera.autojoin "#X,#Y,#Z"
 ```
-
-- prev. autojoin channels:
-    - `#manjaro,#php`
 
 - not real versions:
     - `#raspberry-pi`
@@ -116,8 +114,9 @@ filter join/part/quit messages with smart filter (keep join/part/quit from users
 /set irc.server.oftc.command "/msg NickServ IDENTIFY ${sec.data.oftc_password} sunarch"
 ```
 
+- autojoin: see separate file
 ```
-/set irc.server.oftc.autojoin "#bash,#C,#freedesktop,#gridrun,#help,#linux,#lisp,#oftc,#osm,#rust,#tor,#tor-project"
+#/set irc.server.oftc.autojoin "#X,#Y,#Z"
 ```
 
 - prev. autojoin channels:
@@ -140,8 +139,9 @@ filter join/part/quit messages with smart filter (keep join/part/quit from users
 /set irc.server.ircnet.realname "sunarch"
 ```
 
+- autojoin: see separate file
 ```
-/set irc.server.ircnet.autojoin "#help,#hsbp,#hspbp,#irc,#ircnet,#ircnet.com,#linux"
+/set irc.server.ircnet.autojoin "#X,#Y,#Z"
 ```
 
 ### IRCNet - cloaked

@@ -1,0 +1,29 @@
+#bash,            True,  [B]ourne [A]gain [Sh]ell
+#C,               True,  C programming language
+#darktable,       False, Darktable
+#debian-live,     False, Debian distribution (live)
+#debian-offtopic, True,  Debian distribution (off-topic)
+#fdroid,          False, F-Droid - the FOSS app repository
+#freedesktop,     True,  FreeDesktop
+#gccrust,         True,  GCC Rust Frontend
+#gridrun,         True,  GridRun esolang
+#help,            True,  Help
+#i3,              True,  i3 WM
+#linux,           True,  Linux
+#lisp,            True,  Lisp programming language
+#llvm,            False, LLVM
+#msys2,           False, MSYS2: UNIX-like shell for Windows
+#oftc,            True,  OFTC - IRC network
+#OpenBSD,         False, OpenBSD
+#osm,             True,  OpenStreetMap
+#perl,            False, Perl programming language
+#pipewire,        True,  PipeWire multimedia daemon
+#pitivi,          False, Pitivi
+#pulseaudio,      False, PulseAudio
+#Qubes_OS,        True,  Qubes OS
+#rust,            True,  Rust programming language
+#tor,             True,  Tor
+#tor-project,     True,  Tor Project
+#ubuntu,          False, Ubuntu distribution - unofficial - see Libera.Chat
+#wayland,         True,  Wayland protocol - FreeDesktop
+#xorg,            True,  X.org
