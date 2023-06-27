@@ -5,6 +5,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+from distutils.util import strtobool
 
 NETWORKS: list[tuple[str, str]] = [
     ('libera', 'libera'),
@@ -22,8 +23,10 @@ def create_autojoin_command(server_name: str, filename_slug: str) -> None:
     
     data = map(lambda x: x.split(','), data)
     data = map(lambda x: list(map(lambda y: y.strip(), x)), data)
-    data = filter(lambda x: bool(x[1]) is True, data)
-    channel_list = ','.join(list(map(lambda x: x[0], data)))
+    data = map(lambda x: [x[0], bool(strtobool(x[1])), x[2]], data)
+    data_filtered = filter(lambda x: x[1] == True, data)
+    channel_list = map(lambda x: x[0], data_filtered)
+    channel_list = ','.join(channel_list)
 
     return f'/set irc.server.{server_name}.autojoin "{channel_list}"'
 
