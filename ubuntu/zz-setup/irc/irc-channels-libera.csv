@@ -143,7 +143,7 @@
 #php,                 False, PHP programming language
 ##physics,            False, physics
 ##posix,              False, POSIX
-#pulseaudio,          Faése, PulseAudio -> see OFTC only
+#pulseaudio,          False, PulseAudio -> see OFTC only
 #pypy,                False, PyPy - pypy.org
 #python,              True,  Python programming language
 ##python-offtopic,    True,  Python programming language (off-topic)
