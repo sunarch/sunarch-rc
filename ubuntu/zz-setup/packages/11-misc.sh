@@ -12,6 +12,7 @@ sudo apt-get install gramps # Genealogical research program
 # misc - non-graphical:
 
 sudo apt-get install libdigest-sha3-perl # Perl extension for SHA-3
+sudo apt-get install mingw-w64 # Development environment targeting 32- and 64-bit Windows
 
 # ---------------------------------------------------------------------------- #
 # finance:
