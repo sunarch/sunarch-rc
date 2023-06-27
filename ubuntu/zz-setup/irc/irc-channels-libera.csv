@@ -4,6 +4,7 @@
 #appimage,            False, AppImage - appimage.org
 #archlinux,           True,  Arch Linux distribution
 #archlinux-offtopic,  False, Arch Linux distribution (off-topic)
+#artnet,              True,  Art-Net - art-net.org.uk
 ##astronomy,          False, astronomy
 ##audio,              True,  audio
 #awk,                 False, Awk programming language
