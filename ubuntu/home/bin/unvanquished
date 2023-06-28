@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-# Unvanquished
-
-flatpak run net.unvanquished.Unvanquished

@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-# Warp
-
-flatpak run app.drey.Warp

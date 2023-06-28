@@ -5,6 +5,10 @@
 
 alias commit-count='git log --oneline | wc -l'
 
+alias i3k="feh $HOME/Pictures/i3/i3-keyboard.png"
+
+alias what-is-my-ip='curl ifconfig.me'
+
 # ---------------------------------------------------------------------------- #
 # ls aliases
 

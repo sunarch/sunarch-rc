@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-# LibreSprite
-
-flatpak run com.github.libresprite.LibreSprite

@@ -107,10 +107,3 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # ---------------------------------------------------------------------------- #
-# include: alias definitions
-
-if [ -f ~/.shell-aliases ]; then
-    . ~/.shell-aliases
-fi
-
-# ---------------------------------------------------------------------------- #
