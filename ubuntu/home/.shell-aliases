@@ -1,11 +1,16 @@
 # ---------------------------------------------------------------------------- #
-# ~/.bash_logout : executed by bash(1) when login shell exits.
+# includes for shell: aliases
 
 # ---------------------------------------------------------------------------- #
-# when leaving the console clear the screen to increase privacy
 
-if [ "$SHLVL" = 1 ]; then
-    [ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
-fi
+alias commit-count='git log --oneline | wc -l'
+
+# ---------------------------------------------------------------------------- #
+# ls aliases
+
+alias l='ls -bF -C'
+alias la='ls -AbF -C'
+
+alias ll='ls -abF -lh'
 
 # ---------------------------------------------------------------------------- #

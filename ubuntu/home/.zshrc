@@ -1,10 +1,13 @@
+# ---------------------------------------------------------------------------- #
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$HOME/bin/nodejs:$PATH
 export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
+# ---------------------------------------------------------------------------- #
 # Path to your oh-my-zsh installation.
-  export ZSH="/home/anemeth/.oh-my-zsh"
+export ZSH="/home/anemeth/.oh-my-zsh"
 
+# ---------------------------------------------------------------------------- #
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -17,6 +20,7 @@ ZSH_THEME="robbyrussell"
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
+# ---------------------------------------------------------------------------- #
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -47,6 +51,7 @@ ZSH_THEME="robbyrussell"
 # much, much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
+# ---------------------------------------------------------------------------- #
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
 # You can set one of the optional three formats:
@@ -54,10 +59,13 @@ ZSH_THEME="robbyrussell"
 # or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
 # HIST_STAMPS="mm/dd/yyyy"
+HIST_STAMPS="yyyy-mm-dd"
 
+# ---------------------------------------------------------------------------- #
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+# ---------------------------------------------------------------------------- #
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -65,8 +73,11 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
+# ---------------------------------------------------------------------------- #
+
 source $ZSH/oh-my-zsh.sh
 
+# ---------------------------------------------------------------------------- #
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -81,9 +92,11 @@ source $ZSH/oh-my-zsh.sh
 #   export EDITOR='mvim'
 # fi
 
+# ---------------------------------------------------------------------------- #
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+# ---------------------------------------------------------------------------- #
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -93,9 +106,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias commit-count="git log --oneline | wc -l"
+# ---------------------------------------------------------------------------- #
+# include: alias definitions
 
-# PyEnv (https://github.com/pyenv/pyenv)
-eval "$(pyenv init -)"
+if [ -f ~/.shell-aliases ]; then
+    . ~/.shell-aliases
+fi
 
-export PATH="$HOME/.poetry/bin:$PATH"
+# ---------------------------------------------------------------------------- #

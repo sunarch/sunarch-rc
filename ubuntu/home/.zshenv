@@ -1,11 +1,11 @@
 # ---------------------------------------------------------------------------- #
-# ~/.bash_logout : executed by bash(1) when login shell exits.
+# ~/.zshenv : always sourced
 
 # ---------------------------------------------------------------------------- #
-# when leaving the console clear the screen to increase privacy
+# include: program-related
 
-if [ "$SHLVL" = 1 ]; then
-    [ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
+if [ -f ~/.shell-programs ]; then
+    . ~/.shell-programs
 fi
 
 # ---------------------------------------------------------------------------- #
