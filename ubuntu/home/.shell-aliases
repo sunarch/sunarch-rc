@@ -13,4 +13,20 @@ alias la='ls -AbF -C'
 
 alias ll='ls -abF -lh'
 
+# inode indexes
+alias lsi='ls -AbF -C -i'
+alias lli='ls -AbF -lh -i'
+
+# sorted by size and allocated size
+alias lss='ls -AbF -C -s -S'
+alias lls='ls -AbF -lh -s -S'
+
+# sorted by time
+alias lst='ls -AbF -C -t'
+alias llt='ls -AbF -lh -t'
+
+# sorted by extension
+alias lsx='ls -AbF -C -X'
+alias llx='ls -AbF -lh -X'
+
 # ---------------------------------------------------------------------------- #
