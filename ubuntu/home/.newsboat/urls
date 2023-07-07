@@ -196,6 +196,9 @@ https://mstdn.social/@donmelton.rss "~(people) > (tech) > Don Melton > [mstdn.so
 # Dorian Taylor
 https://doriantaylor.com/f07f5044-01bc-472d-9079-9b07771b731c "~(people) > (tech) > Dorian Taylor > Make Things. Make Sense." blog people tech
 # ------------------------------------ #
+# Drew DeVault (Sway WM, some time at Linode)
+https://drewdevault.com/blog/index.xml "~(people) > (tech) > Drew DeVault" blog people tech
+# ------------------------------------ #
 # Dylan Moonfire
 https://d.moonfire.us/blog/atom.xml "~(people) > (tech) > Dylan Moonfire" blog people tech
 https://octodon.social/@dmoonfire.rss "~(people) > (tech) > Dylan Moonfire > [octodon.social]" "platform - Mastodon"
@@ -250,6 +253,9 @@ https://pony.social/@thephd.rss "~(people) > (tech) > JeanHeyd Meneide (ThePhD) 
 https://joelchrono12.xyz/feed.xml "~(people) > (tech) > Joel (Joelchrono12)" blog people tech
 https://fosstodon.org/@joel.rss "~(people) > (tech) > Joel (Joelchrono12) > [fosstodon.org]" "platform - Mastodon"
 # ------------------------------------ #
+# Joel Spolsky (former Stack Overflow CEO, Trello, Glitch)
+https://www.joelonsoftware.com/feed/ "~(people) > (tech) > Joel Spolsky > Joel on Software" blog people tech
+# ------------------------------------ #
 # JT
 https://www.jntrnr.com/atom.xml "~(people) > (tech) > JT's blog" blog people tech
 # ------------------------------------ #
@@ -264,7 +270,7 @@ https://fosstodon.org/@kev.rss "~(people) > (tech) > Kev Quirk > [fosstodon.org]
 https://0pointer.net/blog/index.atom "~(people) > (tech) > Lennart Poettering > Pid Eins" blog people tech
 # ------------------------------------ #
 # Manuel Odendahl (wesen / mnmlmnl / mnl)
-https://dev.to/wesen "~(people) > (tech) > Manuel Odendahl > (on dev.to)" blog people tech
+https://dev.to/feed/wesen "~(people) > (tech) > Manuel Odendahl > (on dev.to)" blog people tech
 https://write.as/mnmlmnl/feed/ "~(people) > (tech) > Manuel Odendahl > (on write.as)" blog people tech
 https://hachyderm.io/@mnl.rss "~(people) > (tech) > Manuel Odendahl > [hachyderm.io]" "platform - Mastodon"
 # ------------------------------------ #
@@ -546,6 +552,7 @@ https://news.ycombinator.com/rss "~(news) > (tech forum) > Hacker News" news tec
 https://rss.slashdot.org/Slashdot/slashdotMain "~(news) > (tech forum) > Slashdot" news tech
 # ---------------------------------------------------------------------------- #
 # news - tech
+https://www.bitecode.dev/feed "~(news) > (tech) > Bite code! by Nobody has time  for Python" news tech
 https://gizmodo.com/rss "~(news) > (tech) > Gizmodo" news tech
 https://techcrunch.com/feed/ "~(news) > (tech) > TechCrunch" news tech
 https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml "~(news) > (tech) > NYT > Technology" news tech
