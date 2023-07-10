@@ -1,8 +1,8 @@
 # Git config
 
-#git config --global user.email "EMAIL"```
+#git config --global user.email "EMAIL"
 
-#git config --global user.name “FULL_NAME”
+#git config --global user.name "FULL_NAME"
 
 #git config --global user.signingkey KEY_ID
 
@@ -11,3 +11,11 @@ git config --global commit.gpgsign true
 git config --global init.defaultBranch main
 
 git config --global pull.rebase true
+
+# send-email
+git config --global sendemail.smtpPass 'PASSWORD'
+git config --global sendemail.smtpserver smtp.gmail.com
+git config --global sendemail.smtpuser EMAIL
+git config --global sendemail.smtpencryption tls
+git config --global sendemail.smtpserverport 587
+git config --global sendemail.annotate yes
