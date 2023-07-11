@@ -171,6 +171,7 @@
 #sql,                 True,  SQL query language
 #sqlalchemy,          False, SQLAlchemy - sqlalchemy.org
 ##sqlite,             True,  SQLite database
+#sr.ht,               True,  SourceHut
 #startups,            False, startups - startupschool.org
 #supertux,            False, SuperTux game
 #supertuxkart,        False, SuperTuxKart game - official
