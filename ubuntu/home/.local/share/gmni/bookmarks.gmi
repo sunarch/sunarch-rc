@@ -10,6 +10,7 @@ This file can be found at ~/.local/share/gmni/bookmarks.gmi (may be edited)
 Bookmarks:
 
 => gemini://gemini.circumlunar.space/servers/ Circumlunar Space - Servers
+=> gemini://gemini.circumlunar.space/capcom/ Circumlunar Space - CAPCOM
 => gemini://geminispace.info GeminiSpace.info
 => gemini://bbs.geminispace.org GeminiSpace.org BBS
 => gemini://groundctrl.earth GroundCtrl.earth
