@@ -1,0 +1,15 @@
+# Welcome to gmni
+
+Links:
+
+=> https://sr.ht/~sircmpwn/gmni The gmni browser
+=> gemini://gemini.circumlunar.space The gemini protocol
+
+This file can be found at ~/.local/share/gmni/bookmarks.gmi (may be edited)
+
+Bookmarks:
+
+=> gemini://gemini.circumlunar.space/servers/ Circumlunar Space - Servers
+=> gemini://geminispace.info GeminiSpace.info
+=> gemini://bbs.geminispace.org GeminiSpace.org BBS
+=> gemini://groundctrl.earth GroundCtrl.earth
