@@ -32,3 +32,9 @@ git config --global sendemail.smtpencryption tls
 #git config --global sendemail.smtpPass 'PASSWORD'
 git config --global sendemail.annotate yes
 git config --global sendemail.confirm always
+
+# ==============================================================================
+# local in each repo:
+
+# git config sendemail.to "name@list.tld"
+# git config format.subjectPrefix "PATCH project"
