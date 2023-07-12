@@ -226,7 +226,7 @@ https://mastodon.gamedev.place/@grumpygamer.rss "~(people) > (tech) > Grumpy Gam
 # Gunther
 https://gunther.link/index.xml "~(people) > (tech) > Gunther > Guides by Gunther" blog people tech
 https://fosstodon.org/@gunther.rss "~(people) > (tech) > Gunther > [fosstodon.org]" "platform - Mastodon"
-https://codeberg.org/gunther.rss "~(people) > Gunther > [Codeberg]" "platform - Codeberg"
+https://codeberg.org/gunther.rss "~(people) > (tech) > Gunther > [Codeberg]" "platform - Codeberg"
 # ------------------------------------ #
 # Hari Rana
 https://theevilskeleton.gitlab.io/feed.xml "~(people) > (tech) > Hari Rana > TheEvilSkeleton" blog people tech
@@ -483,6 +483,7 @@ https://blog.keyoxide.org/atom.xml "~(sw) > (sec) > Keyoxide > blog" blog projec
 https://nakedsecurity.sophos.com/feed "~(sw) > (sec) > Naked Security by Sophos" blog project
 # ------------------------------------ #
 # source control
+https://sourcehut.org/blog/index.xml "~(sw) > (vcs) > SourceHut > Blog" blog org tech FOSS
 https://blog.codeberg.org/feeds/all.atom.xml "~(sw) > (vcs) > Codeberg > News" blog org tech FOSS
 https://forgejo.org/rss.xml "~(sw) > (vcs) > Forgejo > News" blog org tech FOSS
 https://blog.gitea.io/index.xml "~(sw) > (vcs) > Gitea > blog" blog org tech FOSS
