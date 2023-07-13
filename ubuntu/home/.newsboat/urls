@@ -196,9 +196,6 @@ https://mstdn.social/@donmelton.rss "~(people) > (tech) > Don Melton > [mstdn.so
 # Dorian Taylor
 https://doriantaylor.com/f07f5044-01bc-472d-9079-9b07771b731c "~(people) > (tech) > Dorian Taylor > Make Things. Make Sense." blog people tech
 # ------------------------------------ #
-# Drew DeVault (Sway WM, SourceHut, some time at Linode)
-https://drewdevault.com/blog/index.xml "~(people) > (tech) > Drew DeVault" blog people tech
-# ------------------------------------ #
 # Dylan Moonfire
 https://d.moonfire.us/blog/atom.xml "~(people) > (tech) > Dylan Moonfire" blog people tech
 https://octodon.social/@dmoonfire.rss "~(people) > (tech) > Dylan Moonfire > [octodon.social]" "platform - Mastodon"
@@ -418,6 +415,16 @@ https://github.blog/feed/ "~Microsoft > The GitHub Blog" blog org
 https://blog.mozilla.org/en/feed/ "~Mozilla > dist://ed (Mozilla Blog)" blog org FOSS
 https://blog.thunderbird.net/feed/ "~Mozilla > Thunderbird Blog" blog org FOSS
 # ------------------------------------ #
+# SourceHut
+https://sourcehut.org/blog/index.xml "~SourceHut > Blog" blog org tech FOSS
+https://harelang.org/blog/index.xml "~SourceHut > Hare prog. lang." blog org tech FOSS
+# Drew DeVault (Sway WM, SourceHut, some time at Linode)
+https://drewdevault.com/blog/index.xml "~SourceHut > (people) > Drew DeVault" blog people tech
+# Simon Ser (Emersion) (Wayland, Sway, SourceHut)
+https://emersion.fr/blog/atom.xml "~SourceHut > (people) > Simon Ser (Emersion)" blog people tech
+# Conrad Hoffmann (SourceHut)
+https://bitfehler.srht.site/index.xml "~SourceHut > (people) > Conrad Hoffmann > blogfehler!" blog people tech
+# ------------------------------------ #
 # Spritely Networked Communities Institute
 https://spritely.institute/feed.xml "~Spritely Institute" blog org
 https://octodon.social/@spritelyinst.rss "~Spritely Institute > [octodon.social]" "platform - Mastodon"
@@ -486,7 +493,6 @@ https://blog.keyoxide.org/atom.xml "~(sw) > (sec) > Keyoxide > blog" blog projec
 https://nakedsecurity.sophos.com/feed "~(sw) > (sec) > Naked Security by Sophos" blog project
 # ------------------------------------ #
 # source control
-https://sourcehut.org/blog/index.xml "~(sw) > (vcs) > SourceHut > Blog" blog org tech FOSS
 https://blog.codeberg.org/feeds/all.atom.xml "~(sw) > (vcs) > Codeberg > News" blog org tech FOSS
 https://forgejo.org/rss.xml "~(sw) > (vcs) > Forgejo > News" blog org tech FOSS
 https://blog.gitea.io/index.xml "~(sw) > (vcs) > Gitea > blog" blog org tech FOSS
