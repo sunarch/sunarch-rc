@@ -120,6 +120,7 @@
 #mysql,               True,  MySql database
 #neovim,              True,  NeoVIM editor
 #netbsd,              False, NetBSD
+#netsurf,             True,  NetSurf browser engine
 #newsboat,            True,  Newsboat - RSS reader - newsboat.org
 #nextcloud,           True,  NextCloud
 #nixos,               False, NixOS distribution
