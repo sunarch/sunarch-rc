@@ -6,6 +6,7 @@ sudo apt-get update
 # browsers:
 
 sudo apt-get install epiphany-browser # Intuitive GNOME web browser
+sudo apt-get install netsurf-gtk # small web browser with CSS support for GTK
 sudo apt-get install qutebrowser # Keyboard-driven, vim-like browser based on PyQt5
 
 sudo snap remove chromium
