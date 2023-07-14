@@ -76,6 +76,7 @@
 #haskell,             True,  Haskell programming language
 #haskell-beginners,   True,  Haskell programming language (beginners)
 #haskell-offtopic,    True,  Haskell programming language (off-topic)
+#helios,              True,  Helios micro-kernel for the Ares OS
 #i3,                  False, i3 WM - unofficial -> see OFTC
 #idleRPG,             False, IdleRPG game
 #idlerpg-discuss,     False, IdleRPG game (discussion)
