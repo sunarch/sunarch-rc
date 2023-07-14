@@ -175,6 +175,7 @@
 #sqlalchemy,          False, SQLAlchemy - sqlalchemy.org
 ##sqlite,             True,  SQLite database
 #sr.ht,               True,  SourceHut
+#sr.ht.watercooler,   True,  SourceHut - offtopic
 #startups,            False, startups - startupschool.org
 #supertux,            False, SuperTux game
 #supertuxkart,        False, SuperTuxKart game - official
