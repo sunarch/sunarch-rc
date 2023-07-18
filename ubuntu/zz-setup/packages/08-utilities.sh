@@ -60,7 +60,12 @@ sudo apt-get install qdirstat # Qt-based directory statistics
 
 sudo apt-get install cmatrix # simulates the display from "The Matrix"
 sudo apt-get install golly # Game of Life simulator using hashlife algorithm
-sudo apt-get install virtualbox # x86 virtualization solution - base binaries
+
+sudo apt-get install qemu-system-x86 # QEMU full system emulation binaries (x86)
+sudo apt-get install qemu-system-gui # QEMU full system emulation binaries (user interface and audio support)
+sudo apt-get install qemu-utils # QEMU utilities
+
+#sudo apt-get install virtualbox # x86 virtualization solution - base binaries
 
 # PC-BASIC --> see local DEB
 
