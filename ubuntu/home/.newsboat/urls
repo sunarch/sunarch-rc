@@ -40,7 +40,7 @@ https://mastodon.online/@RPD0911.rss "~Árpád > [mastodon.online]" "platform - 
 https://medium.com/feed/@ASTRELION "~Astrelion > ASTRELION on Medium"
 https://mastodon.social/@astrelion.rss "~ASTRELION > [mastodon.social]" "platform - Mastodon"
 # Astrelion - Dungeons
-https://mastodon.social/@dungeons.rss "~Astrelion > Dungeons > [mastodon.social]" "platform - Mastodon"
+#https://mastodon.social/@dungeons.rss "~Astrelion > Dungeons > [mastodon.social]" "platform - Mastodon"
 # ------------------------------------ #
 # Benjamin Hollon
 https://benjaminhollon.com/musings/feed/ "~Benjamin Hollon > Musings" blog people
@@ -144,6 +144,9 @@ https://linuxrocks.online/@BrodieOnLinux.rss
 # ------------------------------------ #
 # Chris Morgan
 https://chrismorgan.info/feed.xml "~(people) > (tech) > Chris Morgan" blog people tech
+# ------------------------------------ #
+# Chris Siebenmann
+https://utcc.utoronto.ca/~cks/space/blog/?atom "~(people) > (tech) > Chris Siebenmann" blog people tech
 # ------------------------------------ #
 # Christoffer Ekeroth (chreke)
 https://chreke.com/feeds/all.atom.xml "~(people) > (tech) > Christoffer Ekeroth (chreke)" blog people tech
@@ -360,6 +363,10 @@ https://mspsocial.net/@vkc.rss "~(people) > (tech) > Veronica KC > [mspsocial.ne
 # Ward Cunningham
 https://mastodon.radio/@k9ox.rss "~(people) > (tech) > Ward Cunningham > [mastodon.radio]" "platform - Mastodon"
 # ------------------------------------ #
+# Wesley Aptekar-Cassels (Fuchsia, etc.)
+https://blog.wesleyac.com/feed.xml "~(people) > (tech) > Wesley Aptekar-Cassels > Blog" blog people tech
+https://notebook.wesleyac.com/atom.xml "~(people) > (tech) > Wesley Aptekar-Cassels > Notebook" people tech
+# ------------------------------------ #
 # Wolfgang Kratky
 https://www.thewkblog.com/feed/ "~(people) > (tech) > Wolfgang Kratky" blog tech people
 https://fosstodon.org/@thewk.rss "~(people) > (tech) > Wolfgang Kratky > [fosstodon.org]" "platform - Mastodon"
@@ -367,7 +374,7 @@ https://fosstodon.org/@thewk.rss "~(people) > (tech) > Wolfgang Kratky > [fossto
 # people - actors
 # ------------------------------------ #
 # Stephen Fry
-https://mastodonapp.uk/@stephenfry.rss "~(people) > (actor) > Stephen Fry" "platform - Mastodon"
+https://mastodonapp.uk/@stephenfry.rss "~(people) > (actor) > Stephen Fry > [mastodonapp.uk]" "platform - Mastodon"
 # ------------------------------------ #
 # Wil Wheaton
 https://wilwheaton.net/feed/ "~(people) > (actor) > Wil Wheaton" blog people
@@ -499,6 +506,7 @@ https://blog.gitea.io/index.xml "~(sw) > (vcs) > Gitea > blog" blog org tech FOS
 https://about.gitlab.com/atom.xml "~(sw) > (vcs) > GitLab" blog org tech FOSS
 # ------------------------------------ #
 # misc
+https://gemini.circumlunar.space/news/atom.xml "~(sw) > (misc) > Gemini" blog project FOSS
 https://www.gnome.org/feed/ "~(sw) > (misc) > GNOME" blog project FOSS
 https://blog.documentfoundation.org/feed/ "~(sw) > (misc) > The Document Foundation > Blog" blog org FOSS
 https://w3c.social/@w3c.rss "~(sw) > (misc) > W3C > [w3c.social]" "platform - Mastodon"
