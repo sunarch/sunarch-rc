@@ -5,6 +5,7 @@ sudo apt-get update
 # ---------------------------------------------------------------------------- #
 # misc:
 
+sudo apt-get install gameconqueror # locate and modify a variable in a running process (GUI)
 sudo apt-get install gramps # Genealogical research program
 #sudo apt-get install instead # Simple text adventures/visual novels engine
 
