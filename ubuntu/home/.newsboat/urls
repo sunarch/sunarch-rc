@@ -249,6 +249,9 @@ https://fosstodon.org/@jle.rss "~(people) > (tech) > Jan-Lukas Else > [fosstodon
 https://thephd.dev/feed.xml "~(people) > (tech) > JeanHeyd Meneide (ThePhD) > The Pasture" blog people tech
 https://pony.social/@thephd.rss "~(people) > (tech) > JeanHeyd Meneide (ThePhD) > [pony.social]" "platform - Mastodon"
 # ------------------------------------ #
+# Joe "begriffs" Nelson
+https://begriffs.com/atom.xml "~(people) > (tech) > Joe Nelson (begriffs)" blog people tech
+# ------------------------------------ #
 # Joel (Joelchrono12)
 https://joelchrono12.xyz/feed.xml "~(people) > (tech) > Joel (Joelchrono12)" blog people tech
 https://fosstodon.org/@joel.rss "~(people) > (tech) > Joel (Joelchrono12) > [fosstodon.org]" "platform - Mastodon"
