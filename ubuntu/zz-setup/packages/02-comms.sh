@@ -17,6 +17,7 @@ sudo apt-get update
 # ---------------------------------------------------------------------------- #
 # email:
 
+sudo apt-get install aerc # Pretty Good Email Client
 sudo apt-get install thunderbird # Email, RSS and newsgroup client with integrated spam filter
 
 # ---------------------------------------------------------------------------- #
