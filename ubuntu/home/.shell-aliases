@@ -34,3 +34,9 @@ alias lsx='ls -AbF -C -X'
 alias llx='ls -AbF -lh -X'
 
 # ---------------------------------------------------------------------------- #
+# aliases for search
+
+alias search-content='grep -Rin ./ -e'
+alias search-content-word='grep -Rinw ./ -e'
+
+# ---------------------------------------------------------------------------- #
