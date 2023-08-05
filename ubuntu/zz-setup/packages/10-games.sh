@@ -25,7 +25,7 @@ sudo apt-get install alienblaster # Classic 2D shoot 'em up
 sudo apt-get install assaultcube # realistic first-person-shooter
 sudo apt-get install billard-gl # 3D billiards game
 sudo apt-get install criticalmass # Shoot-em-up a la galaxian
-sudo apt-get install epiphany # clone of Boulder Dash game
+#sudo apt-get install epiphany # clone of Boulder Dash game
 sudo apt-get install extremetuxracer # 3D racing game featuring Tux, the Linux penguin
 #sudo apt-get install frogatto # 2D platformer game starring a quixotic frog
 sudo apt-get install hedgewars # Funny turn-based artillery game, featuring fighting hedgehogs!

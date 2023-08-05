@@ -69,8 +69,8 @@ sudo apt-get install texlive # TeX Live: A decent selection of the TeX Live pack
 
 sudo apt-get install gummi # simple LaTeX editor with live preview
 sudo apt-get install lyx # document processor
-sudo apt-get install texmaker # cross-platform LaTeX editor
-sudo apt-get install texstudio # LaTeX Editor
+#sudo apt-get install texmaker # cross-platform LaTeX editor
+#sudo apt-get install texstudio # LaTeX Editor
 sudo apt-get install texworks # Environment for authoring TeX (LaTeX, ConTeXt, etc) documents
 
 # ---------------------------------------------------------------------------- #
