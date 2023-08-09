@@ -179,16 +179,18 @@ set hlsearch
 
 " Color columns at limits on the right
 set colorcolumn=72,80,100,120
-highlight ColorColumn ctermbg=darkgrey
+highlight ColorColumn ctermbg=88 "x088_DarkRed
 
 " Add numbers to each line on the left-hand side
 set number
 
 " Highlight cursor line underneath the cursor horizontally
 set cursorline
+highlight CursorLine ctermbg=DarkGrey
 
 " Highlight cursor line underneath the cursor vertically
 set cursorcolumn
+highlight CursorColumn ctermbg=Grey
 
 " Set shift width to 4 spaces
 set shiftwidth=4
