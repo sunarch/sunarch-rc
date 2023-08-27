@@ -137,10 +137,10 @@ https://trechnex.com/feed.xml "~(people) > (tech) > Bobby Moss (TrechNex)" blog 
 # Brandon T. Phillips
 https://brandont.dev/atom.xml "~(people) > (tech) > Brandon T. Phillips" blog tech people
 https://fosstodon.org/@btp.rss "~(people) > (tech) > Brandon T. Phillips > [fosstodon.org]" "platform - Mastodon"
-https://codeberg.org/btp.rss "~(people) > Brandon T. Phillips > [Codeberg]" "platform - Codeberg"
+https://codeberg.org/btp.rss "~(people) > (tech) > Brandon T. Phillips > [Codeberg]" "platform - Codeberg"
 # ------------------------------------ #
 # Brodie Robertson
-https://linuxrocks.online/@BrodieOnLinux.rss
+https://linuxrocks.online/@BrodieOnLinux.rss "~(people) > (tech) > Brodie Robertson > [linuxrocks.online]" "platform - Mastodon"
 # ------------------------------------ #
 # Chris Morgan
 https://chrismorgan.info/feed.xml "~(people) > (tech) > Chris Morgan" blog people tech
@@ -155,7 +155,7 @@ https://chreke.com/feeds/all.atom.xml "~(people) > (tech) > Christoffer Ekeroth 
 https://linuxgamer.hashnode.dev/rss.xml "~(people) > (tech) > CJ (LinuxGamer)" blog people tech
 https://mstdn.starnix.network/@LinuxGamer.rss "~(people) > (tech) > CJ (LinuxGamer) > [mstdn.starnix.network]" "platform - Mastodon"
 https://linuxrocks.online/@LinuxGamer.rss "~(people) > (tech) > CJ (LinuxGamer) > [linuxrocks.online]" "platform - Mastodon"
-https://codeberg.org/LinuxGamer.rss "~(people) > CJ (LinuxGamer) > [Codeberg]" "platform - Codeberg"
+https://codeberg.org/LinuxGamer.rss "~(people) > (tech) > CJ (LinuxGamer) > [Codeberg]" "platform - Codeberg"
 # ------------------------------------ #
 # Coding Horror (Jeff Atwood) (founder of StackOverflow, Discourse)
 https://blog.codinghorror.com/rss/ "~(people) > (tech) > Coding Horror (Jeff Atwood)" blog people tech
@@ -166,6 +166,9 @@ https://www.dkriesel.com/feed.php?linkto=current&content=html&mode=blogtng&blog=
 # ------------------------------------ #
 # Dan McKinley
 https://mcfunley.com/feed.xml "~(people) > (tech) > Dan McKinley" blog people tech
+# ------------------------------------ #
+# Dan North
+https://dannorth.net/blog/index.xml "~(people) > (tech) > Dan North" blog people tech
 # ------------------------------------ #
 # Daniel Supernault (Pixelfed creator)
 https://mastodon.social/@dansup.rss "~(people) > (tech) > Daniel Supernault > [mastodon.social]" "platform - Mastodon"
@@ -272,6 +275,9 @@ https://fosstodon.org/@kev.rss "~(people) > (tech) > Kev Quirk > [fosstodon.org]
 # Lennart Poettering
 https://0pointer.net/blog/index.atom "~(people) > (tech) > Lennart Poettering > Pid Eins" blog people tech
 # ------------------------------------ #
+# Liz Keogh
+https://lizkeogh.com/feed/ "~(people) > (tech) > Liz Keogh" blog people tech
+# ------------------------------------ #
 # Manuel Odendahl (wesen / mnmlmnl / mnl)
 https://dev.to/feed/wesen "~(people) > (tech) > Manuel Odendahl > (on dev.to)" blog people tech
 https://write.as/mnmlmnl/feed/ "~(people) > (tech) > Manuel Odendahl > (on write.as)" blog people tech
@@ -321,6 +327,9 @@ https://blog.randy.gg/feed.rss "~(people) > (tech) > Randy > Rando's Ramblings" 
 # ------------------------------------ #
 # Rob Braxman
 https://medium.com/feed/@Brax_Me "~(people) > (tech) > Rob Braxman (on Medium)" blog people tech
+# ------------------------------------ #
+# Robert C. Martin (Uncle Bob)
+https://blog.cleancoder.com/atom.xml "~(people) > (tech) > Robert C. Martin (Uncle Bob) > The Clean Code Blog" blog people tech
 # ------------------------------------ #
 # Roberto Zoia
 https://zoia.org/index.xml "~(people) > (tech) > Roberto Zoia" blog people tech
