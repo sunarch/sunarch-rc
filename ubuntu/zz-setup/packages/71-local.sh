@@ -4,11 +4,6 @@
 # local:
 
 # ------------------------------------ #
-# Android Studio:
-
-# https://developer.android.com/studio
-
-# ------------------------------------ #
 # Arc:
 
 # http://arclanguage.org

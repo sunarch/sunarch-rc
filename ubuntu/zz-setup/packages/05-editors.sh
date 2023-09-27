@@ -51,6 +51,7 @@ sudo apt-get install geany-plugins # set of plugins for Geany
 # ------------------------------------ #
 # IDE - JetBrains:
 
+# Android Studio --> installed via Toolbox
 # CLion --> installed via Toolbox
 # IntelliJ IDEA Community Edition --> installed via Toolbox
 # JetBrains Toolbox --> see local

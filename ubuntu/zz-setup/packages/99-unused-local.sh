@@ -4,6 +4,12 @@
 # local - unused:
 
 # ------------------------------------ #
+# Android Studio:
+
+# https://developer.android.com/studio
+# - changed to installing via Toolbox
+
+# ------------------------------------ #
 # Azul Java:
 # - previously required for the Java version of Worldographer
 #   - JDK FX from Azul Zulu builds of OpenJDK
