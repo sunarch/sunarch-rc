@@ -184,12 +184,15 @@ highlight ColorColumn ctermbg=88 "x088_DarkRed
 " Add numbers to each line on the left-hand side
 set number
 
+" Make line numbers relative
+set relativenumber
+
 " Highlight cursor line underneath the cursor horizontally
 set cursorline
-highlight CursorLine ctermbg=DarkGrey
+highlight CursorLine cterm=bold
 
 " Highlight cursor line underneath the cursor vertically
-set cursorcolumn
+"set cursorcolumn
 highlight CursorColumn ctermbg=Grey
 
 " Set shift width to 4 spaces
@@ -204,8 +207,13 @@ set expandtab
 " Do not save backup files
 set nobackup
 
-" Do not wrap lines. Allow long lines to extend as far as the line goes
-set nowrap
+" wrap lines. don't allow long lines to extend as far as the line goes
+set textwidth=0
+set wrapmargin=0
+set wrap
+
+" on wrap, break by word rather than character
+set linebreak
 
 " Show the mode you are on the last line
 set showmode
