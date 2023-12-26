@@ -122,6 +122,9 @@ https://hachyderm.io/@ajf.rss "~(people) > (tech) > AJ Foster > [hachyderm.io]" 
 # Amos Wenger (faster than lime)
 https://fasterthanli.me/index.xml "~(people) > (tech) > Amos Wenger (faster than lime)" blog people tech
 # ------------------------------------ #
+# Andrew Kelley (Zig lead)
+https://andrewkelley.me/rss.xml "~(people) > (tech) > Andrew Kelley (Zig lead)" blog people tech
+# ------------------------------------ #
 # Armin Ronacher
 https://lucumr.pocoo.org/feed.atom "~(people) > (tech) > Armin Ronacher" blog people tech
 https://hachyderm.io/@mitsuhiko.rss "~(people) > (tech) > Armin Ronacher > [hachyderm.io]" "platform - Mastodon"
@@ -504,6 +507,8 @@ https://planet.haskell.org/atom.xml "~(sw) > (PL) > Planet Haskell" blog project
 https://pyfound.blogspot.com/feeds/posts/default "~(sw) > (PL) > Python Software Foundation > News" news org FOSS
 https://blog.rust-lang.org/feed.xml "~(sw) > (PL) > Rust > Main Blog" blog project FOSS
 https://blog.rust-lang.org/inside-rust/feed.xml "~(sw) > (PL) > Rust > "Inside Rust" Blog" blog project FOSS
+https://ziglang.org/news/index.xml "~(sw) > (PL) > Zig > News" blog project FOSS
+https://devlog.hexops.com/feed.xml "~(sw) > (PL) > Zig > Mach > Hexops devlog blog project FOSS
 # ------------------------------------ #
 # RSS reader
 https://newsboat.org/news.atom "~(sw) > (RSS) > Newsboat" blog project FOSS
