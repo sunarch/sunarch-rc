@@ -208,5 +208,5 @@
 #wireguard,           False, WireGuard - Secure Network Tunnel
 #wireshark,           False, Wireshark
 #xfce,                False, Xfce desltop environment
-#zig,                 False, Zig programming language
+#zig,                 True,  Zig programming language
 #zsh,                 True,  Z shell
