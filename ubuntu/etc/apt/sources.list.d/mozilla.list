@@ -1,2 +1,1 @@
-deb https://ppa.launchpadcontent.net/mozillateam/ppa/ubuntu/ lunar main #Mozilla (for Firefox)
-# deb-src https://ppa.launchpadcontent.net/mozillateam/ppa/ubuntu/ lunar main #Mozilla (for Firefox)
+deb [signed-by=/etc/apt/keyrings/packages.mozilla.org.asc] https://packages.mozilla.org/apt mozilla main
