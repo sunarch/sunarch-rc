@@ -75,3 +75,11 @@ sudo apt-get install lyx # document processor
 sudo apt-get install texworks # Environment for authoring TeX (LaTeX, ConTeXt, etc) documents
 
 # ---------------------------------------------------------------------------- #
+# programming languages
+
+# ------------------------------------ #
+# Go
+
+sudo apt-get install golang # Go programming language compiler - metapackage
+
+# ---------------------------------------------------------------------------- #

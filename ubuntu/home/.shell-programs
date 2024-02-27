@@ -17,6 +17,12 @@ export CHEZSCHEMELIBDIRS="$HOME/Documents/programlibs/thunderchez"
 export PATH="$PATH:$HOME/.local/share/JetBrains/Toolbox/scripts"
 
 # ---------------------------------------------------------------------------- #
+# Nim
+
+export PATH="$HOME/Documents/programfiles/nim/nim-2-0-2/bin:$PATH"
+export PATH="$HOME/.nimble/bin:$PATH"
+
+# ---------------------------------------------------------------------------- #
 # NodeJS
 
 #export PATH="$PATH:$HOME/bin/nodejs"

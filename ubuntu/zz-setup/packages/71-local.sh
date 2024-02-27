@@ -69,6 +69,15 @@
 # https://chocolateminecraft.com/worldmap.php
 
 # ------------------------------------ #
+# Nim
+
+# https://nim-lang.org/install_unix.html
+
+# on PATH:
+# DIST/bin
+# ~/.nimble/bin
+
+# ------------------------------------ #
 # Node.js:
 
 # https://nodejs.org/en
@@ -82,6 +91,13 @@ sudo apt-get install pkg-config # manage compile and link flags for libraries
 sudo apt-get install libssl-dev # Secure Sockets Layer toolkit - development files
 # download from GitHub release and add to PATH
 # https://github.com/nushell/nushell/releases
+
+# ------------------------------------ #
+# Odin
+
+# https://odin-lang.org/docs/install/
+sudo apt-get install llvm # Low-Level Virtual Machine (LLVM)
+sudo apt-get install clang # C, C++ and Objective-C compiler (LLVM based), clang binary
 
 # ------------------------------------ #
 # Oh My Zsh
@@ -101,10 +117,21 @@ sudo apt-get install libssl-dev # Secure Sockets Layer toolkit - development fil
 # https://jdk.java.net
 
 # ------------------------------------ #
+# QBE
+# - a compiler backend, used by Hare
+
+# https://c9x.me/compile/releases.html
+
+# ------------------------------------ #
 # Tor Browser:
 
-# https://www.torproject.org/
+# https://www.torproject.org
 # https://www.torproject.org/download/
+
+# ------------------------------------ #
+# V (programming language)
+
+# https://vlang.io
 
 # ------------------------------------ #
 # Zotero:
