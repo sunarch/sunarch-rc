@@ -28,6 +28,11 @@ export PATH="$HOME/.nimble/bin:$PATH"
 #export PATH="$PATH:$HOME/bin/nodejs"
 
 # ---------------------------------------------------------------------------- #
+# opam (OCaml's package manager)
+
+source /home/anemeth/.opam/opam-init/init.sh  > /dev/null 2> /dev/null
+
+# ---------------------------------------------------------------------------- #
 # Poetry
 
 export PATH="$HOME/.poetry/bin:$PATH"
