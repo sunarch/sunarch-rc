@@ -1,14 +1,16 @@
 (mostly) hobbyist #Developer :opensource:
-- primary: :python: #Python
+- most: :python: #Python
+- pref., learning: :rust: :ferris: #Rust , #Nim
 - web: :javascript: :html5: :css3:
-- l-l: :rust: :ferris: #Rust :zig: #Zig :c_language: #C
-- some: :lisp: #Lisp / (Chez) #Scheme
-- plans: :elixir: :haskell:
-- read: :golang:
+- looking: :golang: #Go , #Odin , #OCaml
+- some: :c_language: #C , :lisp: / #Scheme
+- project: :php:
+- plan: :erlang: / :elixir: / Gleam
 
 📍 #Budapest , 🇭🇺 #Hungary
 
 #Hungarian #Magyar #Programming #FOSS
-system: :ubuntu: #Ubuntu :linux: #Linux w/ :gnome: #Gnome or :i3wm: #i3wm / :android: #Android
-browser: :firefox: #Firefox + :duckduckgo:
-other: :gimp: :inkscape: :thunderbird: :zsh:
+system: :ubuntu: #Ubuntu :linux: #Linux / :android:
+DE: :gnome: / :i3wm:
+browser: :firefox: + :duckduckgo:
+apps: :gimp: :inkscape: :thunderbird:
