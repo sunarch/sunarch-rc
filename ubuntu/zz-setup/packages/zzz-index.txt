@@ -14,7 +14,7 @@ assault-cube -> 10-games
 audacity -> 07-media
 aws-amazon -> 71-local
 azul-java -> 99-unused-local
-balena-etcher -> 51-flatpak
+balena-etcher -> 52-appimages
 baobab | disk-usage-analyzer -> 03-devices
 billard-gl -> 10-games
 blender -> 07-media
