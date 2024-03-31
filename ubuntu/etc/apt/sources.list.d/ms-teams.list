@@ -1,2 +1,1 @@
-### THIS FILE IS AUTOMATICALLY CONFIGURED ###
-# You may comment out this entry, but any other modifications may be lost.
+deb https://packages.microsoft.com/repos/ms-teams/ stable main #Microsoft Teams

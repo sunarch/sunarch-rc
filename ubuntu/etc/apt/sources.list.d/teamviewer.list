@@ -17,5 +17,4 @@
 
 deb [signed-by=/usr/share/keyrings/teamviewer-keyring.gpg] https://linux.teamviewer.com/deb stable main
 
-# deb https://linux.teamviewer.com/deb preview main
-# deb https://linux.teamviewer.com/deb development main
+# deb [signed-by=/usr/share/keyrings/teamviewer-keyring.gpg] https://linux.teamviewer.com/deb preview main
