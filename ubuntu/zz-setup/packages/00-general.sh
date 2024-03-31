@@ -7,7 +7,8 @@ sudo apt-get update
 
 sudo apt-get install exfat-fuse # read and write exFAT driver for FUSE
 # exfat-utils -- not found
-sudo apt-get install ubuntu-wallpapers-eoan # Ubuntu 19.10 Wallpapers
+#sudo apt-get install ubuntu-wallpapers-eoan # Ubuntu 19.10 Wallpapers
+#sudo apt-get install ubuntu-wallpapers-mantic # Ubuntu 23.10 Wallpapers
 
 # ---------------------------------------------------------------------------- #
 # GNOME
