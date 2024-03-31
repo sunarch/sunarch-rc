@@ -32,6 +32,7 @@ sudo apt-get install hedgewars # Funny turn-based artillery game, featuring figh
 sudo apt-get install minetest # Multiplayer infinite-world block sandbox
 sudo apt-get install nexuiz # Fast-paced 3D first-person shooter
     # dependency: darkplaces # Game engine for Quake and similar 3D first person shooter games
+sudo apt-get install openttd # reimplementation of Transport Tycoon Deluxe with enhancements
 sudo apt-get install pingus # Free Lemmings(TM) clone
 #sudo apt-get install pioneers # Settlers of Catan board game
 sudo apt-get install redeclipse # free, casual arena shooter
