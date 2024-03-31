@@ -1,0 +1,43 @@
+# Main options
+
+title-text: ""
+title-font: "Ubuntu Mono 20"
+title-color: "#FFFFFF" # White
+
+message-font: "Ubuntu Mono 20"
+#message-color: "#FFFFFF" # White
+#message-bg-color: "#000000" # Black
+
+desktop-image: "background.png"
+desktop-color: "#000000" # Black
+
+terminal-font: "Ubuntu Mono 20"
+
+# Boot menu
++ boot_menu {
+  left = 12%
+  top = 48%
+  width = 74%
+  height = 42%
+  item_font = "Ubuntu Mono 20"
+  item_color = "#1E90FF" # DodgerBlue
+  selected_item_color = "#DC143C" # Crimson
+  item_height = 40
+  item_padding = 2
+  item_spacing = 10
+  scrollbar = false
+  #scrollbar_width = 16
+}
+
+# Countdown label
+# You can change the name of default starting OS here
++ label {
+  left = 20%
+  top = 29%
+  align = "center"
+  #id = "__timeout__"
+  id = "@TIMEOUT_NOTIFICATION_SHORT@"
+  text = "Entering operating system in %d seconds"
+  text_color = "#D3D3D3" # LightGray
+  font = "Ubuntu Mono 20"
+}
