@@ -40,6 +40,13 @@ if [ -f ~/.shell-aliases ]; then
 fi
 
 # ---------------------------------------------------------------------------- #
+# include: alias definitions - C compiler
+
+if [ -f ~/.shell-aliases-cc ]; then
+    . ~/.shell-aliases-cc
+fi
+
+# ---------------------------------------------------------------------------- #
 # include: program-related
 
 if [ -f ~/.shell-programs ]; then
