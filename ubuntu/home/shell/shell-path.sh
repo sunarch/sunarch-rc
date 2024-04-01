@@ -43,7 +43,7 @@ CUSTOM_PATH_INCLUDES=(\
 # ---------------------------------------------------------------------------- #
 # include list items if not already included
 
-for item in $CUSTOM_PATH_INCLUDES; do
+for item in "${CUSTOM_PATH_INCLUDES[@]}"; do
     shell-path-include-first $item
 done
 
