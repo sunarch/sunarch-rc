@@ -46,7 +46,7 @@ __prompt_construct_special() {
         non-print-end)   s='\]'   ;; # End a sequence of non-printing characters.
                       *) s=''
     esac
-    
+
     echo $s
 }
 
@@ -73,13 +73,6 @@ __prompt_construct() {
 	    color_prompt=yes
     fi
 
-    local prefix_debian_chroot='${debian_chroot:+($debian_chroot)}'
-    local item_user="$(__prompt_construct_special 'username')"
-    local item_host="$(__prompt_construct_special 'host')"
-    local item_user_at_host="${item_user}@${item_host}"
-    local item_pwd="$(__prompt_construct_special 'pwd')"
-    local item_end="$(__prompt_construct_special 'prompt') "
-
     local escape_reset="$(ansi_escape_sequence 'reset')"
     local fmt_reset="$(__prompt_construct_nonprinting "${escape_reset}")"
     local escape_bold_green="$(ansi_escape_sequence 'bold' 'green')"
@@ -87,14 +80,26 @@ __prompt_construct() {
     local escape_bold_blue="$(ansi_escape_sequence 'bold' 'blue')"
     local fmt_bold_blue=$(__prompt_construct_nonprinting "${escape_bold_blue}")
 
+    local prefix_debian_chroot='${debian_chroot:+($debian_chroot)}'
+
+    local item_user="$(__prompt_construct_special 'username')"
+    local item_host="$(__prompt_construct_special 'host')"
+    local item_user_at_host="${item_user}@${item_host}"
+
+    local item_pwd="$(__prompt_construct_special 'pwd')"
+
+    local item_end="$(__prompt_construct_special 'prompt')"
+
     local prompt=''
     if [ "$color_prompt" = yes ]; then
-        prompt="${fmt_bold_green}${item_user_at_host}${fmt_reset}:${fmt_bold_blue}${item_pwd}${fmt_reset}"
+        local item_user_at_host_fmt="${fmt_bold_green}${item_user_at_host}${fmt_reset}"
+        local item_pwd_fmt="${fmt_bold_blue}${item_pwd}${fmt_reset}"
+        prompt="${item_user_at_host_fmt}:${item_pwd_fmt}"
     else
         prompt="${item_user_at_host}:${item_pwd}"
     fi
 
-    echo -nE "${prefix_debian_chroot}${prompt}${item_end}"
+    echo -nE "${prefix_debian_chroot}${prompt} ${item_end} "
 }
 
 # set variable identifying the chroot you work in (used in the prompt below)
