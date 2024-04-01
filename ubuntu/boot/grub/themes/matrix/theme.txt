@@ -1,8 +1,10 @@
+# https://www.gnu.org/software/grub/manual/grub/html_node/Theme-file-format.html#Theme-file-format
+
 # Main options
 
-title-text: ""
+title-text: "GRand Unified Bootloader"
 title-font: "Ubuntu Mono Bold 24"
-title-color: "#FFFFFF" # White
+title-color: "#D3D3D3" # LightGray
 
 message-font: "Ubuntu Mono Bold 24"
 #message-color: "#FFFFFF" # White
@@ -13,7 +15,6 @@ desktop-color: "#000000" # Black
 
 terminal-font: "Ubuntu Mono Bold 24"
 
-# Boot menu
 + boot_menu {
     left = 10%
     top = 20%
@@ -32,15 +33,59 @@ terminal-font: "Ubuntu Mono Bold 24"
     #scrollbar_width = 16
 }
 
-# Countdown label
-# You can change the name of default starting OS here
 + label {
     left = 10%
-    top = 10%
+    top = 5%
+    width = 80%
     align = "center"
     id = "__timeout__"
 
-    text = "Entering operating system in @TIMEOUT_NOTIFICATION_SHORT@ seconds"
-    text_color = "#D3D3D3" # LightGray
+    text = "Entering operating system in %d seconds"
     font = "Ubuntu Mono Bold 24"
+    color = "#D3D3D3" # LightGray
+}
+
++ label {
+    left = 10%
+    top = 5%
+
+    text = "`↓`/`↑` : select which entry is highlighted"
+    font = "Ubuntu Mono Bold 24"
+    color = "#D3D3D3" # LightGray
+}
+
++ label {
+    left = 10%
+    top = 1%
+
+    text = "  `⤶`   : boot the selected OS / enter menu"
+    font = "Ubuntu Mono Bold 24"
+    color = "#D3D3D3" # LightGray
+}
+
++ label {
+    left = 10%
+    top = 1%
+
+    text = "  `e`   : edit the commands before booting"
+    font = "Ubuntu Mono Bold 24"
+    color = "#D3D3D3" # LightGray
+}
+
++ label {
+    left = 10%
+    top = 1%
+
+    text = "  `c`   : return to previous menu"
+    font = "Ubuntu Mono Bold 24"
+    color = "#D3D3D3" # LightGray
+}
+
++ label {
+    left = 10%
+    top = 1%
+
+    text = " `ESC`  : return to previous menu"
+    font = "Ubuntu Mono Bold 24"
+    color = "#D3D3D3" # LightGray
 }
