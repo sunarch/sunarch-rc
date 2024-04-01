@@ -1,14 +1,18 @@
 # ---------------------------------------------------------------------------- #
 # includes for shell: PATH
 
-# set PATH so it includes user's private bin if it exists
-if [ -d "$HOME/.local/bin" ] ; then
-    PATH="$HOME/.local/bin:$PATH"
-fi
+CUSTOM_PATH_INCLUDES=(\
+    "$HOME/.local/bin"\
+    "$HOME/bin"\
+)
 
-# set PATH so it includes user's private bin if it exists
-if [ -d "$HOME/bin" ] ; then
-    PATH="$HOME/bin:$PATH"
-fi
+for item in $CUSTOM_PATH_INCLUDES; do
+    case $PATH
+      in *$item*) ;; # do nothing, it's there
+         *) if [ -d $item ] ; then
+                PATH="$item:$PATH"
+            fi
+    esac
+done
 
 # ---------------------------------------------------------------------------- #
