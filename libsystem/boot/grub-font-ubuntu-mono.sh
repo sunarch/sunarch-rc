@@ -4,4 +4,4 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-grub-mkfont -s 22 -o ./ubuntu-mono-22.pf2 /usr/share/fonts/truetype/ubuntu/UbuntuMono[wght].ttf
+grub-mkfont -s 24 -i 2 -o ./ubuntu-mono-bold-24.pf2 /usr/share/fonts/truetype/ubuntu/UbuntuMono[wght].ttf

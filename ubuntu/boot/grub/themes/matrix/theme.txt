@@ -1,17 +1,17 @@
 # Main options
 
 title-text: ""
-title-font: "Ubuntu Mono 22"
+title-font: "Ubuntu Mono Bold 24"
 title-color: "#FFFFFF" # White
 
-message-font: "Ubuntu Mono 22"
+message-font: "Ubuntu Mono Bold 24"
 #message-color: "#FFFFFF" # White
 #message-bg-color: "#000000" # Black
 
 desktop-image: "background.png"
 desktop-color: "#000000" # Black
 
-terminal-font: "Ubuntu Mono 22"
+terminal-font: "Ubuntu Mono Bold 24"
 
 # Boot menu
 + boot_menu {
@@ -20,7 +20,7 @@ terminal-font: "Ubuntu Mono 22"
     width = 80%
     height = 50%
 
-    item_font = "Ubuntu Mono 22"
+    item_font = "Ubuntu Mono Bold 24"
     item_color = "#1E90FF" # DodgerBlue
     selected_item_color = "#DC143C" # Crimson
 
@@ -37,12 +37,10 @@ terminal-font: "Ubuntu Mono 22"
 + label {
     left = 10%
     top = 10%
-    width = 80%
-    height = 20%
     align = "center"
     id = "__timeout__"
 
     text = "Entering operating system in @TIMEOUT_NOTIFICATION_SHORT@ seconds"
     text_color = "#D3D3D3" # LightGray
-    font = "Ubuntu Mono 22"
+    font = "Ubuntu Mono Bold 24"
 }
