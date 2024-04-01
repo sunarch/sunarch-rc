@@ -37,12 +37,6 @@ alias lsx='ls -AbF -C -X'
 alias llx='ls -AbF -lh -X'
 
 # ---------------------------------------------------------------------------- #
-# path
-
-alias path-listed='echo "$PATH" | tr ":" "\n" | nl'
-alias path-sorted='echo "$PATH" | tr ":" "\n" | sort | nl'
-
-# ---------------------------------------------------------------------------- #
 # search
 
 alias search-content='grep -Rin ./ -e'
