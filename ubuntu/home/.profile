@@ -33,6 +33,7 @@ fi
 
 # ---------------------------------------------------------------------------- #
 # include: program-related
+# depends on $HOME/shell/shell-path.sh
 
 if [ -f "$HOME/shell/shell-programs.sh" ]; then
     . "$HOME/shell/shell-programs.sh"
