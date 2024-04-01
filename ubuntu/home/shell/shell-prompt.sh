@@ -93,7 +93,7 @@ __prompt_construct() {
         fmt_current="$(__prompt_construct_nonprinting "${fmt_current}")"
         item_user="${fmt_current}${item_user}${fmt_reset}"
     fi
-    item_user="~${item_user}"
+    item_user=" ~${item_user}"
 
     local item_dir="$(__prompt_construct_special 'pwd-short')"
     item_dir="${item_dir##*/}"
@@ -102,7 +102,7 @@ __prompt_construct() {
         fmt_current="$(__prompt_construct_nonprinting "${fmt_current}")"
         item_dir="${fmt_current}${item_dir}${fmt_reset}"
     fi
-    item_dir="./${item_dir}"
+    item_dir=" ./${item_dir}"
     
     local is_in_git_wt="$(git rev-parse --is-inside-work-tree 2> /dev/null)"
     local item_git=''
@@ -125,18 +125,25 @@ __prompt_construct() {
             fmt_current="$(__prompt_construct_nonprinting "${fmt_current}")"
             item_git_branch="${fmt_current}${item_git_branch}${fmt_reset}"
         fi
-        item_git="${item_git_prefix}${item_git_branch}"
+        item_git=" ${item_git_prefix}${item_git_branch}"
     fi
 
-    local item_end="$(__prompt_construct_special 'prompt')"
+    local item_end=" $(__prompt_construct_special 'prompt')"
 
-    echo -nE "${prefix_chroot}${item_shell} ${item_user} ${item_dir} ${item_git} ${item_end} "
+    echo -nE "${prefix_chroot}${item_shell}${item_user}${item_dir}${item_git}${item_end} "
 }
 
 # set variable identifying the chroot you work in (used in the prompt below)
 if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
     debian_chroot=$(cat /etc/debian_chroot)
 fi
+
+# ---------------------------------------------------------------------------- #
+# PROMPT_COMMAND
+PROMPT_COMMAND='PS1=$(__prompt_construct)'
+
+# ---------------------------------------------------------------------------- #
+# PS1 – Default interaction prompt
 
 PS1=$(__prompt_construct)
 
@@ -147,10 +154,18 @@ case "$TERM" in
 esac
 
 # ---------------------------------------------------------------------------- #
-# remove unnecessary globals from environment
+# PS2 – Continuation interactive prompt
 
-unset __prompt_construct_special
-unset __prompt_construct_nonprinting
-unset debian_chroot
+PS2='> '
+
+# ---------------------------------------------------------------------------- #
+# PS3 – Prompt used by “select” inside shell script
+
+PS3=''
+
+# ---------------------------------------------------------------------------- #
+# PS4 – Used by “set -x” to prefix tracing output
+
+PS4='+ '
 
 # ---------------------------------------------------------------------------- #
