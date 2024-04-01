@@ -16,11 +16,13 @@ __shell-path-include() {
     case $PATH in
         *$1*) ;; # do nothing, it's there
            *) if [ -d $1 ] ; then
-                case "$INCLUDE_POSITION" in
-                    first) export PATH="$1:$PATH" ;;
-                        *) export PATH="$PATH:$1"
-                esac
-            fi
+                  case "$INCLUDE_POSITION" in
+                      first) export PATH="$1:$PATH" ;;
+                          *) export PATH="$PATH:$1"
+                  esac
+              else
+                  echo "FOLDER FOR PATH NOT FOUND: '$item'"
+              fi
     esac
 }
 

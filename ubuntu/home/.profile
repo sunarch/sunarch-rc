@@ -30,6 +30,8 @@ CUSTOM_SOURCE_INCLUDES=(\
 for item in "${CUSTOM_SOURCE_INCLUDES[@]}"; do
     if [ -f $item ]; then
         . "$item"
+    else
+        echo "CUSTOM SCRIPT NOT FOUND: '$item'"
     fi
 done
 
