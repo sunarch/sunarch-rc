@@ -23,36 +23,36 @@ fi
 # ---------------------------------------------------------------------------- #
 # include: path
 
-if [ -f ~/.shell-path ]; then
-    . ~/.shell-path
+if [ -f ~/.shell-path.sh ]; then
+    . ~/.shell-path.sh
 fi
 
 # ---------------------------------------------------------------------------- #
 # include: alias definitions
 
-if [ -f ~/.shell-aliases ]; then
-    . ~/.shell-aliases
+if [ -f ~/.shell-aliases.sh ]; then
+    . ~/.shell-aliases.sh
 fi
 
 # ---------------------------------------------------------------------------- #
 # include: alias definitions - C compiler
 
-if [ -f ~/.shell-aliases-cc ]; then
-    . ~/.shell-aliases-cc
+if [ -f ~/.shell-aliases-cc.sh ]; then
+    . ~/.shell-aliases-cc.sh
 fi
 
 # ---------------------------------------------------------------------------- #
 # include: program-related
 
-if [ -f ~/.shell-programs ]; then
-    . ~/.shell-programs
+if [ -f ~/.shell-programs.sh ]; then
+    . ~/.shell-programs.sh
 fi
 
 # ---------------------------------------------------------------------------- #
 # include: launchers
 
-if [ -f ~/.shell-launchers ]; then
-    . ~/.shell-launchers
+if [ -f ~/.shell-launchers.sh ]; then
+    . ~/.shell-launchers.sh
 fi
 
 # ---------------------------------------------------------------------------- #
