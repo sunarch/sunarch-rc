@@ -2,6 +2,13 @@
 # ~/.zshenv : always sourced
 
 # ---------------------------------------------------------------------------- #
+# include: path
+
+if [ -f ~/.shell-path ]; then
+    . ~/.shell-path
+fi
+
+# ---------------------------------------------------------------------------- #
 # include: alias definitions
 
 if [ -f ~/.shell-aliases ]; then
