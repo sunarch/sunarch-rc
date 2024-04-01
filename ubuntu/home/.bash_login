@@ -1,11 +1,10 @@
 # ---------------------------------------------------------------------------- #
-# ~/.zshenv : always sourced
+# ~/.bash_logout : executed by bash(1) for login shells or --login option
 
 # ---------------------------------------------------------------------------- #
-# custom includes
 
-if [ -f ~/.profile ]; then
-    . ~/.profile
+if [ -f "$HOME/.bash_profile" ]; then
+    . "$HOME/.bash_profile"
 fi
 
 # ---------------------------------------------------------------------------- #
