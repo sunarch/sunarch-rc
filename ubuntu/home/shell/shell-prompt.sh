@@ -73,28 +73,34 @@ __prompt_construct() {
 	    color_prompt=yes
     fi
 
-    local escape_reset="$(ansi_escape_sequence 'reset')"
-    local fmt_reset="$(__prompt_construct_nonprinting "${escape_reset}")"
-    local escape_bold_green="$(ansi_escape_sequence 'bold' 'green')"
-    local fmt_bold_green="$(__prompt_construct_nonprinting "${escape_bold_green}")"
-    local escape_bold_blue="$(ansi_escape_sequence 'bold' 'blue')"
-    local fmt_bold_blue="$(__prompt_construct_nonprinting "${escape_bold_blue}")"
+    local fmt_reset="$(ansi_escape_sequence 'reset')"
+    local fmt_reset="$(__prompt_construct_nonprinting "${fmt_reset}")"
+    local fmt_current="${fmt_reset}"
 
     local prefix_chroot='${debian_chroot:+($debian_chroot)}'
 
     local item_shell="$(__prompt_construct_special 'shell')"
+    if [ "$color_prompt" = yes ]; then
+        fmt_current="$(ansi_escape_sequence 'bold' 'yellow')"
+        fmt_current="$(__prompt_construct_nonprinting "${fmt_current}")"
+        item_shell="${fmt_current}${item_shell}${fmt_reset}"
+    fi
     item_shell=">${item_shell}"
 
     local item_user="$(__prompt_construct_special 'username')"
     if [ "$color_prompt" = yes ]; then
-        item_user="${fmt_bold_green}${item_user}${fmt_reset}"
+        fmt_current="$(ansi_escape_sequence 'bold' 'green')"
+        fmt_current="$(__prompt_construct_nonprinting "${fmt_current}")"
+        item_user="${fmt_current}${item_user}${fmt_reset}"
     fi
     item_user="~${item_user}"
 
     local item_dir="$(__prompt_construct_special 'pwd-short')"
     item_dir="${item_dir##*/}"
     if [ "$color_prompt" = yes ]; then
-        item_dir="${fmt_bold_blue}${item_dir}${fmt_reset}"
+        fmt_current="$(ansi_escape_sequence 'bold' 'cyan')"
+        fmt_current="$(__prompt_construct_nonprinting "${fmt_current}")"
+        item_dir="${fmt_current}${item_dir}${fmt_reset}"
     fi
     item_dir="./${item_dir}"
 
