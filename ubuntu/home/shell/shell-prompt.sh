@@ -80,25 +80,27 @@ __prompt_construct() {
     local escape_bold_blue="$(ansi_escape_sequence 'bold' 'blue')"
     local fmt_bold_blue="$(__prompt_construct_nonprinting "${escape_bold_blue}")"
 
-    local prefix_debian_chroot='${debian_chroot:+($debian_chroot)}'
+    local prefix_chroot='${debian_chroot:+($debian_chroot)}'
+
+    local item_shell="$(__prompt_construct_special 'shell')"
+    item_shell=">${item_shell}"
 
     local item_user="$(__prompt_construct_special 'username')"
+    if [ "$color_prompt" = yes ]; then
+        item_user="${fmt_bold_green}${item_user}${fmt_reset}"
+    fi
+    item_user="~${item_user}"
 
-    local _item_pwd="$(__prompt_construct_special 'pwd-short')"
-    local item_dir="${_item_pwd##*/}"
+    local item_dir="$(__prompt_construct_special 'pwd-short')"
+    item_dir="${item_dir##*/}"
+    if [ "$color_prompt" = yes ]; then
+        item_dir="${fmt_bold_blue}${item_dir}${fmt_reset}"
+    fi
+    item_dir="./${item_dir}"
 
     local item_end="$(__prompt_construct_special 'prompt')"
 
-    local prompt=''
-    if [ "$color_prompt" = yes ]; then
-        local item_user_fmt="${fmt_bold_green}${item_user}${fmt_reset}"
-        local item_dir_fmt="${fmt_bold_blue}${item_dir}${fmt_reset}"
-        prompt="[${item_user_fmt}] ${item_dir_fmt}"
-    else
-        prompt="${item_user_at_host}:${item_dir}"
-    fi
-
-    echo -nE "${prefix_debian_chroot}${prompt} ${item_end} "
+    echo -nE "${prefix_chroot}${item_shell} ${item_user} ${item_dir} ${item_end} "
 }
 
 # set variable identifying the chroot you work in (used in the prompt below)
