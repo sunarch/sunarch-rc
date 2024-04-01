@@ -13,36 +13,36 @@
 # ---------------------------------------------------------------------------- #
 # include: path
 
-if [ -f ~/.shell-path.sh ]; then
-    . ~/.shell-path.sh
+if [ -f "$HOME/shell/shell-path.sh" ]; then
+    . "$HOME/shell/shell-path.sh"
 fi
 
 # ---------------------------------------------------------------------------- #
 # include: alias definitions
 
-if [ -f ~/.shell-aliases.sh ]; then
-    . ~/.shell-aliases.sh
+if [ -f "$HOME/shell/shell-aliases.sh" ]; then
+    . "$HOME/shell/shell-aliases.sh"
 fi
 
 # ---------------------------------------------------------------------------- #
 # include: alias definitions - C compiler
 
-if [ -f ~/.shell-aliases-cc.sh ]; then
-    . ~/.shell-aliases-cc.sh
+if [ -f "$HOME/shell/shell-aliases-cc.sh" ]; then
+    . "$HOME/shell/shell-aliases-cc.sh"
 fi
 
 # ---------------------------------------------------------------------------- #
 # include: program-related
 
-if [ -f ~/.shell-programs.sh ]; then
-    . ~/.shell-programs.sh
+if [ -f "$HOME/shell/shell-programs.sh" ]; then
+    . "$HOME/shell/shell-programs.sh"
 fi
 
 # ---------------------------------------------------------------------------- #
 # include: launchers
 
-if [ -f ~/.shell-launchers.sh ]; then
-    . ~/.shell-launchers.sh
+if [ -f "$HOME/shell/shell-launchers.sh" ]; then
+    . "$HOME/shell/shell-launchers.sh"
 fi
 
 # ---------------------------------------------------------------------------- #
