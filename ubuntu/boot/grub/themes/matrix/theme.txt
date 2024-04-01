@@ -76,7 +76,7 @@ terminal-font: "Ubuntu Mono Bold 24"
     left = 10%
     top = 1%
 
-    text = "  `c`   : return to previous menu"
+    text = "  `c`   : command-line"
     font = "Ubuntu Mono Bold 24"
     color = "#D3D3D3" # LightGray
 }
