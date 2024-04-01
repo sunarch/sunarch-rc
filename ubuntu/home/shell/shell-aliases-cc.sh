@@ -2,13 +2,9 @@
 # includes for shell: aliases - C compiler
 # ---------------------------------------------------------------------------- #
 
-# compiler #####################################################################
+# helper --------------------------------------------------------------------- #
 
-C_COMPILER=gcc
-
-# C standard ###################################################################
-
-choose_c_std() {
+compile-c-choose-flag-std() {
     case "$1" in
 	c90 | c89 | ansi)
 	    # , iso9899:1990 , -ansi , gnu90 , gnu89
@@ -39,61 +35,56 @@ choose_c_std() {
     esac
 }
 
-# common #######################################################################
-
-# warnings ---------------------------------------------------------------------
-
-C_FLAGS_WARNING=(\
--Wall -Wextra -Wpedantic \
--Waggregate-return \
--Wbad-function-cast \
--Wcast-align -Wcast-qual \
--Wconversion \
--Wfloat-equal \
--Wpointer-arith \
--Wredundant-decls \
--Wshadow \
--Wstrict-prototypes \
--Wswitch-default -Wswitch-enum \
--Wundef \
--Wunreachable-code \
--Wwrite-strings
-)
-
-# other-------------------------------------------------------------------------
-
-# Position Independent Executable (PIE)
-C_FLAG_PIE_NO=-no-pie
-
-# optimization / debug #########################################################
-
-C_FLAG_OPTIMIZE=(-O2)
-
-# Og: optimizations that don't interfere with debugging
-C_FLAGS_DEBUG=(-g -Og)
-
-# FUNCTIONS ####################################################################
+# general -------------------------------------------------------------------- #
 
 compile-c() { 
+
+    local C_COMPILER=gcc
+    
+    # Position Independent Executable (PIE)
+    local C_FLAG_PIE_NO=-no-pie
+    
+    local C_FLAGS_WARNING=(\
+        -Wall -Wextra -Wpedantic \
+        -Waggregate-return \
+        -Wbad-function-cast \
+        -Wcast-align -Wcast-qual \
+        -Wconversion \
+        -Wfloat-equal \
+        -Wpointer-arith \
+        -Wredundant-decls \
+        -Wshadow \
+        -Wstrict-prototypes \
+        -Wswitch-default -Wswitch-enum \
+        -Wundef \
+        -Wunreachable-code \
+        -Wwrite-strings
+    )
 
     if [ ! -f "$1" ] ; then
         echo 'Argument not a file'
         return
     fi
 
-    c_compiler_std=$(choose_c_std $2)
+    c_compiler_std=$(compile-c-choose-flag-std $2)
 
     echo $c_compiler_std | xargs $C_COMPILER ${C_FLAGS_WARNING[@]} $C_FLAG_PIE_NO ${3[@]} -o ${1%.*} $1
 }
 
+# specific ------------------------------------------------------------------- #
 
 compile-c-optimize() {
+
+    local C_FLAG_OPTIMIZE=(-O2)
 
     compile-c $1 $2 $C_FLAG_OPTIMIZE
 }
 
 
 compile-c-debug() {
+
+    # Og: optimizations that don't interfere with debugging
+    local C_FLAGS_DEBUG=(-g -Og)
 
     compile-c $1 $2 $C_FLAGS_DEBUG
 }
