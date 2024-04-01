@@ -76,27 +76,28 @@ __prompt_construct() {
     local escape_reset="$(ansi_escape_sequence 'reset')"
     local fmt_reset="$(__prompt_construct_nonprinting "${escape_reset}")"
     local escape_bold_green="$(ansi_escape_sequence 'bold' 'green')"
-    local fmt_bold_green=$(__prompt_construct_nonprinting "${escape_bold_green}")
+    local fmt_bold_green="$(__prompt_construct_nonprinting "${escape_bold_green}")"
     local escape_bold_blue="$(ansi_escape_sequence 'bold' 'blue')"
-    local fmt_bold_blue=$(__prompt_construct_nonprinting "${escape_bold_blue}")
+    local fmt_bold_blue="$(__prompt_construct_nonprinting "${escape_bold_blue}")"
 
     local prefix_debian_chroot='${debian_chroot:+($debian_chroot)}'
 
-    local item_user="$(__prompt_construct_special 'username')"
-    local item_host="$(__prompt_construct_special 'host')"
-    local item_user_at_host="${item_user}@${item_host}"
+    local _item_user="$(__prompt_construct_special 'username')"
+    local _item_host="$(__prompt_construct_special 'host')"
+    local item_user_at_host="${_item_user}@${_item_host}"
 
-    local item_pwd="$(__prompt_construct_special 'pwd')"
+    local _item_pwd="$(__prompt_construct_special 'pwd-short')"
+    local item_dir="${_item_pwd##*/}"
 
     local item_end="$(__prompt_construct_special 'prompt')"
 
     local prompt=''
     if [ "$color_prompt" = yes ]; then
         local item_user_at_host_fmt="${fmt_bold_green}${item_user_at_host}${fmt_reset}"
-        local item_pwd_fmt="${fmt_bold_blue}${item_pwd}${fmt_reset}"
-        prompt="${item_user_at_host_fmt}:${item_pwd_fmt}"
+        local item_dir_fmt="${fmt_bold_blue}${item_dir}${fmt_reset}"
+        prompt="${item_user_at_host_fmt}:${item_dir_fmt}"
     else
-        prompt="${item_user_at_host}:${item_pwd}"
+        prompt="${item_user_at_host}:${item_dir}"
     fi
 
     echo -nE "${prefix_debian_chroot}${prompt} ${item_end} "
