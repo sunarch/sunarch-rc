@@ -5,3 +5,5 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+# same as `update-grub`
