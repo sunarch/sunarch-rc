@@ -82,9 +82,7 @@ __prompt_construct() {
 
     local prefix_debian_chroot='${debian_chroot:+($debian_chroot)}'
 
-    local _item_user="$(__prompt_construct_special 'username')"
-    local _item_host="$(__prompt_construct_special 'host')"
-    local item_user_at_host="${_item_user}@${_item_host}"
+    local item_user="$(__prompt_construct_special 'username')"
 
     local _item_pwd="$(__prompt_construct_special 'pwd-short')"
     local item_dir="${_item_pwd##*/}"
@@ -93,9 +91,9 @@ __prompt_construct() {
 
     local prompt=''
     if [ "$color_prompt" = yes ]; then
-        local item_user_at_host_fmt="${fmt_bold_green}${item_user_at_host}${fmt_reset}"
+        local item_user_fmt="${fmt_bold_green}${item_user}${fmt_reset}"
         local item_dir_fmt="${fmt_bold_blue}${item_dir}${fmt_reset}"
-        prompt="${item_user_at_host_fmt}:${item_dir_fmt}"
+        prompt="[${item_user_fmt}] ${item_dir_fmt}"
     else
         prompt="${item_user_at_host}:${item_dir}"
     fi
