@@ -81,7 +81,7 @@ __prompt_construct() {
 
     local item_shell="$(__prompt_construct_special 'shell')"
     if [ "$color_prompt" = yes ]; then
-        fmt_current="$(ansi_escape_sequence 'bold' 'yellow')"
+        fmt_current="$(ansi_escape_sequence 'bold' 'magenta')"
         fmt_current="$(__prompt_construct_nonprinting "${fmt_current}")"
         item_shell="${fmt_current}${item_shell}${fmt_reset}"
     fi
@@ -89,7 +89,7 @@ __prompt_construct() {
 
     local item_user="$(__prompt_construct_special 'username')"
     if [ "$color_prompt" = yes ]; then
-        fmt_current="$(ansi_escape_sequence 'bold' 'green')"
+        fmt_current="$(ansi_escape_sequence 'bold' 'yellow')"
         fmt_current="$(__prompt_construct_nonprinting "${fmt_current}")"
         item_user="${fmt_current}${item_user}${fmt_reset}"
     fi
@@ -103,10 +103,34 @@ __prompt_construct() {
         item_dir="${fmt_current}${item_dir}${fmt_reset}"
     fi
     item_dir="./${item_dir}"
+    
+    local is_in_git_wt="$(git rev-parse --is-inside-work-tree 2> /dev/null)"
+    local item_git=''
+    if [ "$is_in_git_wt" = true ]; then
+        local item_git_prefix='git:'
+        local item_git_branch="$(git rev-parse --abbrev-ref HEAD 2> /dev/null)"
+        local git_status_line="$(git status | tail -n 1)"
+        local git_status_clean='nothing to commit, working tree clean'
+
+        if [ "$color_prompt" = yes ]; then
+            fmt_current="$(ansi_escape_sequence 'bold' 'blue')"
+            fmt_current="$(__prompt_construct_nonprinting "${fmt_current}")"
+            item_git_prefix="${fmt_current}${item_git_prefix}${fmt_reset}"
+
+            if [ "$git_status_line" = "$git_status_clean" ]; then
+                fmt_current="$(ansi_escape_sequence 'bold' 'green')"
+            else
+                fmt_current="$(ansi_escape_sequence 'bold' 'red')"
+            fi
+            fmt_current="$(__prompt_construct_nonprinting "${fmt_current}")"
+            item_git_branch="${fmt_current}${item_git_branch}${fmt_reset}"
+        fi
+        item_git="${item_git_prefix}${item_git_branch}"
+    fi
 
     local item_end="$(__prompt_construct_special 'prompt')"
 
-    echo -nE "${prefix_chroot}${item_shell} ${item_user} ${item_dir} ${item_end} "
+    echo -nE "${prefix_chroot}${item_shell} ${item_user} ${item_dir} ${item_git} ${item_end} "
 }
 
 # set variable identifying the chroot you work in (used in the prompt below)
