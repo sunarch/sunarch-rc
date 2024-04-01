@@ -11,6 +11,17 @@
 #umask 022
 
 # ---------------------------------------------------------------------------- #
+# include function
+
+shell-source-include() {
+    if [ ! -z "$1" ] && [ -f $1 ]; then
+        . "$1"
+    else
+        echo "CUSTOM SCRIPT NOT FOUND: '$1'"
+    fi
+}
+
+# ---------------------------------------------------------------------------- #
 # list of include sources
 
 # shell-programs.sh depends on shell-path.sh 
