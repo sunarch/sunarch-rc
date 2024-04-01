@@ -35,8 +35,9 @@ terminal-font: "Ubuntu Mono Bold 24"
 
 + label {
     left = 10%
-    top = 5%
+    top = 75%
     width = 80%
+    height = 60
     align = "center"
     id = "__timeout__"
 
@@ -45,47 +46,48 @@ terminal-font: "Ubuntu Mono Bold 24"
     color = "#D3D3D3" # LightGray
 }
 
-+ label {
++ vbox {
     left = 10%
-    top = 5%
+    top = 80%
 
-    text = "`↓`/`↑` : select which entry is highlighted"
-    font = "Ubuntu Mono Bold 24"
-    color = "#D3D3D3" # LightGray
+    + label {
+        height = 30
+
+        text = " `↓`/`↑` : select which entry is highlighted"
+        font = "Ubuntu Mono Bold 24"
+        color = "#D3D3D3" # LightGray
+    }
+
+    + label {
+        height = 30
+
+        text = "  `⤶`   : boot the selected OS / enter menu"
+        font = "Ubuntu Mono Bold 24"
+        color = "#D3D3D3" # LightGray
+    }
+
+    + label {
+        height = 30
+
+        text = "  `e`   : edit the commands before booting"
+        font = "Ubuntu Mono Bold 24"
+        color = "#D3D3D3" # LightGray
+    }
+
+    + label {
+        height = 30
+
+        text = "  `c`   : command-line"
+        font = "Ubuntu Mono Bold 24"
+        color = "#D3D3D3" # LightGray
+    }
+
+    + label {
+        height = 30
+
+        text = " `ESC`  : return to previous menu"
+        font = "Ubuntu Mono Bold 24"
+        color = "#D3D3D3" # LightGray
+    }
 }
 
-+ label {
-    left = 10%
-    top = 1%
-
-    text = "  `⤶`   : boot the selected OS / enter menu"
-    font = "Ubuntu Mono Bold 24"
-    color = "#D3D3D3" # LightGray
-}
-
-+ label {
-    left = 10%
-    top = 1%
-
-    text = "  `e`   : edit the commands before booting"
-    font = "Ubuntu Mono Bold 24"
-    color = "#D3D3D3" # LightGray
-}
-
-+ label {
-    left = 10%
-    top = 1%
-
-    text = "  `c`   : command-line"
-    font = "Ubuntu Mono Bold 24"
-    color = "#D3D3D3" # LightGray
-}
-
-+ label {
-    left = 10%
-    top = 1%
-
-    text = " `ESC`  : return to previous menu"
-    font = "Ubuntu Mono Bold 24"
-    color = "#D3D3D3" # LightGray
-}
