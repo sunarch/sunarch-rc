@@ -36,3 +36,8 @@ for item in "${CUSTOM_SOURCE_INCLUDES[@]}"; do
 done
 
 # ---------------------------------------------------------------------------- #
+# remove list from environment
+
+unset CUSTOM_SOURCE_INCLUDES
+
+# ---------------------------------------------------------------------------- #
