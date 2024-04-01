@@ -15,26 +15,24 @@ alias commit-count='git log --oneline | wc -l'
 # ---------------------------------------------------------------------------- #
 # ls
 
-alias l='ls -bF -C'
-alias la='ls -AbF -C'
-
-alias ll='ls -abF -lh'
+alias ls-all='ls -bF -C -a'
+alias ls-all-list='ls -bF -lh -a'
 
 # inode indexes
-alias lsi='ls -AbF -C -i'
-alias lli='ls -AbF -lh -i'
+alias ls-inode='ls -bF -C -Ai'
+alias ls-inode-list='ls -bF -lh -Ai'
 
 # sorted by size and allocated size
-alias lss='ls -AbF -C -s -S'
-alias lls='ls -AbF -lh -s -S'
+alias ls-size='ls -bF -C -AsS'
+alias ls-size-list='ls -bF -lh -AsS'
 
 # sorted by time
-alias lst='ls -AbF -C -t'
-alias llt='ls -AbF -lh -t'
+alias ls-time='ls -bF -C -At'
+alias ls-time-list='ls -bF -lh -At'
 
 # sorted by extension
-alias lsx='ls -AbF -C -X'
-alias llx='ls -AbF -lh -X'
+alias ls-ext='ls -bF -C -AX'
+alias ls-ext-list='ls -bF -lh -AX'
 
 # ---------------------------------------------------------------------------- #
 # search
