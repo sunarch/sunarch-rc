@@ -11,39 +11,25 @@
 #umask 022
 
 # ---------------------------------------------------------------------------- #
-# include: path
+# list of include sources
 
-if [ -f "$HOME/shell/shell-path.sh" ]; then
-    . "$HOME/shell/shell-path.sh"
-fi
+# shell-programs.sh depends on shell-path.sh 
 
-# ---------------------------------------------------------------------------- #
-# include: alias definitions
-
-if [ -f "$HOME/shell/shell-aliases.sh" ]; then
-    . "$HOME/shell/shell-aliases.sh"
-fi
-
-# ---------------------------------------------------------------------------- #
-# include: alias definitions - C compiler
-
-if [ -f "$HOME/shell/shell-aliases-cc.sh" ]; then
-    . "$HOME/shell/shell-aliases-cc.sh"
-fi
+CUSTOM_SOURCE_INCLUDES=(\
+    "$HOME/shell/shell-path.sh"\
+    "$HOME/shell/shell-aliases.sh"\
+    "$HOME/shell/shell-aliases-cc.sh"\
+    "$HOME/shell/shell-launchers.sh"\
+    "$HOME/shell/shell-programs.sh"\
+)
 
 # ---------------------------------------------------------------------------- #
-# include: program-related
-# depends on $HOME/shell/shell-path.sh
+# source list items
 
-if [ -f "$HOME/shell/shell-programs.sh" ]; then
-    . "$HOME/shell/shell-programs.sh"
-fi
-
-# ---------------------------------------------------------------------------- #
-# include: launchers
-
-if [ -f "$HOME/shell/shell-launchers.sh" ]; then
-    . "$HOME/shell/shell-launchers.sh"
-fi
+for item in "${CUSTOM_SOURCE_INCLUDES[@]}"; do
+    if [ -f $item ]; then
+        . "$item"
+    fi
+done
 
 # ---------------------------------------------------------------------------- #
