@@ -41,8 +41,3 @@ alias search-content='grep -Rin ./ -e'
 alias search-content-word='grep -Rinw ./ -e'
 
 # ---------------------------------------------------------------------------- #
-# sourcing tools
-
-alias emsdk-env='source ~/Documents/git-ref/github/emscripten-core/emsdk/emsdk_env.sh'
-
-# ---------------------------------------------------------------------------- #

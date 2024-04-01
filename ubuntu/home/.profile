@@ -21,6 +21,7 @@ CUSTOM_SOURCE_INCLUDES=(\
     "$HOME/shell/shell-aliases-cc.sh"\
     "$HOME/shell/shell-launchers.sh"\
     "$HOME/shell/shell-programs.sh"\
+    "$HOME/shell/shell-environments.sh"\
 )
 
 # ---------------------------------------------------------------------------- #
