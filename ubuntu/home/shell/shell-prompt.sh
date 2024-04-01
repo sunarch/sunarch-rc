@@ -58,85 +58,162 @@ __prompt_construct_nonprinting() {
     echo -nE "${begin}${value}${end}"
 }
 
-__prompt_construct() {
-
-    local color_prompt=no
-
+# option: color -------------------------------------------------------------- #
+__PROMPT_OPTION_COLOR=false
+setup_prompt_option_color() {
     case "$TERM" in
-        xterm-color|*-256color) color_prompt=yes;;
+        xterm-color|*-256color) __PROMPT_OPTION_COLOR=true;;
     esac
-
-    if [ "$color_prompt" = no ] && [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
+    if [ "$__PROMPT_OPTION_COLOR" = false ] && [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
 	    # We have color support; assume it's compliant with Ecma-48
 	    # (ISO/IEC-6429). (Lack of such support is extremely rare, and such
 	    # a case would tend to support setf rather than setaf.)
-	    color_prompt=yes
+	    __PROMPT_OPTION_COLOR=true
     fi
+}
+setup_prompt_option_color
+unset setup_prompt_option_color
 
+# component: reset ----------------------------------------------------------- #
+__PROMPT_COMPONENT_RESET=''
+setup_prompt_component_reset() {
     local fmt_reset="$(ansi_escape_sequence 'reset')"
-    local fmt_reset="$(__prompt_construct_nonprinting "${fmt_reset}")"
-    local fmt_current="${fmt_reset}"
+    __PROMPT_COMPONENT_RESET="$(__prompt_construct_nonprinting "${fmt_reset}")"
+}
+setup_prompt_component_reset
+unset setup_prompt_component_reset
 
-    local prefix_chroot='${debian_chroot:+($debian_chroot)}'
+# component: prefix - chroot ------------------------------------------------- #
+__PROMPT_COMPONENT_PREFIX_CHROOT='${debian_chroot:+($debian_chroot)}'
 
+# component: shell ----------------------------------------------------------- #
+__PROMPT_COMPONENT_SHELL=''
+setup_prompt_component_shell() {
+    local fmt_current=''
     local item_shell="$(__prompt_construct_special 'shell')"
-    if [ "$color_prompt" = yes ]; then
+    if [ "$__PROMPT_OPTION_COLOR" = true ]; then
         fmt_current="$(ansi_escape_sequence 'bold' 'magenta')"
         fmt_current="$(__prompt_construct_nonprinting "${fmt_current}")"
-        item_shell="${fmt_current}${item_shell}${fmt_reset}"
+        item_shell="${fmt_current}${item_shell}${__PROMPT_COMPONENT_RESET}"
     fi
-    item_shell=">${item_shell}"
+    __PROMPT_COMPONENT_SHELL=">${item_shell}"
+}
+setup_prompt_component_shell
+unset setup_prompt_component_shell
 
+# component: user ------------------------------------------------------------ #
+__PROMPT_COMPONENT_USER=''
+setup_prompt_component_user() {
+    local fmt_current=''
     local item_user="$(__prompt_construct_special 'username')"
-    if [ "$color_prompt" = yes ]; then
+    if [ "$__PROMPT_OPTION_COLOR" = true ]; then
         fmt_current="$(ansi_escape_sequence 'bold' 'yellow')"
         fmt_current="$(__prompt_construct_nonprinting "${fmt_current}")"
-        item_user="${fmt_current}${item_user}${fmt_reset}"
+        item_user="${fmt_current}${item_user}${__PROMPT_COMPONENT_RESET}"
     fi
-    item_user=" ~${item_user}"
+    __PROMPT_COMPONENT_USER=" ~${item_user}"
+}
+setup_prompt_component_user
+unset setup_prompt_component_user
 
+# component: directory ------------------------------------------------------- #
+__PROMPT_COMPONENT_DIR=''
+setup_prompt_component_dir() {
+    local fmt_current=''
     local item_dir="$(__prompt_construct_special 'pwd-short')"
     item_dir="${item_dir##*/}"
-    if [ "$color_prompt" = yes ]; then
+    if [ "$__PROMPT_OPTION_COLOR" = true ]; then
         fmt_current="$(ansi_escape_sequence 'bold' 'cyan')"
         fmt_current="$(__prompt_construct_nonprinting "${fmt_current}")"
-        item_dir="${fmt_current}${item_dir}${fmt_reset}"
+        item_dir="${fmt_current}${item_dir}${__PROMPT_COMPONENT_RESET}"
     fi
-    item_dir=" ./${item_dir}"
-    
-    local is_in_git_wt="$(git rev-parse --is-inside-work-tree 2> /dev/null)"
-    local item_git=''
-    if [ "$is_in_git_wt" = true ]; then
-        local item_git_prefix='git:'
-        local item_git_branch="$(git rev-parse --abbrev-ref HEAD 2> /dev/null)"
-        local git_status_line="$(git status | tail -n 1)"
-        local git_status_clean='nothing to commit, working tree clean'
+    __PROMPT_COMPONENT_DIR=" ./${item_dir}"
+}
+setup_prompt_component_dir
+unset setup_prompt_component_dir
 
-        if [ "$color_prompt" = yes ]; then
-            fmt_current="$(ansi_escape_sequence 'bold' 'blue')"
-            fmt_current="$(__prompt_construct_nonprinting "${fmt_current}")"
-            item_git_prefix="${fmt_current}${item_git_prefix}${fmt_reset}"
+# component: Git ------------------------------------------------------------- #
+__PROMPT_COMPONENT_GIT_PREFIX=''
+setup_prompt_component_git_prefix() {
+    local fmt_current=''
+    local item_git_prefix='git:'
+    if [ "$__PROMPT_OPTION_COLOR" = true ]; then
+        fmt_current="$(ansi_escape_sequence 'bold' 'blue')"
+        fmt_current="$(__prompt_construct_nonprinting "${fmt_current}")"
+        item_git_prefix="${fmt_current}${item_git_prefix}${__PROMPT_COMPONENT_RESET}"
+    fi
+    __PROMPT_COMPONENT_GIT_PREFIX=" ${item_git_prefix}${item_git_branch}"
+}
+setup_prompt_component_git_prefix
+unset setup_prompt_component_git_prefix
 
-            if [ "$git_status_line" = "$git_status_clean" ]; then
-                fmt_current="$(ansi_escape_sequence 'bold' 'green')"
-            else
-                fmt_current="$(ansi_escape_sequence 'bold' 'red')"
-            fi
-            fmt_current="$(__prompt_construct_nonprinting "${fmt_current}")"
-            item_git_branch="${fmt_current}${item_git_branch}${fmt_reset}"
+__PROMPT_COMPONENT_GIT_BRANCH_CLEAN=''
+setup_prompt_component_git_branch_clean() {
+    local fmt_current="$(ansi_escape_sequence 'bold' 'green')"
+    fmt_current="$(__prompt_construct_nonprinting "${fmt_current}")"
+    __PROMPT_COMPONENT_GIT_BRANCH_CLEAN="${fmt_current}"
+}
+setup_prompt_component_git_branch_clean
+unset setup_prompt_component_git_branch_clean
+
+__PROMPT_COMPONENT_GIT_BRANCH_NOT_CLEAN=''
+setup_prompt_component_git_branch_not_clean() {
+    local fmt_current="$(ansi_escape_sequence 'bold' 'red')"
+    fmt_current="$(__prompt_construct_nonprinting "${fmt_current}")"
+    __PROMPT_COMPONENT_GIT_BRANCH_NOT_CLEAN="${fmt_current}"
+}
+setup_prompt_component_git_branch_not_clean
+unset setup_prompt_component_git_branch_not_clean
+
+__prompt_component_git_branch() {
+    local fmt_current=''
+    local item_git_branch="$(git rev-parse --abbrev-ref HEAD 2> /dev/null)"
+    local git_status_line="$(git status | tail -n 1)"
+    local git_status_clean='nothing to commit, working tree clean'
+    if [ "$__PROMPT_OPTION_COLOR" = true ]; then
+        if [ "$git_status_line" = "$git_status_clean" ]; then
+            fmt_current="${__PROMPT_COMPONENT_GIT_BRANCH_CLEAN}"
+        else
+            fmt_current="${__PROMPT_COMPONENT_GIT_BRANCH_NOT_CLEAN}"
         fi
-        item_git=" ${item_git_prefix}${item_git_branch}"
+        item_git_branch="${fmt_current}${item_git_branch}${__PROMPT_COMPONENT_RESET}"
     fi
+    echo "${item_git_branch}"
+}
 
-    local item_end=" $(__prompt_construct_special 'prompt')"
+__prompt_component_git() {
+    local is_in_git_wt="$(git rev-parse --is-inside-work-tree 2> /dev/null)"
+    if [ "$is_in_git_wt" = true ]; then
+        echo "\
+${__PROMPT_COMPONENT_GIT_PREFIX}\
+$(__prompt_component_git_branch)"
+    fi
+}
 
-    echo -nE "${prefix_chroot}${item_shell}${item_user}${item_dir}${item_git}${item_end} "
+# component: end ------------------------------------------------------------- #
+__PROMPT_COMPONENT_END=" $(__prompt_construct_special 'prompt')"
+
+# construct ------------------------------------------------------------------ #
+__prompt_construct() {
+    echo -nE "\
+${__PROMPT_COMPONENT_PREFIX_CHROOT}\
+${__PROMPT_COMPONENT_SHELL}\
+${__PROMPT_COMPONENT_USER}\
+${__PROMPT_COMPONENT_DIR}\
+$(__prompt_component_git)\
+${__PROMPT_COMPONENT_END} "
 }
 
 # set variable identifying the chroot you work in (used in the prompt below)
 if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
     debian_chroot=$(cat /etc/debian_chroot)
 fi
+
+# ---------------------------------------------------------------------------- #
+# remove unnecessary globals from environment
+
+unset __prompt_construct_special
+unset __prompt_construct_nonprinting
 
 # ---------------------------------------------------------------------------- #
 # PROMPT_COMMAND
