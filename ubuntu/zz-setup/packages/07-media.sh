@@ -29,7 +29,7 @@ sudo apt-get install traverso # Multitrack audio recorder and editor
 
 sudo apt-get install darktable # virtual lighttable and darkroom for photographers
 sudo apt-get install gimp # GNU Image Manipulation Program
-sudo apt-get install grafx2 # ultimate 256-color bitmap paint program
+#sudo apt-get install grafx2 # ultimate 256-color bitmap paint program
 sudo apt-get install imagemagick # image manipulation programs -- binaries
 sudo apt-get install inkscape # vector-based drawing program
 sudo apt-get install krita # pixel-based image manipulation program
