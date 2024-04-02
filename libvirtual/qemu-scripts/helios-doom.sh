@@ -5,8 +5,14 @@
 
 # ISO: https://mirror.drewdevault.com/doom.iso
 
-qemu-system-x86_64 -m 1G -no-reboot -no-shutdown \
-    -drive file=doom.iso,format=raw \
+ISO="$HOME/Documents/vmiso/helios-doom.iso"
+RAM='1G'
+
+qemu-system-x86_64 \
+    -drive file="${ISO}",format=raw \
+    -m "${RAM}" \
     -display sdl \
     -chardev stdio,id=char0 \
-    -serial chardev:char0
+    -serial chardev:char0 \
+    -no-reboot \
+    -no-shutdown
