@@ -35,7 +35,7 @@ alias ls-ext='ls -bF -C -AX'
 alias ls-ext-list='ls -bF -lh -AX'
 
 # ---------------------------------------------------------------------------- #
-# navigation
+# navigation - XDG user directories
 
 # user-specific configurations - analogous to /etc
 alias nav-xdg-config="cd $HOME/.config"
@@ -45,6 +45,17 @@ alias nav-xdg-cache="cd $HOME/.cache"
 alias nav-xdg-data="cd $HOME/.local/share"
 # user-specific state files - analogous to /var/lib
 alias nav-xdg-state="cd $HOME/.local/state"
+
+# ---------------------------------------------------------------------------- #
+# navigation - desktop files & icons
+
+## desktop files
+alias nav-desktop-files-global='cd /usr/share/applications'
+alias nav-desktop-files-local="cd $HOME/.local/share/applications"
+
+# desktop icons
+alias nav-desktop-icons-global='cd /usr/share/icons'
+alias nav-desktop-icons-local="cd $HOME/.local/share/icons"
 
 # ---------------------------------------------------------------------------- #
 # search
