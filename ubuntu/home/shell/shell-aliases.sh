@@ -35,6 +35,18 @@ alias ls-ext='ls -bF -C -AX'
 alias ls-ext-list='ls -bF -lh -AX'
 
 # ---------------------------------------------------------------------------- #
+# navigation
+
+# user-specific configurations - analogous to /etc
+alias nav-xdg-config="cd $HOME/.config"
+ # user-specific non-essential (cached) data - analogous to /var/cache
+alias nav-xdg-cache="cd $HOME/.cache"
+# user-specific data files - analogous to /usr/share
+alias nav-xdg-data="cd $HOME/.local/share"
+# user-specific state files - analogous to /var/lib
+alias nav-xdg-state="cd $HOME/.local/state"
+
+# ---------------------------------------------------------------------------- #
 # search
 
 alias search-content='grep -Rin ./ -e'
