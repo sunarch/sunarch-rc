@@ -25,3 +25,12 @@ alias nav-desktop-icons-global='cd /usr/share/icons'
 alias nav-desktop-icons-local="cd $HOME/.local/share/icons"
 
 # ---------------------------------------------------------------------------- #
+# wallpapers / backgrounds
+
+alias nav-wallpapers-global='cd /usr/share/wallpapers'
+
+# these are the preferred ones for Ubuntu:
+alias nav-backgrounds-global='cd /usr/share/backgrounds'
+alias nav-backgrounds-local="cd $HOME/.local/share/backgrounds"
+
+# ---------------------------------------------------------------------------- #
