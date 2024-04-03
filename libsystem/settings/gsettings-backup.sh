@@ -4,4 +4,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-gsettings list-recursively > gsettings.txt
+CURRENT_DATE=$(date +"%Y-%m-%d")
+
+gsettings list-recursively > gsettings-backup-${CURRENT_DATE}.txt

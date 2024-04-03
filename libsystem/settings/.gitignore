@@ -1,2 +1,2 @@
-gsettings.txt
-dconf.preferences
+gsettings-backup-*.txt
+dconf-backup-*.preferences
