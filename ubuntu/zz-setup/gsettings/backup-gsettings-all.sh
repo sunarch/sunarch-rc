@@ -6,4 +6,4 @@
 
 CURRENT_DATE=$(date +"%Y-%m-%d")
 
-gsettings list-recursively > gsettings-backup-${CURRENT_DATE}.txt
+gsettings list-recursively > all-backup-gsettings-${CURRENT_DATE}.txt
