@@ -148,7 +148,7 @@ keepass2 -> 08-utilities
 kitty -> 09-terminal
 krita -> 07-media
 libapache2 -> 00-general
-libdigest-sha3-perl -> 11-misc
+libdigest-sha3-perl -> 08-utilities
 libfolks -> 00-general
 libfuse2 -> 51-flatpak
 libreoffice -> 04-office

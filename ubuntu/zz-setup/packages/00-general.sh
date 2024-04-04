@@ -15,6 +15,10 @@ sudo apt-get install exfat-fuse # read and write exFAT driver for FUSE
 
 sudo apt-get install gnome # Full GNOME Desktop Environment, with extra components
 
+sudo apt-get install gnome-shell-extensions # Extensions to extend functionality of GNOME Shell
+sudo apt-get install gnome-shell-extension-appindicator # AppIndicator, KStatusNotifierItem and tray support for GNOME Shell
+sudo apt-get install gnome-shell-extension-ubuntu-tiling-assistant # extension which adds a Windows-like snap assist to GNOME Shell
+
 # ------------------------------------ #
 # GNOME - remove:
 

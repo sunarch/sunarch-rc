@@ -49,9 +49,11 @@ sudo apt-get install apt-xapian-index # maintenance and search tools for a Xapia
 
 sudo apt-get install gnome-calculator # GNOME desktop calculator
 sudo apt-get install gnome-clocks # Simple GNOME app with stopwatch, timer, and world clock support
-sudo apt-get install gtkhash # GTK+ utility for computing checksums and more
 sudo apt-get install keepass2 # Password manager
 sudo apt-get install qdirstat # Qt-based directory statistics
+
+sudo apt-get install gtkhash # GTK+ utility for computing checksums and more
+sudo apt-get install libdigest-sha3-perl # Perl extension for SHA-3
 
 # Docker --> see individual
 
