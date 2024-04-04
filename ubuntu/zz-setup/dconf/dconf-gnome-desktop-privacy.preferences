@@ -1,0 +1,7 @@
+[/]
+disable-microphone=false
+old-files-age=uint32 30
+recent-files-max-age=30
+remember-recent-files=false
+remove-old-temp-files=true
+remove-old-trash-files=false

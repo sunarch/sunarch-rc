@@ -1,0 +1,15 @@
+[/]
+document-directory=@ms nothing
+
+[default]
+continuous=true
+dual-page=false
+dual-page-odd-left=true
+enable-spellchecking=true
+fullscreen=false
+inverted-colors=false
+show-sidebar=true
+sidebar-page='thumbnails'
+sidebar-size=148
+sizing-mode='automatic'
+window-ratio=(1.6122377733346021, 1.2451120166743377)

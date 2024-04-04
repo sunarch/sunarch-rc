@@ -1,0 +1,17 @@
+[color]
+night-light-enabled=true
+night-light-schedule-automatic=false
+night-light-schedule-from=0.0
+night-light-schedule-to=0.0
+night-light-temperature=uint32 3700
+
+[media-keys]
+home=['<Super>e']
+terminal=['<Super>t']
+www=['HomePage']
+
+[power]
+idle-dim=true
+power-button-action='suspend'
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'

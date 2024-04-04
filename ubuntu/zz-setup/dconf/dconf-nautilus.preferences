@@ -1,0 +1,9 @@
+[/]
+default-folder-viewer='icon-view'
+executable-text-activation='display'
+fts-enabled=false
+migrated-gtk-settings=true
+search-filter-time-type='last_modified'
+search-view='icon-view'
+show-create-link=true
+show-delete-permanently=false

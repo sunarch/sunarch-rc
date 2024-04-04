@@ -1,0 +1,10 @@
+[/]
+highlight-current-line=true
+indent-style='space'
+restore-session=true
+show-line-numbers=true
+show-map=true
+show-right-margin=true
+style-scheme='cobalt-light'
+tab-width=uint32 4
+use-system-font=true

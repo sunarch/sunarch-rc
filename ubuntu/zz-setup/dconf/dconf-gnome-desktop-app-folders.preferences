@@ -1,0 +1,135 @@
+[/]
+folder-children=['Utilities', 'Sundry', 'YaST', '028500c2-c1b6-49a0-bc69-4e05c48ff6c9', '105beda3-5280-40fc-8cc8-731ae27586bf', 'a1768b89-7e7b-43d9-b9ba-d21cc45e80fb', 'd6faa3a9-ce95-4aa4-9213-87b3ac4adfc8', 'beb934ad-71db-4497-a44d-182b8ffff045', '875e5592-8dce-4791-a122-c94e31bc46a3', 'fa393aba-3833-4f11-b00c-26012f5f0712', '89df0d8a-c897-42eb-8d8e-00235499e603', '70ccaa97-514b-4461-84be-1baf176c7836', '1db18ac7-6bb8-476a-a6be-c22debbef2fe', 'a4e05071-24a1-479b-b356-433a2cbc1e96', '0cc041cb-ab8d-4ac1-9fb0-5531c3151a1e', 'b630cdd7-e70b-4835-87fd-ebb585533350', '2f6d5844-02b8-4997-a5d5-4ee59bb9443d', 'b5626a95-d57c-49aa-a18b-7bc41bf9df0c', 'ea87d96e-7b1c-4c23-b2fa-b14c705709e5', 'd398200d-d54e-4e15-9b2c-1f60b79ac191', '8cfa92cb-5992-4019-a1c7-885b6e00e8a2', 'fec37a53-7ce7-4cf4-bf77-42b290071afb', '4ce55237-2a3d-4aad-9b06-b4936ed8c360', '1242372e-2775-4168-a597-d9d707c37158', 'ea51f3bd-eb6e-4ad5-a960-9bbb1c64e411']
+
+[folders/028500c2-c1b6-49a0-bc69-4e05c48ff6c9]
+apps=['audacity.desktop', 'mscore3.desktop', 'lmms.desktop', 'sonic-pi.desktop', 'SuperColliderIDE.desktop', 'spotify.desktop', 'traverso.desktop', 'ardour.desktop', 'com.rosegardenmusic.rosegarden.desktop', 'seq24.desktop', 'org.gnome.SoundRecorder.desktop', 'org.hydrogenmusic.Hydrogen.desktop', 'meterbridge.desktop', 'org.rncbc.qjackctl.desktop', 'org.rncbc.qsynth.desktop', 'org.rncbc.qtractor.desktop', 'io.github.muse_sequencer.Muse.desktop']
+name='media-audio'
+translate=false
+
+[folders/0cc041cb-ab8d-4ac1-9fb0-5531c3151a1e]
+apps=['org.gnome.Software.desktop', 'snap-store_snap-store.desktop', 'software-properties-livepatch.desktop']
+name='sys-install'
+translate=false
+
+[folders/105beda3-5280-40fc-8cc8-731ae27586bf]
+apps=['org.gnome.gedit.desktop', 'vim.desktop', 'nvim.desktop', 'bless.desktop', 'sqlitebrowser.desktop', 'org.gnome.Meld.desktop', 'org.gnome.TextEditor.desktop', 'org.kde.ghostwriter.desktop', 'emacs.desktop', 'emacs-term.desktop', 'emacsclient.desktop', 'micro.desktop']
+name='editors'
+translate=false
+
+[folders/1242372e-2775-4168-a597-d9d707c37158]
+apps=['geany.desktop', 'drracket.desktop', 'code.desktop', 'codeblocks.desktop', 'org.racket_lang.Racket.desktop']
+name='IDE'
+translate=false
+
+[folders/1db18ac7-6bb8-476a-a6be-c22debbef2fe]
+apps=['grub-customizer.desktop', 'users.desktop', 'org.gnome.tweaks.desktop', 'gnome-session-properties.desktop', 'org.gnome.seahorse.Application.desktop', 'software-properties-drivers.desktop', 'org.gnome.Extensions.desktop', 'gnome-language-selector.desktop', 'clamtk.desktop', 'time.desktop', 'org.gnome.DejaDup.desktop', 'pavumeter-record.desktop', 'pavumeter.desktop', 'pavucontrol.desktop', 'nm-connection-editor.desktop', 'picom.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'software-properties-gtk.desktop', 'update-manager.desktop', 'synaptic.desktop', 'org.gnome.Logs.desktop', 'appimagelaunchersettings.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Settings.desktop', 'yelp.desktop', 'org.gnome.Characters.desktop', 'org.flameshot.Flameshot.desktop', 'diodon.desktop', 'ca.desrt.dconf-editor.desktop', 'thunar-volman-settings.desktop', 'firmware-updater_firmware-updater.desktop', 'system-config-printer.desktop']
+name='utilities'
+translate=false
+
+[folders/2f6d5844-02b8-4997-a5d5-4ee59bb9443d]
+apps=['gimp.desktop', 'org.inkscape.Inkscape.desktop', 'org.kde.krita.desktop', 'PikoPixel.desktop', 'com.github.libresprite.LibreSprite.desktop', 'grafx2.desktop', 'darktable.desktop', 'qtqr.desktop', 'shotwell.desktop', 'org.gnome.eog.desktop', 'display-im6.q16.desktop', 'mtpaint.desktop', 'org.gephi.Gephi.desktop', 'org.darktable.darktable.desktop', 'org.gnome.Shotwell.desktop', 'org.gnome.Shotwell-Profile-Browser.desktop']
+name='media-image'
+translate=false
+
+[folders/4ce55237-2a3d-4aad-9b06-b4936ed8c360]
+apps=['signal-desktop.desktop', 'discord.desktop', 'element-desktop.desktop', 'io.github.Hexchat.desktop', 'quassel.desktop', 'smuxi-frontend-gnome.desktop', 'appimagekit_6640a28c8829376ecb38143cbd59e7ea-Telegram_Desktop.desktop', 'org.gnome.Polari.desktop', 'teams.desktop', 'aerc.desktop']
+name='comms'
+translate=false
+
+[folders/70ccaa97-514b-4461-84be-1baf176c7836]
+apps=['telegramdesktop.desktop', 'thunderbird.desktop', 'com.teamviewer.TeamViewer.desktop', 'teamviewerapi.desktop', 'realvnc-vncviewer.desktop', 'protonvpn.desktop', 'mutt.desktop', 'protonvpn-app.desktop']
+name='connections'
+translate=false
+
+[folders/875e5592-8dce-4791-a122-c94e31bc46a3]
+apps=['libreoffice-writer.desktop', 'libreoffice-calc.desktop', 'libreoffice-impress.desktop', 'libreoffice-draw.desktop', 'org.gnome.Evince.desktop', 'libreoffice-startcenter.desktop', 'libreoffice-math.desktop', 'sigil.desktop', 'pdfsam.desktop', 'scribus.desktop']
+name='office'
+translate=false
+
+[folders/89df0d8a-c897-42eb-8d8e-00235499e603]
+apps=['filezilla.desktop', 'dropbox.desktop', 'com.nextcloud.desktopclient.nextcloud.desktop', 'thunar.desktop', 'thunar-bulk-rename.desktop', 'thunar-settings.desktop', 'tixati.desktop', 'org.onionshare.OnionShare.desktop', 'appimagekit_3756b8e98deb38be984f9c4035f9d1bb-ipfs-desktop.desktop', 'app.drey.Warp.desktop', 'org.x.Warpinator.desktop', 'appimagekit_44fec62f73855f7a6bf6a1427d05916f-ipfs-desktop.desktop', 'org.gnome.FileRoller.desktop', 'xarchiver.desktop', 'appimagekit_5415ad74ad647923b0ea7d2e62a62466-IPFS_Desktop.desktop', 'nemo.desktop']
+name='files'
+translate=false
+
+[folders/8cfa92cb-5992-4019-a1c7-885b6e00e8a2]
+apps=['net.minetest.minetest.desktop', '0ad.desktop', 'redeclipse.desktop', 'assaultcube.desktop', 'supertux2.desktop', 'nexuiz.desktop', 'net.unvanquished.Unvanquished.desktop', 'org.gnome.Mines.desktop', 'frogatto.desktop', 'alienblaster.desktop', 'billard-gl.desktop', 'criticalmass.desktop', 'epiphany-game.desktop', 'advent.desktop', 'hedgewars.desktop', 'pingus.desktop', 'supertuxkart.desktop', 'etr.desktop', 'org.gnome.Nibbles.desktop', 'singularity.desktop', 'net.sourceforge.extremetuxracer.desktop', 'openttd.desktop']
+name='games-free'
+translate=false
+
+[folders/Sundry]
+apps=['alacarte.desktop', 'authconfig.desktop', 'fedora-release-notes.desktop', 'firewall-config.desktop', 'flash-player-properties.desktop', 'gconf-editor.desktop', 'gnome-abrt.desktop', 'gnome-power-statistics.desktop', 'ibus-setup-anthy.desktop', 'ibus-setup.desktop', 'ibus-setup-hangul.desktop', 'ibus-setup-libbopomofo.desktop', 'ibus-setup-libpinyin.desktop', 'ibus-setup-m17n.desktop', 'ibus-setup-typing-booster.desktop', 'im-chooser.desktop', 'itweb-settings.desktop', 'jhbuild.desktop', 'javaws.desktop', 'java-1.7.0-openjdk-jconsole.desktop', 'java-1.7.0-openjdk-policytool.desktop', 'log4j-chainsaw.desktop', 'log4j-logfactor5.desktop', 'orca.desktop', 'setroubleshoot.desktop', 'system-config-date.desktop', 'system-config-firewall.desktop', 'system-config-keyboard.desktop', 'system-config-language.desktop', 'system-config-users.desktop', 'vino-preferences.desktop']
+categories=['X-GNOME-Sundry']
+excluded-apps=['nm-connection-editor.desktop', 'ca.desrt.dconf-editor.desktop', 'system-config-printer.desktop']
+name='X-GNOME-Sundry.directory'
+translate=true
+
+[folders/Utilities]
+apps=['deja-dup-preferences.desktop', 'eog.desktop', 'evince.desktop', 'gnome-calculator.desktop', 'gnome-dictionary.desktop', 'gnome-system-log.desktop', 'gnome-tweak-tool.desktop', 'gucharmap.desktop', 'seahorse.desktop', 'vinagre.desktop', 'gnome-system-monitor.desktop', 'org.gnome.Screenshot.desktop', 'gtkhash.desktop']
+categories=['X-GNOME-Utilities']
+excluded-apps=['org.gnome.Terminal.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.baobab.desktop', 'nm-connection-editor.desktop', 'org.gnome.PowerStats.desktop', 'htop.desktop', 'org.gnome.Logs.desktop', 'appimagelaunchersettings.desktop', 'thunar-volman-settings.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.font-viewer.desktop', 'xfce4-appfinder.desktop', 'org.gnome.FileRoller.desktop', 'yelp.desktop', 'org.gnome.Characters.desktop', 'xarchiver.desktop', 'org.flameshot.Flameshot.desktop', 'diodon.desktop']
+name='utilities'
+translate=false
+
+[folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[folders/a1768b89-7e7b-43d9-b9ba-d21cc45e80fb]
+apps=['minecraft-launcher.desktop', 'steam.desktop', 'FantasyGrounds.desktop', 'install4j_1tsntyi-worldpainter.desktop', 'kitsunegames_com-midboss_1.desktop', 'worldographer-Worldographer.desktop', 'appimagekit_de01ae9ea86e268e9db865e80151445f-gdlauncher.desktop']
+name='games-proprietary'
+translate=false
+
+[folders/a4e05071-24a1-479b-b356-433a2cbc1e96]
+apps=['io.github.celluloid_player.Celluloid.desktop', 'mpv.desktop', 'vlc.desktop', 'blender.desktop', 'org.bunkus.mkvtoolnix-gui.desktop', 'com.obsproject.Studio.desktop', 'org.pitivi.Pitivi.desktop', 'org.kde.kdenlive.desktop']
+name='media-video'
+translate=false
+
+[folders/b5626a95-d57c-49aa-a18b-7bc41bf9df0c]
+apps=['pcbasic.desktop', 'virtualbox.desktop', 'golly.desktop', 'cmatrix.desktop']
+name='emulation'
+translate=false
+
+[folders/b630cdd7-e70b-4835-87fd-ebb585533350]
+apps=['brasero.desktop', 'org.gnome.SoundJuicer.desktop', 'simple-scan.desktop', 'org.gnome.Cheese.desktop', 'kde4-nmapsi4.desktop', 'appimagekit_d179364bc8b0330cad1dfdc90d72877e-balena-etcher.desktop', 'org.gnome.baobab.desktop', 'org.gnome.PowerStats.desktop', 'org.wireshark.Wireshark.desktop', 'appimagekit_18d0a535c43253e5bc6365b017cb368e-balenaEtcher.desktop']
+name='devices'
+translate=false
+
+[folders/beb934ad-71db-4497-a44d-182b8ffff045]
+apps=['texworks.desktop', 'texmaker.desktop', 'texstudio.desktop', 'gummi.desktop', 'lyx.desktop', 'info.desktop', 'texdoctk.desktop']
+name='LaTeX'
+translate=false
+
+[folders/d398200d-d54e-4e15-9b2c-1f60b79ac191]
+apps=['ranger.desktop', 'org.gnome.Terminal.desktop', 'debian-uxterm.desktop', 'debian-xterm.desktop', 'fish.desktop', 'foot.desktop', 'htop.desktop', 'btop.desktop', 'kitty.desktop', 'foot-server.desktop', 'footclient.desktop', 'org.codeberg.dnkl.foot.desktop', 'org.codeberg.dnkl.footclient.desktop', 'org.codeberg.dnkl.foot-server.desktop']
+name='terminal'
+translate=false
+
+[folders/d5f0dd04-fc33-493b-bd0b-7cd908013637]
+name='z-try finance'
+translate=false
+
+[folders/d6faa3a9-ce95-4aa4-9213-87b3ac4adfc8]
+apps=['firefox.desktop', 'brave-browser.desktop', 'start-tor-browser.desktop', 'org.qutebrowser.qutebrowser.desktop', 'netsurf-gtk.desktop', 'org.gnome.Epiphany.desktop']
+name='browsers'
+translate=false
+
+[folders/ea51f3bd-eb6e-4ad5-a960-9bbb1c64e411]
+apps=['jetbrains-idea-ce.desktop', 'jetbrains-pycharm-ce.desktop', 'jetbrains-clion.desktop', 'jetbrains-studio-5d35a66c-1ae5-415c-827b-9ded02ba90de.desktop', 'jetbrains-phpstorm-0608161d-6760-4d42-bb90-3b3c185d2677.desktop', 'jetbrains-goland-316ddd7a-bfcd-4517-9e07-e5bb55ee1fa3.desktop', 'jetbrains-toolbox.desktop']
+name='JetBrains'
+translate=false
+
+[folders/ea87d96e-7b1c-4c23-b2fa-b14c705709e5]
+apps=['org.gnome.clocks.desktop', 'org.gnome.meld.desktop', 'org.gnome.Calculator.desktop', 'qdirstat.desktop', 'keepass2.desktop', 'appimagekit_5ceb55ee88f0933e0fb96949acdd2161-balena-etcher-electron.desktop', 'keybase.desktop', 'org.gtkhash.gtkhash.desktop', 'jupyter-notebook.desktop', 'org.scanmem.gameconqueror.desktop']
+name='tools'
+translate=false
+
+[folders/fa393aba-3833-4f11-b00c-26012f5f0712]
+apps=['eqonomize.desktop', 'gnucash.desktop', 'grisbi.desktop', 'homebank.desktop', 'gramps.desktop']
+name='misc'
+translate=false
+
+[folders/fec37a53-7ce7-4cf4-bf77-42b290071afb]
+apps=['gnugo.desktop', 'cgoban.desktop', 'quarry.desktop', 'chessx.desktop', 'sol.desktop', 'org.gnome.Mahjongg.desktop', 'org.gnome.Sudoku.desktop']
+name='games-free-table'
+translate=false

@@ -1,0 +1,40 @@
+[plugins]
+active-plugins=['externaltools', 'docinfo', 'sort', 'snippets', 'sessionsaver', 'spell', 'codecomment']
+
+[plugins/filebrowser]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/anemeth/Documents/devp/zzz-other/sunarch-rc/ubuntu/zz-setup/dconf'
+
+[preferences/editor]
+auto-indent=true
+auto-save=true
+auto-save-interval=uint32 5
+background-pattern='none'
+bracket-matching=true
+display-line-numbers=true
+display-overview-map=true
+display-right-margin=true
+highlight-current-line=true
+insert-spaces=true
+right-margin-position=uint32 80
+scheme='solarized-dark'
+tabs-size=uint32 4
+wrap-last-split-mode='word'
+
+[preferences/ui]
+bottom-panel-visible=false
+show-tabs-mode='auto'
+side-panel-visible=false
+
+[state/history-entry]
+replace-with-entry=['    ', 'print', "{{ bag('site.general.baseurl') }}", 'https://okortudomany.elte.hu/bundles/loginetelte/bundles', 'static', '/assets/scripts', '/assets/static', 'The ', '"platform - Mastodon"']
+search-for-entry=['<option value="', '</option>', '\\\\n ', 'print_r', 'https://okortudomany.elte.hu', '../bundles', 'assets', '/assets/static', '/assets/scripts']
+
+[state/window]
+bottom-panel-active-page='GeditExternalToolsShellOutput'
+bottom-panel-size=139
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(960, 1001)
+state=45952

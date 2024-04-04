@@ -1,0 +1,4 @@
+[/]
+per-window=false
+sources=[('xkb', 'hu')]
+xkb-options=@as []

@@ -1,0 +1,15 @@
+[dialogs/extract]
+recreate-folders=true
+skip-newer=false
+
+[listing]
+list-mode='as-folder'
+name-column-width=361
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[ui]
+sidebar-width=200
+window-height=1001
+window-width=960
