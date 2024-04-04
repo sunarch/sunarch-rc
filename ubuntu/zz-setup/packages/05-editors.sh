@@ -17,7 +17,15 @@ sudo apt-get install neovim # heavily refactored vim fork
 sudo apt-get install vim # Vi IMproved - enhanced vi editor
 
 sudo apt-get install gedit # popular text editor for the GNOME desktop environment
-sudo apt-get install gedit-plugins # set of plugins for gedit
+sudo apt-get install gedit-plugin-bookmarks # Bookmarks plugin for gedit
+sudo apt-get install gedit-plugin-bracket-completion # Bracket Completion plugin for gedit
+sudo apt-get install gedit-plugin-character-map # Character Map plugin for gedit
+sudo apt-get install gedit-plugin-code-comment # Code Comment plugin for gedit
+sudo apt-get install gedit-plugin-color-picker # Color Picker plugin for gedit
+sudo apt-get install gedit-plugin-draw-spaces # Draw Spaces plugin for gedit
+sudo apt-get install gedit-plugin-git # Git plugin for gedit
+sudo apt-get install gedit-plugin-multi-edit # Multi Edit plugin for gedit
+sudo apt-get install gedit-plugin-session-saver # Session Saver plugin for gedit
 
 # Obsidian --> see local DEB
 
