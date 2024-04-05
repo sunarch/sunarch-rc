@@ -4,6 +4,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-sudo grub-mkconfig -o /boot/grub/grub.cfg
+# Create GRUB configuration file
 
-# same as `update-grub`
+# equivalent commands:
+# sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo update-grub
