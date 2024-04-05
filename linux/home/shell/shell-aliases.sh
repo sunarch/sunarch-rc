@@ -15,8 +15,12 @@ alias commit-count='git log --oneline | wc -l'
 # ---------------------------------------------------------------------------- #
 # ls
 
+alias l='ls -bF -lh'
+alias ll='ls -bF -lh -A'
+
 alias ls-all='ls -bF -C -a'
 alias ls-all-list='ls -bF -lh -a'
+alias la='ls -bF -lh -a'
 
 # inode indexes
 alias ls-inode='ls -bF -C -Ai'
