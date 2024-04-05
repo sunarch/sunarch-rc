@@ -28,6 +28,7 @@ shell-source-include() {
 
 CUSTOM_SOURCE_INCLUDES=(\
     "$HOME/shell/shell-path.sh"\
+    "$HOME/shell/shell-path-man.sh"\
     "$HOME/shell/shell-aliases.sh"\
     "$HOME/shell/shell-aliases-nav.sh"\
     "$HOME/shell/shell-aliases-cc.sh"\
