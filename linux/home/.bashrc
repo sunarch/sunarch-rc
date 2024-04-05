@@ -77,6 +77,6 @@ fi
 # ---------------------------------------------------------------------------- #
 # prompt
 
-shell-source-include "$HOME/shell/shell-prompt.sh"
+shell-source-include "$HOME/shell/1-shell-prompt.sh"
 
 # ---------------------------------------------------------------------------- #
