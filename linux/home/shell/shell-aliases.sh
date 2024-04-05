@@ -9,8 +9,6 @@
 
 alias i3k="feh $HOME/Pictures/i3/i3-keyboard.png"
 
-alias what-is-my-ip='curl -sS ifconfig.me | xargs echo'
-
 # ---------------------------------------------------------------------------- #
 # Git
 
