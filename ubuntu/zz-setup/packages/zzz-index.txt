@@ -119,7 +119,7 @@ golang -> 05-editors
 golly -> 08-utilities
 grafx2 -> 07-media
 gramps -> 11-misc
-grub-customizer -> grub-customizer
+grub-customizer -> unused/grub-customizer
 gtkhash -> 08-utilities
 guake -> 09-terminal
 gummi -> 05-editors
