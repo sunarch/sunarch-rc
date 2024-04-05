@@ -1,0 +1,7 @@
+[init]
+	defaultBranch = main
+[core]
+	editor = nano
+	autocrlf = input
+[pull]
+	rebase = true
