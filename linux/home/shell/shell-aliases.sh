@@ -6,10 +6,6 @@
 # includes for shell: aliases
 
 # ---------------------------------------------------------------------------- #
-
-alias i3k="feh $HOME/Pictures/i3/i3-keyboard.png"
-
-# ---------------------------------------------------------------------------- #
 # Git
 
 alias commit-count='git log --oneline | wc -l'
