@@ -5,7 +5,7 @@
 # ---------------------------------------------------------------------------- #
 # includes for shell: programs
 
-# depends on $HOME/shell/shell-path.sh
+# depends on $HOME/shell/1-shell-path.sh
 
 # ---------------------------------------------------------------------------- #
 # Cargo (Rust)

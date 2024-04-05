@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # ---------------------------------------------------------------------------- #
-# includes for shell: aliases - navigation
+# includes for shell: aliases - navigation - common
 
 # ---------------------------------------------------------------------------- #
 # XDG user directories
@@ -27,14 +27,5 @@ alias nav-desktop-files-local="cd $HOME/.local/share/applications"
 # desktop icons
 alias nav-desktop-icons-global='cd /usr/share/icons'
 alias nav-desktop-icons-local="cd $HOME/.local/share/icons"
-
-# ---------------------------------------------------------------------------- #
-# wallpapers / backgrounds
-
-alias nav-wallpapers-global='cd /usr/share/wallpapers'
-
-# these are the preferred ones for Ubuntu:
-alias nav-backgrounds-global='cd /usr/share/backgrounds'
-alias nav-backgrounds-local="cd $HOME/.local/share/backgrounds"
 
 # ---------------------------------------------------------------------------- #

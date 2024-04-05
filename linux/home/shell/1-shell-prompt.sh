@@ -10,7 +10,7 @@
 # ---------------------------------------------------------------------------- #
 # dependencies
 
-shell-source-include "$HOME/shell/ansi-escape.sh"
+shell-source-include "$HOME/shell/0-ansi-escape.sh"
 
 # ---------------------------------------------------------------------------- #
 

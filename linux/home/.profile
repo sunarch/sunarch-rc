@@ -28,18 +28,7 @@ shell-source-include() {
 # ---------------------------------------------------------------------------- #
 # list of include sources
 
-# shell-programs.sh depends on shell-path.sh 
-
-CUSTOM_SOURCE_INCLUDES=(\
-    "$HOME/shell/shell-path.sh"\
-    "$HOME/shell/shell-path-man.sh"\
-    "$HOME/shell/shell-aliases.sh"\
-    "$HOME/shell/shell-aliases-nav.sh"\
-    "$HOME/shell/shell-aliases-cc.sh"\
-    "$HOME/shell/shell-launchers.sh"\
-    "$HOME/shell/shell-programs.sh"\
-    "$HOME/shell/shell-environments.sh"\
-)
+CUSTOM_SOURCE_INCLUDES=($(find "$HOME/shell/" -maxdepth 1 -type f | sort))
 
 # ---------------------------------------------------------------------------- #
 # source list items
