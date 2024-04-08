@@ -44,3 +44,9 @@ sudo apt-get install zsh-autosuggestions # Fish-like fast/unobtrusive autosugges
 sudo apt-get install zsh-syntax-highlighting # Fish shell like syntax highlighting for zsh
 
 # ---------------------------------------------------------------------------- #
+# other - non-graphical
+
+# linux-tools: includes `perf`
+sudo apt-get install linux-tools-common
+sudo apt-get install linux-tools-$(uname -r)
+

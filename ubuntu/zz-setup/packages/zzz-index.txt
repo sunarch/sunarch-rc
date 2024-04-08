@@ -154,6 +154,7 @@ libfuse2 -> 51-flatpak
 libreoffice -> 04-office
 libresprite -> 51-flatpak
 lightsoff -> 10-games
+linux-tools-* ->
 lmms -> 07-media
 lynx -> 01-connections
 lyx -> 05-editors
