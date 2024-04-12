@@ -1,0 +1,323 @@
+- part: vanilla (1.13 / 1.14) options
+  - section: (general)
+    - FOV: Normal
+    - Realms Notifications: ON -> OFF
+  - section: Skin Customization
+    - Cape: ON
+    - Left Sleeve: ON
+    - Left Pants Leg: ON
+    - Hat: ON
+    - Jacket: ON
+    - Right Sleeve: ON
+    - Right Pants Leg: ON
+    - Main Hand: Right
+  - section: Video Settings
+    - Fullscreen Resolution: Current
+    - Graphics: Fancy
+    - Smooth Lighting: Maximum
+    - Use VSync: ON
+    - GUI Scale: Auto
+    - Brightness: Moody -> Bright
+    - Fullscreen: OFF
+    - Mipmap Levels: 4
+    - Entity Shadows: ON
+    - Render Distance: 12 chunks
+    - Max Framerate: 120 fps
+    - View Bobbing: ON
+    - Attack Indicator: Crosshair
+    - Clouds: Fancy -> Fast
+    - Particles: All
+    - Use VBOs: ON
+    - Biome Blend: 5x5
+  - section: Language
+    - (language): English (US)
+    - Force Unicode Font: OFF
+  - section: Resource Packs
+  - section: Music & Sounds
+    - Master Volume: 100% -> 80 %
+    - Music: 100% -> 70 %
+    - Weather: 100%
+    - Hostile Creatures: 100%
+    - Players: 100%
+    - Voice/Speech: 100%
+    - Jukebox/note Blocks: 100%
+    - Blocks: 100%
+    - Friendly Creatures: 100%
+    - Ambient/Environment: 100%
+    - Show Subtitles: OFF
+  - section: Controls
+    - subsection: (general)
+      - Invert Mouse: OFF
+      - Touchscreen Mode: OFF
+      - Sensitivity: 100%
+      - Auto-Jump: ON -> OFF
+    - subsection: Movement
+      - Jump: Space
+      - Sneak: Left Shift -> Left Control
+      - Sprint: Left Control -> Left Shift
+      - Strafe Left: a
+      - Strafe Right: d
+      - Walk Backwards: s
+      - Walk Forwards: w
+    - subsection: Gameplay
+      - Attack/Destroy: Left Button
+      - Pick Block: Middle Button
+      - Use Item/Place Block: Right Button
+    - subsection: Inventory
+      - Drop Selected Item: q -> g
+      - Hotbar Slot 1: 1
+      - Hotbar Slot 2: 2
+      - Hotbar Slot 3: 3
+      - Hotbar Slot 4: 4
+      - Hotbar Slot 5: 5
+      - Hotbar Slot 6: 6
+      - Hotbar Slot 7: 7
+      - Hotbar Slot 8: 8
+      - Hotbar Slot 9: 9
+      - Open/Close Inventory: e
+      - Swap Item In Hands: f
+    - subsection: Creative Mode
+      - Load Toolbar Activator: x
+      - Save Toolbar Activator: c
+    - subsection: Multiplayer
+      - List Players: Tab
+      - Open Chat: t
+      - Open Command: "-"
+    - subsection: Miscellaneous
+      - Advancements: l
+      - Highlight Players (Spectators): Not bound -> k
+      - Take Screenshot: F2
+      - Toggle Cinematic Camera: Not bound -> o
+      - Toggle Fullscreen: F11
+      - Toggle Perspective: F5 -> p
+  - section: Chat Settings
+    - Chat: Shown
+    - Web Links: ON
+    - Prompt on Links: ON
+    - Focused Height: 180px
+    - Width: 320px
+    - Narrator: OFF
+    - Colors: ON
+    - Opacity: 100%
+    - Scale: 100%
+    - Unfocused Height: 90px -> 50px
+    - Reduced Debug Info: OFF
+    - Command Suggestions: ON
+  - section: Accessibility Settings (1.14 only)
+    - Narrator: OFF
+    - Show Subtitles: OFF
+    - Text Background Opacity: 50 %
+    - Text Background: Chat
+    - Chat Text Opacity: 100 %
+    - Auto-Jump: OFF
+  - section: Snooper Settings
+    - Allow Snooper: OFF
+- part: additional options - forge (MC 1.12) w/ Xaero’s Minimap + OptiFine
+  same-as-vanilla:
+    - "Skin Customization"
+    - "Language"
+    - "Resource Packs"
+    - "Music & Sounds"
+    - "Chat Settings"
+    - "Snooper Settings"
+  - section: Video Setting
+    - subsection: (general)
+      - Graphics: Fancy
+      - Smooth Lighting: Maximum
+      - Smooth Lighting Level: 100%
+      - GUI Scale: Auto
+      - Brightness: Moody -> Bright
+      - Dynamic Lights: OFF
+      - Shaders: [ submenu ]
+      - Details: [ submenu ]
+      - Animations: [ submenu ]
+      - Render Distance: 8 Normal -> 12 Normal+
+      - Max Framerate: VSync
+      - View Bobbing: ON
+      - Use VBOs: ON
+      - Attack Indicator: Crosshair
+      - Dynamic FOV: ON
+      - Quality: [ submenu ]
+      - Performance: [ submenu ]
+      - Other: [ submenu ]
+    - subsection: Shaders
+      - (shaders): OFF
+      - Antialiasing: OFF
+    - subsection: Details
+      - Clouds: Default -> Fast
+      - Trees: Default
+      - Sky: ON
+      - Sun & Moon: ON
+      - Fog: Fast
+      - Translucent Blocks: Default
+      - Dropped Items: Default
+      - Vignette: Default -> Fast
+      - Swamp Colors: ON
+      - Cloud Height: OFF
+      - Rain & Snow: Default
+      - Stars: ON
+      - Show Capes: ON
+      - Fog Start: 0.8
+      - Held Item Tooltips: ON
+      - Entity Shadows: ON
+      - Alternate Blocks: ON
+      - Smooth Biomes: ON
+    - subsection: Animations
+      - Water Animated: ON
+      - Fire Animated: ON
+      - Redstone Animated: ON
+      - Flame Animated: ON
+      - Void Particles: ON
+      - Rain Splash: ON
+      - Potion Particles: ON
+      - Terrain Animated: ON
+      - Firework Particles: ON
+      - Lava Animated: ON
+      - Portal Animated: ON
+      - Explosion Animated: ON
+      - Smoke Animated: ON
+      - Water Particles: ON
+      - Portal Particles: ON
+      - Dripping Water/Lava: ON
+      - Textures Animated: ON
+      - Particles: All
+    - subsection: Quality
+      - Mipmap Levels: 4
+      - Anisotropic Filtering: OFF
+      - Clear Water: OFF
+      - Better Grass: OFF
+      - Custom Fonts: ON
+      - Connected Textures: Fancy
+      - Custom Sky: ON
+      - Custom Entity Models: ON
+      - Emissive Textures: ON
+      - Mipmap Type: Nearest
+      - Antialiasing: OFF
+      - Random Entities: ON
+      - Better Snow: OFF
+      - Custom Colors: ON
+      - Natural Textures: OFF
+      - Custom Items: ON
+      - Custom GUIs: ON
+    - subsection: Performance
+      - Smooth FPS: OFF
+      - Fast Render: OFF
+      - Chunk Updates: 1
+      - Render Regions: OFF
+      - Smart Animations: OFF
+      - Smooth World: ON
+      - Fast Math: OFF
+      - Dynamic Updates: OFF
+      - Lazy Chunk Loading: ON
+    - subsection: Other
+      - Lagometer: OFF
+      - Show FPS: OFF
+      - Weather: ON
+      - Fullscreen: OFF
+      - 3D Anaglyph: OFF
+      - Screenshot SIze: Default
+      - Debug Profiler: OFF
+      - Advanced Tooltips: OFF
+      - Time: Default
+      - Fullscreen Mode: Default
+      - Autosave: 3min
+      - Show GL Errors: ON
+      - Reset Video Settings: [ button ]
+  - section: Controls
+    same-as-vanilla:
+      - "Movement"
+      - "Gameplay"
+      - "Inventory"
+    - subsection: Creative Mode
+      - Load Toolbar Activator: X
+      - Save Toolbar Activator: C [conflict] -> V
+    - subsection: Multiplayer
+      - List Player: TAB
+      - Open Chat: T
+      - Open Command: SLASH
+    - subsection: Miscellaneous
+      - Advancements: L
+      - Highlight Players (Spectators): NONE
+      - Take Screenshot: F2
+      - Toggle Cinematic Camera: NONE
+      - Toggle Fullscreen: F11
+      - Toggle Perspective: F5 -> P
+      - Zoom: C [conflict]
+    - subsection: Xaero’s Minimap
+      - Enlarge Minimap: Z -> Y
+      - Minimap Settings: Y -> Z
+      - Minimap Zoom In: I
+      - Minimap Zoom Out: O
+      - New Waypoint: B
+      - Quick Waypoint: ADD
+      - Switch Waypoint Set: NONE
+      - Toggle Chunk Grid: NONE
+      - Toggle Minimap: H
+      - Toggle Slime Chunks: NONE
+      - Toggle Waypoints: NONE
+      - Waypoints: U
+  - section: [ Xaero’s Minimap settings ]
+    - subsection: [ page 1 ]
+      - Minimap: ON
+      - Minimap Size: Auto -> Medium
+      - Cave Maps: 1x1 Roof
+      - Display Coordinates: ON
+      - Chunk Grid: OFF
+      - Slime Chunks: OFF
+      - Zoom: 3.0x -> 2.0x
+      - Entity Radar: [ submenu ]
+      - Lock North: OFF -> ON
+      - On-map Waypoints: ON -> OFF
+      - In-game Waypoints: ON -> OFF
+      - Edit Mode: [ tool ]
+      - Waypoints: [ tool ]
+    - subsection: Entity Radar
+      - Players: Aqua -> White/ON -> Green/ON
+      - Other Teams: White -> Players/ON -> Aqua/ON
+      - Friendly Mobs: Yellow/ON
+      - Hostile Mobs: Yellow/ON -> Red/ON
+      - Items: Green -> Red/ON -> Blue/ON
+      - Other Entities: OFF -> DarkPurple/ON -> Purple/ON
+    - subsection: [ page 2 ]
+      - Entity Amount: 100
+      - Entity Dots Scale: 1.0
+      - Ingame Waypoints Scale: 1.0
+      - Distance to WP: Looking At
+      - Max WP Draw Dist.: Unlimited
+      - Always Disp. WP: OFF
+      - Deathpoints: ON
+      - Keep Old Deathpoints: ON -> OFF
+      - WP Teleport Command: tp
+      - WP Name Above Distance: OFF
+      - Min WP Draw Dist.: OFF
+      - Caves Zoom-in: ON
+    - subsection: [ page 3 ]
+      - Block Colours: Accurate
+      - Compass Over Waypoints: OFF
+      - Opacity: 100.0
+      - Display Redstone: ON
+      - Show Entity Depth: ON
+      - Entity Height Limit: 20.0 -> 10.0
+      - Lighting: ON -> OFF
+      - Arrow Colour: Red
+      - Arrow Scale: 1.5x -> 1.4x
+      - Display Flowers: ON
+      - Lock Player Heads: OFF
+      - Player Head Names: ON
+    - subsection: [ page 4 ]
+      - Use World Map Chunks: ON
+      - Main Entity As Arrow: OFF
+      - Waypoint Opacity Ingame: 80.0
+      - Show Current Biome: OFF -> ON
+      - Terrain Slopes: ON
+      - Terrain Depth: ON
+      - Waypoint Opacity On Map: 90.0
+      - Block Transparency: ON
+    - subsection: [ page 5 ]
+      - Hide World Names/IPs: OFF
+      - Anti-Aliasing: ON
+      - Safe Mode: OFF
+      - Patreon Capes: ON
+      - Smooth Dots: ON
+      - Reset Defaults: [ button ]
+
