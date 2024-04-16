@@ -24,10 +24,6 @@ sudo apt-get install gnome-startup-applications # Startup Applications manager f
     # $ gnome-session-properties Extensions
 sudo apt-get install gnome-system-monitor # Process viewer and system resource monitor for GNOME
 sudo apt-get install gnome-tweaks # tool to adjust advanced configuration settings for GNOME
-sudo apt-get install pavucontrol # PulseAudio Volume Control
-sudo apt-get install pavumeter # PulseAudio Volume Meter
-    # PulseAudio Volume Meter (Capture)
-    # PulseAudio Volume Meter (Playback)
 sudo apt-get install picom # lightweight compositor for X11
 sudo apt-get install software-properties-gtk # manage the repositories that you install software from (gtk)
     # Software & Updates
@@ -47,6 +43,25 @@ sudo apt-get install apt-xapian-index # maintenance and search tools for a Xapia
 # Software Updater
 # Time and Date
 # Users & Groups
+
+# ---------------------------------------------------------------------------- #
+# utilities - PipeWire:
+
+sudo apt-get install pipewire # audio and video processing engine multimedia server
+sudo apt-get install pipewire-audio # recommended set of PipeWire packages for a standard audio desktop use
+sudo apt-get install pipewire-alsa # PipeWire ALSA plugin
+sudo apt-get install pipewire-pulse # PipeWire PulseAudio daemon
+sudo apt-get install pipewire-jack # PipeWire JACK plugin
+sudo apt-get install vlc-plugin-pipewire # PipeWire audio plugins for VLC
+sudo apt-get install qpwgraph # User interface for controlling the PipeWire Graph
+sudo apt-get install helvum # GTK patchbay for pipewire
+
+# old, PulseAudio-related:
+sudo apt-get install pulsemixer # command-line mixer for PulseAudio with a curses interface
+sudo apt-get install pavucontrol # PulseAudio Volume Control
+sudo apt-get install pavumeter # PulseAudio Volume Meter
+    # PulseAudio Volume Meter (Capture)
+    # PulseAudio Volume Meter (Playback)
 
 # ---------------------------------------------------------------------------- #
 # tools:

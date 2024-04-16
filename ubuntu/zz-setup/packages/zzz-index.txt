@@ -125,6 +125,7 @@ guake -> 09-terminal
 gummi -> 05-editors
 hare (prog.lang.)-> hare
 hedgewars -> 10-games
+helvum -> 08-utilities
 hexchat -> 02-comms
 hitori -> 10-games
 homebank -> 11-misc
@@ -198,15 +199,18 @@ picom -> 08-utilities
 pikopixel.app -> 07-media
 pingus -> 10-games
 pioneers -> 10-games
+pipewire -> 08-utilities
 pitivi -> 07-media
 polari -> 02-comms
 proton-vpn -> proton-vpn
+pulsemixer -> 08-utilities
 pycharm -> 05-editors
 pygame (PPA) -> 99-unused-ppa
 qbe -> 71-local
 qdirstat -> 08-utilities
 qemu-* -> 08-utilities
 qjackctl -> 07-media
+qpwgraph -> 08-utilities
 qsynth -> 07-media
 qtqr -> 07-media
 qtractor -> 07-media
