@@ -135,6 +135,7 @@ hydrogen -> 07-media
 hyphen -> 04-office
 i3 -> 00-general
 iagno -> 10-games
+idle -> 05-editors
 imagemagick -> 07-media
 image-viewer-gnome -> 07-media
 inkscape -> 07-media
@@ -206,6 +207,7 @@ proton-vpn -> proton-vpn
 pulsemixer -> 08-utilities
 pycharm -> 05-editors
 pygame (PPA) -> 99-unused-ppa
+python -> 05-editors
 qbe -> 71-local
 qdirstat -> 08-utilities
 qemu-* -> 08-utilities
