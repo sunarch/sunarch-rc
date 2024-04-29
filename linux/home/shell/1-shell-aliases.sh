@@ -43,3 +43,11 @@ alias search-content='grep -Rin ./ -e'
 alias search-content-word='grep -Rinw ./ -e'
 
 # ---------------------------------------------------------------------------- #
+# du - estimate file space usage
+
+# -b, --bytes     | equivalent to ’--apparent-size --block-size=1’
+# -h, --human-readable
+# -s, --summarize | display only a total for each argument
+alias dirsize='du -bhs'
+
+# ---------------------------------------------------------------------------- #
