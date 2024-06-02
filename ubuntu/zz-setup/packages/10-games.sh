@@ -52,7 +52,9 @@ sudo apt-get install supertuxkart # 3D arcade racer with a variety of characters
 sudo apt-get install chessx # chess database
 sudo apt-get install cgoban # complete Go board
     # for connecting to KGS
+sudo apt-get install kigo # go game # KDE app
 sudo apt-get install gnugo # play the game of Go
+sudo apt-get install qgo # Go client and full featured SGF editor
 sudo apt-get install quarry # Board games Go, Amazons, and Reversi (a.k.a. Othello)
 
 # ---------------------------------------------------------------------------- #
