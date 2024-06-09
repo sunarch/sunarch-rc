@@ -158,6 +158,7 @@ libresprite -> 51-flatpak
 lightsoff -> 10-games
 linux-tools-* ->
 lmms -> 07-media
+lua -> 05-editors
 lynx -> 01-connections
 lyx -> 05-editors
 mattermost -> 99-unused-local

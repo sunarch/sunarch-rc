@@ -95,6 +95,11 @@ sudo apt-get install texworks # Environment for authoring TeX (LaTeX, ConTeXt, e
 sudo apt-get install golang # Go programming language compiler - metapackage
 
 # ------------------------------------ #
+# Lua
+
+sudo apt-get install lua5.4 # Simple, extensible, embeddable programming language
+
+# ------------------------------------ #
 # Python
 
 sudo apt-get install python3 # interactive high-level object-oriented language (default python3 version)
