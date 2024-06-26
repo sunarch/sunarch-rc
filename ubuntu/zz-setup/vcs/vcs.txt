@@ -1,4 +1,5 @@
 # Git config
+# https://git-scm.com
 
 # user
 #git config --global user.email "EMAIL"

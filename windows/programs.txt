@@ -107,7 +107,7 @@
 
 - Git GUI
     - bundled w/Git
-- GitHub Desktop
+- [GitHub Desktop](https://desktop.github.com)
 
 ### prog. lang.
 

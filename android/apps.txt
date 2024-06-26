@@ -12,6 +12,8 @@
 
 - Samsung Calculator
     - Android / Samsung only
+- [Pocket Git](http://pocketgit.com)
+    - [Google Play](https://play.google.com/store/apps/details?id=com.aor.pocketgit)
 
 ## social
 
