@@ -48,3 +48,9 @@ sudo apt-get install realvnc-vnc-viewer # VNC® Viewer
 # TeamViewer --> see individual
 
 # ---------------------------------------------------------------------------- #
+# other
+
+sudo apt-get install cec-utils # USB CEC Adaptor communication Library (utility programs)
+#                                http://libcec.pulse-eight.com
+
+# ---------------------------------------------------------------------------- #
