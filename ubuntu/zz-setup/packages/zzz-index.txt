@@ -40,6 +40,7 @@ darktable -> 07-media
 dconf-editor -> 08-utilities
 deadsnakes (PPA, Python) -> 99-unused-ppa
 deja-dup -> 08-utilities
+detox -> 09-terminal
 diodon -> 08-utilities
 discord -> 72-local-deb
 docker -> docker

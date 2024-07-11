@@ -50,3 +50,5 @@ sudo apt-get install zsh-syntax-highlighting # Fish shell like syntax highlighti
 sudo apt-get install linux-tools-common
 sudo apt-get install linux-tools-$(uname -r)
 
+sudo apt-get install detox # replace problematic characters in filenames
+
