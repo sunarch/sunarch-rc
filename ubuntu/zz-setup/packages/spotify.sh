@@ -15,9 +15,7 @@ curl -sS https://download.spotify.com/debian/pubkey_6224F9941A8AA6D1.gpg | sudo 
 
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
 
-
 sudo apt-get update
-
 sudo apt-get install spotify-client # Spotify streaming music client
 
 # ---------------------------------------------------------------------------- #

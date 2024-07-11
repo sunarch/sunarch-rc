@@ -5,9 +5,16 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # ---------------------------------------------------------------------------- #
-# Snap:
+# Newsboat:
 
-# Newsboat -> see Newsboat
-# Zig -> see Zig
+# ------------------------------------ #
+# DEB package in repo (deprecated):
+
+# sudo apt-get install newsboat # text mode rss feed reader with podcast support
+
+# ------------------------------------ #
+# Snap (recommended by developer):
+
+sudo snap install newsboat
 
 # ---------------------------------------------------------------------------- #

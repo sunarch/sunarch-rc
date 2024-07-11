@@ -10,6 +10,8 @@ sudo apt-get update
 # editors:
 
 sudo apt-get install bless # Full featured hexadecimal editor
+# NOTE: Bless is not available on Ubuntu 24.04 as of 2024-07-11
+
 sudo apt-get install emacs # GNU Emacs editor (metapackage)
     # emacs (GUI)
     # emacs (terminal)
@@ -90,9 +92,33 @@ sudo apt-get install texworks # Environment for authoring TeX (LaTeX, ConTeXt, e
 # programming languages
 
 # ------------------------------------ #
+# C/C++
+
+sudo apt-get install cpp # GNU C preprocessor (cpp)
+sudo apt-get install gcc # GNU C compiler
+sudo apt-get install g++ # GNU C++ compiler
+
+# ------------------------------------ #
+# C/C++ (LLVM)
+
+sudo apt-get install clang # C, C++ and Objective-C compiler (LLVM based), clang binary
+sudo apt-get install llvm # Low-Level Virtual Machine (LLVM)
+
+# ------------------------------------ #
+# Fortran
+
+sudo apt-get install gfortran # GNU Fortran 95 compiler
+sudo apt-get install gfortran-doc # Documentation for the GNU Fortran compiler (gfortran)
+
+# ------------------------------------ #
 # Go
 
 sudo apt-get install golang # Go programming language compiler - metapackage
+
+# ------------------------------------ #
+# Guile
+
+sudo apt-get install guile-3.0 # GNU extension language and Scheme interpreter
 
 # ------------------------------------ #
 # Lua

@@ -9,13 +9,20 @@ sudo apt-get update
 # ---------------------------------------------------------------------------- #
 # devices:
 
-sudo apt-get install cheese # tool to take pictures and videos from your webcam
 sudo apt-get install baobab # GNOME disk usage analyzer
 sudo apt-get install simple-scan # Simple Scanning Utility
 
 # balenaEtcher --> see AppImage
 
 # Power Statistics
+
+# ---------------------------------------------------------------------------- #
+# camera:
+
+sudo apt-get install cheese # tool to take pictures and videos from your webcam
+
+sudo apt-get install gnome-snapshot # Take pictures and videos from your webcam
+#  GNOME's default webcam app since GNOME 45
 
 # ---------------------------------------------------------------------------- #
 # network:

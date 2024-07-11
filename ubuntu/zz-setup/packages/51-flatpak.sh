@@ -17,6 +17,8 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 # ---------------------------------------------------------------------------- #
 # https://flathub.org
 
+# Thunderbird -> see Thunderbird
+
 # ------------------------------------ #
 # Gephi:
 

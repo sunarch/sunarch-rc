@@ -1,4 +1,4 @@
-0ad -> 10-games
+0ad -> play0ad
 aerc -> 02-comms
 aisleriot -> 10-games
 alien-blaster -> 10-games
@@ -28,10 +28,12 @@ cgoban -> 10-games
 cheese -> 03-devices
 chessx -> 10-games
 clamtk -> 08-utilities
+clang -> 05-editors
 clion -> 05-editors
 cmatrix -> 08-utilities
 codeblocks -> 05-editors
 code (Visual Studio Code, Microsoft) -> vs-code
+cpp -> 05-editors
 critical-mass -> 10-games
 darkplaces -> 10-games
 darktable -> 07-media
@@ -69,11 +71,14 @@ foot -> 09-terminal
 forticlient -> 71-local
 four-in-a-row -> 10-games
 frogatto -> 10-games
+g++ -> 05-editors
 gameconqueror -> 11-misc
+gcc -> 05-editors
 gdlauncher -> 51-flatpak
 geany -> 05-editors
 gedit -> 05-editors
 gephi -> 51-flatpak
+gfortran -> 05-editors
 ghostwriter -> 05-editors
 gimp -> 07-media
 git -> 11-misc
@@ -101,6 +106,7 @@ gnome-online-miners -> 00-general
 gnome-robots -> 10-games
 gnome-shell-extension-manager -> 08-utilities
 gnome-shell-extension-prefs -> 08-utilities
+gnome-snapshot -> 03-devices
 gnome-sound-recorder -> 07-media
 gnome-startup-applications -> 08-utilities
 gnome-sudoku -> 10-games
@@ -122,6 +128,7 @@ gramps -> 11-misc
 grub-customizer -> unused/grub-customizer
 gtkhash -> 08-utilities
 guake -> 09-terminal
+guile -> 05-editors
 gummi -> 05-editors
 hare (prog.lang.)-> hare
 hedgewars -> 10-games
@@ -152,17 +159,19 @@ krita -> 07-media
 libapache2 -> 00-general
 libdigest-sha3-perl -> 08-utilities
 libfolks -> 00-general
-libfuse2 -> 51-flatpak
+libfuse2 -> 52-appimages
 libreoffice -> 04-office
 libresprite -> 51-flatpak
 lightsoff -> 10-games
 linux-tools-* ->
+llvm -> 05-editors
 lmms -> 07-media
 lua -> 05-editors
 lynx -> 01-connections
 lyx -> 05-editors
 mattermost -> 99-unused-local
 meld -> 05-editors
+melt -> 07-media
 meterbridge -> 07-media
 micro -> 05-editors
 minecraft -> 72-local-deb
@@ -180,7 +189,7 @@ nautilus -> 06-files
 nemo -> 06-files
 neovim -> 05-editors
 netsurf -> 01-connections
-newsboat -> 01-connections
+newsboat -> newsboat
 nextcloud -> 06-files
 nexuiz -> 10-games
 nim -> 71-local
@@ -259,7 +268,7 @@ texmaker -> 05-editors
 texstudio -> 05-editors
 texworks -> 05-editors
 thunar -> 06-files
-thunderbird -> 02-comms
+thunderbird -> thunderbird
 tixati -> 72-local-deb
 tldr -> 62-python-pip
 tor-browser -> 71-local

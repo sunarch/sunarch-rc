@@ -24,7 +24,6 @@ sudo apt-get update
 # ---------------------------------------------------------------------------- #
 # games - free:
 
-sudo apt-get install 0ad # Real-time strategy game of ancient warfare
 sudo apt-get install alienblaster # Classic 2D shoot 'em up
 sudo apt-get install assaultcube # realistic first-person-shooter
 sudo apt-get install billard-gl # 3D billiards game
@@ -44,6 +43,7 @@ sudo apt-get install redeclipse # free, casual arena shooter
 sudo apt-get install supertux # Classic 2D jump 'n run sidescroller with Tux
 sudo apt-get install supertuxkart # 3D arcade racer with a variety of characters, tracks, and modes to play
 
+# 0 A.D. -> see play0ad
 # Unvanquished --> see Flatpak
 
 # ---------------------------------------------------------------------------- #

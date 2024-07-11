@@ -33,7 +33,7 @@ sudo apt-get install w3m # WWW browsable pager with excellent tables/frames supp
 # ------------------------------------ #
 # RSS reader - non-graphical:
 
-sudo apt-get install newsboat # text mode rss feed reader with podcast support
+# newsboat --> see individual
 
 # ---------------------------------------------------------------------------- #
 # VPN:

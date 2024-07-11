@@ -21,10 +21,12 @@ sudo apt-get install qjackctl # User interface for controlling the JACK sound se
 sudo apt-get install qsynth # fluidsynth MIDI sound synthesiser front-end
 sudo apt-get install qtractor # MIDI/Audio multi-track sequencer application
 sudo apt-get install rosegarden # music editor and MIDI/audio sequencer
-sudo apt-get install seq24 # Real time MIDI sequencer
 sudo apt-get install sonic-pi # Live Coding for Everyone
 sudo apt-get install supercollider # real time audio synthesis programming language - metapackage
 sudo apt-get install traverso # Multitrack audio recorder and editor
+
+sudo apt-get install seq24 # Real time MIDI sequencer
+# NOTE: seq24 is not available on Ubuntu 24.04 as of 2024-07-11
 
 # Spotify --> see individual
 
@@ -58,6 +60,7 @@ sudo apt-get install feh # imlib2 based image viewer
 sudo apt-get install blender # Very fast and versatile 3D modeller/renderer
 sudo apt-get install celluloid # simple GTK+ frontend for mpv
 sudo apt-get install kdenlive # non-linear video editor
+sudo apt-get install melt # command line media player and video editor
 sudo apt-get install mkvtoolnix-gui # Set of tools to work with Matroska files - GUI frontend
 sudo apt-get install mpv # video player based on MPlayer/mplayer2
 sudo apt-get install pitivi # non-linear audio/video editor using GStreamer

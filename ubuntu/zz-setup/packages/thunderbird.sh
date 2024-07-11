@@ -5,9 +5,14 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # ---------------------------------------------------------------------------- #
-# Snap:
+# Mozilla Thunderbird:
 
-# Newsboat -> see Newsboat
-# Zig -> see Zig
+# https://www.thunderbird.net/en-US/thunderbird/all/
+
+# Remove Canoncial-distributed Snap package:
+sudo snap remove thunderbird
+
+# Install developer-recommended Flatpak package:
+flatpak install flathub org.mozilla.Thunderbird
 
 # ---------------------------------------------------------------------------- #

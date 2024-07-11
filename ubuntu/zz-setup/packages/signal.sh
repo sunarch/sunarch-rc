@@ -23,7 +23,6 @@ echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] 
 
 # 3. Update your package database and install Signal:
 sudo apt-get update
-
 sudo apt-get install signal-desktop # Private messaging from your desktop
 
 # ---------------------------------------------------------------------------- #
