@@ -270,6 +270,7 @@ unbind-key ^K
 # bind-key k prev-feed
 # bind-key D delete-article
 # bind-key ^D delete-all-articles
+unbind-key ^D
 # bind-key $ purge-deleted
 # bind-key v view-dialogs
 # bind-key ^X close-dialog
