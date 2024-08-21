@@ -1,16 +1,13 @@
-(mostly) hobbyist #Developer
-- most: #Python
-- preferred, learning: #Rust #Nim
-- web: #JavaScript #HTML #CSS
-- looking: #Go #Odin #OCaml
-- some: #C , #Lisp / #Scheme
-- project: #PHP
-- plan: #Erlang / #Elixir / #Gleam
+(mostly) hobbyist developer
+- preferred, learning: #Odin #Rust #Zig
+- good to know: #Python #C #Lua
+- tried: #OCaml #Nim #Go
+- for some web: #PHP
+- possible plans: #Erlang / #Elixir / #Gleam
 
 📍 #Budapest , 🇭🇺 #Hungary
 
 #Hungarian #Magyar #Programming #FOSS
-system: #Ubuntu #Linux / #Android
+system: #Linux | #Ubuntu / #Android
 DE: #Gnome / #i3wm
 browser: #Firefox + #DuckDuckGo
-apps: #Gimp #Inkscape #Thunderbird
