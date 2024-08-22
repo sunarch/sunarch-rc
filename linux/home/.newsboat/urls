@@ -8,7 +8,6 @@
 #     Platforms - Polymaths Mastodon
 # group tags:
 #     "media - *"   : comic, podcast
-#     "news - *"    : world, Hungary - {vallási, ellenzék, kormány}, Germany, USA
 # ---------------------------------------------------------------------------- #
 # HSBP
 https://vsza.hu/hacksense/status.rss "~HSBP > Hacksense (VSZA)" status
@@ -274,6 +273,9 @@ https://matt-rickard.com/rss/ "~(people) > (tech) > Matt Rickard" blog people te
 # ------------------------------------ #
 # Matthias Hager
 https://matthiashager.com/blog.xml "~(people) > (tech) > Matthias Hager" blog people tech
+# ------------------------------------ #
+# Michał Sapka
+https://michal.sapka.me/blog/index.xml "~(people) > (tech) > Michał Sapka" blog people tech
 # ------------------------------------ #
 # Mike Stone (FOSStodon admin)
 https://mikestone.me/feed "~(people) > (tech) > Mike Stone (FOSStodon admin)" blog people tech
@@ -549,7 +551,7 @@ https://news.ycombinator.com/rss "~(news) > (tech forum) > Hacker News" news tec
 https://rss.slashdot.org/Slashdot/slashdotMain "~(news) > (tech forum) > Slashdot" news tech
 # ---------------------------------------------------------------------------- #
 # news - tech
-https://www.bitecode.dev/feed "~(news) > (tech) > Bite code! by Nobody has time  for Python" news tech
+https://www.bitecode.dev/feed "~(news) > (tech) > Bite code! by Nobody has time for Python" news tech
 https://gizmodo.com/rss "~(news) > (tech) > Gizmodo" news tech
 https://techcrunch.com/feed/ "~(news) > (tech) > TechCrunch" news tech
 https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml "~(news) > (tech) > NYT > Technology" news tech
@@ -571,68 +573,4 @@ https://feeds.arstechnica.com/arstechnica/science "~Ars Technica > The Scientifi
 https://feeds.arstechnica.com/arstechnica/cars "~Ars Technica > Cars Technica: All Things Automotive" news tech
 https://feeds.arstechnica.com/arstechnica/staff-blogs "~Ars Technica > Staff Blogs: From the Minds of Ars" blog tech
 https://feeds.arstechnica.com/arstechnica/cardboard "~Ars Technica > Ars Cardboard: Board Games News & Reviews" news tech
-# ---------------------------------------------------------------------------- #
-# news - world
-https://www.aljazeera.com/xml/rss/all.xml "~(news) > (world) > Al Jazeera" "news - world"
-# ---------------------------------------------------------------------------- #
-# news - Hungary
-# ------------------------------------ #
-# vallási
-https://www.magyarkurir.hu/rss/ "~(news) > (Hungary) > Magyar Kurír" "news - Hungary - vallási"
-https://ujember.hu/feed/ "~(news) > (Hungary) > Magyar Kurír > Új Ember" "news - Hungary - vallási"
-# ------------------------------------ #
-# ellenzék
-https://telex.hu/rss "~(news) > (Hungary) > Telex" "news - Hungary - ellenzék"
-https://444.hu/feed "~(news) > (Hungary) > 444" "news - Hungary - ellenzék"
-https://atlatszo.hu/feed/ "~(news) > (Hungary) > Átlátszó" "news - Hungary - ellenzék"
-https://www.portfolio.hu/rss/all.xml "~(news) > (Hungary) > Portfolio.hu" "news - Hungary - ellenzék"
-https://24.hu/feed/ "~(news) > (Hungary) > 24.hu" "news - Hungary - ellenzék"
-https://merce.hu/feed/ "~(news) > (Hungary) > Mérce" "news - Hungary - ellenzék"
-https://magyarnarancs.hu/rss "~(news) > (Hungary) > Magyar Narancs" "news - Hungary - ellenzék"
-https://nepszava.hu/feed/ "~(news) > (Hungary) > Népszava" "news - Hungary - ellenzék"
-# ------------------------------------ #
-# ellenzék - HVG
-https://www.hvg.hu/rss "~hvg.hu" "news - Hungary - ellenzék"
-https://hvg.hu/rss/itthon "~hvg.hu > Itthon" "news - Hungary - ellenzék"
-https://hvg.hu/rss/tudomany "~hvg.hu > Tech/Tudomány" "news - Hungary - ellenzék"
-https://hvg.hu/rss/kultura "~hvg.hu > Kultúra" "news - Hungary - ellenzék"
-https://hvg.hu/rss/cegauto "~hvg.hu > Autó" "news - Hungary - ellenzék"
-https://hvg.hu/rss/kkv "~hvg.hu > Vállalkozás" "news - Hungary - ellenzék"
-https://hvg.hu/rss/elet "~hvg.hu > Élet+Stílus" "news - Hungary - ellenzék"
-https://hvg.hu/rss/velemeny "~hvg.hu > Vélemény" "news - Hungary - ellenzék"
-https://hvg.hu/rss/sport "~hvg.hu > Sport" "news - Hungary - ellenzék"
-https://hvg.hu/rss/nagyitas "~hvg.hu > Nagyítás" "news - Hungary - ellenzék"
-https://hvg.hu/rss/hvgkonyvek "~hvg.hu > HVG Könyvek" "news - Hungary - ellenzék"
-https://hvg.hu/rss/vilag "~hvg.hu > Világ" "news - Hungary - ellenzék"
-https://hvg.hu/rss/gazdasag "~hvg.hu > Gazdaság" "news - Hungary - ellenzék"
-# ellenzék - HVG - blogok
-https://nyomorszele.hvgblog.hu/feed/ "~hvg.hu > (blog) > A nyomor széle" "news - Hungary - ellenzék"
-# ------------------------------------ #
-# kormány
-https://index.hu/24ora/rss/ "~(news) > (Hungary) > Index > 24óra" "news - Hungary - kormány"
-https://www.origo.hu/contentpartner/rss/origoall/origo.xml "~(news) > (Hungary) > ORIGO" "news - Hungary - kormány"
-https://888.hu/rss "~(news) > (Hungary) > 888 - a három nyolcas" "news - Hungary - kormány"
-https://mandiner.hu/rss/ "~(news) > (Hungary) > Mandiner" "news - Hungary - kormány"
-https://www.magyaridok.hu/feed/? "~(news) > (Hungary) > Magyar Idők" "news - Hungary - kormány"
-https://ripost.hu/publicapi/hu/rss/ripost/articles "~(news) > (Hungary) > Ripost" "news - Hungary - kormány"
-https://www.magyarhirlap.hu/rss "~(news) > (Hungary) > Magyar Hírlap" "news - Hungary - kormány"
-https://pestisracok.hu/feed/ "~(news) > (Hungary) > PestiSrácok" "news - Hungary - kormány"
-https://figyelo.hu/feed/ "~(news) > (Hungary) > Figyelő" "news - Hungary - kormány"
-https://magyarnemzet.hu/publicapi/hu/rss/magyar_nemzet/articles "~(news) > (Hungary) > Magyar Nemzet" "news - Hungary - kormány"
-https://hirtv.hu/rss "~(news) > (Hungary) > Hír TV" "news - Hungary - kormány"
-# ---------------------------------------------------------------------------- #
-# news - Germany
-https://www.faz.net/rss/aktuell/ "~(news) > (Germany) > FAZ > Aktuell" "news - Germany"
-https://rss.sueddeutsche.de/rss/Topthemen "~(news) > (Germany) > SZ > Topthemen" "news - Germany"
-# ---------------------------------------------------------------------------- #
-# news - USA
-https://feeds.washingtonpost.com/rss/world "~Washington Post > World" "news - USA"
-http://feeds.washingtonpost.com/rss/entertainment "~Washington Post > Entertainment" "news - USA"
-http://feeds.washingtonpost.com/rss/national "~Washington Post > National" "news - USA"
-# ------------------------------------ #
-https://rss.nytimes.com/services/xml/rss/nyt/World.xml "~NYT > World News" "news - USA"
-https://rss.nytimes.com/services/xml/rss/nyt/Europe.xml "~NYT > World > Europe" "news - USA"
-https://rss.nytimes.com/services/xml/rss/nyt/US.xml "~NYT > U.S. News" "news - USA"
-https://rss.nytimes.com/services/xml/rss/nyt/Science.xml "~NYT > Science" "news - USA"
-https://rss.nytimes.com/services/xml/rss/nyt/Arts.xml "~NYT > Arts" "news - USA"
 # ---------------------------------------------------------------------------- #
