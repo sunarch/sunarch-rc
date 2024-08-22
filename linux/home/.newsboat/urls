@@ -1,13 +1,12 @@
 # ---------------------------------------------------------------------------- #
 # tags:
-#     types     - status blog project devlog news newsletter jobs
-#     creator   - people org
-#     topics    - tech literature TTRPG art news Polymaths
-#     languages - magyar
-#     tasks     - postable
-#     Platforms - Polymaths Mastodon
-# group tags:
-#     "media - *"   : comic, podcast
+#     types       - status , blog , project , devlog , news , newsletter , jobs
+#     creator     - people , org
+#     communities - Polymaths
+#     topics      - tech , literature , TTRPG , art , news
+#     languages   - magyar
+#     Platforms   - Mastodon
+#     media       - comic , podcast
 # ---------------------------------------------------------------------------- #
 # HSBP
 https://vsza.hu/hacksense/status.rss "~HSBP > Hacksense (VSZA)" status
@@ -57,10 +56,10 @@ https://tech.lgbt/@noboilerplate.rss "~Tristram Oaten > No Boilerplate"
 # Tris - /usr/stories
 https://mastodon.social/@0atman.rss "~Tristram Oaten > [mastodon.social]" "platform - Mastodon"
 # Namtao - 🛰️ Lost Terminal Podcast
-https://www.spreaker.com/show/4488937/episodes/feed "~Tristram Oaten > Namtao > Lost Terminal" "media - podcast"
+https://www.spreaker.com/show/4488937/episodes/feed "~Tristram Oaten > Namtao > Lost Terminal" podcast
 https://fosstodon.org/@lostterminal.rss "~Tristram Oaten > Namtao > 🛰️ Lost Terminal Podcast > [fosstodon.org]" "platform - Mastodon"
 # Namtao - 🌕 Modem Prometheus Podcast
-https://www.spreaker.com/show/5184621/episodes/feed "~Tristram Oaten > Namtao > Modem Prometheus" "media - podcast"
+https://www.spreaker.com/show/5184621/episodes/feed "~Tristram Oaten > Namtao > Modem Prometheus" podcast
 https://wandering.shop/@modemprometheus.rss "~Tristram Oaten > Namtao > 🌕 Modem Prometheus Podcast > [wandering.shop]" "platform - Mastodon"
 # ---------------------------------------------------------------------------- #
 # people - Polymaths.social
@@ -497,7 +496,7 @@ https://www.raspberrypi.com/rss/ "~(hw) > Raspberry Pi" project
 https://blog.system76.com/rss "~(hw) > System76 > Blog" blog org
 # ---------------------------------------------------------------------------- #
 # TTRPG
-https://koboldpress.com/feed/ "~(ttrpg) > Kobold Press" blog TTRPG postable
+https://koboldpress.com/feed/ "~(ttrpg) > Kobold Press" blog TTRPG
 https://www.metagames.hu/rss/hirek "~(ttrpg) > Metagame.hu > Hírek" news TTRPG
 https://paizo.com/community/blog&xml=atom "~(ttrpg) > Paizo > Blog" blog TTRPG
 https://www.runehammer.online/blog-feed.xml "~(ttrpg) > Runehammer Games" blog TTRPG
@@ -508,34 +507,34 @@ https://mozgovilag.hu/feed/ "~(art) > Mozgó Világ" art
 https://bulletjournal.com/blogs/bulletjournalist.atom "~(art) > The Bullet Journalist" art
 # ---------------------------------------------------------------------------- #
 # comic
-https://actualstuffcomic.tumblr.com/rss "~(comic) > Actual Stuff" "media - comic"
-https://www.awkwardzombie.com/awkward-zombie/rss "~(comic) > Awkward Zombie" "media - comic"
-https://belzebubsofficial.tumblr.com/rss "~(comic) > belzebubs" "media - comic"
-https://www.commitstrip.com/en/feed/ "~(comic) > CommitStrip" "media - comic"
-https://crosstimecafe.com/Webcomics/Feeds/Freefall.xml "~(comic) > Freefall" ! "media - comic"
-http://www.leftoversalad.com/rss.php "~(comic) > Leftover Salad" "media - comic"
-https://thepunchlineismachismo.com/feed "~(comic) > Manly Guys Doing Manly Things" "media - comic"
-http://feeds.feedburner.com/PoorlyDrawnLines "~(comic) > Poorly Drawn Lines" "media - comic"
-https://simpleroutines.tumblr.com/rss "~(comic) > Simple Routines (by JP Coovert)" "media - comic"
-https://swordscomic.com/comic/feed/ "~(comic) > Swords" "media - comic"
-https://thatsbelievable.com/rss "~(comic) > THAT'S BELIEVABLE!" "media - comic"
-https://mansionofe.the-comic.org/rss/ "~(comic) > The Mansion of E" "media - comic"
-https://theoatmeal.com/feed/rss "~(comic) > The Oatmeal (by Matthew Inman)" "media - comic"
-https://pbfcomics.com/feed/ "~(comic) > The Perry Bible Fellowship" "media - comic"
-https://theycantalk.com/rss "~(comic) > they can talk" "media - comic"
-https://twittoons.com/feed.xml "~(comic) > Twittoons" "media - comic"
-https://xkcd.com/atom.xml "~(comic) > xkcd.com" "media - comic"
+https://actualstuffcomic.tumblr.com/rss "~(comic) > Actual Stuff" comic
+https://www.awkwardzombie.com/awkward-zombie/rss "~(comic) > Awkward Zombie" comic
+https://belzebubsofficial.tumblr.com/rss "~(comic) > belzebubs" comic
+https://www.commitstrip.com/en/feed/ "~(comic) > CommitStrip" comic
+https://crosstimecafe.com/Webcomics/Feeds/Freefall.xml "~(comic) > Freefall" ! comic
+http://www.leftoversalad.com/rss.php "~(comic) > Leftover Salad" comic
+https://thepunchlineismachismo.com/feed "~(comic) > Manly Guys Doing Manly Things" comic
+http://feeds.feedburner.com/PoorlyDrawnLines "~(comic) > Poorly Drawn Lines" comic
+https://simpleroutines.tumblr.com/rss "~(comic) > Simple Routines (by JP Coovert)" comic
+https://swordscomic.com/comic/feed/ "~(comic) > Swords" comic
+https://thatsbelievable.com/rss "~(comic) > THAT'S BELIEVABLE!" comic
+https://mansionofe.the-comic.org/rss/ "~(comic) > The Mansion of E" comic
+https://theoatmeal.com/feed/rss "~(comic) > The Oatmeal (by Matthew Inman)" comic
+https://pbfcomics.com/feed/ "~(comic) > The Perry Bible Fellowship" comic
+https://theycantalk.com/rss "~(comic) > they can talk" comic
+https://twittoons.com/feed.xml "~(comic) > Twittoons" comic
+https://xkcd.com/atom.xml "~(comic) > xkcd.com" comic
 # ---------------------------------------------------------------------------- #
 # podcasts
 # ------------------------------------ #
-https://api.substack.com/feed/podcast/1180773.rss "~(podcast) > Surveillance Report" "media - podcast"
+https://api.substack.com/feed/podcast/1180773.rss "~(podcast) > Surveillance Report" podcast
 # ------------------------------------ #
-https://fossandcrafts.org/rss-feed-ogg.rss "~(podcast) > FOSS and Crafts" "media - podcast"
+https://fossandcrafts.org/rss-feed-ogg.rss "~(podcast) > FOSS and Crafts" podcast
 https://octodon.social/@fossandcrafts.rss "~(podcast) > FOSS and Crafts > [octodon.social]" "platform - Mastodon"
 # ------------------------------------ #
-https://librelounge.org/atom-feed.atom "~(podcast) > Libre Lounge" "media - podcast"
+https://librelounge.org/atom-feed.atom "~(podcast) > Libre Lounge" podcast
 # ------------------------------------ #
-https://www.gmdiscussions.com/feed/podcast "~(podcast) > Roll For Topic" "media - podcast"
+https://www.gmdiscussions.com/feed/podcast "~(podcast) > Roll For Topic" podcast
 # ---------------------------------------------------------------------------- #
 # news - FOSS
 https://www.gamingonlinux.com/article_rss.php "~(news) > (FOSS) > GamingOnLinux" news tech FOSS
