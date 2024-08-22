@@ -349,18 +349,10 @@ https://notebook.wesleyac.com/atom.xml "~(people) > (tech) > Wesley Aptekar-Cass
 # Wolfgang Kratky
 https://www.thewkblog.com/feed/ "~(people) > (tech) > Wolfgang Kratky" blog tech people
 # ---------------------------------------------------------------------------- #
-# people - actors
-# ------------------------------------ #
-# Stephen Fry
-https://mastodonapp.uk/@stephenfry.rss "~(people) > (actor) > Stephen Fry > [mastodonapp.uk]" "platform - Mastodon"
+# people - famous
 # ------------------------------------ #
 # Wil Wheaton
-https://wilwheaton.net/feed/ "~(people) > (actor) > Wil Wheaton" blog people
-# ---------------------------------------------------------------------------- #
-# people - writers
-# ------------------------------------ #
-# Neil Gaiman
-https://mastodon.social/@neilhimself.rss "~(people) > (writer) > Neil Gaiman" "platform - Mastodon"
+https://wilwheaton.net/feed/ "~(people) > Wil Wheaton" blog people
 # ---------------------------------------------------------------------------- #
 # topical
 https://separatedbyacommonlanguage.blogspot.com/feeds/posts/default "~(topical) > Separated by a Common Language" blog
@@ -457,9 +449,6 @@ http://blog.joinmastodon.org/index.xml "~(sw) > Mastodon > Blog" blog project FO
 # FOSStodon
 https://hub.fosstodon.org/feed.xml "~FOSStodon Hub" blog org tech
 https://fosstodon.org/@fosstodon.rss "~fosstodon@fosstodon.org" "platform - Mastodon"
-# mstdn.social
-https://mstdn.social/@Mastodon.rss "~Mastodon@mstdn.social" "platform - Mastodon"
-https://mstdn.social/@stux.rss "~sтυx > [mstdn.social]" "platform - Mastodon"
 # ------------------------------------ #
 # prog. lang.
 https://planet.haskell.org/atom.xml "~(sw) > (PL) > Planet Haskell" blog project FOSS
@@ -467,15 +456,14 @@ https://pyfound.blogspot.com/feeds/posts/default "~(sw) > (PL) > Python Software
 https://blog.rust-lang.org/feed.xml "~(sw) > (PL) > Rust > Main Blog" blog project FOSS
 https://blog.rust-lang.org/inside-rust/feed.xml "~(sw) > (PL) > Rust > "Inside Rust" Blog" blog project FOSS
 https://ziglang.org/news/index.xml "~(sw) > (PL) > Zig > News" blog project FOSS
-https://devlog.hexops.com/feed.xml "~(sw) > (PL) > Zig > Mach > Hexops devlog blog project FOSS
+https://devlog.hexops.com/feed.xml "~(sw) > (PL) > Zig > Mach > Hexops" devlog blog project FOSS
 # ------------------------------------ #
 # RSS reader
 https://newsboat.org/news.atom "~(sw) > (RSS) > Newsboat" blog project FOSS
-https://quiterss.org/en/rss.xml "~(sw) > (RSS) > QuiteRSS" ! blog project FOSS
 # ------------------------------------ #
 # security
 https://bitwarden.com/blog/feed.xml "~(sw) > (sec) > Bitwarden > Blog" blog project FOSS
-https://blog.keyoxide.org/atom.xml "~(sw) > (sec) > Keyoxide > blog" blog project FOSS
+https://blog.keyoxide.org/atom.xml "~(sw) > (sec) > Keyoxide > blog" ! blog project FOSS
 https://nakedsecurity.sophos.com/feed "~(sw) > (sec) > Naked Security by Sophos" blog project
 # ------------------------------------ #
 # source control
