@@ -21,46 +21,61 @@ https://goszovetseg.hu/?page=news&mode=rss "~Magyar Gószövetség"
 # ELTE
 https://btkhok.elte.hu/feed/ "~ELTE > BTK HÖK"
 # ---------------------------------------------------------------------------- #
-# people - main
-# ------------------------------------ #
-# Árpád
-https://arpadblog.hu/feed/ "~Árpád > ÁrpádBlog" blog people magyar
-https://mastodon.online/@RPD0911.rss "~Árpád > [mastodon.online]" Mastodon
-# ------------------------------------ #
-# Astrelion
-https://medium.com/feed/@ASTRELION "~Astrelion > ASTRELION on Medium"
-https://mastodon.social/@astrelion.rss "~ASTRELION > [mastodon.social]" Mastodon
-# Astrelion - Dungeons
-#https://mastodon.social/@dungeons.rss "~Astrelion > Dungeons > [mastodon.social]" Mastodon
+# FOSStodon
+https://hub.fosstodon.org/feed.xml "~FOSStodon > Hub" blog org tech
+https://fosstodon.org/@fosstodon.rss "~FOSStodon > account on fosstodon.org" Mastodon
+# ---------------------------------------------------------------------------- #
+# people (general)
 # ------------------------------------ #
 # Brett Chalupa
-http://www.brettchalupa.com/feed.xml "~Brett Chalupa" blog teck people
-https://code.brettchalupa.com/feed.xml "~Brett Chalupa > Brett Codes" blog tech people
-https://mastodon.gamedev.place/@brettmakesgames.rss "~Brett Chalupa > [mastodon.gamedev.place]" Mastodon
+http://www.brettchalupa.com/feed.xml "~(people) > Brett Chalupa" blog tech people
+https://code.brettchalupa.com/feed.xml "~(people) > Brett Chalupa > Brett Codes" blog tech people
+https://mastodon.gamedev.place/@brettmakesgames.rss "~(people) > Brett Chalupa > [mastodon.gamedev.place]" Mastodon
 # ------------------------------------ #
-# Lorenzo Miniero
-https://fosstodon.org/@lminiero.rss "~Lorenzo Miniero > [fosstodon.org]" Mastodon
-# Lorenzo Miniero - KIAVC game engine
-https://kiavc.wordpress.com/feed/ "~Lorenzo Miniero > KIAVC" devlog tech
-https://mastodon.gamedev.place/@kiavc.rss "~Lorenzo Miniero > KIAVC > [mastodon.gamedev.place]" Mastodon
+# Chris Miller
+https://ctmiller.net/feed.xml "~(people) > Chris Miller" blog people
+https://fosstodon.org/@grueproof.rss "~(people) > Chris Miller > [fosstodon.org]" Mastodon
+# ------------------------------------ #
+# Derek Powazek
+https://powazek.com/feed "~(people) > Derek Powazek" blog people
+# ------------------------------------ #
+# Jack Baty
+https://baty.net/index.xml "~(people) > Jack Baty" blog people
+https://social.lol/@jbaty.rss "~(people) > Jack Baty > [social.lol]" Mastodon
+# ------------------------------------ #
+https://idlewords.com/index.xml "~(people) > Maciej Cegłowski > Idle Words" blog people
+# ------------------------------------ #
+# Quinn Norton
+https://medium.com/feed/@quinnnorton "~(people) > Quinn Norton (on Medium)" blog people
 # ------------------------------------ #
 # Rhi
-https://autistrhi.com/rss "~Rhi > Autism and Expectations" blog people
-https://neurodifferent.me/@Rhi.rss "~Rhi > [neurodifferent.me]" Mastodon
-https://toot.wales/@Rhi.rss "~Rhi > [toot.wales]" Mastodon
+https://autistrhi.com/rss "~(people) > Rhi > Autism and Expectations" blog people
+https://neurodifferent.me/@Rhi.rss "~(people) > Rhi > [neurodifferent.me]" Mastodon
+https://toot.wales/@Rhi.rss "~(people) > Rhi > [toot.wales]" Mastodon
+# ------------------------------------ #
+# Sam Drake (spaceraser)
+https://blog.spaceraser.dev/feed/ "~(people) > Sam Drake (spaceraser) > Embassy" blog people
+https://fosstodon.org/@spaceraser.rss "~(people) > Sam Drake (spaceraser) > [fosstodon.org]" Mastodon
 # ------------------------------------ #
 # Tristram Oaten (Tris) (Namtao)
-https://www.0atman.com/feed.xml "~Tristram Oaten > 0atman" blog people
+https://www.0atman.com/feed.xml "~(people) > Tristram Oaten > 0atman" blog people
 # Tris - No Boilerplate
-https://tech.lgbt/@noboilerplate.rss "~Tristram Oaten > No Boilerplate"
+https://tech.lgbt/@noboilerplate.rss "~(people) > Tristram Oaten > No Boilerplate"
 # Tris - /usr/stories
-https://mastodon.social/@0atman.rss "~Tristram Oaten > [mastodon.social]" Mastodon
+https://mastodon.social/@0atman.rss "~(people) > Tristram Oaten > [mastodon.social]" Mastodon
 # Namtao - 🛰️ Lost Terminal Podcast
-https://www.spreaker.com/show/4488937/episodes/feed "~Tristram Oaten > Namtao > Lost Terminal" podcast
-https://fosstodon.org/@lostterminal.rss "~Tristram Oaten > Namtao > 🛰️ Lost Terminal Podcast > [fosstodon.org]" Mastodon
+https://www.spreaker.com/show/4488937/episodes/feed "~(people) > Tristram Oaten > Namtao > Lost Terminal" podcast
+https://fosstodon.org/@lostterminal.rss "~(people) > Tristram Oaten > Namtao > 🛰️ Lost Terminal Podcast > [fosstodon.org]" Mastodon
 # Namtao - 🌕 Modem Prometheus Podcast
-https://www.spreaker.com/show/5184621/episodes/feed "~Tristram Oaten > Namtao > Modem Prometheus" podcast
-https://wandering.shop/@modemprometheus.rss "~Tristram Oaten > Namtao > 🌕 Modem Prometheus Podcast > [wandering.shop]" Mastodon
+https://www.spreaker.com/show/5184621/episodes/feed "~(people) > Tristram Oaten > Namtao > Modem Prometheus" podcast
+https://wandering.shop/@modemprometheus.rss "~(people) > Tristram Oaten > Namtao > 🌕 Modem Prometheus Podcast > [wandering.shop]" Mastodon
+# ------------------------------------ #
+# Ward Hale
+https://wardhale.com/feed/ "~(people) > Ward Hale" blog people
+https://easymode.im/@ward.rss "~(people) > Ward Hale > [easymode.im]" blog people
+# ------------------------------------ #
+# Wil Wheaton
+https://wilwheaton.net/feed/ "~(people) > Wil Wheaton" blog people
 # ---------------------------------------------------------------------------- #
 # people - Polymaths.social
 # ------------------------------------ #
@@ -100,39 +115,13 @@ https://joelchrono.xyz/feed.xml "~(people) > (Polymaths) > Joel Chrono (Joelchro
 # ------------------------------------ #
 # OrbitalMartian a.k.a. CJ, LinuxGamer
 https://orbitalmartian.codeberg.page/feed.xml "~(people) > (Polymaths) > OrbitalMartian | a.k.a. CJ, LinuxGamer" blog people Polymaths
-https://linuxgamer.hashnode.dev/rss.xml "~(people) > (Polymaths) > OrbitalMartian |LinuxGamer on HashNode" blog people tech Polymaths
+https://linuxgamer.hashnode.dev/rss.xml "~(people) > (Polymaths) > OrbitalMartian | LinuxGamer on HashNode" blog people tech Polymaths
 # ------------------------------------ #
 # R. L. Dane
 https://rldane.space/feeds/all.atom.xml "~(people) > (Polymaths) > R. L. Dane" blog people Polymaths
 # ------------------------------------ #
 # sotolf
 https://sotolf.codeberg.page/index.xml "~(people) > (Polymaths) > sotolf" blog people Polymaths
-# ---------------------------------------------------------------------------- #
-# people - general
-# ------------------------------------ #
-# Chris Miller
-https://ctmiller.net/feed.xml "~(people) > Chris Miller" blog people
-https://fosstodon.org/@grueproof.rss "~(people) > Chris Miller > [fosstodon.org]" Mastodon
-# ------------------------------------ #
-# Derek Powazek
-https://powazek.com/feed "~(people) > Derek Powazek" blog people
-# ------------------------------------ #
-# Jack Baty
-https://baty.net/index.xml "~(people) > Jack Baty" blog people
-https://social.lol/@jbaty.rss "~(people) > Jack Baty > [social.lol]" Mastodon
-# ------------------------------------ #
-https://idlewords.com/index.xml "~(people) > Maciej Cegłowski > Idle Words" blog people
-# ------------------------------------ #
-# Quinn Norton
-https://medium.com/feed/@quinnnorton "~(people) > Quinn Norton (on Medium)" blog people
-# ------------------------------------ #
-# Sam Drake (spaceraser)
-https://blog.spaceraser.dev/feed/ "~(people) > Sam Drake (spaceraser) > Embassy" blog people
-https://fosstodon.org/@spaceraser.rss "~(people) > Sam Drake (spaceraser) > [fosstodon.org]" Mastodon
-# ------------------------------------ #
-# Ward Hale
-https://wardhale.com/feed/ "~(people) > Ward Hale" blog people
-https://easymode.im/@ward.rss "~(people) > Ward Hale > [easymode.im]" blog people
 # ---------------------------------------------------------------------------- #
 # people - tech
 # ------------------------------------ #
@@ -150,6 +139,9 @@ https://andrewkelley.me/rss.xml "~(people) > (tech) > Andrew Kelley (Zig lead)" 
 # ------------------------------------ #
 # Armin Ronacher
 https://lucumr.pocoo.org/feed.atom "~(people) > (tech) > Armin Ronacher" blog people tech
+# ------------------------------------ #
+# Astrelion
+https://medium.com/feed/@ASTRELION "~(people) > (tech) > Astrelion > Medium"
 # ------------------------------------ #
 # Baldur Bjarnason
 https://www.baldurbjarnason.com/index.xml "~(people) > (tech) > Baldur Bjarnason" blog people tech
@@ -257,6 +249,11 @@ https://0pointer.net/blog/index.atom "~(people) > (tech) > Lennart Poettering (s
 # Liz Keogh
 https://lizkeogh.com/feed/ "~(people) > (tech) > Liz Keogh" blog people tech
 # ------------------------------------ #
+# Lorenzo Miniero
+# KIAVC game engine
+https://kiavc.wordpress.com/feed/ "~(people) > (tech) > Lorenzo Miniero > KIAVC" devlog tech
+https://mastodon.gamedev.place/@kiavc.rss "~(people) > (tech) > Lorenzo Miniero > KIAVC > [mastodon.gamedev.place]" Mastodon
+# ------------------------------------ #
 # Manuel Odendahl (wesen / mnmlmnl / mnl)
 https://dev.to/feed/wesen "~(people) > (tech) > Manuel Odendahl > (on dev.to)" blog people tech
 https://write.as/mnmlmnl/feed/ "~(people) > (tech) > Manuel Odendahl > (on write.as)" blog people tech
@@ -349,11 +346,6 @@ https://notebook.wesleyac.com/atom.xml "~(people) > (tech) > Wesley Aptekar-Cass
 # Wolfgang Kratky
 https://www.thewkblog.com/feed/ "~(people) > (tech) > Wolfgang Kratky" blog tech people
 # ---------------------------------------------------------------------------- #
-# people - famous
-# ------------------------------------ #
-# Wil Wheaton
-https://wilwheaton.net/feed/ "~(people) > Wil Wheaton" blog people
-# ---------------------------------------------------------------------------- #
 # topical
 https://separatedbyacommonlanguage.blogspot.com/feeds/posts/default "~(topical) > Separated by a Common Language" blog
 # ---------------------------------------------------------------------------- #
@@ -419,7 +411,6 @@ https://nextcloud.com/blog/rss "~(sw) > (cloud) > Nextcloud" blog org FOSS
 https://blog.cloudflare.com/rss/ "~(sw) > (cloud) > The Cloudflare Blog" blog org
 # ------------------------------------ #
 # comms
-https://blog.irccloud.com/feed.xml "~(sw) > (comms) > IRCCloud Blog" blog org tech
 https://libera.chat/atom.xml "~(sw) > (comms) > Libera.Chat" blog org tech FOSS
 https://signal.org/blog/rss.xml "~(sw) > (comms) > Signal Blog" blog org tech FOSS
 https://getsession.org/feed "~(sw) > (comms) > Session > Blog" blog org tech
@@ -444,17 +435,11 @@ https://www.kali.org/rss.xml "~(sw) > (Linux) > Kali Linux" blog project FOSS
 https://bits.debian.org/feeds/atom.xml "~(sw) > (Linux) > Debian > Bits (blog)" blog project FOSS
 https://micronews.debian.org/feeds/atom.xml "~(sw) > (Linux) > Debian > micronews" news project FOSS
 # ------------------------------------ #
-# Mastodon
-http://blog.joinmastodon.org/index.xml "~(sw) > Mastodon > Blog" blog project FOSS
-# FOSStodon
-https://hub.fosstodon.org/feed.xml "~FOSStodon Hub" blog org tech
-https://fosstodon.org/@fosstodon.rss "~fosstodon@fosstodon.org" Mastodon
-# ------------------------------------ #
 # prog. lang.
 https://planet.haskell.org/atom.xml "~(sw) > (PL) > Planet Haskell" blog project FOSS
 https://pyfound.blogspot.com/feeds/posts/default "~(sw) > (PL) > Python Software Foundation > News" news org FOSS
 https://blog.rust-lang.org/feed.xml "~(sw) > (PL) > Rust > Main Blog" blog project FOSS
-https://blog.rust-lang.org/inside-rust/feed.xml "~(sw) > (PL) > Rust > "Inside Rust" Blog" blog project FOSS
+https://blog.rust-lang.org/inside-rust/feed.xml "~(sw) > (PL) > Rust > 'Inside Rust' Blog" blog project FOSS
 https://ziglang.org/news/index.xml "~(sw) > (PL) > Zig > News" blog project FOSS
 https://devlog.hexops.com/feed.xml "~(sw) > (PL) > Zig > Mach > Hexops" devlog blog project FOSS
 # ------------------------------------ #
@@ -475,6 +460,7 @@ https://about.gitlab.com/atom.xml "~(sw) > (vcs) > GitLab" blog org tech FOSS
 # misc
 https://gemini.circumlunar.space/news/atom.xml "~(sw) > (misc) > Gemini" blog project FOSS
 https://www.gnome.org/feed/ "~(sw) > (misc) > GNOME" blog project FOSS
+http://blog.joinmastodon.org/index.xml "~(sw) > (misc) > Mastodon > Blog" blog project FOSS
 https://blog.documentfoundation.org/feed/ "~(sw) > (misc) > The Document Foundation > Blog" blog org FOSS
 https://w3c.social/@w3c.rss "~(sw) > (misc) > W3C > [w3c.social]" Mastodon
 # ---------------------------------------------------------------------------- #
@@ -513,17 +499,6 @@ https://theycantalk.com/rss "~(comic) > they can talk" comic
 https://twittoons.com/feed.xml "~(comic) > Twittoons" comic
 https://xkcd.com/atom.xml "~(comic) > xkcd.com" comic
 # ---------------------------------------------------------------------------- #
-# podcasts
-# ------------------------------------ #
-https://api.substack.com/feed/podcast/1180773.rss "~(podcast) > Surveillance Report" podcast
-# ------------------------------------ #
-https://fossandcrafts.org/rss-feed-ogg.rss "~(podcast) > FOSS and Crafts" podcast
-https://octodon.social/@fossandcrafts.rss "~(podcast) > FOSS and Crafts > [octodon.social]" Mastodon
-# ------------------------------------ #
-https://librelounge.org/atom-feed.atom "~(podcast) > Libre Lounge" podcast
-# ------------------------------------ #
-https://www.gmdiscussions.com/feed/podcast "~(podcast) > Roll For Topic" podcast
-# ---------------------------------------------------------------------------- #
 # news - FOSS
 https://www.gamingonlinux.com/article_rss.php "~(news) > (FOSS) > GamingOnLinux" news tech FOSS
 https://news.itsfoss.com/rss/ "~(news) > (FOSS) > It's FOSS News" news tech FOSS
@@ -538,26 +513,26 @@ https://news.ycombinator.com/rss "~(news) > (tech forum) > Hacker News" news tec
 https://rss.slashdot.org/Slashdot/slashdotMain "~(news) > (tech forum) > Slashdot" news tech
 # ---------------------------------------------------------------------------- #
 # news - tech
+# ------------------------------------ #
+# Ars Technica
+https://feeds.arstechnica.com/arstechnica/features "~(news) > (tech) > Ars Technica > Features" news tech
+https://feeds.arstechnica.com/arstechnica/technology-lab "~(news) > (tech) > Ars Technica > Technology Lab: Information Technology" news tech
+https://feeds.arstechnica.com/arstechnica/gadgets "~(news) > (tech) > Ars Technica > Gear & Gadgets: Product News & Reviews" news tech
+https://feeds.arstechnica.com/arstechnica/tech-policy "~(news) > (tech) > Ars Technica > Law & Disorder: Civilization & Discontents" news tech
+https://feeds.arstechnica.com/arstechnica/apple "~(news) > (tech) > Ars Technica > Infinite Loop: The Apple Ecosystem" news tech
+https://feeds.arstechnica.com/arstechnica/gaming "~(news) > (tech) > Ars Technica > Opposable Thumbs: Gaming & Entertainment" news tech
+https://feeds.arstechnica.com/arstechnica/science "~(news) > (tech) > Ars Technica > The Scientific Method: Science & Exploration" news tech
+https://feeds.arstechnica.com/arstechnica/cars "~(news) > (tech) > Ars Technica > Cars Technica: All Things Automotive" news tech
+https://feeds.arstechnica.com/arstechnica/staff-blogs "~(news) > (tech) > Ars Technica > Staff Blogs: From the Minds of Ars" blog tech
+https://feeds.arstechnica.com/arstechnica/cardboard "~(news) > (tech) > Ars Technica > Ars Cardboard: Board Games News & Reviews" news tech
+# ------------------------------------ #
 https://www.bitecode.dev/feed "~(news) > (tech) > Bite code! by Nobody has time for Python" news tech
 https://gizmodo.com/rss "~(news) > (tech) > Gizmodo" news tech
-https://techcrunch.com/feed/ "~(news) > (tech) > TechCrunch" news tech
+https://hackaday.com/feed/ "~(news) > (tech) > Hackaday" news tech
 https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml "~(news) > (tech) > NYT > Technology" news tech
-http://feeds.washingtonpost.com/rss/business/technology "~(news) > (tech) > Washington Post > Technology" news tech
+https://restoreprivacy.com/feed/ "~(news) > (tech) > RestorePrivacy" news tech
+https://techcrunch.com/feed/ "~(news) > (tech) > TechCrunch" news tech
 https://www.theregister.com/headlines.atom "~(news) > (tech) > The Register" news tech
 https://www.theverge.com/rss/index.xml "~(news) > (tech) > The Verge" news tech
-https://restoreprivacy.com/feed/ "~(news) > (tech) > RestorePrivacy" news tech
-https://hackaday.com/feed/ "~(news) > (tech) > Hackaday" news tech
-# ---------------------------------------------------------------------------- #
-# news - tech - Ars Technica
-https://feeds.arstechnica.com/arstechnica/index "~Ars Technica" news tech
-https://feeds.arstechnica.com/arstechnica/features "~Ars Technica > Features" news tech
-https://feeds.arstechnica.com/arstechnica/technology-lab "~Ars Technica > Technology Lab: Information Technology" news tech
-https://feeds.arstechnica.com/arstechnica/gadgets "~Ars Technica > Gear & Gadgets: Product News & Reviews" news tech
-https://feeds.arstechnica.com/arstechnica/tech-policy "~Ars Technica > Law & Disorder: Civilization & Discontents" news tech
-https://feeds.arstechnica.com/arstechnica/apple "~Ars Technica > Infinite Loop: The Apple Ecosystem" news tech
-https://feeds.arstechnica.com/arstechnica/gaming "~Ars Technica > Opposable Thumbs: Gaming & Entertainment" news tech
-https://feeds.arstechnica.com/arstechnica/science "~Ars Technica > The Scientific Method: Science & Exploration" news tech
-https://feeds.arstechnica.com/arstechnica/cars "~Ars Technica > Cars Technica: All Things Automotive" news tech
-https://feeds.arstechnica.com/arstechnica/staff-blogs "~Ars Technica > Staff Blogs: From the Minds of Ars" blog tech
-https://feeds.arstechnica.com/arstechnica/cardboard "~Ars Technica > Ars Cardboard: Board Games News & Reviews" news tech
+http://feeds.washingtonpost.com/rss/business/technology "~(news) > (tech) > Washington Post > Technology" news tech
 # ---------------------------------------------------------------------------- #
