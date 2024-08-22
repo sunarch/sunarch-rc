@@ -69,6 +69,7 @@ sudo apt-get install pavumeter # PulseAudio Volume Meter
 sudo apt-get install gnome-calculator # GNOME desktop calculator
 sudo apt-get install gnome-clocks # Simple GNOME app with stopwatch, timer, and world clock support
 sudo apt-get install keepass2 # Password manager
+sudo apt-get install ncdu # ncurses disk usage viewer
 sudo apt-get install qdirstat # Qt-based directory statistics
 
 sudo apt-get install gtkhash # GTK+ utility for computing checksums and more

@@ -1,0 +1,28 @@
+--no-extended
+
+# Scan Options
+
+--one-file-system
+# --exclude .git
+--no-follow-symlinks
+--exclude-kernfs
+
+# Interface options
+
+-2
+--fast-ui-updates
+--disable-shell
+--disable-delete
+--enable-refresh
+--no-si
+--disk-usage
+--show-hidden
+--show-itemcount
+--show-mtime
+--show-graph
+--show-percent
+--sort disk-usage
+--group-directories-first
+--confirm-quit
+--confirm-delete
+--color dark
