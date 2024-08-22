@@ -25,42 +25,42 @@ https://btkhok.elte.hu/feed/ "~ELTE > BTK HÖK"
 # ------------------------------------ #
 # Árpád
 https://arpadblog.hu/feed/ "~Árpád > ÁrpádBlog" blog people magyar
-https://mastodon.online/@RPD0911.rss "~Árpád > [mastodon.online]" "platform - Mastodon"
+https://mastodon.online/@RPD0911.rss "~Árpád > [mastodon.online]" Mastodon
 # ------------------------------------ #
 # Astrelion
 https://medium.com/feed/@ASTRELION "~Astrelion > ASTRELION on Medium"
-https://mastodon.social/@astrelion.rss "~ASTRELION > [mastodon.social]" "platform - Mastodon"
+https://mastodon.social/@astrelion.rss "~ASTRELION > [mastodon.social]" Mastodon
 # Astrelion - Dungeons
-#https://mastodon.social/@dungeons.rss "~Astrelion > Dungeons > [mastodon.social]" "platform - Mastodon"
+#https://mastodon.social/@dungeons.rss "~Astrelion > Dungeons > [mastodon.social]" Mastodon
 # ------------------------------------ #
 # Brett Chalupa
 http://www.brettchalupa.com/feed.xml "~Brett Chalupa" blog teck people
 https://code.brettchalupa.com/feed.xml "~Brett Chalupa > Brett Codes" blog tech people
-https://mastodon.gamedev.place/@brettmakesgames.rss "~Brett Chalupa > [mastodon.gamedev.place]" "platform - Mastodon"
+https://mastodon.gamedev.place/@brettmakesgames.rss "~Brett Chalupa > [mastodon.gamedev.place]" Mastodon
 # ------------------------------------ #
 # Lorenzo Miniero
-https://fosstodon.org/@lminiero.rss "~Lorenzo Miniero > [fosstodon.org]" "platform - Mastodon"
+https://fosstodon.org/@lminiero.rss "~Lorenzo Miniero > [fosstodon.org]" Mastodon
 # Lorenzo Miniero - KIAVC game engine
 https://kiavc.wordpress.com/feed/ "~Lorenzo Miniero > KIAVC" devlog tech
-https://mastodon.gamedev.place/@kiavc.rss "~Lorenzo Miniero > KIAVC > [mastodon.gamedev.place]" "platform - Mastodon"
+https://mastodon.gamedev.place/@kiavc.rss "~Lorenzo Miniero > KIAVC > [mastodon.gamedev.place]" Mastodon
 # ------------------------------------ #
 # Rhi
 https://autistrhi.com/rss "~Rhi > Autism and Expectations" blog people
-https://neurodifferent.me/@Rhi.rss "~Rhi > [neurodifferent.me]" "platform - Mastodon"
-https://toot.wales/@Rhi.rss "~Rhi > [toot.wales]" "platform - Mastodon"
+https://neurodifferent.me/@Rhi.rss "~Rhi > [neurodifferent.me]" Mastodon
+https://toot.wales/@Rhi.rss "~Rhi > [toot.wales]" Mastodon
 # ------------------------------------ #
 # Tristram Oaten (Tris) (Namtao)
 https://www.0atman.com/feed.xml "~Tristram Oaten > 0atman" blog people
 # Tris - No Boilerplate
 https://tech.lgbt/@noboilerplate.rss "~Tristram Oaten > No Boilerplate"
 # Tris - /usr/stories
-https://mastodon.social/@0atman.rss "~Tristram Oaten > [mastodon.social]" "platform - Mastodon"
+https://mastodon.social/@0atman.rss "~Tristram Oaten > [mastodon.social]" Mastodon
 # Namtao - 🛰️ Lost Terminal Podcast
 https://www.spreaker.com/show/4488937/episodes/feed "~Tristram Oaten > Namtao > Lost Terminal" podcast
-https://fosstodon.org/@lostterminal.rss "~Tristram Oaten > Namtao > 🛰️ Lost Terminal Podcast > [fosstodon.org]" "platform - Mastodon"
+https://fosstodon.org/@lostterminal.rss "~Tristram Oaten > Namtao > 🛰️ Lost Terminal Podcast > [fosstodon.org]" Mastodon
 # Namtao - 🌕 Modem Prometheus Podcast
 https://www.spreaker.com/show/5184621/episodes/feed "~Tristram Oaten > Namtao > Modem Prometheus" podcast
-https://wandering.shop/@modemprometheus.rss "~Tristram Oaten > Namtao > 🌕 Modem Prometheus Podcast > [wandering.shop]" "platform - Mastodon"
+https://wandering.shop/@modemprometheus.rss "~Tristram Oaten > Namtao > 🌕 Modem Prometheus Podcast > [wandering.shop]" Mastodon
 # ---------------------------------------------------------------------------- #
 # people - Polymaths.social
 # ------------------------------------ #
@@ -112,14 +112,14 @@ https://sotolf.codeberg.page/index.xml "~(people) > (Polymaths) > sotolf" blog p
 # ------------------------------------ #
 # Chris Miller
 https://ctmiller.net/feed.xml "~(people) > Chris Miller" blog people
-https://fosstodon.org/@grueproof.rss "~(people) > Chris Miller > [fosstodon.org]" "platform - Mastodon"
+https://fosstodon.org/@grueproof.rss "~(people) > Chris Miller > [fosstodon.org]" Mastodon
 # ------------------------------------ #
 # Derek Powazek
 https://powazek.com/feed "~(people) > Derek Powazek" blog people
 # ------------------------------------ #
 # Jack Baty
 https://baty.net/index.xml "~(people) > Jack Baty" blog people
-https://social.lol/@jbaty.rss "~(people) > Jack Baty > [social.lol]" "platform - Mastodon"
+https://social.lol/@jbaty.rss "~(people) > Jack Baty > [social.lol]" Mastodon
 # ------------------------------------ #
 https://idlewords.com/index.xml "~(people) > Maciej Cegłowski > Idle Words" blog people
 # ------------------------------------ #
@@ -128,7 +128,7 @@ https://medium.com/feed/@quinnnorton "~(people) > Quinn Norton (on Medium)" blog
 # ------------------------------------ #
 # Sam Drake (spaceraser)
 https://blog.spaceraser.dev/feed/ "~(people) > Sam Drake (spaceraser) > Embassy" blog people
-https://fosstodon.org/@spaceraser.rss "~(people) > Sam Drake (spaceraser) > [fosstodon.org]" "platform - Mastodon"
+https://fosstodon.org/@spaceraser.rss "~(people) > Sam Drake (spaceraser) > [fosstodon.org]" Mastodon
 # ------------------------------------ #
 # Ward Hale
 https://wardhale.com/feed/ "~(people) > Ward Hale" blog people
@@ -404,10 +404,10 @@ https://bitfehler.srht.site/index.xml "~SourceHut > (people) > Conrad Hoffmann >
 # ------------------------------------ #
 # Spritely Networked Communities Institute
 https://spritely.institute/feed.xml "~Spritely Institute" blog org
-https://octodon.social/@spritelyinst.rss "~Spritely Institute > [octodon.social]" "platform - Mastodon"
+https://octodon.social/@spritelyinst.rss "~Spritely Institute > [octodon.social]" Mastodon
 # Christine Lemmer-Webber (CTO @ Splitely)
 https://dustycloud.org/blog/index.xml "~Spritely Institute > Christine Lemmer-Webber > Dustycloud Brainstorms" blog people tech
-https://octodon.social/@cwebber.rss "~Spritely Institute > Christine Lemmer-Webber > [octodon.social]" "platform - Mastodon"
+https://octodon.social/@cwebber.rss "~Spritely Institute > Christine Lemmer-Webber > [octodon.social]" Mastodon
 # ---------------------------------------------------------------------------- #
 # software
 # ------------------------------------ #
@@ -448,7 +448,7 @@ https://micronews.debian.org/feeds/atom.xml "~(sw) > (Linux) > Debian > micronew
 http://blog.joinmastodon.org/index.xml "~(sw) > Mastodon > Blog" blog project FOSS
 # FOSStodon
 https://hub.fosstodon.org/feed.xml "~FOSStodon Hub" blog org tech
-https://fosstodon.org/@fosstodon.rss "~fosstodon@fosstodon.org" "platform - Mastodon"
+https://fosstodon.org/@fosstodon.rss "~fosstodon@fosstodon.org" Mastodon
 # ------------------------------------ #
 # prog. lang.
 https://planet.haskell.org/atom.xml "~(sw) > (PL) > Planet Haskell" blog project FOSS
@@ -476,7 +476,7 @@ https://about.gitlab.com/atom.xml "~(sw) > (vcs) > GitLab" blog org tech FOSS
 https://gemini.circumlunar.space/news/atom.xml "~(sw) > (misc) > Gemini" blog project FOSS
 https://www.gnome.org/feed/ "~(sw) > (misc) > GNOME" blog project FOSS
 https://blog.documentfoundation.org/feed/ "~(sw) > (misc) > The Document Foundation > Blog" blog org FOSS
-https://w3c.social/@w3c.rss "~(sw) > (misc) > W3C > [w3c.social]" "platform - Mastodon"
+https://w3c.social/@w3c.rss "~(sw) > (misc) > W3C > [w3c.social]" Mastodon
 # ---------------------------------------------------------------------------- #
 # hardware
 https://frame.work/blog.rss "~(hw) > Framework > Blog" blog org
@@ -518,7 +518,7 @@ https://xkcd.com/atom.xml "~(comic) > xkcd.com" comic
 https://api.substack.com/feed/podcast/1180773.rss "~(podcast) > Surveillance Report" podcast
 # ------------------------------------ #
 https://fossandcrafts.org/rss-feed-ogg.rss "~(podcast) > FOSS and Crafts" podcast
-https://octodon.social/@fossandcrafts.rss "~(podcast) > FOSS and Crafts > [octodon.social]" "platform - Mastodon"
+https://octodon.social/@fossandcrafts.rss "~(podcast) > FOSS and Crafts > [octodon.social]" Mastodon
 # ------------------------------------ #
 https://librelounge.org/atom-feed.atom "~(podcast) > Libre Lounge" podcast
 # ------------------------------------ #
