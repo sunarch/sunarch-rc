@@ -1,25 +1,25 @@
-# ---------------------------------------------------------------------------- #
+# ============================================================================ #
 # tags:
 #     types       - status , newsletter , jobs
 #     Platforms   - Mastodon
-# ---------------------------------------------------------------------------- #
+# ============================================================================ #
 # HSBP
 https://vsza.hu/hacksense/status.rss "~HSBP > Hacksense (VSZA)" status
 https://hsbp.org/tiki-wiki_rss.php?ver=2 "~HSBP > Wiki"
 https://hsbp.org/tiki-blogs_rss.php?ver=2 "~HSBP > Blogs"
 https://hsbp.org/tiki-file_galleries_rss.php?ver=2 "~HSBP > File Galleries"
 https://hsbp.org/tiki-calendars_rss.php?ver=2 "~HSBP > Calendar Events"
-# ---------------------------------------------------------------------------- #
+# ============================================================================ #
 # go
 https://goszovetseg.hu/?page=news&mode=rss "~Magyar Gószövetség"
-# ---------------------------------------------------------------------------- #
+# ============================================================================ #
 # ELTE
 https://btkhok.elte.hu/feed/ "~ELTE > BTK HÖK"
-# ---------------------------------------------------------------------------- #
+# ============================================================================ #
 # FOSStodon
 https://hub.fosstodon.org/feed.xml "~FOSStodon > Hub"
 https://fosstodon.org/@fosstodon.rss "~FOSStodon > account on fosstodon.org" Mastodon
-# ---------------------------------------------------------------------------- #
+# ============================================================================ #
 # people (general)
 # ------------------------------------ #
 # Brett Chalupa
@@ -71,7 +71,7 @@ https://easymode.im/@ward.rss "~(people) > Ward Hale > [easymode.im]"
 # ------------------------------------ #
 # Wil Wheaton
 https://wilwheaton.net/feed/ "~(people) > Wil Wheaton"
-# ---------------------------------------------------------------------------- #
+# ============================================================================ #
 # people - Polymaths.social
 # ------------------------------------ #
 # Adam (@adamsdesk)
@@ -117,7 +117,7 @@ https://rldane.space/feeds/all.atom.xml "~(people) > (Polymaths) > R. L. Dane"
 # ------------------------------------ #
 # sotolf
 https://sotolf.codeberg.page/index.xml "~(people) > (Polymaths) > sotolf"
-# ---------------------------------------------------------------------------- #
+# ============================================================================ #
 # people - tech
 # ------------------------------------ #
 # Aaron Toponce
@@ -340,10 +340,10 @@ https://notebook.wesleyac.com/atom.xml "~(people) > (tech) > Wesley Aptekar-Cass
 # ------------------------------------ #
 # Wolfgang Kratky
 https://www.thewkblog.com/feed/ "~(people) > (tech) > Wolfgang Kratky"
-# ---------------------------------------------------------------------------- #
+# ============================================================================ #
 # topical
 https://separatedbyacommonlanguage.blogspot.com/feeds/posts/default "~(topical) > Separated by a Common Language"
-# ---------------------------------------------------------------------------- #
+# ============================================================================ #
 # tech - detailed
 # ------------------------------------ #
 # Canonical
@@ -395,7 +395,7 @@ https://octodon.social/@spritelyinst.rss "~Spritely Institute > [octodon.social]
 # Christine Lemmer-Webber (CTO @ Splitely)
 https://dustycloud.org/blog/index.xml "~Spritely Institute > Christine Lemmer-Webber > Dustycloud Brainstorms"
 https://octodon.social/@cwebber.rss "~Spritely Institute > Christine Lemmer-Webber > [octodon.social]" Mastodon
-# ---------------------------------------------------------------------------- #
+# ============================================================================ #
 # software
 # ------------------------------------ #
 # browser
@@ -457,23 +457,23 @@ https://www.gnome.org/feed/ "~(sw) > (misc) > GNOME"
 http://blog.joinmastodon.org/index.xml "~(sw) > (misc) > Mastodon > Blog"
 https://blog.documentfoundation.org/feed/ "~(sw) > (misc) > The Document Foundation > Blog"
 https://w3c.social/@w3c.rss "~(sw) > (misc) > W3C > [w3c.social]" Mastodon
-# ---------------------------------------------------------------------------- #
+# ============================================================================ #
 # hardware
 https://frame.work/blog.rss "~(hw) > Framework > Blog"
 https://www.raspberrypi.com/rss/ "~(hw) > Raspberry Pi"
 https://blog.system76.com/rss "~(hw) > System76 > Blog"
-# ---------------------------------------------------------------------------- #
+# ============================================================================ #
 # TTRPG
 https://koboldpress.com/feed/ "~(ttrpg) > Kobold Press"
 https://www.metagames.hu/rss/hirek "~(ttrpg) > Metagame.hu > Hírek"
 https://paizo.com/community/blog&xml=atom "~(ttrpg) > Paizo > Blog"
 https://www.runehammer.online/blog-feed.xml "~(ttrpg) > Runehammer Games"
-# ---------------------------------------------------------------------------- #
+# ============================================================================ #
 # art journals
 https://apokrifonline.com/feed/ "~(art) > Apokrif Online"
 https://mozgovilag.hu/feed/ "~(art) > Mozgó Világ"
 https://bulletjournal.com/blogs/bulletjournalist.atom "~(art) > The Bullet Journalist"
-# ---------------------------------------------------------------------------- #
+# ============================================================================ #
 # comic
 https://actualstuffcomic.tumblr.com/rss "~(comic) > Actual Stuff"
 https://www.awkwardzombie.com/awkward-zombie/rss "~(comic) > Awkward Zombie"
@@ -492,7 +492,7 @@ https://pbfcomics.com/feed/ "~(comic) > The Perry Bible Fellowship"
 https://theycantalk.com/rss "~(comic) > they can talk"
 https://twittoons.com/feed.xml "~(comic) > Twittoons"
 https://xkcd.com/atom.xml "~(comic) > xkcd.com"
-# ---------------------------------------------------------------------------- #
+# ============================================================================ #
 # news - FOSS
 https://www.gamingonlinux.com/article_rss.php "~(news) > (FOSS) > GamingOnLinux"
 https://news.itsfoss.com/rss/ "~(news) > (FOSS) > It's FOSS News"
@@ -501,11 +501,11 @@ https://www.omgubuntu.co.uk/feed "~(news) > (FOSS) > OMG! Ubuntu!"
 https://opensource.com/feed "~(news) > (FOSS) > Opensource.com"
 https://www.phoronix.com/rss.php "~(news) > (FOSS) > Phoronix"
 https://www.tecmint.com/feed/ "~(news) > (FOSS) > Tecmint: Linux Howtos, Tutorials & Guides"
-# ---------------------------------------------------------------------------- #
+# ============================================================================ #
 # news - tech forums
 https://news.ycombinator.com/rss "~(news) > (tech forum) > Hacker News"
 https://rss.slashdot.org/Slashdot/slashdotMain "~(news) > (tech forum) > Slashdot"
-# ---------------------------------------------------------------------------- #
+# ============================================================================ #
 # news - tech
 # ------------------------------------ #
 # Ars Technica
@@ -529,4 +529,4 @@ https://techcrunch.com/feed/ "~(news) > (tech) > TechCrunch"
 https://www.theregister.com/headlines.atom "~(news) > (tech) > The Register"
 https://www.theverge.com/rss/index.xml "~(news) > (tech) > The Verge"
 http://feeds.washingtonpost.com/rss/business/technology "~(news) > (tech) > Washington Post > Technology"
-# ---------------------------------------------------------------------------- #
+# ============================================================================ #
