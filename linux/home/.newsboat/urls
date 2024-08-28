@@ -25,18 +25,15 @@ https://fosstodon.org/@fosstodon.rss "~FOSStodon > account on fosstodon.org" Mas
 # Brett Chalupa
 http://www.brettchalupa.com/feed.xml "~(people) > Brett Chalupa"
 https://code.brettchalupa.com/feed.xml "~(people) > Brett Chalupa > Brett Codes"
-https://mastodon.gamedev.place/@brettmakesgames.rss "~(people) > Brett Chalupa > [mastodon.gamedev.place]" Mastodon
 # ------------------------------------ #
 # Chris Miller
 https://ctmiller.net/feed.xml "~(people) > Chris Miller"
-https://fosstodon.org/@grueproof.rss "~(people) > Chris Miller > [fosstodon.org]" Mastodon
 # ------------------------------------ #
 # Derek Powazek
 https://powazek.com/feed "~(people) > Derek Powazek"
 # ------------------------------------ #
 # Jack Baty
 https://baty.net/index.xml "~(people) > Jack Baty"
-https://social.lol/@jbaty.rss "~(people) > Jack Baty > [social.lol]" Mastodon
 # ------------------------------------ #
 https://idlewords.com/index.xml "~(people) > Maciej Cegłowski > Idle Words"
 # ------------------------------------ #
@@ -47,10 +44,6 @@ https://medium.com/feed/@quinnnorton "~(people) > Quinn Norton (on Medium)"
 https://autistrhi.com/rss "~(people) > Rhi > Autism and Expectations"
 https://neurodifferent.me/@Rhi.rss "~(people) > Rhi > [neurodifferent.me]" Mastodon
 https://toot.wales/@Rhi.rss "~(people) > Rhi > [toot.wales]" Mastodon
-# ------------------------------------ #
-# Sam Drake (spaceraser)
-https://blog.spaceraser.dev/feed/ "~(people) > Sam Drake (spaceraser) > Embassy"
-https://fosstodon.org/@spaceraser.rss "~(people) > Sam Drake (spaceraser) > [fosstodon.org]" Mastodon
 # ------------------------------------ #
 # Tristram Oaten (Tris) (Namtao)
 https://www.0atman.com/feed.xml "~(people) > Tristram Oaten > 0atman"
