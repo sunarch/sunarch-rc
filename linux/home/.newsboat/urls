@@ -19,6 +19,7 @@ https://btkhok.elte.hu/feed/ "~ELTE > BTK HÖK"
 # FOSStodon
 https://hub.fosstodon.org/feed.xml "~FOSStodon > Hub"
 https://fosstodon.org/@fosstodon.rss "~FOSStodon > account on fosstodon.org" Mastodon
+https://mastodon.social/@fosstodon.rss "~FOSStodon > backup account on mastodon.social" Mastodon
 # ============================================================================ #
 # people (general)
 # ------------------------------------ #
@@ -49,14 +50,11 @@ https://toot.wales/@Rhi.rss "~(people) > Rhi > [toot.wales]" Mastodon
 https://www.0atman.com/feed.xml "~(people) > Tristram Oaten > 0atman"
 # Tris - No Boilerplate
 https://tech.lgbt/@noboilerplate.rss "~(people) > Tristram Oaten > No Boilerplate"
-# Tris - /usr/stories
-https://mastodon.social/@0atman.rss "~(people) > Tristram Oaten > [mastodon.social]" Mastodon
+# Tris - /usr/stories | WIP
 # Namtao - 🛰️ Lost Terminal Podcast
 https://www.spreaker.com/show/4488937/episodes/feed "~(people) > Tristram Oaten > Namtao > Lost Terminal (podcast)"
-https://fosstodon.org/@lostterminal.rss "~(people) > Tristram Oaten > Namtao > 🛰️ Lost Terminal Podcast > [fosstodon.org]" Mastodon
 # Namtao - 🌕 Modem Prometheus Podcast
 https://www.spreaker.com/show/5184621/episodes/feed "~(people) > Tristram Oaten > Namtao > Modem Prometheus (podcast)"
-https://wandering.shop/@modemprometheus.rss "~(people) > Tristram Oaten > Namtao > 🌕 Modem Prometheus Podcast > [wandering.shop]" Mastodon
 # ------------------------------------ #
 # Ward Hale
 https://wardhale.com/feed/ "~(people) > Ward Hale"
@@ -206,9 +204,6 @@ https://theevilskeleton.gitlab.io/feed.xml "~(people) > (tech) > Hari Rana > The
 # ------------------------------------ #
 # Henrique Dias
 https://hacdias.com/articles/feed.xml "~(people) > (tech) > Henrique Dias"
-# ------------------------------------ #
-# Henry Fisher (Techlore)
-https://social.lol/@techlore.rss "~(people) > (tech) > Henry Fisher > Techlore" Mastodon
 # ------------------------------------ #
 # Jamie Zawinski (jwz)
 https://cdn.jwz.org/blog/feed/ "~(people) > (tech) > Jamie Zawinski (jwz)"
