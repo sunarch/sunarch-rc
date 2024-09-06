@@ -13,9 +13,11 @@ case $- in
       *) return;;
 esac
 
-# checks
-set -e  # stop script on errors
+# checks (FOR SCRIPTS ONLY, NOT IN CONFIG!)
+#set -e  # stop script on errors
 #set -u  # stop script on unset variables
+
+# checks
 set -o pipefail  # make pipe fail if any command fails
 
 # don't put duplicate lines or lines starting with space in the history.
