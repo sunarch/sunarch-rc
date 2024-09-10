@@ -6,8 +6,11 @@
 # includes for shell: aliases
 
 # ---------------------------------------------------------------------------- #
-# Git
+# wc
 
+alias line-count-of-dir='find . -type f | xargs wc -l --total=only'
+
+# Git
 alias commit-count='git log --oneline | wc -l'
 
 # ---------------------------------------------------------------------------- #
