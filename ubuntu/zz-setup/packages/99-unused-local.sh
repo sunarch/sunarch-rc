@@ -47,4 +47,9 @@
 # https://www.spigotmc.org/
 # https://hub.spigotmc.org/jenkins/job/BuildTools/
 
+# ------------------------------------ #
+# Trelby:
+
+# https://www.trelby.org/download/
+
 # ---------------------------------------------------------------------------- #

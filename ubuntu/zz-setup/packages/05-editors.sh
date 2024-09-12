@@ -75,6 +75,9 @@ sudo apt-get install geany-plugins # set of plugins for Geany
 # LaTeX - base:
 
 sudo apt-get install texlive # TeX Live: A decent selection of the TeX Live packages
+sudo apt-get install texlive-games # TeX Live: Games typesetting
+sudo apt-get install texlive-humanities # TeX Live: Humanities packages
+sudo apt-get install texlive-humanities-doc # TeX Live: Documentation files for texlive-humanities
 
 # Texdoctk
 # TeXinfo

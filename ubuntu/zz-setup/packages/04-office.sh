@@ -10,6 +10,7 @@ sudo apt-get update
 # documents:
 
 sudo apt-get install evince # Document (PostScript, PDF) viewer
+sudo apt-get install manuskript # open-source tool for writers
 sudo apt-get install pdfsam # PDF Split and Merge
 sudo apt-get install scribus # Open Source Desktop Page Layout
 sudo apt-get install sigil # multi-platform ebook editor
