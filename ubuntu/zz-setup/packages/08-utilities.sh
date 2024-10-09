@@ -53,13 +53,14 @@ sudo apt-get install pipewire-alsa # PipeWire ALSA plugin
 sudo apt-get install pipewire-pulse # PipeWire PulseAudio daemon
 sudo apt-get install pipewire-jack # PipeWire JACK plugin
 sudo apt-get install vlc-plugin-pipewire # PipeWire audio plugins for VLC
+
 sudo apt-get install qpwgraph # User interface for controlling the PipeWire Graph
 sudo apt-get install helvum # GTK patchbay for pipewire
 
 # old, PulseAudio-related:
-sudo apt-get install pulsemixer # command-line mixer for PulseAudio with a curses interface
-sudo apt-get install pavucontrol # PulseAudio Volume Control
-sudo apt-get install pavumeter # PulseAudio Volume Meter
+#sudo apt-get install pulsemixer # command-line mixer for PulseAudio with a curses interface
+#sudo apt-get install pavucontrol # PulseAudio Volume Control
+#sudo apt-get install pavumeter # PulseAudio Volume Meter
     # PulseAudio Volume Meter (Capture)
     # PulseAudio Volume Meter (Playback)
 
@@ -69,6 +70,8 @@ sudo apt-get install pavumeter # PulseAudio Volume Meter
 sudo apt-get install gnome-calculator # GNOME desktop calculator
 sudo apt-get install gnome-clocks # Simple GNOME app with stopwatch, timer, and world clock support
 sudo apt-get install keepass2 # Password manager
+sudo apt-get install pass # lightweight directory-based password manager
+
 sudo apt-get install ncdu # ncurses disk usage viewer
 sudo apt-get install qdirstat # Qt-based directory statistics
 

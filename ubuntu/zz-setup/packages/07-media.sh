@@ -25,7 +25,7 @@ sudo apt-get install sonic-pi # Live Coding for Everyone
 sudo apt-get install supercollider # real time audio synthesis programming language - metapackage
 sudo apt-get install traverso # Multitrack audio recorder and editor
 
-sudo apt-get install seq24 # Real time MIDI sequencer
+#sudo apt-get install seq24 # Real time MIDI sequencer
 # NOTE: seq24 is not available on Ubuntu 24.04 as of 2024-07-11
 
 # Spotify --> see individual
