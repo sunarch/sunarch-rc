@@ -143,6 +143,10 @@ https://medium.com/feed/@TechHutTV "~(people) > (tech) > Brandon Hopkins > TechH
 # Brandon T. Phillips
 https://brandont.dev/atom.xml "~(people) > (tech) > Brandon T. Phillips"
 # ------------------------------------ #
+# Bruno Garcia (aduros) (creator of WASM-4)
+https://aduros.com/blog/index.xml "~(people) > (tech) > Bruno Garcia (aduros)"
+https://wasm4.org/blog/rss.xml "~(people) > (tech) > Bruno Garcia (aduros) > WASM-4"
+# ------------------------------------ #
 # Chris Morgan
 https://chrismorgan.info/feed.xml "~(people) > (tech) > Chris Morgan"
 # ------------------------------------ #
