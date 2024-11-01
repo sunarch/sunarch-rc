@@ -7,13 +7,16 @@
 import os
 import os.path
 import string
+import sys
 
 DIGIT_SET: set[str] = set(string.digits)
 
-def create_mapping(filename: str) -> tuple[str, str]:
+def create_mapping_phone(filename: str) -> tuple[str, str]:
+    """Create mapping for 'phone' template"""
+
     name, ext = os.path.splitext(filename)
 
-    components: tuple[str] = name.split('_')
+    components: list[str] = name.split('_')
     iteration: str = ""
     if len(components) == 1:
         print(f'Invalid format: no underscore - "{filename}"')
@@ -44,30 +47,39 @@ def create_mapping(filename: str) -> tuple[str, str]:
         diff: set[str] = time_set - DIGIT_SET
         print(f'Invalid time character in "{filename}": "{diff}"')
         exit()
-        
+
     year: str = date[0:4]
     month: str = date[4:6]
     day: str = date[6:8]
-    
+
     hours_and_mins: str = time[0:4]
     secs: str = time[4:6]
-    
+
     new_filename: str = f'{year}-{month}-{day}-{hours_and_mins}-{secs}{iteration}{ext}'
-    
-    #print(f'Mapping for "{filename}" : "{new_filename}"')
-    
-    return (filename, new_filename)
+
+    return filename, new_filename
 
 def main():
+    """Main"""
+
+    arguments: list[str] = sys.argv[1:]
+    if not arguments:
+        print('No arguments provided!')
+        exit()
+
     filenames: list[str] = list(sorted(os.listdir()))
 
-    mapping: list[tuple[str, str]] = list(map(create_mapping, filenames))
-
-    #print()
+    command: str = arguments[0]
+    match command:
+        case 'phone':
+            mapping: list[tuple[str, str]] = list(map(create_mapping_phone, filenames))
+        case _:
+            print(f'Invalid command: {command}')
+            exit()
 
     for old_filename, new_filename in mapping:
         print(f'Renaming: "{old_filename}" -> "{new_filename}"')
         os.rename(old_filename, new_filename)
-        
+
 if __name__ == '__main__':
     main()
