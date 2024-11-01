@@ -11,7 +11,15 @@ import sys
 
 DIGIT_SET: set[str] = set(string.digits)
 
-def validate_digits_only(value: str, type_comment: str, location_comment: str):
+def print_mapping(mapping: list[tuple[str, str]]) -> None:
+    """Print mapping"""
+    for old_filename, new_filename in mapping:
+        if new_filename == old_filename:
+            print(f'Unchanged : "{old_filename}"')
+        else:
+            print(f'Mapping for "{old_filename}" : "{new_filename}"')
+
+def validate_digits_only(value: str, type_comment: str, location_comment: str) -> None:
     """Check that string only contains digits"""
 
     value_set: set[str] = set(value)
@@ -21,7 +29,7 @@ def validate_digits_only(value: str, type_comment: str, location_comment: str):
         print(f'Invalid {type_comment} character in "{location_comment}": "{diff}"')
         exit()
 
-def validate_length(correct: int, value: str, type_comment: str, location_comment: str):
+def validate_length(correct: int, value: str, type_comment: str, location_comment: str) -> None:
     """Check that string is correct length"""
 
     if len(value) != correct:
@@ -65,6 +73,24 @@ def create_mapping_phone(filename: str) -> tuple[str, str]:
 
     return filename, new_filename
 
+def create_mapping_normalize(filename: str) -> tuple[str, str]:
+    """Create mapping for 'phone' template"""
+
+    name, ext = os.path.splitext(filename)
+
+    new_name: str = (
+        name
+        .lower()
+        .replace('_', '-')
+        .replace('.', '-')
+    )
+
+    new_ext: str = ext.lower()
+
+    new_filename: str = f'{new_name}{new_ext}'
+
+    return filename, new_filename
+
 def main():
     """Main"""
 
@@ -73,15 +99,39 @@ def main():
         print('No arguments provided!')
         exit()
 
+    if len(arguments) > 1:
+        print('Too many arguments!')
+        exit()
+
     filenames: list[str] = list(sorted(os.listdir()))
 
-    command: str = arguments[0]
-    match command:
+    template: str = arguments[0]
+    match template:
         case 'phone':
             mapping: list[tuple[str, str]] = list(map(create_mapping_phone, filenames))
+        case 'normalize' | 'normal' | 'norm':
+            mapping: list[tuple[str, str]] = list(map(create_mapping_normalize, filenames))
         case _:
-            print(f'Invalid command: {command}')
+            print(f'Invalid command: {template}')
             exit()
+
+    print()
+    print_mapping(mapping)
+
+    to_be_renamed_count: int = sum(map(lambda x: 1 if x[0] != x[1] else 0, mapping))
+    if not to_be_renamed_count:
+        print()
+        print('Nothing has to be renamed.')
+        exit()
+
+    print()
+    confirmation: str = input('Run batch renaming? (yes/No) ')
+
+    print()
+
+    if confirmation.lower() != 'yes':
+        print('Aborted. Nothing was renamed.')
+        exit()
 
     for old_filename, new_filename in mapping:
         print(f'Renaming: "{old_filename}" -> "{new_filename}"')
