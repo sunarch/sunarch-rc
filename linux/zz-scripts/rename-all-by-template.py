@@ -11,6 +11,23 @@ import sys
 
 DIGIT_SET: set[str] = set(string.digits)
 
+def validate_digits_only(value: str, type_comment: str, location_comment: str):
+    """Check that string only contains digits"""
+
+    value_set: set[str] = set(value)
+
+    if not value_set.issubset(DIGIT_SET):
+        diff: set[str] = value_set - DIGIT_SET
+        print(f'Invalid {type_comment} character in "{location_comment}": "{diff}"')
+        exit()
+
+def validate_length(correct: int, value: str, type_comment: str, location_comment: str):
+    """Check that string is correct length"""
+
+    if len(value) != correct:
+        print(f'Invalid {type_comment} length in "{location_comment}"')
+        exit()
+
 def create_mapping_phone(filename: str) -> tuple[str, str]:
     """Create mapping for 'phone' template"""
 
@@ -30,23 +47,12 @@ def create_mapping_phone(filename: str) -> tuple[str, str]:
         exit()
 
     date = components[0]
-    date_set: set[str] = set(date)
+    validate_length(8, date, 'date', filename)
+    validate_digits_only(date, 'date', filename)
+
     time = components[1]
-    time_set: set[str] = set(time)
-    if len(date) != 8:
-        print(f'Invalid date length: "{filename}"')
-        exit()
-    if not date_set.issubset(DIGIT_SET):
-        diff: set[str] = date_set - DIGIT_SET
-        print(f'Invalid date character in "{filename}": "{diff}"')
-        exit()
-    if len(time) != 6:
-        print(f'Invalid time length: "{filename}"')
-        exit()
-    if not time_set.issubset(DIGIT_SET):
-        diff: set[str] = time_set - DIGIT_SET
-        print(f'Invalid time character in "{filename}": "{diff}"')
-        exit()
+    validate_length(6, time, 'time', filename)
+    validate_digits_only(time, 'time', filename)
 
     year: str = date[0:4]
     month: str = date[4:6]
