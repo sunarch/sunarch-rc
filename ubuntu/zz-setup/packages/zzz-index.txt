@@ -175,7 +175,7 @@ image-viewer-gnome -> 07-media
 inkscape -> 07-media
 instead -> 11-misc
 intellij-idea -> 05-editors
-ipfs.tech -> 51-flatpak
+ipfs-desktop -> 52-appimages
 irssi -> 02-comms
 java-oracle -> 71-local
 jetbrains-toolbox -> 71-local
