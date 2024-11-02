@@ -4,6 +4,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+from functools import reduce
 import os
 import os.path
 from string import digits, ascii_lowercase
@@ -12,14 +13,28 @@ import sys
 DIGITS_IN_DATE: int = 14
 LEGAL_CHARACTERS: set[str] = set(ascii_lowercase).union(set(digits)).union({'-'})
 LEGAL_CHARACTERS_EXT: set[str] = LEGAL_CHARACTERS.union({'.'})
+QUOTES_COUNT: int = 2
 
-def print_mapping(mapping: list[tuple[str, str]]) -> None:
-    """Print mapping"""
+def formatter_for_mapping_item(max_length: int) -> str:
+    """Format mapping item"""
+    return '{} : {:<' + str(max_length + QUOTES_COUNT) + '} -> "{}"'
+
+def rename_and_print(mapping: list[tuple[str, str]],
+                     formatter: str,
+                     dry_run: bool = False
+                     ) -> None:
+    """Rename file and print mapping"""
+
     for old_filename, new_filename in mapping:
         if new_filename == old_filename:
-            print(f'Unchanged : "{old_filename}"')
+            if dry_run:
+                print(formatter.format('Unchanged', '', new_filename))
         else:
-            print(f'Mapping for "{old_filename}" : "{new_filename}"')
+            if not dry_run:
+                os.rename(old_filename, new_filename)
+            intro: str = 'Renamed  ' if not dry_run else 'Mapping  '
+            old_filename = f'"{old_filename}"'
+            print(formatter.format(intro, old_filename, new_filename))
 
 def validate_legal_characters(value: str, legal_character_set: set[str]) -> None:
     """Check that string only contains the legal characters"""
@@ -93,8 +108,10 @@ def update_mapping_dateblock(filename_tuple: tuple[str, str]) -> tuple[str, str]
         exit()
 
     comments = comments.lstrip('-')
+    if len(comments) > 0:
+        comments = f'-{comments}'
 
-    new_filename: str = f'{year}-{month}-{day}-{hours_and_mins}-{secs}-{comments}{ext}'
+    new_filename: str = f'{year}-{month}-{day}-{hours_and_mins}-{secs}{comments}{ext}'
 
     return old_filename, new_filename
 
@@ -131,6 +148,8 @@ def main():
         exit()
 
     filenames: list[str] = list(sorted(os.listdir()))
+    max_length: int = reduce(max, map(lambda x: len(x), filenames))
+    formatter: str = formatter_for_mapping_item(max_length)
 
     template: str = arguments[0]
     mapping: list[tuple[str, str]] = list(map(create_mapping, filenames))
@@ -153,7 +172,7 @@ def main():
     validate_mapping(mapping)
 
     print()
-    print_mapping(mapping)
+    rename_and_print(mapping, formatter, dry_run=True)
 
     print()
     confirmation: str = input('Run batch renaming? (yes/No) ')
@@ -164,9 +183,7 @@ def main():
         print('Aborted. Nothing was renamed.')
         exit()
 
-    for old_filename, new_filename in mapping:
-        print(f'Renaming: "{old_filename}" -> "{new_filename}"')
-        os.rename(old_filename, new_filename)
+    rename_and_print(mapping, formatter, dry_run=False)
 
 if __name__ == '__main__':
     main()
