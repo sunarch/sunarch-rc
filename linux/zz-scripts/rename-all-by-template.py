@@ -36,23 +36,30 @@ def validate_length(correct: int, value: str, type_comment: str, location_commen
         print(f'Invalid {type_comment} length in "{location_comment}"')
         exit()
 
-def create_mapping_phone(filename: str) -> tuple[str, str]:
+def create_mapping(filename: str) -> tuple[str, str]:
     """Create mapping for 'phone' template"""
 
+    return filename, filename
+
+def update_mapping_dateblock(filename_tuple: tuple[str, str]) -> tuple[str, str]:
+    """Create mapping for 'phone' template"""
+
+    old_filename, filename = filename_tuple
     name, ext = os.path.splitext(filename)
 
-    components: list[str] = name.split('_')
-    iteration: str = ""
-    if len(components) == 1:
-        print(f'Invalid format: no underscore - "{filename}"')
-        exit()
-    elif len(components) == 2:
-        pass
-    elif len(components) == 3:
-        iteration = '-{}'.format(components[2])
-    else:
-        print(f'Invalid format: "{filename}"')
-        exit()
+    components: list[str] = name.split('-')
+    iteration: str = ''
+    match len(components):
+        case 1:
+            print(f'Invalid format: only one component - "{filename}"')
+            exit()
+        case 2:
+            pass
+        case 3:
+            iteration = '-{}'.format(components[2])
+        case _:
+            print(f'Invalid format: "{filename}"')
+            exit()
 
     date = components[0]
     validate_length(8, date, 'date', filename)
@@ -71,11 +78,12 @@ def create_mapping_phone(filename: str) -> tuple[str, str]:
 
     new_filename: str = f'{year}-{month}-{day}-{hours_and_mins}-{secs}{iteration}{ext}'
 
-    return filename, new_filename
+    return old_filename, new_filename
 
-def create_mapping_normalize(filename: str) -> tuple[str, str]:
+def update_mapping_normalize(filename_tuple: tuple[str, str]) -> tuple[str, str]:
     """Create mapping for 'phone' template"""
 
+    old_filename, filename = filename_tuple
     name, ext = os.path.splitext(filename)
 
     new_name: str = (
@@ -89,7 +97,7 @@ def create_mapping_normalize(filename: str) -> tuple[str, str]:
 
     new_filename: str = f'{new_name}{new_ext}'
 
-    return filename, new_filename
+    return old_filename, new_filename
 
 def main():
     """Main"""
@@ -106,13 +114,15 @@ def main():
     filenames: list[str] = list(sorted(os.listdir()))
 
     template: str = arguments[0]
+    mapping: list[tuple[str, str]] = list(map(create_mapping, filenames))
+    mapping: list[tuple[str, str]] = list(map(update_mapping_normalize, mapping))
     match template:
-        case 'phone':
-            mapping: list[tuple[str, str]] = list(map(create_mapping_phone, filenames))
+        case 'dateblock' | 'date':
+            mapping: list[tuple[str, str]] = list(map(update_mapping_dateblock, mapping))
         case 'normalize' | 'normal' | 'norm':
-            mapping: list[tuple[str, str]] = list(map(create_mapping_normalize, filenames))
+            pass  # this is the default template
         case _:
-            print(f'Invalid command: {template}')
+            print(f'Invalid template: {template}')
             exit()
 
     print()
