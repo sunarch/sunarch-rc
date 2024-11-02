@@ -6,10 +6,12 @@
 
 import os
 import os.path
-import string
+from string import digits, ascii_lowercase
 import sys
 
-DIGIT_SET: set[str] = set(string.digits)
+DIGITS_IN_DATE: int = 14
+LEGAL_CHARACTERS: set[str] = set(ascii_lowercase).union(set(digits)).union({'-'})
+LEGAL_CHARACTERS_EXT: set[str] = LEGAL_CHARACTERS.union({'.'})
 
 def print_mapping(mapping: list[tuple[str, str]]) -> None:
     """Print mapping"""
@@ -19,22 +21,23 @@ def print_mapping(mapping: list[tuple[str, str]]) -> None:
         else:
             print(f'Mapping for "{old_filename}" : "{new_filename}"')
 
-def validate_digits_only(value: str, type_comment: str, location_comment: str) -> None:
-    """Check that string only contains digits"""
+def validate_legal_characters(value: str, legal_character_set: set[str]) -> None:
+    """Check that string only contains the legal characters"""
 
     value_set: set[str] = set(value)
 
-    if not value_set.issubset(DIGIT_SET):
-        diff: set[str] = value_set - DIGIT_SET
-        print(f'Invalid {type_comment} character in "{location_comment}": "{diff}"')
+    if not value_set.issubset(legal_character_set):
+        diff: set[str] = value_set - legal_character_set
+        print(f'Illegal character(s) in "{value}": {diff}')
         exit()
 
-def validate_length(correct: int, value: str, type_comment: str, location_comment: str) -> None:
-    """Check that string is correct length"""
+def validate_mapping(mapping: list[tuple[str, str]]) -> None:
+    """Validate legal characters in mapping"""
 
-    if len(value) != correct:
-        print(f'Invalid {type_comment} length in "{location_comment}"')
-        exit()
+    for _, new_filename in mapping:
+        name, ext = os.path.splitext(new_filename)
+        validate_legal_characters(name, LEGAL_CHARACTERS)
+        validate_legal_characters(ext, LEGAL_CHARACTERS_EXT)
 
 def create_mapping(filename: str) -> tuple[str, str]:
     """Create mapping for 'phone' template"""
@@ -47,36 +50,51 @@ def update_mapping_dateblock(filename_tuple: tuple[str, str]) -> tuple[str, str]
     old_filename, filename = filename_tuple
     name, ext = os.path.splitext(filename)
 
-    components: list[str] = name.split('-')
-    iteration: str = ''
-    match len(components):
-        case 1:
-            print(f'Invalid format: only one component - "{filename}"')
+    year: str = ''
+    month: str = ''
+    day: str = ''
+
+    hours_and_mins: str = ''
+    secs: str = ''
+
+    comments: str = ''
+
+    found_digits: int = 0
+    for character in list(name):
+        if found_digits >= DIGITS_IN_DATE:
+            comments += character
+            continue
+
+        if character not in digits:
+            if character == '-':
+                continue
+            print(f'Illegal character in date/time section of "{old_filename}": "{character}"')
             exit()
-        case 2:
-            pass
-        case 3:
-            iteration = '-{}'.format(components[2])
-        case _:
-            print(f'Invalid format: "{filename}"')
-            exit()
 
-    date = components[0]
-    validate_length(8, date, 'date', filename)
-    validate_digits_only(date, 'date', filename)
+        match found_digits:
+            case 0 | 1 | 2 | 3:
+                year += character
+            case 4 | 5:
+                month += character
+            case 6 | 7:
+                day += character
+            case 8 | 9 | 10 | 11:
+                hours_and_mins += character
+            case 12 | 13:
+                secs += character
+            case _:
+                print(f'Error: Overrun found digits count: "{found_digits}"')
+                exit()
 
-    time = components[1]
-    validate_length(6, time, 'time', filename)
-    validate_digits_only(time, 'time', filename)
+        found_digits += 1
 
-    year: str = date[0:4]
-    month: str = date[4:6]
-    day: str = date[6:8]
+    if found_digits != DIGITS_IN_DATE:
+        print(f'Too few digits in "{old_filename}"')
+        exit()
 
-    hours_and_mins: str = time[0:4]
-    secs: str = time[4:6]
+    comments = comments.lstrip('-')
 
-    new_filename: str = f'{year}-{month}-{day}-{hours_and_mins}-{secs}{iteration}{ext}'
+    new_filename: str = f'{year}-{month}-{day}-{hours_and_mins}-{secs}-{comments}{ext}'
 
     return old_filename, new_filename
 
@@ -126,14 +144,16 @@ def main():
             print(f'Invalid template: {template}')
             exit()
 
-    print()
-    print_mapping(mapping)
-
     to_be_renamed_count: int = sum(map(lambda x: 1 if x[0] != x[1] else 0, mapping))
     if not to_be_renamed_count:
         print()
         print('Nothing has to be renamed.')
         exit()
+
+    validate_mapping(mapping)
+
+    print()
+    print_mapping(mapping)
 
     print()
     confirmation: str = input('Run batch renaming? (yes/No) ')
