@@ -89,6 +89,7 @@ def update_mapping_normalize(filename_tuple: tuple[str, str]) -> tuple[str, str]
     new_name: str = (
         name
         .lower()
+        .replace(' ', '-')
         .replace('_', '-')
         .replace('.', '-')
     )
