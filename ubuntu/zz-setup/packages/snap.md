@@ -1,0 +1,3 @@
+# Snap
+
+- preinstalled on Ubuntu
