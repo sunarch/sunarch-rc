@@ -5,7 +5,7 @@
 
 # ISO: https://github.com/joshiemoore/snakeware/releases
 
-ISO="$HOME/Documents/vmiso/snakeware.iso"
+ISO="$HOME/opsys-iso/snakeware/snakeware.iso"
 RAM='2G'
 AUDIO='pa' # also available: alsa
 

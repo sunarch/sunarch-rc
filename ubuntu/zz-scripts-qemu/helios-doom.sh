@@ -5,7 +5,7 @@
 
 # ISO: https://mirror.drewdevault.com/doom.iso
 
-ISO="$HOME/Documents/vmiso/helios-doom.iso"
+ISO="$HOME/opsys-iso/helios-doom/helios-doom.iso"
 RAM='1G'
 
 qemu-system-x86_64 \
