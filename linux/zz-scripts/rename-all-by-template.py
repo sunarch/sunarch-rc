@@ -126,7 +126,25 @@ def update_mapping_normalize(filename_tuple: tuple[str, str]) -> tuple[str, str]
         .lower()
         .replace(' ', '-')
         .replace('_', '-')
+        .replace('‒', '-')  # U+2012 Figure Dash
+        .replace('–', '-')  # U+2013 En Dash
+        .replace('—', '--')  # U+2014 Em Dash
         .replace('.', '-')
+        .replace(':', '-')
+        .replace(',', '-')
+        .replace(';', '-')
+        .replace('*', '-')
+        .replace('?', '-q-')
+        .replace('á', 'a')
+        .replace('ä', 'ae')
+        .replace('é', 'e')
+        .replace('í', 'i')
+        .replace('ó', 'o')
+        .replace('ö', 'o')
+        .replace('ő', 'o')
+        .replace('ú', 'u')
+        .replace('ü', 'u')
+        .replace('ű', 'u')
     )
 
     new_ext: str = ext.lower()
