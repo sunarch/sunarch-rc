@@ -3,10 +3,11 @@
 # ---------------------------------------------------------------------------- #
 # Warpinator
 
+# https://github.com/linuxmint/warpinator
 # https://flathub.org/apps/org.x.Warpinator
 
-#flatpak install flathub org.x.Warpinator
-flatpak uninstall flathub org.x.Warpinator
+flatpak install flathub org.x.Warpinator
+#flatpak uninstall org.x.Warpinator
 
 # $ flatpak run org.x.Warpinator
 
